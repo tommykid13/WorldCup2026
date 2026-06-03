@@ -1,0 +1,419 @@
+{
+  "id": "jpn",
+  "nameZh": "日本",
+  "nameEn": "Japan",
+  "flagCode": "jp",
+  "confederation": "afc",
+  "fifaRanking": 18,
+  "worldCupAppearances": 8,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "16强",
+  "group": "F",
+  "coach": {
+    "nameZh": "森保一",
+    "nameEn": "Hajime Moriyasu"
+  },
+  "descriptionZh": "日本队已成为亚洲足球的标杆，2022年世界杯连续击败德国和西班牙震惊足坛。森保一率领的蓝武士技术细腻、战术执行力强，正朝着世界杯八强的目标稳步迈进。",
+  "descriptionEn": "Japan have become the benchmark of Asian football, stunning Germany and Spain at the 2022 World Cup. Moriyasu's Blue Samurai combine technical finesse with tactical discipline, targeting a first-ever quarter-final berth.",
+  "slug": "japan",
+  "squad": [
+    {
+      "id": "jpn-1",
+      "nameZh": "铃木彩艳",
+      "nameEn": "",
+      "number": 1,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2002-08-21",
+      "club": {
+        "nameZh": "帕尔马",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 0
+    },
+    {
+      "id": "jpn-2",
+      "nameZh": "菅原由势",
+      "nameEn": "",
+      "number": 2,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-06-28",
+      "club": {
+        "nameZh": "云达不来梅",
+        "nameEn": ""
+      },
+      "caps": 20,
+      "goals": 2
+    },
+    {
+      "id": "jpn-3",
+      "nameZh": "谷口彰悟",
+      "nameEn": "",
+      "number": 3,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1991-07-15",
+      "club": {
+        "nameZh": "圣特鲁登",
+        "nameEn": ""
+      },
+      "caps": 37,
+      "goals": 1
+    },
+    {
+      "id": "jpn-4",
+      "nameZh": "板仓滉",
+      "nameEn": "",
+      "number": 4,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-01-27",
+      "club": {
+        "nameZh": "阿贾克斯",
+        "nameEn": ""
+      },
+      "caps": 39,
+      "goals": 2
+    },
+    {
+      "id": "jpn-5",
+      "nameZh": "长友佑都",
+      "nameEn": "",
+      "number": 5,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1986-09-12",
+      "club": {
+        "nameZh": "FC东京",
+        "nameEn": ""
+      },
+      "caps": 144,
+      "goals": 4
+    },
+    {
+      "id": "jpn-6",
+      "nameZh": "远藤航（队长）",
+      "nameEn": "",
+      "number": 6,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1993-02-09",
+      "club": {
+        "nameZh": "利物浦",
+        "nameEn": ""
+      },
+      "caps": 72,
+      "goals": 4
+    },
+    {
+      "id": "jpn-7",
+      "nameZh": "田中碧",
+      "nameEn": "",
+      "number": 7,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1998-09-10",
+      "club": {
+        "nameZh": "利兹联",
+        "nameEn": ""
+      },
+      "caps": 37,
+      "goals": 8
+    },
+    {
+      "id": "jpn-8",
+      "nameZh": "久保建英",
+      "nameEn": "",
+      "number": 8,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-06-04",
+      "club": {
+        "nameZh": "皇家社会",
+        "nameEn": ""
+      },
+      "caps": 48,
+      "goals": 7
+    },
+    {
+      "id": "jpn-9",
+      "nameZh": "后藤启介",
+      "nameEn": "",
+      "number": 9,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2005-06-03",
+      "club": {
+        "nameZh": "圣特鲁登",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "jpn-10",
+      "nameZh": "堂安律",
+      "nameEn": "",
+      "number": 10,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1998-06-16",
+      "club": {
+        "nameZh": "法兰克福",
+        "nameEn": ""
+      },
+      "caps": 64,
+      "goals": 11
+    },
+    {
+      "id": "jpn-11",
+      "nameZh": "前田大然",
+      "nameEn": "",
+      "number": 11,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-10-20",
+      "club": {
+        "nameZh": "凯尔特人",
+        "nameEn": ""
+      },
+      "caps": 27,
+      "goals": 4
+    },
+    {
+      "id": "jpn-12",
+      "nameZh": "大迫敬介",
+      "nameEn": "",
+      "number": 12,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1999-07-28",
+      "club": {
+        "nameZh": "广岛三箭",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "id": "jpn-13",
+      "nameZh": "中村敬斗",
+      "nameEn": "",
+      "number": 13,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-07-28",
+      "club": {
+        "nameZh": "兰斯",
+        "nameEn": ""
+      },
+      "caps": 24,
+      "goals": 10
+    },
+    {
+      "id": "jpn-14",
+      "nameZh": "伊东纯也",
+      "nameEn": "",
+      "number": 14,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1993-03-09",
+      "club": {
+        "nameZh": "亨克",
+        "nameEn": ""
+      },
+      "caps": 68,
+      "goals": 15
+    },
+    {
+      "id": "jpn-15",
+      "nameZh": "镰田大地",
+      "nameEn": "",
+      "number": 15,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-08-05",
+      "club": {
+        "nameZh": "水晶宫",
+        "nameEn": ""
+      },
+      "caps": 49,
+      "goals": 12
+    },
+    {
+      "id": "jpn-16",
+      "nameZh": "渡边刚",
+      "nameEn": "",
+      "number": 16,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-02-05",
+      "club": {
+        "nameZh": "费耶诺德",
+        "nameEn": ""
+      },
+      "caps": 10,
+      "goals": 0
+    },
+    {
+      "id": "jpn-17",
+      "nameZh": "铃木唯人",
+      "nameEn": "",
+      "number": 17,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-10-25",
+      "club": {
+        "nameZh": "弗赖堡",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "jpn-18",
+      "nameZh": "上田绮世",
+      "nameEn": "",
+      "number": 18,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-08-28",
+      "club": {
+        "nameZh": "费耶诺德",
+        "nameEn": ""
+      },
+      "caps": 38,
+      "goals": 16
+    },
+    {
+      "id": "jpn-19",
+      "nameZh": "小川航基",
+      "nameEn": "",
+      "number": 19,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-08-08",
+      "club": {
+        "nameZh": "NEC奈美根",
+        "nameEn": ""
+      },
+      "caps": 14,
+      "goals": 10
+    },
+    {
+      "id": "jpn-20",
+      "nameZh": "濑古步梦",
+      "nameEn": "",
+      "number": 20,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-06-07",
+      "club": {
+        "nameZh": "勒哈费尔",
+        "nameEn": ""
+      },
+      "caps": 13,
+      "goals": 0
+    },
+    {
+      "id": "jpn-21",
+      "nameZh": "伊藤洋辉",
+      "nameEn": "",
+      "number": 21,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-05-12",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 1
+    },
+    {
+      "id": "jpn-22",
+      "nameZh": "富安健洋",
+      "nameEn": "",
+      "number": 22,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-11-05",
+      "club": {
+        "nameZh": "阿贾克斯",
+        "nameEn": ""
+      },
+      "caps": 42,
+      "goals": 1
+    },
+    {
+      "id": "jpn-23",
+      "nameZh": "早川友基",
+      "nameEn": "",
+      "number": 23,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1999-03-03",
+      "club": {
+        "nameZh": "鹿岛鹿角",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "jpn-24",
+      "nameZh": "佐野海舟",
+      "nameEn": "",
+      "number": 24,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-12-30",
+      "club": {
+        "nameZh": "美因茨",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "id": "jpn-25",
+      "nameZh": "铃木淳之介",
+      "nameEn": "",
+      "number": 25,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-07-12",
+      "club": {
+        "nameZh": "哥本哈根",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "jpn-26",
+      "nameZh": "盐贝健人",
+      "nameEn": "",
+      "number": 26,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2005-03-26",
+      "club": {
+        "nameZh": "沃尔夫斯堡",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    }
+  ],
+  "keyPlayers": [
+    "长友佑都",
+    "远藤航（队长）",
+    "伊东纯也",
+    "堂安律",
+    "镰田大地"
+  ]
+}

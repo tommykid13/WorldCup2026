@@ -1,0 +1,22 @@
+{
+  "id": "bih",
+  "nameZh": "波黑",
+  "nameEn": "Bosnia and Herzegovina",
+  "flagCode": "ba",
+  "confederation": "uefa",
+  "fifaRanking": 65,
+  "worldCupAppearances": 1,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "coach": {
+    "nameZh": "谢尔盖·巴尔巴雷斯",
+    "nameEn": "Sergej Barbarez"
+  },
+  "descriptionZh": "波黑在2014年首次参加世界杯，拥有丰富的足球传统。巴尔巴雷斯执教下的金百合军团技术细腻，在欧洲足坛具有竞争力。",
+  "descriptionEn": "Bosnia and Herzegovina made their World Cup debut in 2014 and possess a rich football tradition. The Golden Lilies under Barbarez are competitive in European football.",
+  "slug": "bosnia-herzegovina",
+  "group": "B",
+  "squad": [],
+  "keyPlayers": []
+}

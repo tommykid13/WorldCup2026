@@ -1,0 +1,22 @@
+{
+  "id": "ned",
+  "nameZh": "荷兰",
+  "nameEn": "Netherlands",
+  "flagCode": "nl",
+  "confederation": "uefa",
+  "fifaRanking": 7,
+  "worldCupAppearances": 11,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "亚军",
+  "group": "F",
+  "coach": {
+    "nameZh": "罗纳德·科曼",
+    "nameEn": "Ronald Koeman"
+  },
+  "descriptionZh": "荷兰队虽三次获得世界杯亚军但始终与冠军无缘，被誉为「无冕之王」。科曼执教下的橙衣军团拥有范迪克、加克波等顶级球员，全攻全守的足球哲学令人期待。",
+  "descriptionEn": "The Netherlands have reached three World Cup finals without lifting the trophy, earning the nickname 'greatest team never to win it'. Koeman's Oranje, featuring Van Dijk and Gakpo, play their trademark attacking football.",
+  "slug": "netherlands",
+  "squad": [],
+  "keyPlayers": []
+}

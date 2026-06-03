@@ -1,0 +1,419 @@
+{
+  "id": "bel",
+  "nameZh": "比利时",
+  "nameEn": "Belgium",
+  "flagCode": "be",
+  "confederation": "uefa",
+  "fifaRanking": 9,
+  "worldCupAppearances": 14,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "季军",
+  "group": "G",
+  "coach": {
+    "nameZh": "罗伯托·迪泽尔比",
+    "nameEn": "Roberto De Zerbi"
+  },
+  "descriptionZh": "比利时黄金一代在2018年世界杯获得季军后逐渐完成新老交替。德布劳内领衔的红魔依然拥有世界级的阵容深度，新一代球员正在崛起。",
+  "descriptionEn": "After Belgium's Golden Generation earned third place at the 2018 World Cup, a transition is underway. De Bruyne still leads the Red Devils, and a new generation is emerging to carry the mantle.",
+  "slug": "belgium",
+  "squad": [
+    {
+      "id": "bel-1",
+      "nameZh": "蒂博·库尔图瓦",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1992-05-11",
+      "club": {
+        "nameZh": "皇家马德里",
+        "nameEn": ""
+      },
+      "caps": 107,
+      "goals": 0
+    },
+    {
+      "id": "bel-2",
+      "nameZh": "森纳·拉门斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2002-07-07",
+      "club": {
+        "nameZh": "曼联",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "bel-3",
+      "nameZh": "米克·彭达斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2005-07-31",
+      "club": {
+        "nameZh": "斯特拉斯堡",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "bel-4",
+      "nameZh": "汤马士·梅尼耶",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1991-09-12",
+      "club": {
+        "nameZh": "里尔",
+        "nameEn": ""
+      },
+      "caps": 78,
+      "goals": 10
+    },
+    {
+      "id": "bel-5",
+      "nameZh": "蒂莫西·卡斯塔涅",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1995-12-05",
+      "club": {
+        "nameZh": "富勒姆",
+        "nameEn": ""
+      },
+      "caps": 62,
+      "goals": 2
+    },
+    {
+      "id": "bel-6",
+      "nameZh": "阿蒂尔·泰亚特",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-05-25",
+      "club": {
+        "nameZh": "法兰克福",
+        "nameEn": ""
+      },
+      "caps": 32,
+      "goals": 1
+    },
+    {
+      "id": "bel-7",
+      "nameZh": "泽诺·德巴斯特",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-10-24",
+      "club": {
+        "nameZh": "葡萄牙体育",
+        "nameEn": ""
+      },
+      "caps": 26,
+      "goals": 1
+    },
+    {
+      "id": "bel-8",
+      "nameZh": "马克西姆·德克伊珀",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-12-22",
+      "club": {
+        "nameZh": "布赖顿",
+        "nameEn": ""
+      },
+      "caps": 17,
+      "goals": 4
+    },
+    {
+      "id": "bel-9",
+      "nameZh": "布兰登·梅切莱",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1993-01-28",
+      "club": {
+        "nameZh": "布鲁日",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 1
+    },
+    {
+      "id": "bel-10",
+      "nameZh": "科尼·德温特",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-06-12",
+      "club": {
+        "nameZh": "AC米兰",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "id": "bel-11",
+      "nameZh": "祖亚昆·塞斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2005-03-28",
+      "club": {
+        "nameZh": "布鲁日",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "id": "bel-12",
+      "nameZh": "拿芬·恩戈伊",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-06-10",
+      "club": {
+        "nameZh": "里尔",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "bel-13",
+      "nameZh": "韦素",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1989-01-12",
+      "club": {
+        "nameZh": "赫罗纳",
+        "nameEn": ""
+      },
+      "caps": 136,
+      "goals": 12
+    },
+    {
+      "id": "bel-14",
+      "nameZh": "迪布尼",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1991-06-28",
+      "club": {
+        "nameZh": "那不勒斯",
+        "nameEn": ""
+      },
+      "caps": 117,
+      "goals": 36
+    },
+    {
+      "id": "bel-15",
+      "nameZh": "泰利文斯（队长）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-05-07",
+      "club": {
+        "nameZh": "阿斯顿维拉",
+        "nameEn": ""
+      },
+      "caps": 83,
+      "goals": 12
+    },
+    {
+      "id": "bel-16",
+      "nameZh": "兰斯·范阿肯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1992-08-24",
+      "club": {
+        "nameZh": "布鲁日",
+        "nameEn": ""
+      },
+      "caps": 32,
+      "goals": 7
+    },
+    {
+      "id": "bel-17",
+      "nameZh": "阿马杜·奥纳纳",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-08-16",
+      "club": {
+        "nameZh": "阿斯顿维拉",
+        "nameEn": ""
+      },
+      "caps": 27,
+      "goals": 1
+    },
+    {
+      "id": "bel-18",
+      "nameZh": "尼古拉斯·拉斯金",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-02-23",
+      "club": {
+        "nameZh": "格拉斯哥流浪者",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "id": "bel-19",
+      "nameZh": "罗梅卢·卢卡库",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1993-05-13",
+      "club": {
+        "nameZh": "那不勒斯",
+        "nameEn": ""
+      },
+      "caps": 124,
+      "goals": 89
+    },
+    {
+      "id": "bel-20",
+      "nameZh": "莱安德罗·特罗萨德",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1994-12-04",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 50,
+      "goals": 11
+    },
+    {
+      "id": "bel-21",
+      "nameZh": "杜古",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-05-27",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 41,
+      "goals": 7
+    },
+    {
+      "id": "bel-22",
+      "nameZh": "多迪·卢凯巴基奥",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-09-24",
+      "club": {
+        "nameZh": "本菲卡",
+        "nameEn": ""
+      },
+      "caps": 29,
+      "goals": 5
+    },
+    {
+      "id": "bel-23",
+      "nameZh": "夏尔·德克特拉勒",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-03-10",
+      "club": {
+        "nameZh": "亚特兰大",
+        "nameEn": ""
+      },
+      "caps": 28,
+      "goals": 5
+    },
+    {
+      "id": "bel-24",
+      "nameZh": "亚历克西·萨勒马克斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1999-06-27",
+      "club": {
+        "nameZh": "AC米兰",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 2
+    },
+    {
+      "id": "bel-25",
+      "nameZh": "迭戈·摩利拿",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2004-08-06",
+      "club": {
+        "nameZh": "斯特拉斯堡",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "bel-26",
+      "nameZh": "马蒂亚斯·费尔南德斯-帕尔多",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2005-02-03",
+      "club": {
+        "nameZh": "里尔",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    }
+  ],
+  "keyPlayers": [
+    "韦素",
+    "罗梅卢·卢卡库",
+    "迪布尼",
+    "蒂博·库尔图瓦",
+    "泰利文斯（队长）"
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "id": "arg",
+  "nameZh": "阿根廷",
+  "nameEn": "Argentina",
+  "flagCode": "ar",
+  "confederation": "conmebol",
+  "fifaRanking": 3,
+  "worldCupAppearances": 18,
+  "worldCupTitles": 3,
+  "worldCupTitleYears": [
+    1978,
+    1986,
+    2022
+  ],
+  "bestResult": "冠军",
+  "group": "J",
+  "coach": {
+    "nameZh": "利昂内尔·斯卡洛尼",
+    "nameEn": "Lionel Scaloni"
+  },
+  "descriptionZh": "卫冕世界杯冠军阿根廷队是当今足坛最强大的球队之一。在斯卡洛尼的执教下，梅西领衔的潘帕斯雄鹰攻守兼备，是2026年世界杯的头号夺冠热门。",
+  "descriptionEn": "Defending World Cup champions Argentina are one of the most formidable teams in world football. Under Scaloni's guidance and with Messi leading the way, La Albiceleste are top contenders for the 2026 title.",
+  "slug": "argentina",
+  "squad": [
+    {
+      "id": "arg-1",
+      "nameZh": "艾米利安奴·马丁内斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1992-09-02",
+      "club": {
+        "nameZh": "阿斯顿维拉",
+        "nameEn": ""
+      },
+      "caps": 59,
+      "goals": 0
+    },
+    {
+      "id": "arg-2",
+      "nameZh": "赫罗尼莫·鲁利",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1992-05-20",
+      "club": {
+        "nameZh": "马赛",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "id": "arg-3",
+      "nameZh": "胡安·穆索",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1994-05-06",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "arg-4",
+      "nameZh": "华特·贝尼特斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1993-01-19",
+      "club": {
+        "nameZh": "水晶宫",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "arg-5",
+      "nameZh": "法昆多·坎贝塞斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1997-04-09",
+      "club": {
+        "nameZh": "竞赛会",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "arg-6",
+      "nameZh": "圣地亚哥·贝尔特兰",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2004-10-04",
+      "club": {
+        "nameZh": "河床",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-7",
+      "nameZh": "尼古拉斯·奥塔门迪",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1988-02-12",
+      "club": {
+        "nameZh": "本菲卡",
+        "nameEn": ""
+      },
+      "caps": 130,
+      "goals": 8
+    },
+    {
+      "id": "arg-8",
+      "nameZh": "尼古拉斯·达利亚菲戈",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1992-08-31",
+      "club": {
+        "nameZh": "里昂",
+        "nameEn": ""
+      },
+      "caps": 75,
+      "goals": 1
+    },
+    {
+      "id": "arg-9",
+      "nameZh": "马科斯·阿库尼亚",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1991-10-28",
+      "club": {
+        "nameZh": "河床",
+        "nameEn": ""
+      },
+      "caps": 62,
+      "goals": 0
+    },
+    {
+      "id": "arg-10",
+      "nameZh": "拿维尔·莫连拿",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-04-06",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 58,
+      "goals": 1
+    },
+    {
+      "id": "arg-11",
+      "nameZh": "克里斯蒂安·罗美路",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-04-27",
+      "club": {
+        "nameZh": "热刺",
+        "nameEn": ""
+      },
+      "caps": 49,
+      "goals": 3
+    },
+    {
+      "id": "arg-12",
+      "nameZh": "赫尔曼·佩泽拉",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1991-06-27",
+      "club": {
+        "nameZh": "河床",
+        "nameEn": ""
+      },
+      "caps": 42,
+      "goals": 3
+    },
+    {
+      "id": "arg-13",
+      "nameZh": "贡萨洛·蒙提尔",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-01-01",
+      "club": {
+        "nameZh": "河床",
+        "nameEn": ""
+      },
+      "caps": 38,
+      "goals": 2
+    },
+    {
+      "id": "arg-14",
+      "nameZh": "利辛祖·马丁内斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-01-18",
+      "club": {
+        "nameZh": "曼联",
+        "nameEn": ""
+      },
+      "caps": 26,
+      "goals": 1
+    },
+    {
+      "id": "arg-15",
+      "nameZh": "卢卡斯·马丁内斯·夸尔塔",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1996-05-10",
+      "club": {
+        "nameZh": "河床",
+        "nameEn": ""
+      },
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "id": "arg-16",
+      "nameZh": "莱昂纳多·巴莱尔迪",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-01-26",
+      "club": {
+        "nameZh": "马赛",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "id": "arg-17",
+      "nameZh": "法昆多·梅迪纳",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-05-28",
+      "club": {
+        "nameZh": "马赛",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "id": "arg-18",
+      "nameZh": "马科斯·塞内西",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-05-10",
+      "club": {
+        "nameZh": "伯恩茅斯",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "arg-19",
+      "nameZh": "阿古斯丁·希艾",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2004-01-16",
+      "club": {
+        "nameZh": "彭美拉斯",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "arg-20",
+      "nameZh": "奇云·麦阿里士打",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-11-07",
+      "club": {
+        "nameZh": "圣吉罗斯联合",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "arg-21",
+      "nameZh": "加布里埃尔·罗查斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-06-22",
+      "club": {
+        "nameZh": "竞赛会",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "arg-22",
+      "nameZh": "尼古拉斯·卡帕尔多",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-09-14",
+      "club": {
+        "nameZh": "汉堡",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-23",
+      "nameZh": "劳塔罗·迪洛洛",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2004-03-10",
+      "club": {
+        "nameZh": "小保加",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-24",
+      "nameZh": "萨伊德·罗美路",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-12-15",
+      "club": {
+        "nameZh": "赫塔费",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-25",
+      "nameZh": "罗德里戈·德保罗",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1994-05-24",
+      "club": {
+        "nameZh": "国际迈阿密",
+        "nameEn": ""
+      },
+      "caps": 85,
+      "goals": 2
+    },
+    {
+      "id": "arg-26",
+      "nameZh": "莱昂德罗·帕雷德斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1994-06-29",
+      "club": {
+        "nameZh": "小保加",
+        "nameEn": ""
+      },
+      "caps": 77,
+      "goals": 5
+    },
+    {
+      "id": "arg-27",
+      "nameZh": "乔瓦尼·洛塞尔索",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-04-09",
+      "club": {
+        "nameZh": "皇家贝蒂斯",
+        "nameEn": ""
+      },
+      "caps": 65,
+      "goals": 4
+    },
+    {
+      "id": "arg-28",
+      "nameZh": "亚历克西斯·麦卡利斯特",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1998-12-24",
+      "club": {
+        "nameZh": "利物浦",
+        "nameEn": ""
+      },
+      "caps": 44,
+      "goals": 6
+    },
+    {
+      "id": "arg-29",
+      "nameZh": "安素·费尔南德斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-01-17",
+      "club": {
+        "nameZh": "切尔西",
+        "nameEn": ""
+      },
+      "caps": 40,
+      "goals": 6
+    },
+    {
+      "id": "arg-30",
+      "nameZh": "埃克塞基耶尔·帕拉西奥斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1998-10-05",
+      "club": {
+        "nameZh": "勒沃库森",
+        "nameEn": ""
+      },
+      "caps": 38,
+      "goals": 0
+    },
+    {
+      "id": "arg-31",
+      "nameZh": "吉多·罗德里格斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1994-04-12",
+      "club": {
+        "nameZh": "巴伦西亚",
+        "nameEn": ""
+      },
+      "caps": 30,
+      "goals": 1
+    },
+    {
+      "id": "arg-32",
+      "nameZh": "蒂亚戈·阿尔马达",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-04-26",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 14,
+      "goals": 4
+    },
+    {
+      "id": "arg-33",
+      "nameZh": "尼古拉斯·多明格斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1998-06-28",
+      "club": {
+        "nameZh": "诺丁汉森林",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "id": "arg-34",
+      "nameZh": "朱利亚诺·西蒙尼",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-12-18",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "id": "arg-35",
+      "nameZh": "尼科·帕斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2004-09-08",
+      "club": {
+        "nameZh": "科莫",
+        "nameEn": ""
+      },
+      "caps": 8,
+      "goals": 1
+    },
+    {
+      "id": "arg-36",
+      "nameZh": "巴伦廷·巴尔科",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2004-07-23",
+      "club": {
+        "nameZh": "斯特拉斯堡",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 1
+    },
+    {
+      "id": "arg-37",
+      "nameZh": "伊美利安奴·贝安迪亚",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-12-25",
+      "club": {
+        "nameZh": "阿斯顿维拉",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "arg-38",
+      "nameZh": "马西莫·佩罗内",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-01-07",
+      "club": {
+        "nameZh": "科莫",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "arg-39",
+      "nameZh": "安尼巴尔·莫雷诺",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-05-13",
+      "club": {
+        "nameZh": "河床",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "arg-40",
+      "nameZh": "米尔顿·德尔加多",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2005-06-16",
+      "club": {
+        "nameZh": "小保加",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-41",
+      "nameZh": "艾基·费尔南德斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-07-25",
+      "club": {
+        "nameZh": "勒沃库森",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-42",
+      "nameZh": "阿伦·瓦雷拉",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-07-04",
+      "club": {
+        "nameZh": "波尔图",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-43",
+      "nameZh": "利昂内尔·梅西（队长）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1987-06-24",
+      "club": {
+        "nameZh": "国际迈阿密",
+        "nameEn": ""
+      },
+      "caps": 198,
+      "goals": 116
+    },
+    {
+      "id": "arg-44",
+      "nameZh": "拿达路·马丁内斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-08-22",
+      "club": {
+        "nameZh": "国际米兰",
+        "nameEn": ""
+      },
+      "caps": 75,
+      "goals": 36
+    },
+    {
+      "id": "arg-45",
+      "nameZh": "胡利安·阿尔瓦雷斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-01-31",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 51,
+      "goals": 14
+    },
+    {
+      "id": "arg-46",
+      "nameZh": "尼古拉斯·冈萨雷斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-04-06",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 50,
+      "goals": 6
+    },
+    {
+      "id": "arg-47",
+      "nameZh": "亚历杭德罗·加纳乔",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2004-07-01",
+      "club": {
+        "nameZh": "切尔西",
+        "nameEn": ""
+      },
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "id": "arg-48",
+      "nameZh": "佛朗哥·马斯坦托诺",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2007-08-14",
+      "club": {
+        "nameZh": "皇家马德里",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "id": "arg-49",
+      "nameZh": "何塞·曼努埃尔·洛佩斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-12-06",
+      "club": {
+        "nameZh": "彭美拉斯",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "arg-50",
+      "nameZh": "赞路卡·佩斯蒂安尼",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2006-01-31",
+      "club": {
+        "nameZh": "本菲卡",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "arg-51",
+      "nameZh": "汤马士·阿兰达",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2007-05-09",
+      "club": {
+        "nameZh": "小保加",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-52",
+      "nameZh": "圣地亚哥·卡斯特罗",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2004-09-18",
+      "club": {
+        "nameZh": "博洛尼亚",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-53",
+      "nameZh": "克劳迪奥·艾捷维利",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2006-01-02",
+      "club": {
+        "nameZh": "赫罗纳",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-54",
+      "nameZh": "马迪奥·佩莱格里诺",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-10-22",
+      "club": {
+        "nameZh": "帕尔马",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "arg-55",
+      "nameZh": "马蒂亚斯·索莱",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2003-04-15",
+      "club": {
+        "nameZh": "罗马",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    }
+  ],
+  "keyPlayers": [
+    "利昂内尔·梅西（队长）",
+    "尼古拉斯·奥塔门迪",
+    "罗德里戈·德保罗",
+    "莱昂德罗·帕雷德斯",
+    "尼古拉斯·达利亚菲戈"
+  ]
+}

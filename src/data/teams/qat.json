@@ -1,0 +1,22 @@
+{
+  "id": "qat",
+  "nameZh": "卡塔尔",
+  "nameEn": "Qatar",
+  "flagCode": "qa",
+  "confederation": "afc",
+  "fifaRanking": 55,
+  "worldCupAppearances": 1,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "coach": {
+    "nameZh": "马克斯",
+    "nameEn": "Luis Maximo"
+  },
+  "descriptionZh": "卡塔尔在2022年以东道主身份首次参加世界杯，积累了宝贵的大赛经验。作为2026年世界杯的参赛球队，卡塔尔将继续提升其在国际足坛的地位。",
+  "descriptionEn": "Qatar made their World Cup debut as hosts in 2022, gaining invaluable tournament experience. They continue to raise their profile in international football.",
+  "slug": "qatar",
+  "group": "B",
+  "squad": [],
+  "keyPlayers": []
+}

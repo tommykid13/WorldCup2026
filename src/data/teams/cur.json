@@ -1,0 +1,22 @@
+{
+  "id": "cur",
+  "nameZh": "库拉索",
+  "nameEn": "Curaçao",
+  "flagCode": "cw",
+  "confederation": "concacaf",
+  "fifaRanking": 82,
+  "worldCupAppearances": 0,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "未参赛",
+  "coach": {
+    "nameZh": "迪克·艾德沃卡特",
+    "nameEn": "Dick Advocaat"
+  },
+  "descriptionZh": "库拉索首次晋级世界杯决赛圈，创造了加勒比足球的历史。这个小岛国拥有多名在欧洲联赛效力的球员，在名帅艾德沃卡特的带领下实现了历史性突破。",
+  "descriptionEn": "Curaçao qualified for their first-ever World Cup, making history for Caribbean football. The island nation features several European-based players under veteran coach Advocaat.",
+  "slug": "curacao",
+  "group": "E",
+  "squad": [],
+  "keyPlayers": []
+}

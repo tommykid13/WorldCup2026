@@ -1,0 +1,22 @@
+{
+  "id": "nor",
+  "nameZh": "挪威",
+  "nameEn": "Norway",
+  "flagCode": "no",
+  "confederation": "uefa",
+  "fifaRanking": 31,
+  "worldCupAppearances": 3,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "16强",
+  "coach": {
+    "nameZh": "斯塔莱·索尔巴肯",
+    "nameEn": "Ståle Solbakken"
+  },
+  "descriptionZh": "挪威时隔多年重返世界杯舞台。索尔巴肯执教下的北欧海盗拥有厄德高等在顶级联赛效力的球员，身体素质出色，战术执行力强。",
+  "descriptionEn": "Norway return to the World Cup after a long absence. Under Solbakken, the Vikings feature players like Ødegaard from top leagues, combining physicality with tactical discipline.",
+  "slug": "norway",
+  "group": "I",
+  "squad": [],
+  "keyPlayers": []
+}

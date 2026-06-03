@@ -1,0 +1,22 @@
+{
+  "id": "alg",
+  "nameZh": "阿尔及利亚",
+  "nameEn": "Algeria",
+  "flagCode": "dz",
+  "confederation": "caf",
+  "fifaRanking": 28,
+  "worldCupAppearances": 5,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "16强",
+  "group": "J",
+  "coach": {
+    "nameZh": "弗拉基米尔·佩特科维奇",
+    "nameEn": "Vladimir Petković"
+  },
+  "descriptionZh": "阿尔及利亚曾在2014年世界杯16强赛中险些淘汰德国队，展现了出色的竞争力。沙漠之狐技术细腻，在非洲足坛始终是一支劲旅。",
+  "descriptionEn": "Algeria nearly eliminated Germany in the 2014 round of 16, showcasing their competitive quality. The Desert Foxes are technically gifted and remain a force in African football.",
+  "slug": "algeria",
+  "squad": [],
+  "keyPlayers": []
+}

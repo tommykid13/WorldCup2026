@@ -1,0 +1,22 @@
+{
+  "id": "aus",
+  "nameZh": "澳大利亚",
+  "nameEn": "Australia",
+  "flagCode": "au",
+  "confederation": "afc",
+  "fifaRanking": 27,
+  "worldCupAppearances": 7,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "16强",
+  "group": "D",
+  "coach": {
+    "nameZh": "托尼·波波维奇",
+    "nameEn": "Tony Popovic"
+  },
+  "descriptionZh": "澳大利亚在2022年世界杯上首次在淘汰赛阶段获胜，创造了历史。波波维奇执教下的袋鼠军团身体对抗能力强，战术执行力出色。",
+  "descriptionEn": "Australia made history at the 2022 World Cup by winning a knockout match for the first time. Popovic's Socceroos bring physicality and excellent tactical discipline to every match.",
+  "slug": "australia",
+  "squad": [],
+  "keyPlayers": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ecu",
+  "nameZh": "厄瓜多尔",
+  "nameEn": "Ecuador",
+  "flagCode": "ec",
+  "confederation": "conmebol",
+  "fifaRanking": 23,
+  "worldCupAppearances": 5,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "16强",
+  "group": "E",
+  "coach": {
+    "nameZh": "塞巴斯蒂安·贝卡切切",
+    "nameEn": "Sebastián Beccacece"
+  },
+  "descriptionZh": "厄瓜多尔凭借出色的南美区预选赛表现再次晋级世界杯。高原之国的球员体能充沛、作风顽强，在2022年世界杯上曾有亮眼表现。",
+  "descriptionEn": "Ecuador secured another World Cup berth through an impressive South American qualifying campaign. The players from the land of high altitude are physically robust and tenacious, having impressed at the 2022 tournament.",
+  "slug": "ecuador",
+  "squad": [],
+  "keyPlayers": []
+}

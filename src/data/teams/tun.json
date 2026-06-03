@@ -1,0 +1,22 @@
+{
+  "id": "tun",
+  "nameZh": "突尼斯",
+  "nameEn": "Tunisia",
+  "flagCode": "tn",
+  "confederation": "caf",
+  "fifaRanking": 44,
+  "worldCupAppearances": 7,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "F",
+  "coach": {
+    "nameZh": "拉比·萨阿迪",
+    "nameEn": "Rabbi Saadi"
+  },
+  "descriptionZh": "突尼斯是北非足球的代表球队，曾在2022年世界杯上击败法国队。迦太基之鹰战术纪律性强，在非洲足坛具有举足轻重的地位。",
+  "descriptionEn": "Tunisia represent North African football and famously defeated France at the 2022 World Cup. The Eagles of Carthage are tactically disciplined and remain a significant force in African football.",
+  "slug": "tunisia",
+  "squad": [],
+  "keyPlayers": []
+}

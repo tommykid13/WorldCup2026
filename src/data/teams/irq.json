@@ -1,0 +1,22 @@
+{
+  "id": "irq",
+  "nameZh": "伊拉克",
+  "nameEn": "Iraq",
+  "flagCode": "iq",
+  "confederation": "afc",
+  "fifaRanking": 57,
+  "worldCupAppearances": 2,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "I",
+  "coach": {
+    "nameZh": "赫苏斯·卡萨斯",
+    "nameEn": "Jesús Casas"
+  },
+  "descriptionZh": "伊拉克通过附加赛晋级2026世界杯，时隔多年重返世界舞台。美索不达米亚雄狮在卡萨斯的带领下展现出色的团队配合，是亚洲足坛不可忽视的力量。",
+  "descriptionEn": "Iraq qualified for the 2026 World Cup through playoffs, returning to the world stage after a long absence. The Lions of Mesopotamia under Casas play cohesive football and are a rising force in Asia.",
+  "slug": "iraq",
+  "squad": [],
+  "keyPlayers": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "jor",
+  "nameZh": "约旦",
+  "nameEn": "Jordan",
+  "flagCode": "jo",
+  "confederation": "afc",
+  "fifaRanking": 63,
+  "worldCupAppearances": 1,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "J",
+  "coach": {
+    "nameZh": "贾马尔·萨利米",
+    "nameEn": "Jamal Salimi"
+  },
+  "descriptionZh": "约旦首次晋级世界杯决赛圈，创造了该国足球的历史。在2024年亚洲杯上获得亚军的约旦队证明了自己在亚洲赛场的竞争力，塔马里是球队的核心球员。",
+  "descriptionEn": "Jordan qualified for their first-ever World Cup, making football history for the nation. After reaching the 2024 Asian Cup final, the Chivalrous Ones proved their continental quality, with Al-Tamari as their star player.",
+  "slug": "jordan",
+  "squad": [],
+  "keyPlayers": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "uru",
+  "nameZh": "乌拉圭",
+  "nameEn": "Uruguay",
+  "flagCode": "uy",
+  "confederation": "conmebol",
+  "fifaRanking": 17,
+  "worldCupAppearances": 15,
+  "worldCupTitles": 2,
+  "worldCupTitleYears": [
+    1930,
+    1950
+  ],
+  "bestResult": "冠军",
+  "group": "H",
+  "coach": {
+    "nameZh": "马塞洛·贝尔萨",
+    "nameEn": "Marcelo Bielsa"
+  },
+  "descriptionZh": "两届世界杯冠军乌拉圭在南美足坛始终占有一席之地。疯子贝尔萨的激情执教风格为这支队伍注入了新的活力，巴尔韦德、努涅斯等球员正值当打之年。",
+  "descriptionEn": "Two-time World Cup champions Uruguay remain a force in South American football. Bielsa's intense coaching style has injected new energy, with Valverde and Núñez in their prime years.",
+  "slug": "uruguay",
+  "squad": [],
+  "keyPlayers": []
+}

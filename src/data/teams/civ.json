@@ -1,0 +1,22 @@
+{
+  "id": "civ",
+  "nameZh": "科特迪瓦",
+  "nameEn": "Côte d'Ivoire",
+  "flagCode": "ci",
+  "confederation": "caf",
+  "fifaRanking": 34,
+  "worldCupAppearances": 4,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "E",
+  "coach": {
+    "nameZh": "埃默塞·法埃",
+    "nameEn": "Emerse Faé"
+  },
+  "descriptionZh": "科特迪瓦作为2024年非洲杯冠军重返世界杯舞台。大象军团拥有丰富的天赋球员，在法埃的带领下希望在世界舞台上证明非洲冠军的实力。",
+  "descriptionEn": "Côte d'Ivoire return to the World Cup as the 2024 Africa Cup of Nations champions. The Elephants boast abundant talent and under Faé aim to prove the African champions' quality on the world stage.",
+  "slug": "cote-divoire",
+  "squad": [],
+  "keyPlayers": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "rsa",
+  "nameZh": "南非",
+  "nameEn": "South Africa",
+  "flagCode": "za",
+  "confederation": "caf",
+  "fifaRanking": 60,
+  "worldCupAppearances": 4,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "A",
+  "coach": {
+    "nameZh": "雨果·布鲁斯",
+    "nameEn": "Hugo Broos"
+  },
+  "descriptionZh": "南非队在布鲁斯的带领下重返世界杯舞台。作为2010年世界杯的东道主，巴法纳巴法纳希望在本届赛事中证明非洲足球的深度和实力。",
+  "descriptionEn": "South Africa return to the World Cup stage under Broos' guidance. Having hosted the 2010 tournament, Bafana Bafana aim to demonstrate the depth and quality of African football.",
+  "slug": "south-africa",
+  "squad": [],
+  "keyPlayers": []
+}

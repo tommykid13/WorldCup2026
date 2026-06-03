@@ -1,0 +1,22 @@
+{
+  "id": "egy",
+  "nameZh": "埃及",
+  "nameEn": "Egypt",
+  "flagCode": "eg",
+  "confederation": "caf",
+  "fifaRanking": 29,
+  "worldCupAppearances": 4,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "G",
+  "coach": {
+    "nameZh": "鲁伊·维多利亚",
+    "nameEn": "Rui Vitória"
+  },
+  "descriptionZh": "埃及是非洲杯历史上最成功的球队，拥有萨拉赫等世界级球星。法老们在世界杯上的表现一直不尽如人意，2026年将是他们证明自己的机会。",
+  "descriptionEn": "Egypt are the most successful team in Africa Cup of Nations history and feature global star Salah. The Pharaohs have underperformed at World Cups and 2026 is their chance for redemption.",
+  "slug": "egypt",
+  "squad": [],
+  "keyPlayers": []
+}

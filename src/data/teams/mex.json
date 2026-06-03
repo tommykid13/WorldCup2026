@@ -1,0 +1,854 @@
+{
+  "id": "mex",
+  "nameZh": "墨西哥",
+  "nameEn": "Mexico",
+  "flagCode": "mx",
+  "confederation": "concacaf",
+  "fifaRanking": 15,
+  "worldCupAppearances": 17,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "八强",
+  "group": "A",
+  "coach": {
+    "nameZh": "哈维尔·阿吉雷",
+    "nameEn": "Javier Aguirre"
+  },
+  "descriptionZh": "联合东道主墨西哥是世界杯常客，17次参赛经验丰富。阿吉雷重返国家队执教，希望借助主场之利打破连续七届止步16强的魔咒。",
+  "descriptionEn": "Co-hosts Mexico are World Cup veterans with 17 tournament appearances. Aguirre returns to lead El Tri, hoping home advantage can help break their round-of-16 curse that has lasted seven consecutive tournaments.",
+  "slug": "mexico",
+  "squad": [
+    {
+      "id": "mex-1",
+      "nameZh": "吉列尔莫·奥乔亚",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1985-07-13",
+      "club": {
+        "nameZh": "AEL利马索尔",
+        "nameEn": ""
+      },
+      "caps": 151,
+      "goals": 0
+    },
+    {
+      "id": "mex-2",
+      "nameZh": "劳尔·兰格尔",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2000-02-25",
+      "club": {
+        "nameZh": "瓜达拉哈拉",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "id": "mex-3",
+      "nameZh": "卡洛斯·阿塞维多",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1996-04-19",
+      "club": {
+        "nameZh": "桑托斯拉古纳",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "mex-4",
+      "nameZh": "何塞·安东尼奥·罗德里格斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1992-07-04",
+      "club": {
+        "nameZh": "蒂瓦尔纳",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "mex-5",
+      "nameZh": "卡洛斯·莫雷诺",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1998-01-29",
+      "club": {
+        "nameZh": "帕丘卡",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "mex-6",
+      "nameZh": "阿历斯·帕迪拉",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2003-09-01",
+      "club": {
+        "nameZh": "毕尔巴鄂",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "mex-7",
+      "nameZh": "赫苏斯·加利亚多",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1994-08-15",
+      "club": {
+        "nameZh": "托卢卡",
+        "nameEn": ""
+      },
+      "caps": 118,
+      "goals": 3
+    },
+    {
+      "id": "mex-8",
+      "nameZh": "塞萨尔·蒙特斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-02-24",
+      "club": {
+        "nameZh": "莫斯科火车头",
+        "nameEn": ""
+      },
+      "caps": 65,
+      "goals": 4
+    },
+    {
+      "id": "mex-9",
+      "nameZh": "豪尔赫·桑切斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-12-10",
+      "club": {
+        "nameZh": "PAOK",
+        "nameEn": ""
+      },
+      "caps": 56,
+      "goals": 3
+    },
+    {
+      "id": "mex-10",
+      "nameZh": "约翰·巴斯克斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-10-22",
+      "club": {
+        "nameZh": "热那亚",
+        "nameEn": ""
+      },
+      "caps": 44,
+      "goals": 1
+    },
+    {
+      "id": "mex-11",
+      "nameZh": "伊斯雷尔·雷耶斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-05-23",
+      "club": {
+        "nameZh": "阿美利加",
+        "nameEn": ""
+      },
+      "caps": 31,
+      "goals": 2
+    },
+    {
+      "id": "mex-12",
+      "nameZh": "赫苏斯·阿尔韦托·安古洛",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-01-30",
+      "club": {
+        "nameZh": "老虎大学",
+        "nameEn": ""
+      },
+      "caps": 19,
+      "goals": 0
+    },
+    {
+      "id": "mex-13",
+      "nameZh": "胡利安·阿劳霍",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-08-13",
+      "club": {
+        "nameZh": "凯尔特人",
+        "nameEn": ""
+      },
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "id": "mex-14",
+      "nameZh": "马泰奥·查韦斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2004-05-11",
+      "club": {
+        "nameZh": "阿尔克马尔",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "id": "mex-15",
+      "nameZh": "维克托·古兹曼",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-03-07",
+      "club": {
+        "nameZh": "蒙特雷",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "mex-16",
+      "nameZh": "理查德·莱德兹马",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-09-06",
+      "club": {
+        "nameZh": "瓜达拉哈拉",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 1
+    },
+    {
+      "id": "mex-17",
+      "nameZh": "埃维埃拉尔多·洛佩斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2005-03-23",
+      "club": {
+        "nameZh": "托卢卡",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "mex-18",
+      "nameZh": "丹泽尔·加西亚",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-08-15",
+      "club": {
+        "nameZh": "华雷斯",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "mex-19",
+      "nameZh": "布赖恩·冈萨雷斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-04-10",
+      "club": {
+        "nameZh": "瓜达拉哈拉",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "mex-20",
+      "nameZh": "拉蒙·华雷斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-05-03",
+      "club": {
+        "nameZh": "阿美利加",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "mex-21",
+      "nameZh": "爱德华多·阿吉拉",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-05-17",
+      "club": {
+        "nameZh": "圣路易斯竞技",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "mex-22",
+      "nameZh": "亚历杭德罗·戈麦斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-01-31",
+      "club": {
+        "nameZh": "蒂瓦尔纳",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "mex-23",
+      "nameZh": "路易斯·雷伊",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-09-14",
+      "club": {
+        "nameZh": "普埃布拉",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "mex-24",
+      "nameZh": "埃德松·阿尔瓦雷斯（队长）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-10-24",
+      "club": {
+        "nameZh": "费内巴切",
+        "nameEn": ""
+      },
+      "caps": 95,
+      "goals": 7
+    },
+    {
+      "id": "mex-25",
+      "nameZh": "奥贝林·皮内达",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-03-24",
+      "club": {
+        "nameZh": "AEK雅典",
+        "nameEn": ""
+      },
+      "caps": 90,
+      "goals": 12
+    },
+    {
+      "id": "mex-26",
+      "nameZh": "卡洛斯·罗德里格斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-01-03",
+      "club": {
+        "nameZh": "蓝十字",
+        "nameEn": ""
+      },
+      "caps": 67,
+      "goals": 0
+    },
+    {
+      "id": "mex-27",
+      "nameZh": "罗伯托·阿尔瓦拉多",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1998-09-07",
+      "club": {
+        "nameZh": "瓜达拉哈拉",
+        "nameEn": ""
+      },
+      "caps": 65,
+      "goals": 5
+    },
+    {
+      "id": "mex-28",
+      "nameZh": "路易斯·罗莫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1995-06-05",
+      "club": {
+        "nameZh": "瓜达拉哈拉",
+        "nameEn": ""
+      },
+      "caps": 60,
+      "goals": 4
+    },
+    {
+      "id": "mex-29",
+      "nameZh": "路易斯·查韦斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-01-15",
+      "club": {
+        "nameZh": "莫斯科迪纳摩",
+        "nameEn": ""
+      },
+      "caps": 42,
+      "goals": 4
+    },
+    {
+      "id": "mex-30",
+      "nameZh": "埃里克·桑切斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-09-27",
+      "club": {
+        "nameZh": "阿美利加",
+        "nameEn": ""
+      },
+      "caps": 38,
+      "goals": 3
+    },
+    {
+      "id": "mex-31",
+      "nameZh": "迭戈·莱内斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-06-09",
+      "club": {
+        "nameZh": "老虎大学",
+        "nameEn": ""
+      },
+      "caps": 33,
+      "goals": 3
+    },
+    {
+      "id": "mex-32",
+      "nameZh": "埃里克·利拉",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-05-08",
+      "club": {
+        "nameZh": "蓝十字",
+        "nameEn": ""
+      },
+      "caps": 22,
+      "goals": 0
+    },
+    {
+      "id": "mex-33",
+      "nameZh": "马塞尔·鲁伊斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-10-26",
+      "club": {
+        "nameZh": "托卢卡",
+        "nameEn": ""
+      },
+      "caps": 17,
+      "goals": 0
+    },
+    {
+      "id": "mex-34",
+      "nameZh": "埃弗拉因·阿尔瓦雷斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-06-19",
+      "club": {
+        "nameZh": "瓜达拉哈拉",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 1
+    },
+    {
+      "id": "mex-35",
+      "nameZh": "布赖恩·古铁雷斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-06-17",
+      "club": {
+        "nameZh": "瓜达拉哈拉",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 1
+    },
+    {
+      "id": "mex-36",
+      "nameZh": "亚历克西斯·古铁雷斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-02-26",
+      "club": {
+        "nameZh": "阿美利加",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "id": "mex-37",
+      "nameZh": "吉尔贝托·莫拉",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2008-10-14",
+      "club": {
+        "nameZh": "蒂瓦尔纳",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "id": "mex-38",
+      "nameZh": "奥贝德·巴尔加斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2005-08-05",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "id": "mex-39",
+      "nameZh": "赫苏斯·里卡多·安古洛",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-02-20",
+      "club": {
+        "nameZh": "托卢卡",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 1
+    },
+    {
+      "id": "mex-40",
+      "nameZh": "乔丹·卡里略",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-11-30",
+      "club": {
+        "nameZh": "彪马",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "mex-41",
+      "nameZh": "凯文·卡斯塔涅达",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-10-28",
+      "club": {
+        "nameZh": "蒂瓦尔纳",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "mex-42",
+      "nameZh": "阿尔瓦罗·菲达尔戈",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-04-09",
+      "club": {
+        "nameZh": "皇家贝蒂斯",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "mex-43",
+      "nameZh": "豪尔赫·鲁瓦尔卡巴",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-07-23",
+      "club": {
+        "nameZh": "纽约红牛",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "mex-44",
+      "nameZh": "阿莱克塞·多明格斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2005-01-03",
+      "club": {
+        "nameZh": "帕丘卡",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "mex-45",
+      "nameZh": "杰里米·马尔克斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-06-21",
+      "club": {
+        "nameZh": "蓝十字",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "mex-46",
+      "nameZh": "埃利亚斯·蒙蒂尔",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2005-10-07",
+      "club": {
+        "nameZh": "帕丘卡",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "mex-47",
+      "nameZh": "伊萨亚斯·维奥兰特",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-10-20",
+      "club": {
+        "nameZh": "阿美利加",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "mex-48",
+      "nameZh": "劳尔·希门尼斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1991-05-05",
+      "club": {
+        "nameZh": "富勒姆",
+        "nameEn": ""
+      },
+      "caps": 123,
+      "goals": 44
+    },
+    {
+      "id": "mex-49",
+      "nameZh": "亚历克西斯·维加",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-11-25",
+      "club": {
+        "nameZh": "托卢卡",
+        "nameEn": ""
+      },
+      "caps": 49,
+      "goals": 7
+    },
+    {
+      "id": "mex-50",
+      "nameZh": "圣地亚哥·希门尼斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-04-18",
+      "club": {
+        "nameZh": "AC米兰",
+        "nameEn": ""
+      },
+      "caps": 46,
+      "goals": 6
+    },
+    {
+      "id": "mex-51",
+      "nameZh": "塞萨尔·韦尔塔",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-12-03",
+      "club": {
+        "nameZh": "安德莱赫特",
+        "nameEn": ""
+      },
+      "caps": 25,
+      "goals": 3
+    },
+    {
+      "id": "mex-52",
+      "nameZh": "胡利安·基尼奥内斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-03-24",
+      "club": {
+        "nameZh": "艾卡迪沙",
+        "nameEn": ""
+      },
+      "caps": 20,
+      "goals": 2
+    },
+    {
+      "id": "mex-53",
+      "nameZh": "赫曼·贝特拉梅",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-11-13",
+      "club": {
+        "nameZh": "国际迈阿密",
+        "nameEn": ""
+      },
+      "caps": 9,
+      "goals": 2
+    },
+    {
+      "id": "mex-54",
+      "nameZh": "吉列尔莫·马丁内斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1995-03-15",
+      "club": {
+        "nameZh": "彪马",
+        "nameEn": ""
+      },
+      "caps": 9,
+      "goals": 2
+    },
+    {
+      "id": "mex-55",
+      "nameZh": "阿曼多·冈萨雷斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2003-04-20",
+      "club": {
+        "nameZh": "瓜达拉哈拉",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 1
+    }
+  ],
+  "keyPlayers": [
+    "吉列尔莫·奥乔亚",
+    "劳尔·希门尼斯",
+    "赫苏斯·加利亚多",
+    "埃德松·阿尔瓦雷斯（队长）",
+    "奥贝林·皮内达"
+  ]
+}

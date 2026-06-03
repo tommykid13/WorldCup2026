@@ -1,0 +1,419 @@
+{
+  "id": "sui",
+  "nameZh": "瑞士",
+  "nameEn": "Switzerland",
+  "flagCode": "ch",
+  "confederation": "uefa",
+  "fifaRanking": 19,
+  "worldCupAppearances": 13,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "八强",
+  "group": "B",
+  "coach": {
+    "nameZh": "穆拉特·雅金",
+    "nameEn": "Murat Yakin"
+  },
+  "descriptionZh": "瑞士队在国际大赛中表现出色，屡屡在淘汰赛中给强队制造麻烦。雅金执教下的瑞士队拥有扎卡、阿坎吉等经验丰富的球员，防守组织严密。",
+  "descriptionEn": "Switzerland consistently perform well at major tournaments, frequently troubling top teams in knockout rounds. Yakin's side feature experienced players like Xhaka and Akanji, with an impeccably organized defense.",
+  "slug": "switzerland",
+  "squad": [
+    {
+      "id": "sui-1",
+      "nameZh": "格雷戈尔·科贝尔",
+      "nameEn": "",
+      "number": 1,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1997-12-06",
+      "club": {
+        "nameZh": "多特蒙德",
+        "nameEn": ""
+      },
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "id": "sui-2",
+      "nameZh": "米洛·穆海姆",
+      "nameEn": "",
+      "number": 2,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-03-24",
+      "club": {
+        "nameZh": "汉堡",
+        "nameEn": ""
+      },
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "id": "sui-3",
+      "nameZh": "西尔万·威德默",
+      "nameEn": "",
+      "number": 3,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1993-03-05",
+      "club": {
+        "nameZh": "美因茨",
+        "nameEn": ""
+      },
+      "caps": 58,
+      "goals": 5
+    },
+    {
+      "id": "sui-4",
+      "nameZh": "尼科·埃尔韦迪",
+      "nameEn": "",
+      "number": 4,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1996-09-30",
+      "club": {
+        "nameZh": "门兴格拉德巴赫",
+        "nameEn": ""
+      },
+      "caps": 65,
+      "goals": 3
+    },
+    {
+      "id": "sui-5",
+      "nameZh": "曼努埃尔·阿坎吉",
+      "nameEn": "",
+      "number": 5,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1995-07-19",
+      "club": {
+        "nameZh": "国际米兰",
+        "nameEn": ""
+      },
+      "caps": 79,
+      "goals": 4
+    },
+    {
+      "id": "sui-6",
+      "nameZh": "德尼·扎卡里亚",
+      "nameEn": "",
+      "number": 6,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-11-20",
+      "club": {
+        "nameZh": "摩纳哥",
+        "nameEn": ""
+      },
+      "caps": 63,
+      "goals": 3
+    },
+    {
+      "id": "sui-7",
+      "nameZh": "布雷尔·恩博洛",
+      "nameEn": "",
+      "number": 7,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-02-14",
+      "club": {
+        "nameZh": "雷恩",
+        "nameEn": ""
+      },
+      "caps": 85,
+      "goals": 23
+    },
+    {
+      "id": "sui-8",
+      "nameZh": "雷莫·弗罗伊勒",
+      "nameEn": "",
+      "number": 8,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1992-04-15",
+      "club": {
+        "nameZh": "博洛尼亚",
+        "nameEn": ""
+      },
+      "caps": 86,
+      "goals": 11
+    },
+    {
+      "id": "sui-9",
+      "nameZh": "约翰·曼赞比",
+      "nameEn": "",
+      "number": 9,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2005-10-14",
+      "club": {
+        "nameZh": "弗赖堡",
+        "nameEn": ""
+      },
+      "caps": 10,
+      "goals": 3
+    },
+    {
+      "id": "sui-10",
+      "nameZh": "格拉尼特·扎卡（队长）",
+      "nameEn": "",
+      "number": 10,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1992-09-27",
+      "club": {
+        "nameZh": "桑德兰",
+        "nameEn": ""
+      },
+      "caps": 144,
+      "goals": 16
+    },
+    {
+      "id": "sui-11",
+      "nameZh": "丹·尼杜耶",
+      "nameEn": "",
+      "number": 11,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-10-25",
+      "club": {
+        "nameZh": "诺丁汉森林",
+        "nameEn": ""
+      },
+      "caps": 29,
+      "goals": 6
+    },
+    {
+      "id": "sui-12",
+      "nameZh": "伊冯·姆沃戈",
+      "nameEn": "",
+      "number": 12,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1994-06-06",
+      "club": {
+        "nameZh": "洛里昂",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "id": "sui-13",
+      "nameZh": "里卡多·罗德里格斯",
+      "nameEn": "",
+      "number": 13,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1992-08-25",
+      "club": {
+        "nameZh": "皇家贝蒂斯",
+        "nameEn": ""
+      },
+      "caps": 136,
+      "goals": 9
+    },
+    {
+      "id": "sui-14",
+      "nameZh": "阿尔当·亚沙里",
+      "nameEn": "",
+      "number": 14,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-07-30",
+      "club": {
+        "nameZh": "AC米兰",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "sui-15",
+      "nameZh": "贾布里勒·索乌",
+      "nameEn": "",
+      "number": 15,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-02-06",
+      "club": {
+        "nameZh": "塞维利亚",
+        "nameEn": ""
+      },
+      "caps": 50,
+      "goals": 0
+    },
+    {
+      "id": "sui-16",
+      "nameZh": "克里斯蒂安·法斯纳赫特",
+      "nameEn": "",
+      "number": 16,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1993-11-11",
+      "club": {
+        "nameZh": "伯尔尼年轻人",
+        "nameEn": ""
+      },
+      "caps": 21,
+      "goals": 4
+    },
+    {
+      "id": "sui-17",
+      "nameZh": "鲁文·巴尔加斯",
+      "nameEn": "",
+      "number": 17,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-08-05",
+      "club": {
+        "nameZh": "塞维利亚",
+        "nameEn": ""
+      },
+      "caps": 60,
+      "goals": 11
+    },
+    {
+      "id": "sui-18",
+      "nameZh": "埃拉伊·哲梅尔特",
+      "nameEn": "",
+      "number": 18,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-02-04",
+      "club": {
+        "nameZh": "巴伦西亚",
+        "nameEn": ""
+      },
+      "caps": 20,
+      "goals": 0
+    },
+    {
+      "id": "sui-19",
+      "nameZh": "诺厄·奥卡福尔",
+      "nameEn": "",
+      "number": 19,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-05-24",
+      "club": {
+        "nameZh": "利兹联",
+        "nameEn": ""
+      },
+      "caps": 24,
+      "goals": 2
+    },
+    {
+      "id": "sui-20",
+      "nameZh": "米歇尔·埃比舍尔",
+      "nameEn": "",
+      "number": 20,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-01-06",
+      "club": {
+        "nameZh": "比萨",
+        "nameEn": ""
+      },
+      "caps": 38,
+      "goals": 2
+    },
+    {
+      "id": "sui-21",
+      "nameZh": "马文·凯勒",
+      "nameEn": "",
+      "number": 21,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2002-07-03",
+      "club": {
+        "nameZh": "伯尔尼年轻人",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "sui-22",
+      "nameZh": "法比安·里德",
+      "nameEn": "",
+      "number": 22,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-02-16",
+      "club": {
+        "nameZh": "奥格斯堡",
+        "nameEn": ""
+      },
+      "caps": 27,
+      "goals": 1
+    },
+    {
+      "id": "sui-23",
+      "nameZh": "泽基·阿姆杜尼",
+      "nameEn": "",
+      "number": 23,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-12-04",
+      "club": {
+        "nameZh": "伯恩利",
+        "nameEn": ""
+      },
+      "caps": 27,
+      "goals": 11
+    },
+    {
+      "id": "sui-24",
+      "nameZh": "奥雷勒·阿门达",
+      "nameEn": "",
+      "number": 24,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-07-31",
+      "club": {
+        "nameZh": "法兰克福",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "sui-25",
+      "nameZh": "卢卡·雅克",
+      "nameEn": "",
+      "number": 25,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-06-02",
+      "club": {
+        "nameZh": "斯图加特",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "sui-26",
+      "nameZh": "塞德里克·伊滕",
+      "nameEn": "",
+      "number": 26,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1996-12-27",
+      "club": {
+        "nameZh": "杜塞尔多夫",
+        "nameEn": ""
+      },
+      "caps": 13,
+      "goals": 5
+    }
+  ],
+  "keyPlayers": [
+    "格拉尼特·扎卡（队长）",
+    "里卡多·罗德里格斯",
+    "雷莫·弗罗伊勒",
+    "布雷尔·恩博洛",
+    "曼努埃尔·阿坎吉"
+  ]
+}

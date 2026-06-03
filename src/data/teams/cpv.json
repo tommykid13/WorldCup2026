@@ -1,0 +1,22 @@
+{
+  "id": "cpv",
+  "nameZh": "佛得角",
+  "nameEn": "Cape Verde",
+  "flagCode": "cv",
+  "confederation": "caf",
+  "fifaRanking": 69,
+  "worldCupAppearances": 0,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "未参赛",
+  "coach": {
+    "nameZh": "帕布洛·蒙泰拉",
+    "nameEn": "Pablo Monteira"
+  },
+  "descriptionZh": "佛得角是非洲足球的新兴力量，首次晋级世界杯决赛圈。这个岛国近年来足球水平飞速提升，展现出非洲足球的多样性和竞争力。",
+  "descriptionEn": "Cape Verde are a rising force in African football, qualifying for their first-ever World Cup. The island nation has rapidly improved and showcases the depth of African football.",
+  "slug": "cape-verde",
+  "group": "H",
+  "squad": [],
+  "keyPlayers": []
+}

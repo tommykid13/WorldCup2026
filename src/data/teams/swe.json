@@ -1,0 +1,22 @@
+{
+  "id": "swe",
+  "nameZh": "瑞典",
+  "nameEn": "Sweden",
+  "flagCode": "se",
+  "confederation": "uefa",
+  "fifaRanking": 38,
+  "worldCupAppearances": 12,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "亚军",
+  "group": "F",
+  "coach": {
+    "nameZh": "容·达尔·托马森",
+    "nameEn": "Jon Dahl Tomasson"
+  },
+  "descriptionZh": "瑞典队以严密的战术纪律和团队精神著称。伊萨克领衔的北欧海盗在托马森的执教下焕发新生，延续了瑞典足球在国际大赛中的竞争力。",
+  "descriptionEn": "Sweden are known for tactical discipline and team spirit. Isak leads the way as the Nordic side, under Tomasson's guidance, continues Sweden's tradition of competitiveness on the international stage.",
+  "slug": "sweden",
+  "squad": [],
+  "keyPlayers": []
+}

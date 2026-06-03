@@ -1,0 +1,629 @@
+{
+  "id": "uzb",
+  "nameZh": "乌兹别克斯坦",
+  "nameEn": "Uzbekistan",
+  "flagCode": "uz",
+  "confederation": "afc",
+  "fifaRanking": 50,
+  "worldCupAppearances": 1,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "K",
+  "coach": {
+    "nameZh": "斯雷奇科·卡塔内茨",
+    "nameEn": "Srečko Katanec"
+  },
+  "descriptionZh": "乌兹别克斯坦首次晋级世界杯决赛圈，创造了中亚足球的历史。在功勋教练卡塔内茨的调教下，这支球队纪律严明，具备一定的竞争力。",
+  "descriptionEn": "Uzbekistan qualified for their first-ever World Cup, making history for Central Asian football. Under veteran coach Katanec, this disciplined side will look to make their mark on the biggest stage.",
+  "slug": "uzbekistan",
+  "squad": [
+    {
+      "id": "uzb-1",
+      "nameZh": "乌特基尔·尤苏波夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1991-01-04",
+      "club": {
+        "nameZh": "纳巴霍尔",
+        "nameEn": ""
+      },
+      "caps": 39,
+      "goals": 0
+    },
+    {
+      "id": "uzb-2",
+      "nameZh": "阿卜杜沃希德·涅马托夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2001-03-20",
+      "club": {
+        "nameZh": "纳萨夫",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "id": "uzb-3",
+      "nameZh": "博蒂拉利·埃尔加舍夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1995-06-23",
+      "club": {
+        "nameZh": "涅夫奇",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "uzb-4",
+      "nameZh": "弗拉基米尔·纳扎罗夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2002-06-03",
+      "club": {
+        "nameZh": "帕克塔科",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "uzb-5",
+      "nameZh": "鲁斯塔姆·阿舒尔马托夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1996-07-07",
+      "club": {
+        "nameZh": "艾斯迪格拿",
+        "nameEn": ""
+      },
+      "caps": 47,
+      "goals": 1
+    },
+    {
+      "id": "uzb-6",
+      "nameZh": "法鲁赫·赛菲耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1991-01-17",
+      "club": {
+        "nameZh": "涅夫奇",
+        "nameEn": ""
+      },
+      "caps": 44,
+      "goals": 1
+    },
+    {
+      "id": "uzb-7",
+      "nameZh": "霍贾克巴尔·阿利约诺夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-04-19",
+      "club": {
+        "nameZh": "帕克塔科",
+        "nameEn": ""
+      },
+      "caps": 40,
+      "goals": 2
+    },
+    {
+      "id": "uzb-8",
+      "nameZh": "谢尔佐德·纳斯鲁拉耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-07-23",
+      "club": {
+        "nameZh": "纳萨夫",
+        "nameEn": ""
+      },
+      "caps": 29,
+      "goals": 2
+    },
+    {
+      "id": "uzb-9",
+      "nameZh": "乌马尔·埃什穆罗多夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1992-11-30",
+      "club": {
+        "nameZh": "纳萨夫",
+        "nameEn": ""
+      },
+      "caps": 29,
+      "goals": 0
+    },
+    {
+      "id": "uzb-10",
+      "nameZh": "阿卜杜卡迪尔·胡桑诺夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2004-02-29",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 25,
+      "goals": 0
+    },
+    {
+      "id": "uzb-11",
+      "nameZh": "伊布罗希姆哈利勒·尤尔多谢夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-02-14",
+      "club": {
+        "nameZh": "涅夫奇",
+        "nameEn": ""
+      },
+      "caps": 16,
+      "goals": 1
+    },
+    {
+      "id": "uzb-12",
+      "nameZh": "阿卜杜拉·阿卜杜拉耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-09-01",
+      "club": {
+        "nameZh": "迪巴富查拉",
+        "nameEn": ""
+      },
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "id": "uzb-13",
+      "nameZh": "贝赫鲁兹·卡里莫夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2007-07-08",
+      "club": {
+        "nameZh": "苏尔洪",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "uzb-14",
+      "nameZh": "穆罕默德科迪尔·哈姆拉利耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-07-06",
+      "club": {
+        "nameZh": "帕克塔科",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "uzb-15",
+      "nameZh": "贾洪吉尔·乌罗佐夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2004-01-18",
+      "club": {
+        "nameZh": "撒马尔罕迪纳摩",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "uzb-16",
+      "nameZh": "穆罕默德拉苏尔·阿卜杜马日多夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2004-07-23",
+      "club": {
+        "nameZh": "帕克塔科",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "uzb-17",
+      "nameZh": "迪约尔·奥尔蒂克博耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-01-06",
+      "club": {
+        "nameZh": "霍拉兹姆",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "uzb-18",
+      "nameZh": "阿瓦兹别克·乌尔马萨利耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-03-27",
+      "club": {
+        "nameZh": "AGMK",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "uzb-19",
+      "nameZh": "奥塔别克·舒库罗夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-06-22",
+      "club": {
+        "nameZh": "班尼亚斯",
+        "nameEn": ""
+      },
+      "caps": 82,
+      "goals": 9
+    },
+    {
+      "id": "uzb-20",
+      "nameZh": "贾洛利丁·马沙里波夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1993-09-01",
+      "club": {
+        "nameZh": "艾斯迪格拿",
+        "nameEn": ""
+      },
+      "caps": 74,
+      "goals": 12
+    },
+    {
+      "id": "uzb-21",
+      "nameZh": "奥迪尔容·哈姆罗别科夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-02-13",
+      "club": {
+        "nameZh": "拖拉机",
+        "nameEn": ""
+      },
+      "caps": 71,
+      "goals": 1
+    },
+    {
+      "id": "uzb-22",
+      "nameZh": "奥斯顿·乌鲁诺夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-12-19",
+      "club": {
+        "nameZh": "柏斯波利斯",
+        "nameEn": ""
+      },
+      "caps": 40,
+      "goals": 10
+    },
+    {
+      "id": "uzb-23",
+      "nameZh": "贾姆希德·伊斯坎德罗夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1993-10-16",
+      "club": {
+        "nameZh": "涅夫奇",
+        "nameEn": ""
+      },
+      "caps": 37,
+      "goals": 4
+    },
+    {
+      "id": "uzb-24",
+      "nameZh": "多斯通贝克·哈姆达莫夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-07-24",
+      "club": {
+        "nameZh": "帕克塔科",
+        "nameEn": ""
+      },
+      "caps": 33,
+      "goals": 5
+    },
+    {
+      "id": "uzb-25",
+      "nameZh": "阿博斯别克·费祖拉耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-10-03",
+      "club": {
+        "nameZh": "伊斯坦布尔巴萨克赛尔",
+        "nameEn": ""
+      },
+      "caps": 30,
+      "goals": 8
+    },
+    {
+      "id": "uzb-26",
+      "nameZh": "阿克马尔·莫兹戈沃伊",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-04-02",
+      "club": {
+        "nameZh": "帕克塔科",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 1
+    },
+    {
+      "id": "uzb-27",
+      "nameZh": "阿齐兹容·加尼耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1998-02-22",
+      "club": {
+        "nameZh": "艾巴塔",
+        "nameEn": ""
+      },
+      "caps": 18,
+      "goals": 0
+    },
+    {
+      "id": "uzb-28",
+      "nameZh": "阿齐兹别克·阿莫诺夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-10-30",
+      "club": {
+        "nameZh": "布哈拉",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 2
+    },
+    {
+      "id": "uzb-29",
+      "nameZh": "库沃迪克·鲁齐耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1994-10-06",
+      "club": {
+        "nameZh": "涅夫奇",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "uzb-30",
+      "nameZh": "鲁斯兰别克·吉亚诺夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-06-05",
+      "club": {
+        "nameZh": "纳巴霍尔",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "id": "uzb-31",
+      "nameZh": "阿利舍尔·奥迪洛夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-07-15",
+      "club": {
+        "nameZh": "涅夫奇",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 1
+    },
+    {
+      "id": "uzb-32",
+      "nameZh": "胡赛因·诺尔恰耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-02-06",
+      "club": {
+        "nameZh": "纳巴霍尔",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 1
+    },
+    {
+      "id": "uzb-33",
+      "nameZh": "贾苏尔别克·贾洛利丁诺夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-05-15",
+      "club": {
+        "nameZh": "索格迪亚纳",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "uzb-34",
+      "nameZh": "乌马拉利·拉赫莫纳利耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-08-18",
+      "club": {
+        "nameZh": "萨巴",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "uzb-35",
+      "nameZh": "诺迪尔别克·阿卜杜拉佐科夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2004-05-26",
+      "club": {
+        "nameZh": "AGMK",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "uzb-36",
+      "nameZh": "萨尔多尔别克·巴赫罗莫夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2005-02-16",
+      "club": {
+        "nameZh": "纳萨夫",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "uzb-37",
+      "nameZh": "谢尔佐德·埃萨诺夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-02-01",
+      "club": {
+        "nameZh": "布哈拉",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "uzb-38",
+      "nameZh": "埃尔多尔·绍穆罗多夫（队长）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1995-06-29",
+      "club": {
+        "nameZh": "伊斯坦布尔巴萨克赛尔",
+        "nameEn": ""
+      },
+      "caps": 90,
+      "goals": 44
+    },
+    {
+      "id": "uzb-39",
+      "nameZh": "伊戈尔·谢尔盖耶夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1993-04-30",
+      "club": {
+        "nameZh": "柏斯波利斯",
+        "nameEn": ""
+      },
+      "caps": 81,
+      "goals": 24
+    },
+    {
+      "id": "uzb-40",
+      "nameZh": "舒佐特·迪美路夫",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-10-27",
+      "club": {
+        "nameZh": "艾比尔",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    }
+  ],
+  "keyPlayers": [
+    "埃尔多尔·绍穆罗多夫（队长）",
+    "奥塔别克·舒库罗夫",
+    "伊戈尔·谢尔盖耶夫",
+    "贾洛利丁·马沙里波夫",
+    "奥迪尔容·哈姆罗别科夫"
+  ]
+}

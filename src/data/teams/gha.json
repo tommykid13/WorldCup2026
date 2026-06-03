@@ -1,0 +1,22 @@
+{
+  "id": "gha",
+  "nameZh": "加纳",
+  "nameEn": "Ghana",
+  "flagCode": "gh",
+  "confederation": "caf",
+  "fifaRanking": 74,
+  "worldCupAppearances": 5,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "八强",
+  "group": "L",
+  "coach": {
+    "nameZh": "奥托·阿多",
+    "nameEn": "Otto Addo"
+  },
+  "descriptionZh": "加纳曾在2010年世界杯上险些晋级四强，是非洲足球的一支劲旅。黑星队拥有库杜斯等在欧洲联赛效力的优秀球员，冲击力十足。",
+  "descriptionEn": "Ghana came agonizingly close to the 2010 semi-finals and remain an African force. The Black Stars feature talented Europe-based players like Kudus, bringing dynamism and attacking flair.",
+  "slug": "ghana",
+  "squad": [],
+  "keyPlayers": []
+}

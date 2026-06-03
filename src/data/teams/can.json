@@ -1,0 +1,404 @@
+{
+  "id": "can",
+  "nameZh": "加拿大",
+  "nameEn": "Canada",
+  "flagCode": "ca",
+  "confederation": "concacaf",
+  "fifaRanking": 30,
+  "worldCupAppearances": 3,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "B",
+  "coach": {
+    "nameZh": "杰西·马施",
+    "nameEn": "Jesse Marsch"
+  },
+  "descriptionZh": "联合东道主加拿大队近年来进步显著，阿方索·戴维斯和乔纳森·戴维领衔的枫叶军团实力不容小觑。在马施的带领下，加拿大队希望在主场世界杯上有所作为。",
+  "descriptionEn": "Co-hosts Canada have made remarkable progress in recent years, with Alphonso Davies and Jonathan David leading the way. Under Marsch, the Canucks aim to make their mark at a home World Cup.",
+  "slug": "canada",
+  "squad": [
+    {
+      "id": "can-1",
+      "nameZh": "戴因·圣克莱尔",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1997-05-09",
+      "club": {
+        "nameZh": "国际迈阿密",
+        "nameEn": ""
+      },
+      "caps": 19,
+      "goals": 0
+    },
+    {
+      "id": "can-2",
+      "nameZh": "马克西姆·克雷波",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1994-04-11",
+      "club": {
+        "nameZh": "奥兰多城",
+        "nameEn": ""
+      },
+      "caps": 30,
+      "goals": 0
+    },
+    {
+      "id": "can-3",
+      "nameZh": "欧文·古德曼",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2003-11-27",
+      "club": {
+        "nameZh": "巴恩斯利",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "can-4",
+      "nameZh": "阿利斯泰尔·約翰斯顿",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-10-08",
+      "club": {
+        "nameZh": "凯尔特人",
+        "nameEn": ""
+      },
+      "caps": 56,
+      "goals": 1
+    },
+    {
+      "id": "can-5",
+      "nameZh": "德里克·科尼利厄斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-11-25",
+      "club": {
+        "nameZh": "格拉斯哥流浪者",
+        "nameEn": ""
+      },
+      "caps": 42,
+      "goals": 1
+    },
+    {
+      "id": "can-6",
+      "nameZh": "里奇蒙·拉伊",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1995-01-07",
+      "club": {
+        "nameZh": "多伦多FC",
+        "nameEn": ""
+      },
+      "caps": 73,
+      "goals": 1
+    },
+    {
+      "id": "can-7",
+      "nameZh": "尼可·西古尔",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-09-09",
+      "club": {
+        "nameZh": "哈伊杜克斯普利特",
+        "nameEn": ""
+      },
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "id": "can-8",
+      "nameZh": "乔尔·沃特曼",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1996-01-24",
+      "club": {
+        "nameZh": "芝加哥火焰",
+        "nameEn": ""
+      },
+      "caps": 17,
+      "goals": 0
+    },
+    {
+      "id": "can-9",
+      "nameZh": "吕克·德富热罗勒",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2005-10-12",
+      "club": {
+        "nameZh": "登德",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "id": "can-10",
+      "nameZh": "莫伊兹·布隆德比托",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-03-30",
+      "club": {
+        "nameZh": "尼斯",
+        "nameEn": ""
+      },
+      "caps": 19,
+      "goals": 0
+    },
+    {
+      "id": "can-11",
+      "nameZh": "阿方索·戴维斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-11-02",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 58,
+      "goals": 15
+    },
+    {
+      "id": "can-12",
+      "nameZh": "艾尔菲·琼斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-10-07",
+      "club": {
+        "nameZh": "米德尔斯堡",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "can-13",
+      "nameZh": "斯蒂芬·欧斯塔基奥",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-12-21",
+      "club": {
+        "nameZh": "洛杉矶FC",
+        "nameEn": ""
+      },
+      "caps": 54,
+      "goals": 4
+    },
+    {
+      "id": "can-14",
+      "nameZh": "伊斯马埃尔·科内",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-06-16",
+      "club": {
+        "nameZh": "萨索洛",
+        "nameEn": ""
+      },
+      "caps": 38,
+      "goals": 4
+    },
+    {
+      "id": "can-15",
+      "nameZh": "泰江·布坎南",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-02-08",
+      "club": {
+        "nameZh": "比利亚雷亚尔",
+        "nameEn": ""
+      },
+      "caps": 58,
+      "goals": 8
+    },
+    {
+      "id": "can-16",
+      "nameZh": "马蒂厄·施瓦涅尔",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-02-07",
+      "club": {
+        "nameZh": "洛杉矶FC",
+        "nameEn": ""
+      },
+      "caps": 22,
+      "goals": 0
+    },
+    {
+      "id": "can-17",
+      "nameZh": "阿里·艾哈迈德",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-10-10",
+      "club": {
+        "nameZh": "诺里奇城",
+        "nameEn": ""
+      },
+      "caps": 24,
+      "goals": 1
+    },
+    {
+      "id": "can-18",
+      "nameZh": "内森·萨利巴",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2004-02-07",
+      "club": {
+        "nameZh": "皇家安德莱赫特",
+        "nameEn": ""
+      },
+      "caps": 13,
+      "goals": 2
+    },
+    {
+      "id": "can-19",
+      "nameZh": "利亚姆·米勒",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-09-27",
+      "club": {
+        "nameZh": "赫尔城",
+        "nameEn": ""
+      },
+      "caps": 39,
+      "goals": 1
+    },
+    {
+      "id": "can-20",
+      "nameZh": "雅各·沙费尔伯格",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-11-26",
+      "club": {
+        "nameZh": "洛杉矶FC",
+        "nameEn": ""
+      },
+      "caps": 31,
+      "goals": 6
+    },
+    {
+      "id": "can-21",
+      "nameZh": "乔纳森·奥索里奥",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1992-06-12",
+      "club": {
+        "nameZh": "多伦多FC",
+        "nameEn": ""
+      },
+      "caps": 89,
+      "goals": 9
+    },
+    {
+      "id": "can-22",
+      "nameZh": "乔纳森·戴维",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-01-14",
+      "club": {
+        "nameZh": "尤文图斯",
+        "nameEn": ""
+      },
+      "caps": 75,
+      "goals": 39
+    },
+    {
+      "id": "can-23",
+      "nameZh": "凯尔·拉林",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1995-04-17",
+      "club": {
+        "nameZh": "南安普敦",
+        "nameEn": ""
+      },
+      "caps": 88,
+      "goals": 30
+    },
+    {
+      "id": "can-24",
+      "nameZh": "塔尼·奥卢瓦塞伊",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-05-15",
+      "club": {
+        "nameZh": "比利亚雷亚尔",
+        "nameEn": ""
+      },
+      "caps": 22,
+      "goals": 2
+    },
+    {
+      "id": "can-25",
+      "nameZh": "普罗米斯·大卫",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-07-03",
+      "club": {
+        "nameZh": "皇家圣吉勒联盟",
+        "nameEn": ""
+      },
+      "caps": 8,
+      "goals": 3
+    }
+  ],
+  "keyPlayers": [
+    "乔纳森·奥索里奥",
+    "凯尔·拉林",
+    "乔纳森·戴维",
+    "里奇蒙·拉伊",
+    "阿方索·戴维斯"
+  ]
+}

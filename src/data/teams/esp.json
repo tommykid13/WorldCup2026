@@ -1,0 +1,421 @@
+{
+  "id": "esp",
+  "nameZh": "西班牙",
+  "nameEn": "Spain",
+  "flagCode": "es",
+  "confederation": "uefa",
+  "fifaRanking": 2,
+  "worldCupAppearances": 16,
+  "worldCupTitles": 1,
+  "worldCupTitleYears": [
+    2010
+  ],
+  "bestResult": "冠军",
+  "group": "H",
+  "coach": {
+    "nameZh": "路易斯·德拉富恩特",
+    "nameEn": "Luis de la Fuente"
+  },
+  "descriptionZh": "西班牙拥有一批才华横溢的年轻球员，如亚马尔、佩德里和加维。在夺得2024年欧洲杯冠军后，德拉富恩特率领的斗牛士军团志在再夺世界杯。",
+  "descriptionEn": "Spain boast a generation of prodigious talent including Yamal, Pedri and Gavi. After winning Euro 2024, De la Fuente's La Roja are determined to reclaim the World Cup title.",
+  "slug": "spain",
+  "squad": [
+    {
+      "id": "esp-1",
+      "nameZh": "大卫·拉耶",
+      "nameEn": "",
+      "number": 1,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1995-09-15",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "id": "esp-2",
+      "nameZh": "马克·普维利",
+      "nameEn": "",
+      "number": 2,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-06-20",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "esp-3",
+      "nameZh": "亚历克斯·格里马尔多",
+      "nameEn": "",
+      "number": 3,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1995-09-20",
+      "club": {
+        "nameZh": "勒沃库森",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "id": "esp-4",
+      "nameZh": "艾历·加西亚",
+      "nameEn": "",
+      "number": 4,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-01-09",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 19,
+      "goals": 0
+    },
+    {
+      "id": "esp-5",
+      "nameZh": "马科斯·略伦特",
+      "nameEn": "",
+      "number": 5,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1995-01-30",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 0
+    },
+    {
+      "id": "esp-6",
+      "nameZh": "米基·美连奴",
+      "nameEn": "",
+      "number": 6,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-06-22",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 41,
+      "goals": 10
+    },
+    {
+      "id": "esp-7",
+      "nameZh": "费兰·托雷斯",
+      "nameEn": "",
+      "number": 7,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-02-29",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 55,
+      "goals": 23
+    },
+    {
+      "id": "esp-8",
+      "nameZh": "法比安·鲁伊斯",
+      "nameEn": "",
+      "number": 8,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-04-03",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 41,
+      "goals": 6
+    },
+    {
+      "id": "esp-9",
+      "nameZh": "加维",
+      "nameEn": "",
+      "number": 9,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2004-08-05",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 28,
+      "goals": 5
+    },
+    {
+      "id": "esp-10",
+      "nameZh": "达尼·奥尔莫",
+      "nameEn": "",
+      "number": 10,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-05-07",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 48,
+      "goals": 12
+    },
+    {
+      "id": "esp-11",
+      "nameZh": "耶雷米·皮诺",
+      "nameEn": "",
+      "number": 11,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-10-20",
+      "club": {
+        "nameZh": "水晶宫",
+        "nameEn": ""
+      },
+      "caps": 21,
+      "goals": 4
+    },
+    {
+      "id": "esp-12",
+      "nameZh": "佩德罗·波罗",
+      "nameEn": "",
+      "number": 12,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-09-13",
+      "club": {
+        "nameZh": "热刺",
+        "nameEn": ""
+      },
+      "caps": 16,
+      "goals": 0
+    },
+    {
+      "id": "esp-13",
+      "nameZh": "霍安·加西亚",
+      "nameEn": "",
+      "number": 13,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2001-05-04",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "esp-14",
+      "nameZh": "艾默里克·拉波特",
+      "nameEn": "",
+      "number": 14,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1994-05-27",
+      "club": {
+        "nameZh": "毕尔巴鄂竞技",
+        "nameEn": ""
+      },
+      "caps": 44,
+      "goals": 2
+    },
+    {
+      "id": "esp-15",
+      "nameZh": "亚历克斯·巴埃纳",
+      "nameEn": "",
+      "number": 15,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-07-20",
+      "club": {
+        "nameZh": "马德里竞技",
+        "nameEn": ""
+      },
+      "caps": 15,
+      "goals": 2
+    },
+    {
+      "id": "esp-16",
+      "nameZh": "罗德里（队长）",
+      "nameEn": "",
+      "number": 16,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-06-22",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 61,
+      "goals": 4
+    },
+    {
+      "id": "esp-17",
+      "nameZh": "尼科·威廉斯",
+      "nameEn": "",
+      "number": 17,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-07-12",
+      "club": {
+        "nameZh": "毕尔巴鄂竞技",
+        "nameEn": ""
+      },
+      "caps": 30,
+      "goals": 6
+    },
+    {
+      "id": "esp-18",
+      "nameZh": "马丁·苏维门迪",
+      "nameEn": "",
+      "number": 18,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-02-02",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 25,
+      "goals": 3
+    },
+    {
+      "id": "esp-19",
+      "nameZh": "拉明·亚马尔",
+      "nameEn": "",
+      "number": 19,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2007-07-13",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 25,
+      "goals": 6
+    },
+    {
+      "id": "esp-20",
+      "nameZh": "佩德里",
+      "nameEn": "",
+      "number": 20,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-11-25",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 40,
+      "goals": 5
+    },
+    {
+      "id": "esp-21",
+      "nameZh": "米克尔·奥亚萨瓦尔",
+      "nameEn": "",
+      "number": 21,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-04-21",
+      "club": {
+        "nameZh": "皇家社会",
+        "nameEn": ""
+      },
+      "caps": 52,
+      "goals": 24
+    },
+    {
+      "id": "esp-22",
+      "nameZh": "保·库巴西",
+      "nameEn": "",
+      "number": 22,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2007-01-22",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 0
+    },
+    {
+      "id": "esp-23",
+      "nameZh": "乌奈·西蒙",
+      "nameEn": "",
+      "number": 23,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1997-06-11",
+      "club": {
+        "nameZh": "毕尔巴鄂竞技",
+        "nameEn": ""
+      },
+      "caps": 57,
+      "goals": 0
+    },
+    {
+      "id": "esp-24",
+      "nameZh": "马克·库库雷利亚",
+      "nameEn": "",
+      "number": 24,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-07-22",
+      "club": {
+        "nameZh": "切尔西",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 1
+    },
+    {
+      "id": "esp-25",
+      "nameZh": "维克托·穆尼奥斯",
+      "nameEn": "",
+      "number": 25,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2003-07-13",
+      "club": {
+        "nameZh": "奥萨苏纳",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 1
+    },
+    {
+      "id": "esp-26",
+      "nameZh": "博尔哈·伊格莱西亚斯",
+      "nameEn": "",
+      "number": 26,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1993-01-17",
+      "club": {
+        "nameZh": "维戈塞尔塔",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    }
+  ],
+  "keyPlayers": [
+    "罗德里（队长）",
+    "乌奈·西蒙",
+    "费兰·托雷斯",
+    "米克尔·奥亚萨瓦尔",
+    "达尼·奥尔莫"
+  ]
+}

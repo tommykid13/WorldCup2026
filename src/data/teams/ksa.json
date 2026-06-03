@@ -1,0 +1,22 @@
+{
+  "id": "ksa",
+  "nameZh": "沙特阿拉伯",
+  "nameEn": "Saudi Arabia",
+  "flagCode": "sa",
+  "confederation": "afc",
+  "fifaRanking": 61,
+  "worldCupAppearances": 7,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "16强",
+  "group": "H",
+  "coach": {
+    "nameZh": "埃尔韦·勒纳尔",
+    "nameEn": "Hervé Renard"
+  },
+  "descriptionZh": "沙特阿拉伯在2022年世界杯揭幕战中击败阿根廷，震惊了全世界。勒纳尔重返沙特执教，绿隼的技术细腻、快速反击令人印象深刻。",
+  "descriptionEn": "Saudi Arabia stunned the world by defeating Argentina in the 2022 World Cup opener. Renard returns to coach the Green Falcons, known for their technical skill and devastating counter-attacks.",
+  "slug": "saudi-arabia",
+  "squad": [],
+  "keyPlayers": []
+}

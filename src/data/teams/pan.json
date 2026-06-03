@@ -1,0 +1,22 @@
+{
+  "id": "pan",
+  "nameZh": "巴拿马",
+  "nameEn": "Panama",
+  "flagCode": "pa",
+  "confederation": "concacaf",
+  "fifaRanking": 33,
+  "worldCupAppearances": 2,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "L",
+  "coach": {
+    "nameZh": "托马斯·克里斯蒂安森",
+    "nameEn": "Thomas Christiansen"
+  },
+  "descriptionZh": "巴拿马在2018年首次参加世界杯后再次回到这个舞台。运河之子虽然实力有限，但凭借团结的团队精神和顽强的斗志赢得了世界杯参赛资格。",
+  "descriptionEn": "Panama return to the World Cup stage after their historic 2018 debut. The Canaleros may have limited resources but earned their spot through unity and fighting spirit.",
+  "slug": "panama",
+  "squad": [],
+  "keyPlayers": []
+}

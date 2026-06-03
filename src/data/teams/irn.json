@@ -1,0 +1,22 @@
+{
+  "id": "irn",
+  "nameZh": "伊朗",
+  "nameEn": "Iran",
+  "flagCode": "ir",
+  "confederation": "afc",
+  "fifaRanking": 21,
+  "worldCupAppearances": 7,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "G",
+  "coach": {
+    "nameZh": "阿米尔·加莱诺伊",
+    "nameEn": "Amir Ghalenoei"
+  },
+  "descriptionZh": "伊朗是亚洲足坛的传统强队，以强悍的身体对抗和顽强的防守著称。波斯铁骑在世界杯上虽从未小组出线，但每次都能给强队制造麻烦。",
+  "descriptionEn": "Iran are a traditional Asian powerhouse known for physical play and resilient defending. Team Melli have never advanced past the group stage but consistently trouble top teams at the World Cup.",
+  "slug": "iran",
+  "squad": [],
+  "keyPlayers": []
+}

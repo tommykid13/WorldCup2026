@@ -1,0 +1,22 @@
+{
+  "id": "hai",
+  "nameZh": "海地",
+  "nameEn": "Haiti",
+  "flagCode": "ht",
+  "confederation": "concacaf",
+  "fifaRanking": 83,
+  "worldCupAppearances": 1,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "coach": {
+    "nameZh": "塞巴斯蒂安·涅西布",
+    "nameEn": "Sébastien Néecebur"
+  },
+  "descriptionZh": "海地仅在1974年参加过一次世界杯，时隔半个世纪重返世界舞台。加勒比黑旋风虽然实力有限，但凭借顽强的意志和团结精神赢得了参赛资格。",
+  "descriptionEn": "Haiti return to the World Cup after only one previous appearance in 1974. The Caribbean side earned their spot through determination and unity.",
+  "slug": "haiti",
+  "group": "C",
+  "squad": [],
+  "keyPlayers": []
+}

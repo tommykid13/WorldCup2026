@@ -1,0 +1,22 @@
+{
+  "id": "usa",
+  "nameZh": "美国",
+  "nameEn": "United States",
+  "flagCode": "us",
+  "confederation": "concacaf",
+  "fifaRanking": 16,
+  "worldCupAppearances": 11,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "季军",
+  "group": "D",
+  "coach": {
+    "nameZh": "毛里西奥·波切蒂诺",
+    "nameEn": "Mauricio Pochettino"
+  },
+  "descriptionZh": "东道主美国队拥有普利西奇、麦肯尼等在欧洲顶级联赛效力的球员。作为2026世界杯联合东道主，美国队希望借助主场优势创造历史佳绩。",
+  "descriptionEn": "Host nation the United States feature players like Pulisic and McKennie plying their trade in top European leagues. As co-hosts of the 2026 World Cup, the USMNT will look to leverage home advantage for a historic run.",
+  "slug": "united-states",
+  "squad": [],
+  "keyPlayers": []
+}

@@ -1,0 +1,419 @@
+{
+  "id": "por",
+  "nameZh": "葡萄牙",
+  "nameEn": "Portugal",
+  "flagCode": "pt",
+  "confederation": "uefa",
+  "fifaRanking": 5,
+  "worldCupAppearances": 9,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "季军",
+  "group": "K",
+  "coach": {
+    "nameZh": "罗伯托·马丁内斯",
+    "nameEn": "Roberto Martínez"
+  },
+  "descriptionZh": "葡萄牙拥有布鲁诺·费尔南德斯、伯纳多·席尔瓦、莱奥等顶级球员。后C罗时代，马丁内斯打造了一支攻守均衡的球队，实力在世界杯舞台上绝对不容小觑。",
+  "descriptionEn": "Portugal boast elite players like Bruno Fernandes, Bernardo Silva and Leão. In the post-Ronaldo era, Martínez has built a balanced squad that is a genuine threat on the World Cup stage.",
+  "slug": "portugal",
+  "squad": [
+    {
+      "id": "por-1",
+      "nameZh": "迪奥戈·科斯塔",
+      "nameEn": "",
+      "number": 1,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1999-09-19",
+      "club": {
+        "nameZh": "波尔图",
+        "nameEn": ""
+      },
+      "caps": 42,
+      "goals": 0
+    },
+    {
+      "id": "por-2",
+      "nameZh": "尼尔逊·施美度",
+      "nameEn": "",
+      "number": 2,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1993-11-16",
+      "club": {
+        "nameZh": "费内巴切",
+        "nameEn": ""
+      },
+      "caps": 48,
+      "goals": 0
+    },
+    {
+      "id": "por-3",
+      "nameZh": "鲁本·迪亚斯",
+      "nameEn": "",
+      "number": 3,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-05-14",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 74,
+      "goals": 3
+    },
+    {
+      "id": "por-4",
+      "nameZh": "托马斯·阿劳若",
+      "nameEn": "",
+      "number": 4,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-05-16",
+      "club": {
+        "nameZh": "本菲卡",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "por-5",
+      "nameZh": "迪奥戈·达洛特",
+      "nameEn": "",
+      "number": 5,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-03-18",
+      "club": {
+        "nameZh": "曼联",
+        "nameEn": ""
+      },
+      "caps": 33,
+      "goals": 3
+    },
+    {
+      "id": "por-6",
+      "nameZh": "马特乌斯·努内斯",
+      "nameEn": "",
+      "number": 6,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1998-08-27",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 19,
+      "goals": 2
+    },
+    {
+      "id": "por-7",
+      "nameZh": "克里斯蒂亚诺·罗纳尔多（队长）",
+      "nameEn": "",
+      "number": 7,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1985-02-05",
+      "club": {
+        "nameZh": "利雅得胜利",
+        "nameEn": ""
+      },
+      "caps": 226,
+      "goals": 143
+    },
+    {
+      "id": "por-8",
+      "nameZh": "布鲁诺·费尔南德斯",
+      "nameEn": "",
+      "number": 8,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1994-09-08",
+      "club": {
+        "nameZh": "曼联",
+        "nameEn": ""
+      },
+      "caps": 87,
+      "goals": 28
+    },
+    {
+      "id": "por-9",
+      "nameZh": "贡萨洛·拉莫斯",
+      "nameEn": "",
+      "number": 9,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-06-20",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 24,
+      "goals": 10
+    },
+    {
+      "id": "por-10",
+      "nameZh": "贝纳尔多·席尔瓦",
+      "nameEn": "",
+      "number": 10,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1994-08-10",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 107,
+      "goals": 14
+    },
+    {
+      "id": "por-11",
+      "nameZh": "若昂·费利克斯",
+      "nameEn": "",
+      "number": 11,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1999-11-10",
+      "club": {
+        "nameZh": "利雅得胜利",
+        "nameEn": ""
+      },
+      "caps": 52,
+      "goals": 12
+    },
+    {
+      "id": "por-12",
+      "nameZh": "若泽·萨",
+      "nameEn": "",
+      "number": 12,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1993-01-17",
+      "club": {
+        "nameZh": "狼队",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "id": "por-13",
+      "nameZh": "连拿度·维加",
+      "nameEn": "",
+      "number": 13,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-07-29",
+      "club": {
+        "nameZh": "比利亚雷亚尔",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 1
+    },
+    {
+      "id": "por-14",
+      "nameZh": "贡萨洛·伊纳西奥",
+      "nameEn": "",
+      "number": 14,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-08-25",
+      "club": {
+        "nameZh": "葡萄牙葡萄牙体育",
+        "nameEn": ""
+      },
+      "caps": 20,
+      "goals": 2
+    },
+    {
+      "id": "por-15",
+      "nameZh": "祖奥·尼维斯",
+      "nameEn": "",
+      "number": 15,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2004-09-27",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 21,
+      "goals": 3
+    },
+    {
+      "id": "por-16",
+      "nameZh": "弗朗西斯科·特林康",
+      "nameEn": "",
+      "number": 16,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1999-12-29",
+      "club": {
+        "nameZh": "葡萄牙葡萄牙体育",
+        "nameEn": ""
+      },
+      "caps": 17,
+      "goals": 3
+    },
+    {
+      "id": "por-17",
+      "nameZh": "拉斐尔·莱昂",
+      "nameEn": "",
+      "number": 17,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1999-06-10",
+      "club": {
+        "nameZh": "AC米兰",
+        "nameEn": ""
+      },
+      "caps": 43,
+      "goals": 5
+    },
+    {
+      "id": "por-18",
+      "nameZh": "佩德罗·内图",
+      "nameEn": "",
+      "number": 18,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-03-09",
+      "club": {
+        "nameZh": "切尔西",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 2
+    },
+    {
+      "id": "por-19",
+      "nameZh": "贡萨洛·格德斯",
+      "nameEn": "",
+      "number": 19,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1996-11-29",
+      "club": {
+        "nameZh": "皇家社会",
+        "nameEn": ""
+      },
+      "caps": 33,
+      "goals": 7
+    },
+    {
+      "id": "por-20",
+      "nameZh": "若昂·坎塞洛",
+      "nameEn": "",
+      "number": 20,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1994-05-27",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 66,
+      "goals": 12
+    },
+    {
+      "id": "por-21",
+      "nameZh": "鲁本·内维斯",
+      "nameEn": "",
+      "number": 21,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-03-13",
+      "club": {
+        "nameZh": "利雅得新月",
+        "nameEn": ""
+      },
+      "caps": 65,
+      "goals": 1
+    },
+    {
+      "id": "por-22",
+      "nameZh": "鲁伊·席尔瓦",
+      "nameEn": "",
+      "number": 22,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1994-02-07",
+      "club": {
+        "nameZh": "葡萄牙葡萄牙体育",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "por-23",
+      "nameZh": "维蒂尼亚",
+      "nameEn": "",
+      "number": 23,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-02-13",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 37,
+      "goals": 0
+    },
+    {
+      "id": "por-24",
+      "nameZh": "萨穆·科斯塔",
+      "nameEn": "",
+      "number": 24,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-11-27",
+      "club": {
+        "nameZh": "马略卡",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "id": "por-25",
+      "nameZh": "努诺·门德斯",
+      "nameEn": "",
+      "number": 25,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-06-19",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 43,
+      "goals": 1
+    },
+    {
+      "id": "por-26",
+      "nameZh": "弗朗西斯科·孔塞桑",
+      "nameEn": "",
+      "number": 26,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-12-14",
+      "club": {
+        "nameZh": "尤文图斯",
+        "nameEn": ""
+      },
+      "caps": 15,
+      "goals": 3
+    }
+  ],
+  "keyPlayers": [
+    "克里斯蒂亚诺·罗纳尔多（队长）",
+    "贝纳尔多·席尔瓦",
+    "布鲁诺·费尔南德斯",
+    "鲁本·迪亚斯",
+    "若昂·坎塞洛"
+  ]
+}

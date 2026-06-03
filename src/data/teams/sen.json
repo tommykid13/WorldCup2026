@@ -1,0 +1,22 @@
+{
+  "id": "sen",
+  "nameZh": "塞内加尔",
+  "nameEn": "Senegal",
+  "flagCode": "sn",
+  "confederation": "caf",
+  "fifaRanking": 14,
+  "worldCupAppearances": 4,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "八强",
+  "group": "I",
+  "coach": {
+    "nameZh": "帕佩·蒂亚乌",
+    "nameEn": "Pape Thiaw"
+  },
+  "descriptionZh": "塞内加尔在2002年世界杯首秀中晋级八强，震惊了世界。特兰加雄狮拥有萨迪奥·马内等世界级球员，是非洲最具竞争力的球队之一。",
+  "descriptionEn": "Senegal shocked the world by reaching the 2002 quarter-finals in their debut. The Lions of Teranga feature world-class players like Mané and remain one of Africa's most competitive sides.",
+  "slug": "senegal",
+  "squad": [],
+  "keyPlayers": []
+}

@@ -1,0 +1,419 @@
+{
+  "id": "kor",
+  "nameZh": "韩国",
+  "nameEn": "South Korea",
+  "flagCode": "kr",
+  "confederation": "afc",
+  "fifaRanking": 25,
+  "worldCupAppearances": 11,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "殿军",
+  "group": "A",
+  "coach": {
+    "nameZh": "洪明甫",
+    "nameEn": "Hong Myung-bo"
+  },
+  "descriptionZh": "韩国是亚洲足球的传统强队，2002年世界杯获得第四名创造历史。孙兴慜领衔的太极虎在连续11次参加世界杯后，积累了丰富的大赛经验。",
+  "descriptionEn": "South Korea are a traditional Asian powerhouse who made history with a fourth-place finish at the 2002 World Cup. Son Heung-min leads the Taegeuk Warriors, who bring vast tournament experience from 11 consecutive appearances.",
+  "slug": "south-korea",
+  "squad": [
+    {
+      "id": "kor-1",
+      "nameZh": "金承奎",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1990-09-30",
+      "club": {
+        "nameZh": "FC东京",
+        "nameEn": ""
+      },
+      "caps": 85,
+      "goals": 0
+    },
+    {
+      "id": "kor-2",
+      "nameZh": "赵贤祐",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1991-09-25",
+      "club": {
+        "nameZh": "蔚山HD",
+        "nameEn": ""
+      },
+      "caps": 47,
+      "goals": 0
+    },
+    {
+      "id": "kor-3",
+      "nameZh": "宋范根",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1997-10-15",
+      "club": {
+        "nameZh": "全北现代",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "kor-4",
+      "nameZh": "金玟哉",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1996-11-15",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 77,
+      "goals": 4
+    },
+    {
+      "id": "kor-5",
+      "nameZh": "金纹奂",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1995-08-01",
+      "club": {
+        "nameZh": "大田韩亚市民",
+        "nameEn": ""
+      },
+      "caps": 34,
+      "goals": 0
+    },
+    {
+      "id": "kor-6",
+      "nameZh": "薛永祐",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-12-05",
+      "club": {
+        "nameZh": "贝尔格莱德红星",
+        "nameEn": ""
+      },
+      "caps": 32,
+      "goals": 0
+    },
+    {
+      "id": "kor-7",
+      "nameZh": "赵伟济|조위제",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-08-25",
+      "club": {
+        "nameZh": "全北现代",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "kor-8",
+      "nameZh": "李泰锡",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-07-28",
+      "club": {
+        "nameZh": "奥地利维也纳",
+        "nameEn": ""
+      },
+      "caps": 14,
+      "goals": 1
+    },
+    {
+      "id": "kor-9",
+      "nameZh": "朴镇燮",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1995-10-23",
+      "club": {
+        "nameZh": "浙江",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 1
+    },
+    {
+      "id": "kor-10",
+      "nameZh": "金泰炫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-09-17",
+      "club": {
+        "nameZh": "鹿岛鹿角",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "id": "kor-11",
+      "nameZh": "李瀚范",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-06-17",
+      "club": {
+        "nameZh": "中日德兰",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "kor-12",
+      "nameZh": "延斯·卡斯特罗普",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-07-29",
+      "club": {
+        "nameZh": "门兴格拉德巴赫",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "id": "kor-13",
+      "nameZh": "李基赫",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-07-07",
+      "club": {
+        "nameZh": "江原FC",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "kor-14",
+      "nameZh": "李在城",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1992-08-10",
+      "club": {
+        "nameZh": "美因茨",
+        "nameEn": ""
+      },
+      "caps": 103,
+      "goals": 15
+    },
+    {
+      "id": "kor-15",
+      "nameZh": "黄喜灿",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-01-26",
+      "club": {
+        "nameZh": "狼队",
+        "nameEn": ""
+      },
+      "caps": 77,
+      "goals": 16
+    },
+    {
+      "id": "kor-16",
+      "nameZh": "黄仁范",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-09-20",
+      "club": {
+        "nameZh": "费耶诺德",
+        "nameEn": ""
+      },
+      "caps": 71,
+      "goals": 6
+    },
+    {
+      "id": "kor-17",
+      "nameZh": "李刚仁",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-02-19",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 46,
+      "goals": 11
+    },
+    {
+      "id": "kor-18",
+      "nameZh": "白昇浩",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-03-17",
+      "club": {
+        "nameZh": "伯明翰",
+        "nameEn": ""
+      },
+      "caps": 25,
+      "goals": 3
+    },
+    {
+      "id": "kor-19",
+      "nameZh": "金镇圭",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-02-24",
+      "club": {
+        "nameZh": "全北现代",
+        "nameEn": ""
+      },
+      "caps": 20,
+      "goals": 3
+    },
+    {
+      "id": "kor-20",
+      "nameZh": "李东炅",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1997-09-20",
+      "club": {
+        "nameZh": "蔚山HD",
+        "nameEn": ""
+      },
+      "caps": 16,
+      "goals": 3
+    },
+    {
+      "id": "kor-21",
+      "nameZh": "裴俊浩",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-08-21",
+      "club": {
+        "nameZh": "斯托克城",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 2
+    },
+    {
+      "id": "kor-22",
+      "nameZh": "严智星",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-05-09",
+      "club": {
+        "nameZh": "斯旺西",
+        "nameEn": ""
+      },
+      "caps": 8,
+      "goals": 2
+    },
+    {
+      "id": "kor-23",
+      "nameZh": "杨贤俊",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-05-25",
+      "club": {
+        "nameZh": "凯尔特人",
+        "nameEn": ""
+      },
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "id": "kor-24",
+      "nameZh": "孙兴慜（队长）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1992-07-08",
+      "club": {
+        "nameZh": "洛杉矶足球俱乐部",
+        "nameEn": ""
+      },
+      "caps": 142,
+      "goals": 54
+    },
+    {
+      "id": "kor-25",
+      "nameZh": "曹圭成",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-01-25",
+      "club": {
+        "nameZh": "中日德兰",
+        "nameEn": ""
+      },
+      "caps": 42,
+      "goals": 10
+    },
+    {
+      "id": "kor-26",
+      "nameZh": "吴贤揆",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-04-12",
+      "club": {
+        "nameZh": "贝希克塔什",
+        "nameEn": ""
+      },
+      "caps": 26,
+      "goals": 6
+    }
+  ],
+  "keyPlayers": [
+    "孙兴慜（队长）",
+    "李在城",
+    "金承奎",
+    "金玟哉",
+    "黄喜灿"
+  ]
+}

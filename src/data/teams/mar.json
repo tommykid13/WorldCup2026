@@ -1,0 +1,22 @@
+{
+  "id": "mar",
+  "nameZh": "摩洛哥",
+  "nameEn": "Morocco",
+  "flagCode": "ma",
+  "confederation": "caf",
+  "fifaRanking": 8,
+  "worldCupAppearances": 6,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "殿军",
+  "group": "C",
+  "coach": {
+    "nameZh": "瓦利德·雷格拉吉",
+    "nameEn": "Walid Regragui"
+  },
+  "descriptionZh": "摩洛哥在2022年世界杯上创造历史成为首支晋级四强的非洲球队。阿什拉夫、齐耶赫等球星领衔的阿特拉斯雄狮实力强劲，在雷格拉吉的带领下继续追求突破。",
+  "descriptionEn": "Morocco made history at the 2022 World Cup by becoming the first African nation to reach the semi-finals. Led by stars like Hakimi and Ziyech under Regragui, the Atlas Lions continue to push boundaries.",
+  "slug": "morocco",
+  "squad": [],
+  "keyPlayers": []
+}

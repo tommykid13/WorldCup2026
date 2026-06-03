@@ -1,0 +1,22 @@
+{
+  "id": "col",
+  "nameZh": "哥伦比亚",
+  "nameEn": "Colombia",
+  "flagCode": "co",
+  "confederation": "conmebol",
+  "fifaRanking": 13,
+  "worldCupAppearances": 7,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "八强",
+  "group": "K",
+  "coach": {
+    "nameZh": "内斯托尔·洛伦索",
+    "nameEn": "Néstor Lorenzo"
+  },
+  "descriptionZh": "哥伦比亚在南美区预选赛中表现稳定，连续晋级世界杯。洛伦索执教下的咖啡军团技术出色，路易斯·迪亚斯是球队的进攻核心。",
+  "descriptionEn": "Colombia have been consistent performers in South American qualifying. Lorenzo's side are technically gifted, with Luis Díaz serving as the attacking talisman for the Cafeteros.",
+  "slug": "colombia",
+  "squad": [],
+  "keyPlayers": []
+}

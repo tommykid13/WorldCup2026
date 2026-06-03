@@ -1,0 +1,424 @@
+{
+  "id": "ger",
+  "nameZh": "德国",
+  "nameEn": "Germany",
+  "flagCode": "de",
+  "confederation": "uefa",
+  "fifaRanking": 10,
+  "worldCupAppearances": 20,
+  "worldCupTitles": 4,
+  "worldCupTitleYears": [
+    1954,
+    1974,
+    1990,
+    2014
+  ],
+  "bestResult": "冠军",
+  "group": "E",
+  "coach": {
+    "nameZh": "尤利安·纳格尔斯曼",
+    "nameEn": "Julian Nagelsmann"
+  },
+  "descriptionZh": "四届世界杯冠军德国队在经历了近两届世界杯的低谷后正努力重返巅峰。纳格尔斯曼率领的日耳曼战车拥有穆西亚拉、维尔茨等天才球员，力图在北美重塑辉煌。",
+  "descriptionEn": "Four-time World Cup champions Germany are fighting to return to the summit after recent tournament disappointments. Nagelsmann's side feature wunderkinder like Musiala and Wirtz as Die Mannschaft aim to reclaim their throne.",
+  "slug": "germany",
+  "squad": [
+    {
+      "id": "ger-1",
+      "nameZh": "曼努埃尔·诺伊尔",
+      "nameEn": "",
+      "number": 1,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1986-03-27",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 124,
+      "goals": 0
+    },
+    {
+      "id": "ger-2",
+      "nameZh": "安东尼奥·吕迪格",
+      "nameEn": "",
+      "number": 2,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1993-03-03",
+      "club": {
+        "nameZh": "皇家马德里",
+        "nameEn": ""
+      },
+      "caps": 82,
+      "goals": 3
+    },
+    {
+      "id": "ger-3",
+      "nameZh": "瓦尔德马·安东",
+      "nameEn": "",
+      "number": 3,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1996-07-20",
+      "club": {
+        "nameZh": "多特蒙德",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "id": "ger-4",
+      "nameZh": "庄拿芬·泰希",
+      "nameEn": "",
+      "number": 4,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1996-02-11",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 46,
+      "goals": 1
+    },
+    {
+      "id": "ger-5",
+      "nameZh": "亚历山大·帕夫洛维奇",
+      "nameEn": "",
+      "number": 5,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2004-05-03",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "id": "ger-6",
+      "nameZh": "约书亚·基米希（队长）",
+      "nameEn": "",
+      "number": 6,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1995-02-08",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 109,
+      "goals": 11
+    },
+    {
+      "id": "ger-7",
+      "nameZh": "凯·哈弗茨",
+      "nameEn": "",
+      "number": 7,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1999-06-11",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 57,
+      "goals": 21
+    },
+    {
+      "id": "ger-8",
+      "nameZh": "莱昂·戈雷茨卡",
+      "nameEn": "",
+      "number": 8,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1995-02-06",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 69,
+      "goals": 15
+    },
+    {
+      "id": "ger-9",
+      "nameZh": "杰米·莱韦林",
+      "nameEn": "",
+      "number": 9,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-02-26",
+      "club": {
+        "nameZh": "斯图加特",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 1
+    },
+    {
+      "id": "ger-10",
+      "nameZh": "贾马尔·穆西亚拉",
+      "nameEn": "",
+      "number": 10,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-02-26",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 41,
+      "goals": 9
+    },
+    {
+      "id": "ger-11",
+      "nameZh": "尼克·沃尔特马德",
+      "nameEn": "",
+      "number": 11,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-02-14",
+      "club": {
+        "nameZh": "纽卡斯尔联",
+        "nameEn": ""
+      },
+      "caps": 11,
+      "goals": 4
+    },
+    {
+      "id": "ger-12",
+      "nameZh": "奥利弗·鲍曼",
+      "nameEn": "",
+      "number": 12,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1990-06-02",
+      "club": {
+        "nameZh": "霍芬海姆",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "id": "ger-13",
+      "nameZh": "柏斯高·哥斯",
+      "nameEn": "",
+      "number": 13,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1991-06-15",
+      "club": {
+        "nameZh": "布赖顿",
+        "nameEn": ""
+      },
+      "caps": 18,
+      "goals": 1
+    },
+    {
+      "id": "ger-14",
+      "nameZh": "马克西米利安·拜尔",
+      "nameEn": "",
+      "number": 14,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-10-17",
+      "club": {
+        "nameZh": "多特蒙德",
+        "nameEn": ""
+      },
+      "caps": 8,
+      "goals": 0
+    },
+    {
+      "id": "ger-15",
+      "nameZh": "尼科·施洛特贝克",
+      "nameEn": "",
+      "number": 15,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-12-01",
+      "club": {
+        "nameZh": "多特蒙德",
+        "nameEn": ""
+      },
+      "caps": 26,
+      "goals": 0
+    },
+    {
+      "id": "ger-16",
+      "nameZh": "安杰洛·施蒂勒",
+      "nameEn": "",
+      "number": 16,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-04-04",
+      "club": {
+        "nameZh": "斯图加特",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 0
+    },
+    {
+      "id": "ger-17",
+      "nameZh": "弗洛里安·维尔茨",
+      "nameEn": "",
+      "number": 17,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-05-03",
+      "club": {
+        "nameZh": "利物浦",
+        "nameEn": ""
+      },
+      "caps": 40,
+      "goals": 11
+    },
+    {
+      "id": "ger-18",
+      "nameZh": "纳撒尼尔·布朗",
+      "nameEn": "",
+      "number": 18,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-06-16",
+      "club": {
+        "nameZh": "法兰克福",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "id": "ger-19",
+      "nameZh": "勒鲁瓦·萨内",
+      "nameEn": "",
+      "number": 19,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-01-11",
+      "club": {
+        "nameZh": "加拉塔萨雷",
+        "nameEn": ""
+      },
+      "caps": 75,
+      "goals": 16
+    },
+    {
+      "id": "ger-20",
+      "nameZh": "纳迪姆·阿米里",
+      "nameEn": "",
+      "number": 20,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-10-27",
+      "club": {
+        "nameZh": "美因茨",
+        "nameEn": ""
+      },
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "id": "ger-21",
+      "nameZh": "亚历山大·尼贝尔",
+      "nameEn": "",
+      "number": 21,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1996-09-30",
+      "club": {
+        "nameZh": "斯图加特",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "ger-22",
+      "nameZh": "达维德·劳姆",
+      "nameEn": "",
+      "number": 22,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-04-22",
+      "club": {
+        "nameZh": "莱比锡红牛",
+        "nameEn": ""
+      },
+      "caps": 36,
+      "goals": 1
+    },
+    {
+      "id": "ger-23",
+      "nameZh": "费利克斯·恩梅查",
+      "nameEn": "",
+      "number": 23,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-10-10",
+      "club": {
+        "nameZh": "多特蒙德",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 1
+    },
+    {
+      "id": "ger-24",
+      "nameZh": "马利克·乔",
+      "nameEn": "",
+      "number": 24,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-08-08",
+      "club": {
+        "nameZh": "纽卡斯尔联",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "id": "ger-25",
+      "nameZh": "伦纳特·卡尔",
+      "nameEn": "",
+      "number": 25,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2008-02-22",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "ger-26",
+      "nameZh": "德尼兹·温达夫",
+      "nameEn": "",
+      "number": 26,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1996-07-19",
+      "club": {
+        "nameZh": "斯图加特",
+        "nameEn": ""
+      },
+      "caps": 8,
+      "goals": 6
+    }
+  ],
+  "keyPlayers": [
+    "曼努埃尔·诺伊尔",
+    "约书亚·基米希（队长）",
+    "安东尼奥·吕迪格",
+    "勒鲁瓦·萨内",
+    "莱昂·戈雷茨卡"
+  ]
+}

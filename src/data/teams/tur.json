@@ -1,0 +1,22 @@
+{
+  "id": "tur",
+  "nameZh": "土耳其",
+  "nameEn": "Turkey",
+  "flagCode": "tr",
+  "confederation": "uefa",
+  "fifaRanking": 22,
+  "worldCupAppearances": 2,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "季军",
+  "group": "D",
+  "coach": {
+    "nameZh": "温琴佐·蒙特拉",
+    "nameEn": "Vincenzo Montella"
+  },
+  "descriptionZh": "土耳其在2002年世界杯上获得季军，是该国足球最辉煌的时刻。蒙特拉执教下的星月军团充满激情，在2024年欧洲杯上展现了不俗的实力。",
+  "descriptionEn": "Turkey's third-place finish at the 2002 World Cup remains their finest footballing moment. Montella's Crescent-Stars play with passion and showed quality at Euro 2024.",
+  "slug": "turkey",
+  "squad": [],
+  "keyPlayers": []
+}

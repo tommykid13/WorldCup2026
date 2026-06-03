@@ -1,0 +1,22 @@
+{
+  "id": "cro",
+  "nameZh": "克罗地亚",
+  "nameEn": "Croatia",
+  "flagCode": "hr",
+  "confederation": "uefa",
+  "fifaRanking": 11,
+  "worldCupAppearances": 7,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "亚军",
+  "group": "L",
+  "coach": {
+    "nameZh": "兹拉特科·达利奇",
+    "nameEn": "Zlatko Dalić"
+  },
+  "descriptionZh": "克罗地亚在最近两届世界杯中分别获得亚军和季军，展现了惊人的稳定性。莫德里奇领衔的格子军团拥有丰富的大赛经验和出色的中场控制力。",
+  "descriptionEn": "Croatia reached the final in 2018 and finished third in 2022, showing remarkable consistency. Modrić's Vatreni possess vast tournament experience and outstanding midfield control under Dalić.",
+  "slug": "croatia",
+  "squad": [],
+  "keyPlayers": []
+}

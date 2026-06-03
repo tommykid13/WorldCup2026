@@ -1,0 +1,422 @@
+{
+  "id": "fra",
+  "nameZh": "法国",
+  "nameEn": "France",
+  "flagCode": "fr",
+  "confederation": "uefa",
+  "fifaRanking": 1,
+  "worldCupAppearances": 16,
+  "worldCupTitles": 2,
+  "worldCupTitleYears": [
+    1998,
+    2018
+  ],
+  "bestResult": "冠军",
+  "group": "I",
+  "coach": {
+    "nameZh": "迪迪埃·德尚",
+    "nameEn": "Didier Deschamps"
+  },
+  "descriptionZh": "法国队是近年来世界足坛最稳定的强队之一，拥有姆巴佩等超级巨星。德尚执教下的高卢雄鸡阵容深度惊人，连续三届世界杯杀入决赛是他们实力的最佳证明。",
+  "descriptionEn": "France have been one of the most consistently dominant teams in world football, featuring superstars like Mbappé. Under Deschamps, Les Bleus possess remarkable squad depth, having reached the last three World Cup finals.",
+  "slug": "france",
+  "squad": [
+    {
+      "id": "fra-1",
+      "nameZh": "麦克·麦尼安",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1995-07-03",
+      "club": {
+        "nameZh": "AC米兰",
+        "nameEn": ""
+      },
+      "caps": 38,
+      "goals": 0
+    },
+    {
+      "id": "fra-2",
+      "nameZh": "布里斯·桑巴",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1994-04-25",
+      "club": {
+        "nameZh": "雷恩",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "id": "fra-3",
+      "nameZh": "罗班·里塞",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2004-12-02",
+      "club": {
+        "nameZh": "朗斯",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "fra-4",
+      "nameZh": "卢卡斯·迪尼",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1993-07-20",
+      "club": {
+        "nameZh": "阿斯顿维拉",
+        "nameEn": ""
+      },
+      "caps": 56,
+      "goals": 0
+    },
+    {
+      "id": "fra-5",
+      "nameZh": "朱尔·昆代",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-11-12",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 46,
+      "goals": 0
+    },
+    {
+      "id": "fra-6",
+      "nameZh": "迪奥·埃尔南德斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-10-06",
+      "club": {
+        "nameZh": "艾希拉尔",
+        "nameEn": ""
+      },
+      "caps": 42,
+      "goals": 2
+    },
+    {
+      "id": "fra-7",
+      "nameZh": "卢卡斯·埃尔南德斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1996-02-14",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 41,
+      "goals": 0
+    },
+    {
+      "id": "fra-8",
+      "nameZh": "达约·乌帕梅卡诺",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1998-10-27",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 36,
+      "goals": 2
+    },
+    {
+      "id": "fra-9",
+      "nameZh": "威廉·萨利巴",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-03-24",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 31,
+      "goals": 0
+    },
+    {
+      "id": "fra-10",
+      "nameZh": "易卜拉希马·科纳特",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-05-25",
+      "club": {
+        "nameZh": "利物浦",
+        "nameEn": ""
+      },
+      "caps": 27,
+      "goals": 0
+    },
+    {
+      "id": "fra-11",
+      "nameZh": "马洛·古斯托",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-05-19",
+      "club": {
+        "nameZh": "切尔西",
+        "nameEn": ""
+      },
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "id": "fra-12",
+      "nameZh": "马克桑斯·拉克鲁瓦",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-04-06",
+      "club": {
+        "nameZh": "水晶宫",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "fra-13",
+      "nameZh": "尼高路·简迪",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1991-03-29",
+      "club": {
+        "nameZh": "费内巴切",
+        "nameEn": ""
+      },
+      "caps": 67,
+      "goals": 2
+    },
+    {
+      "id": "fra-14",
+      "nameZh": "阿德里安·拉比奥",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1995-04-03",
+      "club": {
+        "nameZh": "AC米兰",
+        "nameEn": ""
+      },
+      "caps": 57,
+      "goals": 7
+    },
+    {
+      "id": "fra-15",
+      "nameZh": "奥雷利安·楚阿梅尼",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-01-27",
+      "club": {
+        "nameZh": "皇家马德里",
+        "nameEn": ""
+      },
+      "caps": 44,
+      "goals": 3
+    },
+    {
+      "id": "fra-16",
+      "nameZh": "马努·科内",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2001-05-17",
+      "club": {
+        "nameZh": "罗马",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "id": "fra-17",
+      "nameZh": "瓦朗·扎伊尔-埃梅里",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2006-03-08",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "id": "fra-18",
+      "nameZh": "基利安·姆巴佩（队长）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-12-20",
+      "club": {
+        "nameZh": "皇家马德里",
+        "nameEn": ""
+      },
+      "caps": 96,
+      "goals": 56
+    },
+    {
+      "id": "fra-19",
+      "nameZh": "奥斯曼·登贝莱",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-05-15",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 58,
+      "goals": 7
+    },
+    {
+      "id": "fra-20",
+      "nameZh": "马库斯·图拉姆",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-08-06",
+      "club": {
+        "nameZh": "国际米兰",
+        "nameEn": ""
+      },
+      "caps": 33,
+      "goals": 3
+    },
+    {
+      "id": "fra-21",
+      "nameZh": "巴特利·巴高拿",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-09-02",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 18,
+      "goals": 3
+    },
+    {
+      "id": "fra-22",
+      "nameZh": "米高·奥利斯",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-12-12",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 15,
+      "goals": 4
+    },
+    {
+      "id": "fra-23",
+      "nameZh": "马格内斯·阿克利乌什",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-02-25",
+      "club": {
+        "nameZh": "摩纳哥",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 1
+    },
+    {
+      "id": "fra-24",
+      "nameZh": "德西雷·杜埃",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2005-06-03",
+      "club": {
+        "nameZh": "巴黎圣日耳曼",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 2
+    },
+    {
+      "id": "fra-25",
+      "nameZh": "拉延·谢尔基",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2003-08-17",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 1
+    },
+    {
+      "id": "fra-26",
+      "nameZh": "让-菲利普·马特塔",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-06-28",
+      "club": {
+        "nameZh": "水晶宫",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 2
+    }
+  ],
+  "keyPlayers": [
+    "基利安·姆巴佩（队长）",
+    "尼高路·简迪",
+    "奥斯曼·登贝莱",
+    "阿德里安·拉比奥",
+    "卢卡斯·迪尼"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "cze",
+  "nameZh": "捷克",
+  "nameEn": "Czech Republic",
+  "flagCode": "cz",
+  "confederation": "uefa",
+  "fifaRanking": 41,
+  "worldCupAppearances": 1,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "coach": {
+    "nameZh": "伊万·哈谢克",
+    "nameEn": "Ivan Hašek"
+  },
+  "descriptionZh": "捷克作为独立国家首次晋级世界杯决赛圈（前身为捷克斯洛伐克曾两次进入决赛）。东欧铁骑拥有扎实的战术素养和出色的球员储备。",
+  "descriptionEn": "The Czech Republic qualify for their first World Cup as an independent nation (Czechoslovakia reached two finals). They possess tactical discipline and quality players.",
+  "slug": "czech-republic",
+  "group": "A",
+  "squad": [],
+  "keyPlayers": []
+}

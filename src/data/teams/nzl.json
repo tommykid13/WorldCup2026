@@ -1,0 +1,419 @@
+{
+  "id": "nzl",
+  "nameZh": "新西兰",
+  "nameEn": "New Zealand",
+  "flagCode": "nz",
+  "confederation": "ofc",
+  "fifaRanking": 85,
+  "worldCupAppearances": 3,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "group": "G",
+  "coach": {
+    "nameZh": "达伦·巴兹利",
+    "nameEn": "Darren Bazeley"
+  },
+  "descriptionZh": "新西兰是大洋洲足球的代表，凭借出色的身体素质和团队精神晋级世界杯。全白队虽然实力有限，但从不缺乏拼搏精神。",
+  "descriptionEn": "New Zealand represent Oceania football and qualified through their region. The All Whites may have limited resources but never lack fighting spirit and determination on the world stage.",
+  "slug": "new-zealand",
+  "squad": [
+    {
+      "id": "nzl-1",
+      "nameZh": "麦斯·克罗康比",
+      "nameEn": "",
+      "number": 1,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1993-08-12",
+      "club": {
+        "nameZh": "米禾尔",
+        "nameEn": ""
+      },
+      "caps": 22,
+      "goals": 0
+    },
+    {
+      "id": "nzl-2",
+      "nameZh": "添·佩恩",
+      "nameEn": "",
+      "number": 2,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1994-01-10",
+      "club": {
+        "nameZh": "威灵顿凤凰",
+        "nameEn": ""
+      },
+      "caps": 49,
+      "goals": 3
+    },
+    {
+      "id": "nzl-3",
+      "nameZh": "法兰西斯·迪维利斯",
+      "nameEn": "",
+      "number": 3,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1994-11-28",
+      "club": {
+        "nameZh": "奥克兰足球俱乐部",
+        "nameEn": ""
+      },
+      "caps": 18,
+      "goals": 1
+    },
+    {
+      "id": "nzl-4",
+      "nameZh": "泰勒·宾顿",
+      "nameEn": "",
+      "number": 4,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2005-01-27",
+      "club": {
+        "nameZh": "谢菲尔德联",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 3
+    },
+    {
+      "id": "nzl-5",
+      "nameZh": "迈克·伯克萨尔",
+      "nameEn": "",
+      "number": 5,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1988-08-18",
+      "club": {
+        "nameZh": "明尼苏达联",
+        "nameEn": ""
+      },
+      "caps": 61,
+      "goals": 1
+    },
+    {
+      "id": "nzl-6",
+      "nameZh": "祖·贝尔",
+      "nameEn": "",
+      "number": 6,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-04-27",
+      "club": {
+        "nameZh": "维京",
+        "nameEn": ""
+      },
+      "caps": 31,
+      "goals": 1
+    },
+    {
+      "id": "nzl-7",
+      "nameZh": "马修·加比特",
+      "nameEn": "",
+      "number": 7,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-04-13",
+      "club": {
+        "nameZh": "彼德堡",
+        "nameEn": ""
+      },
+      "caps": 35,
+      "goals": 5
+    },
+    {
+      "id": "nzl-8",
+      "nameZh": "马高·史达文历",
+      "nameEn": "",
+      "number": 8,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-02-19",
+      "club": {
+        "nameZh": "斯旺西",
+        "nameEn": ""
+      },
+      "caps": 37,
+      "goals": 3
+    },
+    {
+      "id": "nzl-9",
+      "nameZh": "基斯·活特（队长）",
+      "nameEn": "",
+      "number": 9,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1991-12-07",
+      "club": {
+        "nameZh": "诺丁汉森林",
+        "nameEn": ""
+      },
+      "caps": 88,
+      "goals": 45
+    },
+    {
+      "id": "nzl-10",
+      "nameZh": "萨普里特·曾加",
+      "nameEn": "",
+      "number": 10,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-02-20",
+      "club": {
+        "nameZh": "威灵顿凤凰",
+        "nameEn": ""
+      },
+      "caps": 26,
+      "goals": 3
+    },
+    {
+      "id": "nzl-11",
+      "nameZh": "伊利亚·贾斯特",
+      "nameEn": "",
+      "number": 11,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2000-05-01",
+      "club": {
+        "nameZh": "马瑟韦尔",
+        "nameEn": ""
+      },
+      "caps": 42,
+      "goals": 9
+    },
+    {
+      "id": "nzl-12",
+      "nameZh": "阿历斯·保臣",
+      "nameEn": "",
+      "number": 12,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2002-07-04",
+      "club": {
+        "nameZh": "格但斯克莱吉亚",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "nzl-13",
+      "nameZh": "利贝拉托·卡卡切",
+      "nameEn": "",
+      "number": 13,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-09-27",
+      "club": {
+        "nameZh": "域斯咸",
+        "nameEn": ""
+      },
+      "caps": 35,
+      "goals": 1
+    },
+    {
+      "id": "nzl-14",
+      "nameZh": "阿历斯·鲁费尔",
+      "nameEn": "",
+      "number": 14,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1996-06-12",
+      "club": {
+        "nameZh": "威灵顿凤凰",
+        "nameEn": ""
+      },
+      "caps": 24,
+      "goals": 0
+    },
+    {
+      "id": "nzl-15",
+      "nameZh": "南度·皮纳克",
+      "nameEn": "",
+      "number": 15,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-02-25",
+      "club": {
+        "nameZh": "奥克兰足球俱乐部",
+        "nameEn": ""
+      },
+      "caps": 23,
+      "goals": 0
+    },
+    {
+      "id": "nzl-16",
+      "nameZh": "芬·苏文",
+      "nameEn": "",
+      "number": 16,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-09-23",
+      "club": {
+        "nameZh": "波特兰伐木者",
+        "nameEn": ""
+      },
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "id": "nzl-17",
+      "nameZh": "科斯塔·巴巴路西斯",
+      "nameEn": "",
+      "number": 17,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1990-02-19",
+      "club": {
+        "nameZh": "西悉尼流浪者",
+        "nameEn": ""
+      },
+      "caps": 74,
+      "goals": 10
+    },
+    {
+      "id": "nzl-18",
+      "nameZh": "宾·韦恩",
+      "nameEn": "",
+      "number": 18,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-06-11",
+      "club": {
+        "nameZh": "维尔港",
+        "nameEn": ""
+      },
+      "caps": 30,
+      "goals": 9
+    },
+    {
+      "id": "nzl-19",
+      "nameZh": "宾·奥特",
+      "nameEn": "",
+      "number": 19,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-08-13",
+      "club": {
+        "nameZh": "圣艾蒂安",
+        "nameEn": ""
+      },
+      "caps": 22,
+      "goals": 2
+    },
+    {
+      "id": "nzl-20",
+      "nameZh": "卡伦·麦高华",
+      "nameEn": "",
+      "number": 20,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-04-30",
+      "club": {
+        "nameZh": "锡尔克堡",
+        "nameEn": ""
+      },
+      "caps": 30,
+      "goals": 4
+    },
+    {
+      "id": "nzl-21",
+      "nameZh": "谢西·兰德尔",
+      "nameEn": "",
+      "number": 21,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2002-08-19",
+      "club": {
+        "nameZh": "奥克兰足球俱乐部",
+        "nameEn": ""
+      },
+      "caps": 9,
+      "goals": 2
+    },
+    {
+      "id": "nzl-22",
+      "nameZh": "米高·活特",
+      "nameEn": "",
+      "number": 22,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1999-01-16",
+      "club": {
+        "nameZh": "奥克兰足球俱乐部",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "nzl-23",
+      "nameZh": "赖恩·汤马士",
+      "nameEn": "",
+      "number": 23,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1994-12-20",
+      "club": {
+        "nameZh": "PEC施禾利",
+        "nameEn": ""
+      },
+      "caps": 25,
+      "goals": 3
+    },
+    {
+      "id": "nzl-24",
+      "nameZh": "卡伦·艾利洛",
+      "nameEn": "",
+      "number": 24,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-07-07",
+      "club": {
+        "nameZh": "奥克兰足球俱乐部",
+        "nameEn": ""
+      },
+      "caps": 9,
+      "goals": 0
+    },
+    {
+      "id": "nzl-25",
+      "nameZh": "拉克兰·贝利斯",
+      "nameEn": "",
+      "number": 25,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-07-24",
+      "club": {
+        "nameZh": "纽卡斯尔喷射机",
+        "nameEn": ""
+      },
+      "caps": 2,
+      "goals": 0
+    },
+    {
+      "id": "nzl-26",
+      "nameZh": "汤米·史密斯",
+      "nameEn": "",
+      "number": 26,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1990-03-31",
+      "club": {
+        "nameZh": "布伦特里",
+        "nameEn": ""
+      },
+      "caps": 56,
+      "goals": 2
+    }
+  ],
+  "keyPlayers": [
+    "基斯·活特（队长）",
+    "科斯塔·巴巴路西斯",
+    "迈克·伯克萨尔",
+    "汤米·史密斯",
+    "添·佩恩"
+  ]
+}

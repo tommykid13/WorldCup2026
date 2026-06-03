@@ -1,0 +1,22 @@
+{
+  "id": "par",
+  "nameZh": "巴拉圭",
+  "nameEn": "Paraguay",
+  "flagCode": "py",
+  "confederation": "conmebol",
+  "fifaRanking": 40,
+  "worldCupAppearances": 11,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "八强",
+  "group": "D",
+  "coach": {
+    "nameZh": "古斯塔沃·阿尔法罗",
+    "nameEn": "Gustavo Alfaro"
+  },
+  "descriptionZh": "巴拉圭以顽强的防守和坚韧的意志著称，曾在2010年世界杯晋级八强。阿尔法罗执教下的瓜拉尼军团凭借出色的预选赛表现重返世界杯舞台。",
+  "descriptionEn": "Paraguay are renowned for their tenacious defending and indomitable spirit, having reached the 2010 quarter-finals. Alfaro's Guaraní secured their return to the World Cup through a strong qualifying campaign.",
+  "slug": "paraguay",
+  "squad": [],
+  "keyPlayers": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "aut",
+  "nameZh": "奥地利",
+  "nameEn": "Austria",
+  "flagCode": "at",
+  "confederation": "uefa",
+  "fifaRanking": 24,
+  "worldCupAppearances": 8,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "季军",
+  "group": "J",
+  "coach": {
+    "nameZh": "拉尔夫·朗尼克",
+    "nameEn": "Ralf Rangnick"
+  },
+  "descriptionZh": "奥地利在朗尼克的执教下焕然一新，高强度压迫的战术风格令人耳目一新。阿拉巴、萨比策等球员领衔的奥地利队在欧洲赛场表现出色。",
+  "descriptionEn": "Austria have been revitalized under Rangnick's high-intensity pressing system. Led by players like Alaba and Sabitzer, the Austrian side has impressed on the European stage.",
+  "slug": "austria",
+  "squad": [],
+  "keyPlayers": []
+}

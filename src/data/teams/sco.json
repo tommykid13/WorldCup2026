@@ -1,0 +1,22 @@
+{
+  "id": "sco",
+  "nameZh": "苏格兰",
+  "nameEn": "Scotland",
+  "flagCode": "gb-sct",
+  "confederation": "uefa",
+  "fifaRanking": 43,
+  "worldCupAppearances": 8,
+  "worldCupTitles": 0,
+  "worldCupTitleYears": [],
+  "bestResult": "小组赛",
+  "coach": {
+    "nameZh": "史蒂夫·克拉克",
+    "nameEn": "Steve Clarke"
+  },
+  "descriptionZh": "苏格兰是足球历史悠久的国家之一，曾8次参加世界杯。克拉克执教下的苏格兰队以坚韧的防守和团队精神著称，时隔多年重返世界舞台。",
+  "descriptionEn": "Scotland are one of football's oldest nations with 8 World Cup appearances. Clarke's side are known for resilient defending and team spirit, returning to the world stage.",
+  "slug": "scotland",
+  "group": "C",
+  "squad": [],
+  "keyPlayers": []
+}

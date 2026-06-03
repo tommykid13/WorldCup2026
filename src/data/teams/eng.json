@@ -1,0 +1,436 @@
+{
+  "id": "eng",
+  "nameZh": "英格兰",
+  "nameEn": "England",
+  "flagCode": "gb-eng",
+  "confederation": "uefa",
+  "fifaRanking": 4,
+  "worldCupAppearances": 16,
+  "worldCupTitles": 1,
+  "worldCupTitleYears": [
+    1966
+  ],
+  "bestResult": "冠军",
+  "group": "L",
+  "coach": {
+    "nameZh": "托马斯·图赫尔",
+    "nameEn": "Thomas Tuchel"
+  },
+  "descriptionZh": "1966年世界杯冠军英格兰队拥有贝林厄姆、萨卡、福登等一众天才球员。图赫尔接手三狮军团后，英格兰球迷对终结冠军荒充满期待。",
+  "descriptionEn": "The 1966 World Cup champions England boast a generation of prodigious talent including Bellingham, Saka and Foden. With Tuchel now at the helm, Three Lions fans dare to dream of ending their long trophy drought.",
+  "slug": "england",
+  "squad": [
+    {
+      "id": "eng-1",
+      "nameZh": "乔丹·皮克福德（Jordan Pickford）",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1994-03-07",
+      "club": {
+        "nameZh": "埃弗顿",
+        "nameEn": ""
+      },
+      "caps": 82,
+      "goals": 0
+    },
+    {
+      "id": "eng-2",
+      "nameZh": "迪恩·亨德森（Dean Henderson）",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "1997-03-12",
+      "club": {
+        "nameZh": "水晶宫",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "id": "eng-3",
+      "nameZh": "詹姆斯·特拉福德（James Trafford）",
+      "nameEn": "",
+      "number": 0,
+      "position": "GK",
+      "positionZh": "门将",
+      "dateOfBirth": "2002-10-10",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 0,
+      "goals": 0
+    },
+    {
+      "id": "eng-4",
+      "nameZh": "约翰·斯通斯（John Stones）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1994-05-28",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 87,
+      "goals": 3
+    },
+    {
+      "id": "eng-5",
+      "nameZh": "马克·盖希（Marc Guéhi）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-07-13",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 27,
+      "goals": 1
+    },
+    {
+      "id": "eng-6",
+      "nameZh": "里斯·詹姆斯（Reece James）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1999-12-08",
+      "club": {
+        "nameZh": "切尔西",
+        "nameEn": ""
+      },
+      "caps": 22,
+      "goals": 1
+    },
+    {
+      "id": "eng-7",
+      "nameZh": "埃兹里·孔萨（Ezri Konsa）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1997-10-23",
+      "club": {
+        "nameZh": "阿斯顿维拉",
+        "nameEn": ""
+      },
+      "caps": 18,
+      "goals": 1
+    },
+    {
+      "id": "eng-8",
+      "nameZh": "丹·巴恩（Dan Burn）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "1992-05-09",
+      "club": {
+        "nameZh": "纽卡斯尔",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "eng-9",
+      "nameZh": "蒂诺·利夫拉门托（Tino Livramento）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2002-11-12",
+      "club": {
+        "nameZh": "纽卡斯尔]",
+        "nameEn": ""
+      },
+      "caps": 5,
+      "goals": 0
+    },
+    {
+      "id": "eng-10",
+      "nameZh": "迪杰德·斯宾斯（Djed Spence）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2000-08-09",
+      "club": {
+        "nameZh": "热刺",
+        "nameEn": ""
+      },
+      "caps": 4,
+      "goals": 0
+    },
+    {
+      "id": "eng-11",
+      "nameZh": "尼高·奥华利（Nico O'Reilly）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2005-03-21",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 3,
+      "goals": 0
+    },
+    {
+      "id": "eng-12",
+      "nameZh": "贾雷尔·昆沙（Jarell Quansah）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2003-01-29",
+      "club": {
+        "nameZh": "勒沃库森",
+        "nameEn": ""
+      },
+      "caps": 1,
+      "goals": 0
+    },
+    {
+      "id": "eng-13",
+      "nameZh": "乔丹·亨德森（Jordan Henderson）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1990-06-17",
+      "club": {
+        "nameZh": "布伦特福德",
+        "nameEn": ""
+      },
+      "caps": 89,
+      "goals": 3
+    },
+    {
+      "id": "eng-14",
+      "nameZh": "德克兰·赖斯（Declan Rice）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1999-01-14",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 72,
+      "goals": 6
+    },
+    {
+      "id": "eng-15",
+      "nameZh": "祖德·贝林厄姆（Jude Bellingham）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2003-06-29",
+      "club": {
+        "nameZh": "皇家马德里",
+        "nameEn": ""
+      },
+      "caps": 46,
+      "goals": 6
+    },
+    {
+      "id": "eng-16",
+      "nameZh": "摩根·罗杰斯（Morgan Rogers）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-07-26",
+      "club": {
+        "nameZh": "阿斯顿维拉",
+        "nameEn": ""
+      },
+      "caps": 13,
+      "goals": 1
+    },
+    {
+      "id": "eng-17",
+      "nameZh": "科比·梅努（Kobbie Mainoo）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2005-04-19",
+      "club": {
+        "nameZh": "曼联",
+        "nameEn": ""
+      },
+      "caps": 12,
+      "goals": 0
+    },
+    {
+      "id": "eng-18",
+      "nameZh": "埃利奥特·安德森（Elliot Anderson）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "2002-11-06",
+      "club": {
+        "nameZh": "诺丁汉森林",
+        "nameEn": ""
+      },
+      "caps": 6,
+      "goals": 0
+    },
+    {
+      "id": "eng-19",
+      "nameZh": "哈里·凯恩（Harry Kane）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1993-07-28",
+      "club": {
+        "nameZh": "拜仁慕尼黑",
+        "nameEn": ""
+      },
+      "caps": 112,
+      "goals": 78
+    },
+    {
+      "id": "eng-20",
+      "nameZh": "马库斯·拉什福德（Marcus Rashford）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1997-10-31",
+      "club": {
+        "nameZh": "巴塞罗那",
+        "nameEn": ""
+      },
+      "caps": 70,
+      "goals": 18
+    },
+    {
+      "id": "eng-21",
+      "nameZh": "布卡约·萨卡（Bukayo Saka）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2001-09-05",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 48,
+      "goals": 14
+    },
+    {
+      "id": "eng-22",
+      "nameZh": "菲尔·福登（Phil Foden）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "2000-05-28",
+      "club": {
+        "nameZh": "曼城",
+        "nameEn": ""
+      },
+      "caps": 47,
+      "goals": 4
+    },
+    {
+      "id": "eng-23",
+      "nameZh": "奥利·沃特金斯（Ollie Watkins）",
+      "nameEn": "",
+      "number": 0,
+      "position": "MF",
+      "positionZh": "中场",
+      "dateOfBirth": "1995-12-30",
+      "club": {
+        "nameZh": "阿斯顿维拉",
+        "nameEn": ""
+      },
+      "caps": 20,
+      "goals": 6
+    },
+    {
+      "id": "eng-24",
+      "nameZh": "安东尼·戈登（Anthony Gordon）",
+      "nameEn": "",
+      "number": 0,
+      "position": "DF",
+      "positionZh": "后卫",
+      "dateOfBirth": "2001-01-24",
+      "club": {
+        "nameZh": "纽卡斯尔",
+        "nameEn": ""
+      },
+      "caps": 17,
+      "goals": 2
+    },
+    {
+      "id": "eng-25",
+      "nameZh": "埃伯雷基·埃泽（Eberechi Eze）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1998-06-29",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 16,
+      "goals": 3
+    },
+    {
+      "id": "eng-26",
+      "nameZh": "诺尼·马杜埃凯（Noni Madueke）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1996-12-20",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 10,
+      "goals": 1
+    },
+    {
+      "id": "eng-27",
+      "nameZh": "伊万·托尼（Ivan Toney）",
+      "nameEn": "",
+      "number": 0,
+      "position": "FW",
+      "positionZh": "前锋",
+      "dateOfBirth": "1996-03-16",
+      "club": {
+        "nameZh": "阿森纳",
+        "nameEn": ""
+      },
+      "caps": 7,
+      "goals": 1
+    }
+  ],
+  "keyPlayers": [
+    "哈里·凯恩（Harry Kane）",
+    "乔丹·亨德森（Jordan Henderson）",
+    "约翰·斯通斯（John Stones）",
+    "乔丹·皮克福德（Jordan Pickford）",
+    "德克兰·赖斯（Declan Rice）"
+  ]
+}
