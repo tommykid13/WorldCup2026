@@ -158,19 +158,16 @@ export default function StatsPage() {
       {/* Stats Summary Cards */}
       <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4">
         {[
-          { label: '总进球', value: '0', icon: '&#9917;' },
-          { label: '总助攻', value: '0', icon: '&#127919;' },
-          { label: '场均进球', value: '0.00', icon: '&#128200;' },
-          { label: '帽子戏法', value: '0', icon: '&#127942;' },
+          { label: '总进球', value: '0', icon: '\u26BD' },
+          { label: '总助攻', value: '0', icon: '\uD83C\uDFF1' },
+          { label: '场均进球', value: '0.00', icon: '\uD83D\uDCC8' },
+          { label: '帽子戏法', value: '0', icon: '\uD83C\uDFC6' },
         ].map((stat) => (
           <div
             key={stat.label}
             className="bg-white rounded-xl border border-border p-4 text-center"
           >
-            <div
-              className="text-2xl mb-1"
-              dangerouslySetInnerHTML={{ __html: stat.icon }}
-            />
+            <div className="text-2xl mb-1">{stat.icon}</div>
             <div className="text-2xl font-bold text-foreground">{stat.value}</div>
             <div className="text-xs text-muted">{stat.label}</div>
           </div>
