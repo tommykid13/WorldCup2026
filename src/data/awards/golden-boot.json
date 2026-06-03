@@ -1,0 +1,338 @@
+{
+  "award": {
+    "id": "golden-boot",
+    "nameZh": "金靴奖",
+    "nameEn": "Golden Boot",
+    "descriptionZh": "颁发给每届世界杯进球最多的球员",
+    "descriptionEn": "Awarded to the top goalscorer of each FIFA World Cup"
+  },
+  "winners": [
+    {
+      "year": 1930,
+      "players": [
+        {
+          "nameZh": "吉列尔莫·斯塔比莱",
+          "nameEn": "Guillermo Stabile",
+          "teamId": "arg",
+          "teamNameZh": "阿根廷",
+          "teamNameEn": "Argentina",
+          "goals": 8
+        }
+      ]
+    },
+    {
+      "year": 1934,
+      "players": [
+        {
+          "nameZh": "奥尔德里赫·内耶德利",
+          "nameEn": "Oldrich Nejedly",
+          "teamId": "tch",
+          "teamNameZh": "捷克斯洛伐克",
+          "teamNameEn": "Czechoslovakia",
+          "goals": 5
+        }
+      ]
+    },
+    {
+      "year": 1938,
+      "players": [
+        {
+          "nameZh": "莱奥尼达斯",
+          "nameEn": "Leonidas",
+          "teamId": "bra",
+          "teamNameZh": "巴西",
+          "teamNameEn": "Brazil",
+          "goals": 7
+        }
+      ]
+    },
+    {
+      "year": 1950,
+      "players": [
+        {
+          "nameZh": "阿德米尔",
+          "nameEn": "Ademir",
+          "teamId": "bra",
+          "teamNameZh": "巴西",
+          "teamNameEn": "Brazil",
+          "goals": 8
+        }
+      ]
+    },
+    {
+      "year": 1954,
+      "players": [
+        {
+          "nameZh": "桑多尔·柯奇士",
+          "nameEn": "Sandor Kocsis",
+          "teamId": "hun",
+          "teamNameZh": "匈牙利",
+          "teamNameEn": "Hungary",
+          "goals": 11
+        }
+      ]
+    },
+    {
+      "year": 1958,
+      "players": [
+        {
+          "nameZh": "朱斯特·方丹",
+          "nameEn": "Just Fontaine",
+          "teamId": "fra",
+          "teamNameZh": "法国",
+          "teamNameEn": "France",
+          "goals": 13
+        }
+      ]
+    },
+    {
+      "year": 1962,
+      "players": [
+        {
+          "nameZh": "加林查",
+          "nameEn": "Garrincha",
+          "teamId": "bra",
+          "teamNameZh": "巴西",
+          "teamNameEn": "Brazil",
+          "goals": 4
+        },
+        {
+          "nameZh": "瓦瓦",
+          "nameEn": "Vava",
+          "teamId": "bra",
+          "teamNameZh": "巴西",
+          "teamNameEn": "Brazil",
+          "goals": 4
+        },
+        {
+          "nameZh": "瓦连京·伊万诺夫",
+          "nameEn": "Valentin Ivanov",
+          "teamId": "urs",
+          "teamNameZh": "苏联",
+          "teamNameEn": "Soviet Union",
+          "goals": 4
+        },
+        {
+          "nameZh": "德拉任·耶尔科维奇",
+          "nameEn": "Drazen Jerkovic",
+          "teamId": "yug",
+          "teamNameZh": "南斯拉夫",
+          "teamNameEn": "Yugoslavia",
+          "goals": 4
+        },
+        {
+          "nameZh": "莱昂内尔·桑切斯",
+          "nameEn": "Leonel Sanchez",
+          "teamId": "chi",
+          "teamNameZh": "智利",
+          "teamNameEn": "Chile",
+          "goals": 4
+        }
+      ]
+    },
+    {
+      "year": 1966,
+      "players": [
+        {
+          "nameZh": "尤西比奥",
+          "nameEn": "Eusebio",
+          "teamId": "por",
+          "teamNameZh": "葡萄牙",
+          "teamNameEn": "Portugal",
+          "goals": 9
+        }
+      ]
+    },
+    {
+      "year": 1970,
+      "players": [
+        {
+          "nameZh": "盖德·穆勒",
+          "nameEn": "Gerd Muller",
+          "teamId": "frg",
+          "teamNameZh": "西德",
+          "teamNameEn": "West Germany",
+          "goals": 10
+        }
+      ]
+    },
+    {
+      "year": 1974,
+      "players": [
+        {
+          "nameZh": "格热戈日·拉托",
+          "nameEn": "Grzegorz Lato",
+          "teamId": "pol",
+          "teamNameZh": "波兰",
+          "teamNameEn": "Poland",
+          "goals": 7
+        }
+      ]
+    },
+    {
+      "year": 1978,
+      "players": [
+        {
+          "nameZh": "马里奥·肯佩斯",
+          "nameEn": "Mario Kempes",
+          "teamId": "arg",
+          "teamNameZh": "阿根廷",
+          "teamNameEn": "Argentina",
+          "goals": 6
+        }
+      ]
+    },
+    {
+      "year": 1982,
+      "players": [
+        {
+          "nameZh": "保罗·罗西",
+          "nameEn": "Paolo Rossi",
+          "teamId": "ita",
+          "teamNameZh": "意大利",
+          "teamNameEn": "Italy",
+          "goals": 6
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "players": [
+        {
+          "nameZh": "加里·莱因克尔",
+          "nameEn": "Gary Lineker",
+          "teamId": "eng",
+          "teamNameZh": "英格兰",
+          "teamNameEn": "England",
+          "goals": 6
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "players": [
+        {
+          "nameZh": "萨尔瓦托雷·斯基拉奇",
+          "nameEn": "Salvatore Schillaci",
+          "teamId": "ita",
+          "teamNameZh": "意大利",
+          "teamNameEn": "Italy",
+          "goals": 6
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "players": [
+        {
+          "nameZh": "奥列格·萨连科",
+          "nameEn": "Oleg Salenko",
+          "teamId": "rus",
+          "teamNameZh": "俄罗斯",
+          "teamNameEn": "Russia",
+          "goals": 6
+        },
+        {
+          "nameZh": "赫里斯托·斯托伊奇科夫",
+          "nameEn": "Hristo Stoichkov",
+          "teamId": "bul",
+          "teamNameZh": "保加利亚",
+          "teamNameEn": "Bulgaria",
+          "goals": 6
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "players": [
+        {
+          "nameZh": "达沃尔·苏克",
+          "nameEn": "Davor Suker",
+          "teamId": "cro",
+          "teamNameZh": "克罗地亚",
+          "teamNameEn": "Croatia",
+          "goals": 6
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "players": [
+        {
+          "nameZh": "罗纳尔多",
+          "nameEn": "Ronaldo",
+          "teamId": "bra",
+          "teamNameZh": "巴西",
+          "teamNameEn": "Brazil",
+          "goals": 8
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "players": [
+        {
+          "nameZh": "米洛斯拉夫·克洛泽",
+          "nameEn": "Miroslav Klose",
+          "teamId": "ger",
+          "teamNameZh": "德国",
+          "teamNameEn": "Germany",
+          "goals": 5
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "players": [
+        {
+          "nameZh": "托马斯·穆勒",
+          "nameEn": "Thomas Muller",
+          "teamId": "ger",
+          "teamNameZh": "德国",
+          "teamNameEn": "Germany",
+          "goals": 5
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "players": [
+        {
+          "nameZh": "哈梅斯·罗德里格斯",
+          "nameEn": "James Rodriguez",
+          "teamId": "col",
+          "teamNameZh": "哥伦比亚",
+          "teamNameEn": "Colombia",
+          "goals": 6
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "players": [
+        {
+          "nameZh": "哈里·凯恩",
+          "nameEn": "Harry Kane",
+          "teamId": "eng",
+          "teamNameZh": "英格兰",
+          "teamNameEn": "England",
+          "goals": 6
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "players": [
+        {
+          "nameZh": "基利安·姆巴佩",
+          "nameEn": "Kylian Mbappe",
+          "teamId": "fra",
+          "teamNameZh": "法国",
+          "teamNameEn": "France",
+          "goals": 8,
+          "assists": 2
+        }
+      ]
+    }
+  ]
+}

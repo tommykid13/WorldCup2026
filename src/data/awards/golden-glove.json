@@ -1,0 +1,107 @@
+{
+  "award": {
+    "id": "golden-glove",
+    "nameZh": "金手套奖",
+    "nameEn": "Golden Glove",
+    "descriptionZh": "颁发给每届世界杯表现最出色的门将",
+    "descriptionEn": "Awarded to the best goalkeeper at each FIFA World Cup"
+  },
+  "winners": [
+    {
+      "year": 1994,
+      "players": [
+        {
+          "nameZh": "米歇尔·普吕多姆",
+          "nameEn": "Michel Preud'homme",
+          "teamId": "bel",
+          "teamNameZh": "比利时",
+          "teamNameEn": "Belgium"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "players": [
+        {
+          "nameZh": "法比安·巴特兹",
+          "nameEn": "Fabien Barthez",
+          "teamId": "fra",
+          "teamNameZh": "法国",
+          "teamNameEn": "France"
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "players": [
+        {
+          "nameZh": "奥利弗·卡恩",
+          "nameEn": "Oliver Kahn",
+          "teamId": "ger",
+          "teamNameZh": "德国",
+          "teamNameEn": "Germany"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "players": [
+        {
+          "nameZh": "吉安路易吉·布冯",
+          "nameEn": "Gianluigi Buffon",
+          "teamId": "ita",
+          "teamNameZh": "意大利",
+          "teamNameEn": "Italy"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "players": [
+        {
+          "nameZh": "伊克尔·卡西利亚斯",
+          "nameEn": "Iker Casillas",
+          "teamId": "esp",
+          "teamNameZh": "西班牙",
+          "teamNameEn": "Spain"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "players": [
+        {
+          "nameZh": "曼努埃尔·诺伊尔",
+          "nameEn": "Manuel Neuer",
+          "teamId": "ger",
+          "teamNameZh": "德国",
+          "teamNameEn": "Germany"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "players": [
+        {
+          "nameZh": "蒂博·库尔图瓦",
+          "nameEn": "Thibaut Courtois",
+          "teamId": "bel",
+          "teamNameZh": "比利时",
+          "teamNameEn": "Belgium"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "players": [
+        {
+          "nameZh": "埃米利亚诺·马丁内斯",
+          "nameEn": "Emiliano Martinez",
+          "teamId": "arg",
+          "teamNameZh": "阿根廷",
+          "teamNameEn": "Argentina"
+        }
+      ]
+    }
+  ]
+}

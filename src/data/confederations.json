@@ -1,0 +1,10 @@
+{
+  "confederations": [
+    { "id": "uefa", "nameZh": "欧洲足联", "nameEn": "UEFA", "slots2026": 16, "color": "#003399" },
+    { "id": "conmebol", "nameZh": "南美洲足联", "nameEn": "CONMEBOL", "slots2026": 6, "color": "#009B3A" },
+    { "id": "concacaf", "nameZh": "中北美洲足联", "nameEn": "CONCACAF", "slots2026": 6, "color": "#CC0000" },
+    { "id": "caf", "nameZh": "非洲足联", "nameEn": "CAF", "slots2026": 9, "color": "#FFD700" },
+    { "id": "afc", "nameZh": "亚洲足联", "nameEn": "AFC", "slots2026": 8, "color": "#ED1C24" },
+    { "id": "ofc", "nameZh": "大洋洲足联", "nameEn": "OFC", "slots2026": 1, "color": "#003DA5" }
+  ]
+}

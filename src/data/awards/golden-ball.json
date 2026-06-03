@@ -1,0 +1,143 @@
+{
+  "award": {
+    "id": "golden-ball",
+    "nameZh": "金球奖",
+    "nameEn": "Golden Ball",
+    "descriptionZh": "颁发给每届世界杯表现最出色的球员",
+    "descriptionEn": "Awarded to the best player at each FIFA World Cup"
+  },
+  "winners": [
+    {
+      "year": 1982,
+      "players": [
+        {
+          "nameZh": "保罗·罗西",
+          "nameEn": "Paolo Rossi",
+          "teamId": "ita",
+          "teamNameZh": "意大利",
+          "teamNameEn": "Italy"
+        }
+      ]
+    },
+    {
+      "year": 1986,
+      "players": [
+        {
+          "nameZh": "迭戈·马拉多纳",
+          "nameEn": "Diego Maradona",
+          "teamId": "arg",
+          "teamNameZh": "阿根廷",
+          "teamNameEn": "Argentina"
+        }
+      ]
+    },
+    {
+      "year": 1990,
+      "players": [
+        {
+          "nameZh": "萨尔瓦托雷·斯基拉奇",
+          "nameEn": "Salvatore Schillaci",
+          "teamId": "ita",
+          "teamNameZh": "意大利",
+          "teamNameEn": "Italy"
+        }
+      ]
+    },
+    {
+      "year": 1994,
+      "players": [
+        {
+          "nameZh": "罗马里奥",
+          "nameEn": "Romario",
+          "teamId": "bra",
+          "teamNameZh": "巴西",
+          "teamNameEn": "Brazil"
+        }
+      ]
+    },
+    {
+      "year": 1998,
+      "players": [
+        {
+          "nameZh": "罗纳尔多",
+          "nameEn": "Ronaldo",
+          "teamId": "bra",
+          "teamNameZh": "巴西",
+          "teamNameEn": "Brazil"
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "players": [
+        {
+          "nameZh": "奥利弗·卡恩",
+          "nameEn": "Oliver Kahn",
+          "teamId": "ger",
+          "teamNameZh": "德国",
+          "teamNameEn": "Germany"
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "players": [
+        {
+          "nameZh": "齐内丁·齐达内",
+          "nameEn": "Zinedine Zidane",
+          "teamId": "fra",
+          "teamNameZh": "法国",
+          "teamNameEn": "France"
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "players": [
+        {
+          "nameZh": "迭戈·弗兰",
+          "nameEn": "Diego Forlan",
+          "teamId": "uru",
+          "teamNameZh": "乌拉圭",
+          "teamNameEn": "Uruguay"
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "players": [
+        {
+          "nameZh": "利昂内尔·梅西",
+          "nameEn": "Lionel Messi",
+          "teamId": "arg",
+          "teamNameZh": "阿根廷",
+          "teamNameEn": "Argentina"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "players": [
+        {
+          "nameZh": "卢卡·莫德里奇",
+          "nameEn": "Luka Modric",
+          "teamId": "cro",
+          "teamNameZh": "克罗地亚",
+          "teamNameEn": "Croatia"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "players": [
+        {
+          "nameZh": "利昂内尔·梅西",
+          "nameEn": "Lionel Messi",
+          "teamId": "arg",
+          "teamNameZh": "阿根廷",
+          "teamNameEn": "Argentina"
+        }
+      ]
+    }
+  ]
+}

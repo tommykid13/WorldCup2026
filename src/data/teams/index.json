@@ -1,0 +1,987 @@
+[
+  {
+    "id": "arg",
+    "nameZh": "阿根廷",
+    "nameEn": "Argentina",
+    "flagCode": "ar",
+    "confederation": "conmebol",
+    "fifaRanking": 1,
+    "worldCupAppearances": 18,
+    "worldCupTitles": 3,
+    "worldCupTitleYears": [
+      1978,
+      1986,
+      2022
+    ],
+    "bestResult": "冠军",
+    "group": "J",
+    "coach": {
+      "nameZh": "利昂内尔·斯卡洛尼",
+      "nameEn": "Lionel Scaloni"
+    },
+    "descriptionZh": "卫冕世界杯冠军阿根廷队是当今足坛最强大的球队之一。在斯卡洛尼的执教下，梅西领衔的潘帕斯雄鹰攻守兼备，是2026年世界杯的头号夺冠热门。",
+    "descriptionEn": "Defending World Cup champions Argentina are one of the most formidable teams in world football. Under Scaloni's guidance and with Messi leading the way, La Albiceleste are top contenders for the 2026 title.",
+    "slug": "argentina"
+  },
+  {
+    "id": "mar",
+    "nameZh": "摩洛哥",
+    "nameEn": "Morocco",
+    "flagCode": "ma",
+    "confederation": "caf",
+    "fifaRanking": 13,
+    "worldCupAppearances": 6,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "殿军",
+    "group": "C",
+    "coach": {
+      "nameZh": "瓦利德·雷格拉吉",
+      "nameEn": "Walid Regragui"
+    },
+    "descriptionZh": "摩洛哥在2022年世界杯上创造历史成为首支晋级四强的非洲球队。阿什拉夫、齐耶赫等球星领衔的阿特拉斯雄狮实力强劲，在雷格拉吉的带领下继续追求突破。",
+    "descriptionEn": "Morocco made history at the 2022 World Cup by becoming the first African nation to reach the semi-finals. Led by stars like Hakimi and Ziyech under Regragui, the Atlas Lions continue to push boundaries.",
+    "slug": "morocco"
+  },
+  {
+    "id": "usa",
+    "nameZh": "美国",
+    "nameEn": "United States",
+    "flagCode": "us",
+    "confederation": "concacaf",
+    "fifaRanking": 16,
+    "worldCupAppearances": 11,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "季军",
+    "group": "D",
+    "coach": {
+      "nameZh": "毛里西奥·波切蒂诺",
+      "nameEn": "Mauricio Pochettino"
+    },
+    "descriptionZh": "东道主美国队拥有普利西奇、麦肯尼等在欧洲顶级联赛效力的球员。作为2026世界杯联合东道主，美国队希望借助主场优势创造历史佳绩。",
+    "descriptionEn": "Host nation the United States feature players like Pulisic and McKennie plying their trade in top European leagues. As co-hosts of the 2026 World Cup, the USMNT will look to leverage home advantage for a historic run.",
+    "slug": "united-states"
+  },
+  {
+    "id": "uzb",
+    "nameZh": "乌兹别克斯坦",
+    "nameEn": "Uzbekistan",
+    "flagCode": "uz",
+    "confederation": "afc",
+    "fifaRanking": 58,
+    "worldCupAppearances": 1,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "K",
+    "coach": {
+      "nameZh": "斯雷奇科·卡塔内茨",
+      "nameEn": "Srečko Katanec"
+    },
+    "descriptionZh": "乌兹别克斯坦首次晋级世界杯决赛圈，创造了中亚足球的历史。在功勋教练卡塔内茨的调教下，这支球队纪律严明，具备一定的竞争力。",
+    "descriptionEn": "Uzbekistan qualified for their first-ever World Cup, making history for Central Asian football. Under veteran coach Katanec, this disciplined side will look to make their mark on the biggest stage.",
+    "slug": "uzbekistan"
+  },
+  {
+    "id": "esp",
+    "nameZh": "西班牙",
+    "nameEn": "Spain",
+    "flagCode": "es",
+    "confederation": "uefa",
+    "fifaRanking": 3,
+    "worldCupAppearances": 16,
+    "worldCupTitles": 1,
+    "worldCupTitleYears": [
+      2010
+    ],
+    "bestResult": "冠军",
+    "group": "H",
+    "coach": {
+      "nameZh": "路易斯·德拉富恩特",
+      "nameEn": "Luis de la Fuente"
+    },
+    "descriptionZh": "西班牙拥有一批才华横溢的年轻球员，如亚马尔、佩德里和加维。在夺得2024年欧洲杯冠军后，德拉富恩特率领的斗牛士军团志在再夺世界杯。",
+    "descriptionEn": "Spain boast a generation of prodigious talent including Yamal, Pedri and Gavi. After winning Euro 2024, De la Fuente's La Roja are determined to reclaim the World Cup title.",
+    "slug": "spain"
+  },
+  {
+    "id": "mex",
+    "nameZh": "墨西哥",
+    "nameEn": "Mexico",
+    "flagCode": "mx",
+    "confederation": "concacaf",
+    "fifaRanking": 15,
+    "worldCupAppearances": 17,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "八强",
+    "group": "A",
+    "coach": {
+      "nameZh": "哈维尔·阿吉雷",
+      "nameEn": "Javier Aguirre"
+    },
+    "descriptionZh": "联合东道主墨西哥是世界杯常客，17次参赛经验丰富。阿吉雷重返国家队执教，希望借助主场之利打破连续七届止步16强的魔咒。",
+    "descriptionEn": "Co-hosts Mexico are World Cup veterans with 17 tournament appearances. Aguirre returns to lead El Tri, hoping home advantage can help break their round-of-16 curse that has lasted seven consecutive tournaments.",
+    "slug": "mexico"
+  },
+  {
+    "id": "cpv",
+    "nameZh": "佛得角",
+    "nameEn": "Cape Verde",
+    "flagCode": "cv",
+    "confederation": "caf",
+    "fifaRanking": 72,
+    "worldCupAppearances": 0,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "未参赛",
+    "coach": {
+      "nameZh": "帕布洛·蒙泰拉",
+      "nameEn": "Pablo Monteira"
+    },
+    "descriptionZh": "佛得角是非洲足球的新兴力量，首次晋级世界杯决赛圈。这个岛国近年来足球水平飞速提升，展现出非洲足球的多样性和竞争力。",
+    "descriptionEn": "Cape Verde are a rising force in African football, qualifying for their first-ever World Cup. The island nation has rapidly improved and showcases the depth of African football.",
+    "slug": "cape-verde",
+    "group": "H"
+  },
+  {
+    "id": "nzl",
+    "nameZh": "新西兰",
+    "nameEn": "New Zealand",
+    "flagCode": "nz",
+    "confederation": "ofc",
+    "fifaRanking": 89,
+    "worldCupAppearances": 3,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "G",
+    "coach": {
+      "nameZh": "达伦·巴兹利",
+      "nameEn": "Darren Bazeley"
+    },
+    "descriptionZh": "新西兰是大洋洲足球的代表，凭借出色的身体素质和团队精神晋级世界杯。全白队虽然实力有限，但从不缺乏拼搏精神。",
+    "descriptionEn": "New Zealand represent Oceania football and qualified through their region. The All Whites may have limited resources but never lack fighting spirit and determination on the world stage.",
+    "slug": "new-zealand"
+  },
+  {
+    "id": "bra",
+    "nameZh": "巴西",
+    "nameEn": "Brazil",
+    "flagCode": "br",
+    "confederation": "conmebol",
+    "fifaRanking": 5,
+    "worldCupAppearances": 22,
+    "worldCupTitles": 5,
+    "worldCupTitleYears": [
+      1958,
+      1962,
+      1970,
+      1994,
+      2002
+    ],
+    "bestResult": "冠军",
+    "group": "C",
+    "coach": {
+      "nameZh": "卡尔洛·安切洛蒂",
+      "nameEn": "Carlo Ancelotti"
+    },
+    "descriptionZh": "五届世界杯冠军巴西队是世界杯历史上最成功的球队。传奇教练安切洛蒂执掌桑巴军团，维尼修斯、罗德里戈等新生代球星承载着巴西球迷的殷切期望。",
+    "descriptionEn": "Five-time World Cup champions Brazil are the most successful team in tournament history. Legendary coach Ancelotti now leads the Seleção, with Vinícius Jr. and Rodrygo headlining a new generation of stars.",
+    "slug": "brazil"
+  },
+  {
+    "id": "ned",
+    "nameZh": "荷兰",
+    "nameEn": "Netherlands",
+    "flagCode": "nl",
+    "confederation": "uefa",
+    "fifaRanking": 7,
+    "worldCupAppearances": 11,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "亚军",
+    "group": "F",
+    "coach": {
+      "nameZh": "罗纳德·科曼",
+      "nameEn": "Ronald Koeman"
+    },
+    "descriptionZh": "荷兰队虽三次获得世界杯亚军但始终与冠军无缘，被誉为「无冕之王」。科曼执教下的橙衣军团拥有范迪克、加克波等顶级球员，全攻全守的足球哲学令人期待。",
+    "descriptionEn": "The Netherlands have reached three World Cup finals without lifting the trophy, earning the nickname 'greatest team never to win it'. Koeman's Oranje, featuring Van Dijk and Gakpo, play their trademark attacking football.",
+    "slug": "netherlands"
+  },
+  {
+    "id": "can",
+    "nameZh": "加拿大",
+    "nameEn": "Canada",
+    "flagCode": "ca",
+    "confederation": "concacaf",
+    "fifaRanking": 31,
+    "worldCupAppearances": 3,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "B",
+    "coach": {
+      "nameZh": "杰西·马施",
+      "nameEn": "Jesse Marsch"
+    },
+    "descriptionZh": "联合东道主加拿大队近年来进步显著，阿方索·戴维斯和乔纳森·戴维领衔的枫叶军团实力不容小觑。在马施的带领下，加拿大队希望在主场世界杯上有所作为。",
+    "descriptionEn": "Co-hosts Canada have made remarkable progress in recent years, with Alphonso Davies and Jonathan David leading the way. Under Marsch, the Canucks aim to make their mark at a home World Cup.",
+    "slug": "canada"
+  },
+  {
+    "id": "cod",
+    "nameZh": "刚果民主共和国",
+    "nameEn": "DR Congo",
+    "flagCode": "cd",
+    "confederation": "caf",
+    "fifaRanking": 62,
+    "worldCupAppearances": 1,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "coach": {
+      "nameZh": "塞巴斯蒂安·德尼厄尔",
+      "nameEn": "Sébastien Desabre"
+    },
+    "descriptionZh": "刚果民主共和国曾以扎伊尔名义参加1974年世界杯，时隔多年重返世界舞台。非洲豹拥有出色的身体素质和技术能力，在非洲足坛始终是一支劲旅。",
+    "descriptionEn": "DR Congo return to the World Cup stage having previously appeared as Zaire in 1974. The Leopards possess great physicality and technical ability, remaining a force in African football.",
+    "slug": "dr-congo",
+    "group": "K"
+  },
+  {
+    "id": "fra",
+    "nameZh": "法国",
+    "nameEn": "France",
+    "flagCode": "fr",
+    "confederation": "uefa",
+    "fifaRanking": 2,
+    "worldCupAppearances": 16,
+    "worldCupTitles": 2,
+    "worldCupTitleYears": [
+      1998,
+      2018
+    ],
+    "bestResult": "冠军",
+    "group": "I",
+    "coach": {
+      "nameZh": "迪迪埃·德尚",
+      "nameEn": "Didier Deschamps"
+    },
+    "descriptionZh": "法国队是近年来世界足坛最稳定的强队之一，拥有姆巴佩等超级巨星。德尚执教下的高卢雄鸡阵容深度惊人，连续三届世界杯杀入决赛是他们实力的最佳证明。",
+    "descriptionEn": "France have been one of the most consistently dominant teams in world football, featuring superstars like Mbappé. Under Deschamps, Les Bleus possess remarkable squad depth, having reached the last three World Cup finals.",
+    "slug": "france"
+  },
+  {
+    "id": "uru",
+    "nameZh": "乌拉圭",
+    "nameEn": "Uruguay",
+    "flagCode": "uy",
+    "confederation": "conmebol",
+    "fifaRanking": 11,
+    "worldCupAppearances": 15,
+    "worldCupTitles": 2,
+    "worldCupTitleYears": [
+      1930,
+      1950
+    ],
+    "bestResult": "冠军",
+    "group": "H",
+    "coach": {
+      "nameZh": "马塞洛·贝尔萨",
+      "nameEn": "Marcelo Bielsa"
+    },
+    "descriptionZh": "两届世界杯冠军乌拉圭在南美足坛始终占有一席之地。疯子贝尔萨的激情执教风格为这支队伍注入了新的活力，巴尔韦德、努涅斯等球员正值当打之年。",
+    "descriptionEn": "Two-time World Cup champions Uruguay remain a force in South American football. Bielsa's intense coaching style has injected new energy, with Valverde and Núñez in their prime years.",
+    "slug": "uruguay"
+  },
+  {
+    "id": "jpn",
+    "nameZh": "日本",
+    "nameEn": "Japan",
+    "flagCode": "jp",
+    "confederation": "afc",
+    "fifaRanking": 18,
+    "worldCupAppearances": 8,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "16强",
+    "group": "F",
+    "coach": {
+      "nameZh": "森保一",
+      "nameEn": "Hajime Moriyasu"
+    },
+    "descriptionZh": "日本队已成为亚洲足球的标杆，2022年世界杯连续击败德国和西班牙震惊足坛。森保一率领的蓝武士技术细腻、战术执行力强，正朝着世界杯八强的目标稳步迈进。",
+    "descriptionEn": "Japan have become the benchmark of Asian football, stunning Germany and Spain at the 2022 World Cup. Moriyasu's Blue Samurai combine technical finesse with tactical discipline, targeting a first-ever quarter-final berth.",
+    "slug": "japan"
+  },
+  {
+    "id": "nor",
+    "nameZh": "挪威",
+    "nameEn": "Norway",
+    "flagCode": "no",
+    "confederation": "uefa",
+    "fifaRanking": 39,
+    "worldCupAppearances": 3,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "16强",
+    "coach": {
+      "nameZh": "斯塔莱·索尔巴肯",
+      "nameEn": "Ståle Solbakken"
+    },
+    "descriptionZh": "挪威时隔多年重返世界杯舞台。索尔巴肯执教下的北欧海盗拥有厄德高等在顶级联赛效力的球员，身体素质出色，战术执行力强。",
+    "descriptionEn": "Norway return to the World Cup after a long absence. Under Solbakken, the Vikings feature players like Ødegaard from top leagues, combining physicality with tactical discipline.",
+    "slug": "norway",
+    "group": "I"
+  },
+  {
+    "id": "eng",
+    "nameZh": "英格兰",
+    "nameEn": "England",
+    "flagCode": "gb-eng",
+    "confederation": "uefa",
+    "fifaRanking": 4,
+    "worldCupAppearances": 16,
+    "worldCupTitles": 1,
+    "worldCupTitleYears": [
+      1966
+    ],
+    "bestResult": "冠军",
+    "group": "L",
+    "coach": {
+      "nameZh": "托马斯·图赫尔",
+      "nameEn": "Thomas Tuchel"
+    },
+    "descriptionZh": "1966年世界杯冠军英格兰队拥有贝林厄姆、萨卡、福登等一众天才球员。图赫尔接手三狮军团后，英格兰球迷对终结冠军荒充满期待。",
+    "descriptionEn": "The 1966 World Cup champions England boast a generation of prodigious talent including Bellingham, Saka and Foden. With Tuchel now at the helm, Three Lions fans dare to dream of ending their long trophy drought.",
+    "slug": "england"
+  },
+  {
+    "id": "col",
+    "nameZh": "哥伦比亚",
+    "nameEn": "Colombia",
+    "flagCode": "co",
+    "confederation": "conmebol",
+    "fifaRanking": 12,
+    "worldCupAppearances": 7,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "八强",
+    "group": "K",
+    "coach": {
+      "nameZh": "内斯托尔·洛伦索",
+      "nameEn": "Néstor Lorenzo"
+    },
+    "descriptionZh": "哥伦比亚在南美区预选赛中表现稳定，连续晋级世界杯。洛伦索执教下的咖啡军团技术出色，路易斯·迪亚斯是球队的进攻核心。",
+    "descriptionEn": "Colombia have been consistent performers in South American qualifying. Lorenzo's side are technically gifted, with Luis Díaz serving as the attacking talisman for the Cafeteros.",
+    "slug": "colombia"
+  },
+  {
+    "id": "kor",
+    "nameZh": "韩国",
+    "nameEn": "South Korea",
+    "flagCode": "kr",
+    "confederation": "afc",
+    "fifaRanking": 23,
+    "worldCupAppearances": 11,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "殿军",
+    "group": "A",
+    "coach": {
+      "nameZh": "洪明甫",
+      "nameEn": "Hong Myung-bo"
+    },
+    "descriptionZh": "韩国是亚洲足球的传统强队，2002年世界杯获得第四名创造历史。孙兴慜领衔的太极虎在连续11次参加世界杯后，积累了丰富的大赛经验。",
+    "descriptionEn": "South Korea are a traditional Asian powerhouse who made history with a fourth-place finish at the 2002 World Cup. Son Heung-min leads the Taegeuk Warriors, who bring vast tournament experience from 11 consecutive appearances.",
+    "slug": "south-korea"
+  },
+  {
+    "id": "cze",
+    "nameZh": "捷克",
+    "nameEn": "Czech Republic",
+    "flagCode": "cz",
+    "confederation": "uefa",
+    "fifaRanking": 43,
+    "worldCupAppearances": 1,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "coach": {
+      "nameZh": "伊万·哈谢克",
+      "nameEn": "Ivan Hašek"
+    },
+    "descriptionZh": "捷克作为独立国家首次晋级世界杯决赛圈（前身为捷克斯洛伐克曾两次进入决赛）。东欧铁骑拥有扎实的战术素养和出色的球员储备。",
+    "descriptionEn": "The Czech Republic qualify for their first World Cup as an independent nation (Czechoslovakia reached two finals). They possess tactical discipline and quality players.",
+    "slug": "czech-republic",
+    "group": "A"
+  },
+  {
+    "id": "por",
+    "nameZh": "葡萄牙",
+    "nameEn": "Portugal",
+    "flagCode": "pt",
+    "confederation": "uefa",
+    "fifaRanking": 6,
+    "worldCupAppearances": 9,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "季军",
+    "group": "K",
+    "coach": {
+      "nameZh": "罗伯托·马丁内斯",
+      "nameEn": "Roberto Martínez"
+    },
+    "descriptionZh": "葡萄牙拥有布鲁诺·费尔南德斯、伯纳多·席尔瓦、莱奥等顶级球员。后C罗时代，马丁内斯打造了一支攻守均衡的球队，实力在世界杯舞台上绝对不容小觑。",
+    "descriptionEn": "Portugal boast elite players like Bruno Fernandes, Bernardo Silva and Leão. In the post-Ronaldo era, Martínez has built a balanced squad that is a genuine threat on the World Cup stage.",
+    "slug": "portugal"
+  },
+  {
+    "id": "irn",
+    "nameZh": "伊朗",
+    "nameEn": "Iran",
+    "flagCode": "ir",
+    "confederation": "afc",
+    "fifaRanking": 20,
+    "worldCupAppearances": 7,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "G",
+    "coach": {
+      "nameZh": "阿米尔·加莱诺伊",
+      "nameEn": "Amir Ghalenoei"
+    },
+    "descriptionZh": "伊朗是亚洲足坛的传统强队，以强悍的身体对抗和顽强的防守著称。波斯铁骑在世界杯上虽从未小组出线，但每次都能给强队制造麻烦。",
+    "descriptionEn": "Iran are a traditional Asian powerhouse known for physical play and resilient defending. Team Melli have never advanced past the group stage but consistently trouble top teams at the World Cup.",
+    "slug": "iran"
+  },
+  {
+    "id": "swe",
+    "nameZh": "瑞典",
+    "nameEn": "Sweden",
+    "flagCode": "se",
+    "confederation": "uefa",
+    "fifaRanking": 27,
+    "worldCupAppearances": 12,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "亚军",
+    "group": "F",
+    "coach": {
+      "nameZh": "容·达尔·托马森",
+      "nameEn": "Jon Dahl Tomasson"
+    },
+    "descriptionZh": "瑞典队以严密的战术纪律和团队精神著称。伊萨克领衔的北欧海盗在托马森的执教下焕发新生，延续了瑞典足球在国际大赛中的竞争力。",
+    "descriptionEn": "Sweden are known for tactical discipline and team spirit. Isak leads the way as the Nordic side, under Tomasson's guidance, continues Sweden's tradition of competitiveness on the international stage.",
+    "slug": "sweden"
+  },
+  {
+    "id": "rsa",
+    "nameZh": "南非",
+    "nameEn": "South Africa",
+    "flagCode": "za",
+    "confederation": "caf",
+    "fifaRanking": 54,
+    "worldCupAppearances": 4,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "A",
+    "coach": {
+      "nameZh": "雨果·布鲁斯",
+      "nameEn": "Hugo Broos"
+    },
+    "descriptionZh": "南非队在布鲁斯的带领下重返世界杯舞台。作为2010年世界杯的东道主，巴法纳巴法纳希望在本届赛事中证明非洲足球的深度和实力。",
+    "descriptionEn": "South Africa return to the World Cup stage under Broos' guidance. Having hosted the 2010 tournament, Bafana Bafana aim to demonstrate the depth and quality of African football.",
+    "slug": "south-africa"
+  },
+  {
+    "id": "ger",
+    "nameZh": "德国",
+    "nameEn": "Germany",
+    "flagCode": "de",
+    "confederation": "uefa",
+    "fifaRanking": 9,
+    "worldCupAppearances": 20,
+    "worldCupTitles": 4,
+    "worldCupTitleYears": [
+      1954,
+      1974,
+      1990,
+      2014
+    ],
+    "bestResult": "冠军",
+    "group": "E",
+    "coach": {
+      "nameZh": "朱利安·纳格尔斯曼",
+      "nameEn": "Julian Nagelsmann"
+    },
+    "descriptionZh": "四届世界杯冠军德国队在经历了近两届世界杯的低谷后正努力重返巅峰。纳格尔斯曼率领的日耳曼战车拥有穆西亚拉、维尔茨等天才球员，力图在北美重塑辉煌。",
+    "descriptionEn": "Four-time World Cup champions Germany are fighting to return to the summit after recent tournament disappointments. Nagelsmann's side feature wunderkinder like Musiala and Wirtz as Die Mannschaft aim to reclaim their throne.",
+    "slug": "germany"
+  },
+  {
+    "id": "aus",
+    "nameZh": "澳大利亚",
+    "nameEn": "Australia",
+    "flagCode": "au",
+    "confederation": "afc",
+    "fifaRanking": 32,
+    "worldCupAppearances": 7,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "16强",
+    "group": "D",
+    "coach": {
+      "nameZh": "托尼·波波维奇",
+      "nameEn": "Tony Popovic"
+    },
+    "descriptionZh": "澳大利亚在2022年世界杯上首次在淘汰赛阶段获胜，创造了历史。波波维奇执教下的袋鼠军团身体对抗能力强，战术执行力出色。",
+    "descriptionEn": "Australia made history at the 2022 World Cup by winning a knockout match for the first time. Popovic's Socceroos bring physicality and excellent tactical discipline to every match.",
+    "slug": "australia"
+  },
+  {
+    "id": "par",
+    "nameZh": "巴拉圭",
+    "nameEn": "Paraguay",
+    "flagCode": "py",
+    "confederation": "conmebol",
+    "fifaRanking": 52,
+    "worldCupAppearances": 11,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "八强",
+    "group": "D",
+    "coach": {
+      "nameZh": "古斯塔沃·阿尔法罗",
+      "nameEn": "Gustavo Alfaro"
+    },
+    "descriptionZh": "巴拉圭以顽强的防守和坚韧的意志著称，曾在2010年世界杯晋级八强。阿尔法罗执教下的瓜拉尼军团凭借出色的预选赛表现重返世界杯舞台。",
+    "descriptionEn": "Paraguay are renowned for their tenacious defending and indomitable spirit, having reached the 2010 quarter-finals. Alfaro's Guaraní secured their return to the World Cup through a strong qualifying campaign.",
+    "slug": "paraguay"
+  },
+  {
+    "id": "bih",
+    "nameZh": "波黑",
+    "nameEn": "Bosnia and Herzegovina",
+    "flagCode": "ba",
+    "confederation": "uefa",
+    "fifaRanking": 57,
+    "worldCupAppearances": 1,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "coach": {
+      "nameZh": "谢尔盖·巴尔巴雷斯",
+      "nameEn": "Sergej Barbarez"
+    },
+    "descriptionZh": "波黑在2014年首次参加世界杯，拥有丰富的足球传统。巴尔巴雷斯执教下的金百合军团技术细腻，在欧洲足坛具有竞争力。",
+    "descriptionEn": "Bosnia and Herzegovina made their World Cup debut in 2014 and possess a rich football tradition. The Golden Lilies under Barbarez are competitive in European football.",
+    "slug": "bosnia-herzegovina",
+    "group": "B"
+  },
+  {
+    "id": "sui",
+    "nameZh": "瑞士",
+    "nameEn": "Switzerland",
+    "flagCode": "ch",
+    "confederation": "uefa",
+    "fifaRanking": 17,
+    "worldCupAppearances": 13,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "八强",
+    "group": "B",
+    "coach": {
+      "nameZh": "穆拉特·雅金",
+      "nameEn": "Murat Yakin"
+    },
+    "descriptionZh": "瑞士队在国际大赛中表现出色，屡屡在淘汰赛中给强队制造麻烦。雅金执教下的瑞士队拥有扎卡、阿坎吉等经验丰富的球员，防守组织严密。",
+    "descriptionEn": "Switzerland consistently perform well at major tournaments, frequently troubling top teams in knockout rounds. Yakin's side feature experienced players like Xhaka and Akanji, with an impeccably organized defense.",
+    "slug": "switzerland"
+  },
+  {
+    "id": "tur",
+    "nameZh": "土耳其",
+    "nameEn": "Turkey",
+    "flagCode": "tr",
+    "confederation": "uefa",
+    "fifaRanking": 28,
+    "worldCupAppearances": 2,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "季军",
+    "group": "D",
+    "coach": {
+      "nameZh": "温琴佐·蒙特拉",
+      "nameEn": "Vincenzo Montella"
+    },
+    "descriptionZh": "土耳其在2002年世界杯上获得季军，是该国足球最辉煌的时刻。蒙特拉执教下的星月军团充满激情，在2024年欧洲杯上展现了不俗的实力。",
+    "descriptionEn": "Turkey's third-place finish at the 2002 World Cup remains their finest footballing moment. Montella's Crescent-Stars play with passion and showed quality at Euro 2024.",
+    "slug": "turkey"
+  },
+  {
+    "id": "tun",
+    "nameZh": "突尼斯",
+    "nameEn": "Tunisia",
+    "flagCode": "tn",
+    "confederation": "caf",
+    "fifaRanking": 37,
+    "worldCupAppearances": 7,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "F",
+    "coach": {
+      "nameZh": "拉比·萨阿迪",
+      "nameEn": "Rabbi Saadi"
+    },
+    "descriptionZh": "突尼斯是北非足球的代表球队，曾在2022年世界杯上击败法国队。迦太基之鹰战术纪律性强，在非洲足坛具有举足轻重的地位。",
+    "descriptionEn": "Tunisia represent North African football and famously defeated France at the 2022 World Cup. The Eagles of Carthage are tactically disciplined and remain a significant force in African football.",
+    "slug": "tunisia"
+  },
+  {
+    "id": "ksa",
+    "nameZh": "沙特阿拉伯",
+    "nameEn": "Saudi Arabia",
+    "flagCode": "sa",
+    "confederation": "afc",
+    "fifaRanking": 55,
+    "worldCupAppearances": 7,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "16强",
+    "group": "H",
+    "coach": {
+      "nameZh": "埃尔韦·勒纳尔",
+      "nameEn": "Hervé Renard"
+    },
+    "descriptionZh": "沙特阿拉伯在2022年世界杯揭幕战中击败阿根廷，震惊了全世界。勒纳尔重返沙特执教，绿隼的技术细腻、快速反击令人印象深刻。",
+    "descriptionEn": "Saudi Arabia stunned the world by defeating Argentina in the 2022 World Cup opener. Renard returns to coach the Green Falcons, known for their technical skill and devastating counter-attacks.",
+    "slug": "saudi-arabia"
+  },
+  {
+    "id": "bel",
+    "nameZh": "比利时",
+    "nameEn": "Belgium",
+    "flagCode": "be",
+    "confederation": "uefa",
+    "fifaRanking": 8,
+    "worldCupAppearances": 14,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "季军",
+    "group": "G",
+    "coach": {
+      "nameZh": "罗伯托·迪泽尔比",
+      "nameEn": "Roberto De Zerbi"
+    },
+    "descriptionZh": "比利时黄金一代在2018年世界杯获得季军后逐渐完成新老交替。德布劳内领衔的红魔依然拥有世界级的阵容深度，新一代球员正在崛起。",
+    "descriptionEn": "After Belgium's Golden Generation earned third place at the 2018 World Cup, a transition is underway. De Bruyne still leads the Red Devils, and a new generation is emerging to carry the mantle.",
+    "slug": "belgium"
+  },
+  {
+    "id": "ecu",
+    "nameZh": "厄瓜多尔",
+    "nameEn": "Ecuador",
+    "flagCode": "ec",
+    "confederation": "conmebol",
+    "fifaRanking": 30,
+    "worldCupAppearances": 5,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "16强",
+    "group": "E",
+    "coach": {
+      "nameZh": "塞巴斯蒂安·贝卡切切",
+      "nameEn": "Sebastián Beccacece"
+    },
+    "descriptionZh": "厄瓜多尔凭借出色的南美区预选赛表现再次晋级世界杯。高原之国的球员体能充沛、作风顽强，在2022年世界杯上曾有亮眼表现。",
+    "descriptionEn": "Ecuador secured another World Cup berth through an impressive South American qualifying campaign. The players from the land of high altitude are physically robust and tenacious, having impressed at the 2022 tournament.",
+    "slug": "ecuador"
+  },
+  {
+    "id": "sco",
+    "nameZh": "苏格兰",
+    "nameEn": "Scotland",
+    "flagCode": "gb-sct",
+    "confederation": "uefa",
+    "fifaRanking": 45,
+    "worldCupAppearances": 8,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "coach": {
+      "nameZh": "史蒂夫·克拉克",
+      "nameEn": "Steve Clarke"
+    },
+    "descriptionZh": "苏格兰是足球历史悠久的国家之一，曾8次参加世界杯。克拉克执教下的苏格兰队以坚韧的防守和团队精神著称，时隔多年重返世界舞台。",
+    "descriptionEn": "Scotland are one of football's oldest nations with 8 World Cup appearances. Clarke's side are known for resilient defending and team spirit, returning to the world stage.",
+    "slug": "scotland",
+    "group": "C"
+  },
+  {
+    "id": "jor",
+    "nameZh": "约旦",
+    "nameEn": "Jordan",
+    "flagCode": "jo",
+    "confederation": "afc",
+    "fifaRanking": 64,
+    "worldCupAppearances": 1,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "J",
+    "coach": {
+      "nameZh": "贾马尔·萨利米",
+      "nameEn": "Jamal Salimi"
+    },
+    "descriptionZh": "约旦首次晋级世界杯决赛圈，创造了该国足球的历史。在2024年亚洲杯上获得亚军的约旦队证明了自己在亚洲赛场的竞争力，塔马里是球队的核心球员。",
+    "descriptionEn": "Jordan qualified for their first-ever World Cup, making football history for the nation. After reaching the 2024 Asian Cup final, the Chivalrous Ones proved their continental quality, with Al-Tamari as their star player.",
+    "slug": "jordan"
+  },
+  {
+    "id": "cro",
+    "nameZh": "克罗地亚",
+    "nameEn": "Croatia",
+    "flagCode": "hr",
+    "confederation": "uefa",
+    "fifaRanking": 10,
+    "worldCupAppearances": 7,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "亚军",
+    "group": "L",
+    "coach": {
+      "nameZh": "兹拉特科·达利奇",
+      "nameEn": "Zlatko Dalić"
+    },
+    "descriptionZh": "克罗地亚在最近两届世界杯中分别获得亚军和季军，展现了惊人的稳定性。莫德里奇领衔的格子军团拥有丰富的大赛经验和出色的中场控制力。",
+    "descriptionEn": "Croatia reached the final in 2018 and finished third in 2022, showing remarkable consistency. Modrić's Vatreni possess vast tournament experience and outstanding midfield control under Dalić.",
+    "slug": "croatia"
+  },
+  {
+    "id": "sen",
+    "nameZh": "塞内加尔",
+    "nameEn": "Senegal",
+    "flagCode": "sn",
+    "confederation": "caf",
+    "fifaRanking": 19,
+    "worldCupAppearances": 4,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "八强",
+    "group": "I",
+    "coach": {
+      "nameZh": "帕佩·蒂亚乌",
+      "nameEn": "Pape Thiaw"
+    },
+    "descriptionZh": "塞内加尔在2002年世界杯首秀中晋级八强，震惊了世界。特兰加雄狮拥有萨迪奥·马内等世界级球员，是非洲最具竞争力的球队之一。",
+    "descriptionEn": "Senegal shocked the world by reaching the 2002 quarter-finals in their debut. The Lions of Teranga feature world-class players like Mané and remain one of Africa's most competitive sides.",
+    "slug": "senegal"
+  },
+  {
+    "id": "aut",
+    "nameZh": "奥地利",
+    "nameEn": "Austria",
+    "flagCode": "at",
+    "confederation": "uefa",
+    "fifaRanking": 22,
+    "worldCupAppearances": 8,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "季军",
+    "group": "J",
+    "coach": {
+      "nameZh": "拉尔夫·朗尼克",
+      "nameEn": "Ralf Rangnick"
+    },
+    "descriptionZh": "奥地利在朗尼克的执教下焕然一新，高强度压迫的战术风格令人耳目一新。阿拉巴、萨比策等球员领衔的奥地利队在欧洲赛场表现出色。",
+    "descriptionEn": "Austria have been revitalized under Rangnick's high-intensity pressing system. Led by players like Alaba and Sabitzer, the Austrian side has impressed on the European stage.",
+    "slug": "austria"
+  },
+  {
+    "id": "cur",
+    "nameZh": "库拉索",
+    "nameEn": "Curaçao",
+    "flagCode": "cw",
+    "confederation": "concacaf",
+    "fifaRanking": 82,
+    "worldCupAppearances": 0,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "未参赛",
+    "coach": {
+      "nameZh": "迪克·艾德沃卡特",
+      "nameEn": "Dick Advocaat"
+    },
+    "descriptionZh": "库拉索首次晋级世界杯决赛圈，创造了加勒比足球的历史。这个小岛国拥有多名在欧洲联赛效力的球员，在名帅艾德沃卡特的带领下实现了历史性突破。",
+    "descriptionEn": "Curaçao qualified for their first-ever World Cup, making history for Caribbean football. The island nation features several European-based players under veteran coach Advocaat.",
+    "slug": "curacao",
+    "group": "E"
+  },
+  {
+    "id": "alg",
+    "nameZh": "阿尔及利亚",
+    "nameEn": "Algeria",
+    "flagCode": "dz",
+    "confederation": "caf",
+    "fifaRanking": 38,
+    "worldCupAppearances": 5,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "16强",
+    "group": "J",
+    "coach": {
+      "nameZh": "弗拉基米尔·佩特科维奇",
+      "nameEn": "Vladimir Petković"
+    },
+    "descriptionZh": "阿尔及利亚曾在2014年世界杯16强赛中险些淘汰德国队，展现了出色的竞争力。沙漠之狐技术细腻，在非洲足坛始终是一支劲旅。",
+    "descriptionEn": "Algeria nearly eliminated Germany in the 2014 round of 16, showcasing their competitive quality. The Desert Foxes are technically gifted and remain a force in African football.",
+    "slug": "algeria"
+  },
+  {
+    "id": "gha",
+    "nameZh": "加纳",
+    "nameEn": "Ghana",
+    "flagCode": "gh",
+    "confederation": "caf",
+    "fifaRanking": 44,
+    "worldCupAppearances": 5,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "八强",
+    "group": "L",
+    "coach": {
+      "nameZh": "奥托·阿多",
+      "nameEn": "Otto Addo"
+    },
+    "descriptionZh": "加纳曾在2010年世界杯上险些晋级四强，是非洲足球的一支劲旅。黑星队拥有库杜斯等在欧洲联赛效力的优秀球员，冲击力十足。",
+    "descriptionEn": "Ghana came agonizingly close to the 2010 semi-finals and remain an African force. The Black Stars feature talented Europe-based players like Kudus, bringing dynamism and attacking flair.",
+    "slug": "ghana"
+  },
+  {
+    "id": "pan",
+    "nameZh": "巴拿马",
+    "nameEn": "Panama",
+    "flagCode": "pa",
+    "confederation": "concacaf",
+    "fifaRanking": 46,
+    "worldCupAppearances": 2,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "L",
+    "coach": {
+      "nameZh": "托马斯·克里斯蒂安森",
+      "nameEn": "Thomas Christiansen"
+    },
+    "descriptionZh": "巴拿马在2018年首次参加世界杯后再次回到这个舞台。运河之子虽然实力有限，但凭借团结的团队精神和顽强的斗志赢得了世界杯参赛资格。",
+    "descriptionEn": "Panama return to the World Cup stage after their historic 2018 debut. The Canaleros may have limited resources but earned their spot through unity and fighting spirit.",
+    "slug": "panama"
+  },
+  {
+    "id": "qat",
+    "nameZh": "卡塔尔",
+    "nameEn": "Qatar",
+    "flagCode": "qa",
+    "confederation": "afc",
+    "fifaRanking": 48,
+    "worldCupAppearances": 1,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "coach": {
+      "nameZh": "马克斯",
+      "nameEn": "Luis Maximo"
+    },
+    "descriptionZh": "卡塔尔在2022年以东道主身份首次参加世界杯，积累了宝贵的大赛经验。作为2026年世界杯的参赛球队，卡塔尔将继续提升其在国际足坛的地位。",
+    "descriptionEn": "Qatar made their World Cup debut as hosts in 2022, gaining invaluable tournament experience. They continue to raise their profile in international football.",
+    "slug": "qatar",
+    "group": "B"
+  },
+  {
+    "id": "egy",
+    "nameZh": "埃及",
+    "nameEn": "Egypt",
+    "flagCode": "eg",
+    "confederation": "caf",
+    "fifaRanking": 34,
+    "worldCupAppearances": 4,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "G",
+    "coach": {
+      "nameZh": "鲁伊·维多利亚",
+      "nameEn": "Rui Vitória"
+    },
+    "descriptionZh": "埃及是非洲杯历史上最成功的球队，拥有萨拉赫等世界级球星。法老们在世界杯上的表现一直不尽如人意，2026年将是他们证明自己的机会。",
+    "descriptionEn": "Egypt are the most successful team in Africa Cup of Nations history and feature global star Salah. The Pharaohs have underperformed at World Cups and 2026 is their chance for redemption.",
+    "slug": "egypt"
+  },
+  {
+    "id": "civ",
+    "nameZh": "科特迪瓦",
+    "nameEn": "Côte d'Ivoire",
+    "flagCode": "ci",
+    "confederation": "caf",
+    "fifaRanking": 40,
+    "worldCupAppearances": 4,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "E",
+    "coach": {
+      "nameZh": "埃默塞·法埃",
+      "nameEn": "Emerse Faé"
+    },
+    "descriptionZh": "科特迪瓦作为2024年非洲杯冠军重返世界杯舞台。大象军团拥有丰富的天赋球员，在法埃的带领下希望在世界舞台上证明非洲冠军的实力。",
+    "descriptionEn": "Côte d'Ivoire return to the World Cup as the 2024 Africa Cup of Nations champions. The Elephants boast abundant talent and under Faé aim to prove the African champions' quality on the world stage.",
+    "slug": "cote-divoire"
+  },
+  {
+    "id": "irq",
+    "nameZh": "伊拉克",
+    "nameEn": "Iraq",
+    "flagCode": "iq",
+    "confederation": "afc",
+    "fifaRanking": 59,
+    "worldCupAppearances": 2,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "group": "I",
+    "coach": {
+      "nameZh": "赫苏斯·卡萨斯",
+      "nameEn": "Jesús Casas"
+    },
+    "descriptionZh": "伊拉克通过附加赛晋级2026世界杯，时隔多年重返世界舞台。美索不达米亚雄狮在卡萨斯的带领下展现出色的团队配合，是亚洲足坛不可忽视的力量。",
+    "descriptionEn": "Iraq qualified for the 2026 World Cup through playoffs, returning to the world stage after a long absence. The Lions of Mesopotamia under Casas play cohesive football and are a rising force in Asia.",
+    "slug": "iraq"
+  },
+  {
+    "id": "hai",
+    "nameZh": "海地",
+    "nameEn": "Haiti",
+    "flagCode": "ht",
+    "confederation": "concacaf",
+    "fifaRanking": 68,
+    "worldCupAppearances": 1,
+    "worldCupTitles": 0,
+    "worldCupTitleYears": [],
+    "bestResult": "小组赛",
+    "coach": {
+      "nameZh": "塞巴斯蒂安·涅西布",
+      "nameEn": "Sébastien Néecebur"
+    },
+    "descriptionZh": "海地仅在1974年参加过一次世界杯，时隔半个世纪重返世界舞台。加勒比黑旋风虽然实力有限，但凭借顽强的意志和团结精神赢得了参赛资格。",
+    "descriptionEn": "Haiti return to the World Cup after only one previous appearance in 1974. The Caribbean side earned their spot through determination and unity.",
+    "slug": "haiti",
+    "group": "C"
+  }
+]

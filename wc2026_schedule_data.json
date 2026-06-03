@@ -1,0 +1,1250 @@
+{
+  "groupStage": {
+    "totalMatches": 72,
+    "matches": [
+      {
+        "matchNumber": 1,
+        "group": "A",
+        "date": "6/11",
+        "timeLocal": "1:00 p.m. UTC−6",
+        "team1": "Mexico",
+        "team2": "South Africa",
+        "stadium": "Estadio Azteca, Mexico City"
+      },
+      {
+        "matchNumber": 2,
+        "group": "A",
+        "date": "6/11",
+        "timeLocal": "8:00 p.m. UTC−6",
+        "team1": "South Korea",
+        "team2": "Czech Republic",
+        "stadium": "Estadio Akron, Zapopan"
+      },
+      {
+        "matchNumber": 3,
+        "group": "B",
+        "date": "6/12",
+        "timeLocal": "3:00 p.m. UTC−4",
+        "team1": "Canada",
+        "team2": "Bosnia and Herzegovina",
+        "stadium": "BMO Field, Toronto"
+      },
+      {
+        "matchNumber": 4,
+        "group": "D",
+        "date": "6/12",
+        "timeLocal": "6:00 p.m. UTC−7",
+        "team1": "United States",
+        "team2": "Paraguay",
+        "stadium": "SoFi Stadium, Inglewood, California"
+      },
+      {
+        "matchNumber": 5,
+        "group": "C",
+        "date": "6/13",
+        "timeLocal": "9:00 p.m. UTC−4",
+        "team1": "Haiti",
+        "team2": "Scotland",
+        "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+      },
+      {
+        "matchNumber": 6,
+        "group": "D",
+        "date": "6/13",
+        "timeLocal": "9:00 p.m. UTC−7",
+        "team1": "Australia",
+        "team2": "Turkey",
+        "stadium": "BC Place, Vancouver"
+      },
+      {
+        "matchNumber": 7,
+        "group": "C",
+        "date": "6/13",
+        "timeLocal": "6:00 p.m. UTC−4",
+        "team1": "Brazil",
+        "team2": "Morocco",
+        "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+      },
+      {
+        "matchNumber": 8,
+        "group": "B",
+        "date": "6/13",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Qatar",
+        "team2": "Switzerland",
+        "stadium": "Levi's Stadium, Santa Clara, California"
+      },
+      {
+        "matchNumber": 9,
+        "group": "E",
+        "date": "6/14",
+        "timeLocal": "7:00 p.m. UTC−4",
+        "team1": "Cote d'Ivoire",
+        "team2": "Ecuador",
+        "stadium": "Lincoln Financial Field, Philadelphia"
+      },
+      {
+        "matchNumber": 10,
+        "group": "E",
+        "date": "6/14",
+        "timeLocal": "12:00 p.m. UTC−5",
+        "team1": "Germany",
+        "team2": "Curacao",
+        "stadium": "NRG Stadium, Houston"
+      },
+      {
+        "matchNumber": 11,
+        "group": "F",
+        "date": "6/14",
+        "timeLocal": "3:00 p.m. UTC−5",
+        "team1": "Netherlands",
+        "team2": "Japan",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 12,
+        "group": "F",
+        "date": "6/14",
+        "timeLocal": "8:00 p.m. UTC−6",
+        "team1": "Sweden",
+        "team2": "Tunisia",
+        "stadium": "Estadio BBVA, Guadalupe, Nuevo León"
+      },
+      {
+        "matchNumber": 13,
+        "group": "H",
+        "date": "6/15",
+        "timeLocal": "6:00 p.m. UTC−4",
+        "team1": "Saudi Arabia",
+        "team2": "Uruguay",
+        "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+      },
+      {
+        "matchNumber": 14,
+        "group": "H",
+        "date": "6/15",
+        "timeLocal": "12:00 p.m. UTC−4",
+        "team1": "Spain",
+        "team2": "Cape Verde",
+        "stadium": "Mercedes-Benz Stadium, Atlanta"
+      },
+      {
+        "matchNumber": 15,
+        "group": "G",
+        "date": "6/15",
+        "timeLocal": "6:00 p.m. UTC−7",
+        "team1": "Iran",
+        "team2": "New Zealand",
+        "stadium": "SoFi Stadium, Inglewood, California"
+      },
+      {
+        "matchNumber": 16,
+        "group": "G",
+        "date": "6/15",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Belgium",
+        "team2": "Egypt",
+        "stadium": "Lumen Field, Seattle"
+      },
+      {
+        "matchNumber": 17,
+        "group": "I",
+        "date": "6/16",
+        "timeLocal": "3:00 p.m. UTC−4",
+        "team1": "France",
+        "team2": "Senegal",
+        "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+      },
+      {
+        "matchNumber": 18,
+        "group": "I",
+        "date": "6/16",
+        "timeLocal": "6:00 p.m. UTC−4",
+        "team1": "Iraq",
+        "team2": "Norway",
+        "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+      },
+      {
+        "matchNumber": 19,
+        "group": "J",
+        "date": "6/16",
+        "timeLocal": "8:00 p.m. UTC−5",
+        "team1": "Argentina",
+        "team2": "Algeria",
+        "stadium": "Arrowhead Stadium, Kansas City, Missouri"
+      },
+      {
+        "matchNumber": 20,
+        "group": "J",
+        "date": "6/16",
+        "timeLocal": "9:00 p.m. UTC−7",
+        "team1": "Austria",
+        "team2": "Jordan",
+        "stadium": "Levi's Stadium, Santa Clara, California"
+      },
+      {
+        "matchNumber": 21,
+        "group": "L",
+        "date": "6/17",
+        "timeLocal": "7:00 p.m. UTC−4",
+        "team1": "Ghana",
+        "team2": "Panama",
+        "stadium": "BMO Field, Toronto"
+      },
+      {
+        "matchNumber": 22,
+        "group": "L",
+        "date": "6/17",
+        "timeLocal": "3:00 p.m. UTC−5",
+        "team1": "England",
+        "team2": "Croatia",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 23,
+        "group": "K",
+        "date": "6/17",
+        "timeLocal": "12:00 p.m. UTC−5",
+        "team1": "Portugal",
+        "team2": "DR Congo",
+        "stadium": "NRG Stadium, Houston"
+      },
+      {
+        "matchNumber": 24,
+        "group": "K",
+        "date": "6/17",
+        "timeLocal": "8:00 p.m. UTC−6",
+        "team1": "Uzbekistan",
+        "team2": "Colombia",
+        "stadium": "Estadio Azteca, Mexico City"
+      },
+      {
+        "matchNumber": 25,
+        "group": "A",
+        "date": "6/18",
+        "timeLocal": "12:00 p.m. UTC−4",
+        "team1": "Czech Republic",
+        "team2": "South Africa",
+        "stadium": "Mercedes-Benz Stadium, Atlanta"
+      },
+      {
+        "matchNumber": 26,
+        "group": "B",
+        "date": "6/18",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Switzerland",
+        "team2": "Bosnia and Herzegovina",
+        "stadium": "SoFi Stadium, Inglewood, California"
+      },
+      {
+        "matchNumber": 27,
+        "group": "B",
+        "date": "6/18",
+        "timeLocal": "3:00 p.m. UTC−7",
+        "team1": "Canada",
+        "team2": "Qatar",
+        "stadium": "BC Place, Vancouver"
+      },
+      {
+        "matchNumber": 28,
+        "group": "A",
+        "date": "6/18",
+        "timeLocal": "7:00 p.m. UTC−6",
+        "team1": "Mexico",
+        "team2": "South Korea",
+        "stadium": "Estadio Akron, Zapopan"
+      },
+      {
+        "matchNumber": 29,
+        "group": "C",
+        "date": "6/19",
+        "timeLocal": "8:30 p.m. UTC−4",
+        "team1": "Brazil",
+        "team2": "Haiti",
+        "stadium": "Lincoln Financial Field, Philadelphia"
+      },
+      {
+        "matchNumber": 30,
+        "group": "C",
+        "date": "6/19",
+        "timeLocal": "6:00 p.m. UTC−4",
+        "team1": "Scotland",
+        "team2": "Morocco",
+        "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+      },
+      {
+        "matchNumber": 31,
+        "group": "D",
+        "date": "6/19",
+        "timeLocal": "8:00 p.m. UTC−7",
+        "team1": "Turkey",
+        "team2": "Paraguay",
+        "stadium": "Levi's Stadium, Santa Clara, California"
+      },
+      {
+        "matchNumber": 32,
+        "group": "D",
+        "date": "6/19",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "United States",
+        "team2": "Australia",
+        "stadium": "Lumen Field, Seattle"
+      },
+      {
+        "matchNumber": 33,
+        "group": "E",
+        "date": "6/20",
+        "timeLocal": "4:00 p.m. UTC−4",
+        "team1": "Germany",
+        "team2": "Cote d'Ivoire",
+        "stadium": "BMO Field, Toronto"
+      },
+      {
+        "matchNumber": 34,
+        "group": "E",
+        "date": "6/20",
+        "timeLocal": "7:00 p.m. UTC−5",
+        "team1": "Ecuador",
+        "team2": "Curacao",
+        "stadium": "Arrowhead Stadium, Kansas City, Missouri"
+      },
+      {
+        "matchNumber": 35,
+        "group": "F",
+        "date": "6/20",
+        "timeLocal": "12:00 p.m. UTC−5",
+        "team1": "Netherlands",
+        "team2": "Sweden",
+        "stadium": "NRG Stadium, Houston"
+      },
+      {
+        "matchNumber": 36,
+        "group": "F",
+        "date": "6/20",
+        "timeLocal": "10:00 p.m. UTC−6",
+        "team1": "Tunisia",
+        "team2": "Japan",
+        "stadium": "Estadio BBVA, Guadalupe, Nuevo León"
+      },
+      {
+        "matchNumber": 37,
+        "group": "H",
+        "date": "6/21",
+        "timeLocal": "6:00 p.m. UTC−4",
+        "team1": "Uruguay",
+        "team2": "Cape Verde",
+        "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+      },
+      {
+        "matchNumber": 38,
+        "group": "H",
+        "date": "6/21",
+        "timeLocal": "12:00 p.m. UTC−4",
+        "team1": "Spain",
+        "team2": "Saudi Arabia",
+        "stadium": "Mercedes-Benz Stadium, Atlanta"
+      },
+      {
+        "matchNumber": 39,
+        "group": "G",
+        "date": "6/21",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Belgium",
+        "team2": "Iran",
+        "stadium": "SoFi Stadium, Inglewood, California"
+      },
+      {
+        "matchNumber": 40,
+        "group": "G",
+        "date": "6/21",
+        "timeLocal": "6:00 p.m. UTC−7",
+        "team1": "New Zealand",
+        "team2": "Egypt",
+        "stadium": "BC Place, Vancouver"
+      },
+      {
+        "matchNumber": 41,
+        "group": "I",
+        "date": "6/22",
+        "timeLocal": "8:00 p.m. UTC−4",
+        "team1": "Norway",
+        "team2": "Senegal",
+        "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+      },
+      {
+        "matchNumber": 42,
+        "group": "I",
+        "date": "6/22",
+        "timeLocal": "5:00 p.m. UTC−4",
+        "team1": "France",
+        "team2": "Iraq",
+        "stadium": "Lincoln Financial Field, Philadelphia"
+      },
+      {
+        "matchNumber": 43,
+        "group": "J",
+        "date": "6/22",
+        "timeLocal": "12:00 p.m. UTC−5",
+        "team1": "Argentina",
+        "team2": "Austria",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 44,
+        "group": "J",
+        "date": "6/22",
+        "timeLocal": "8:00 p.m. UTC−7",
+        "team1": "Jordan",
+        "team2": "Algeria",
+        "stadium": "Levi's Stadium, Santa Clara, California"
+      },
+      {
+        "matchNumber": 45,
+        "group": "L",
+        "date": "6/23",
+        "timeLocal": "4:00 p.m. UTC−4",
+        "team1": "England",
+        "team2": "Ghana",
+        "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+      },
+      {
+        "matchNumber": 46,
+        "group": "L",
+        "date": "6/23",
+        "timeLocal": "7:00 p.m. UTC−4",
+        "team1": "Panama",
+        "team2": "Croatia",
+        "stadium": "BMO Field, Toronto"
+      },
+      {
+        "matchNumber": 47,
+        "group": "K",
+        "date": "6/23",
+        "timeLocal": "12:00 p.m. UTC−5",
+        "team1": "Portugal",
+        "team2": "Uzbekistan",
+        "stadium": "NRG Stadium, Houston"
+      },
+      {
+        "matchNumber": 48,
+        "group": "K",
+        "date": "6/23",
+        "timeLocal": "8:00 p.m. UTC−6",
+        "team1": "Colombia",
+        "team2": "DR Congo",
+        "stadium": "Estadio Akron, Zapopan"
+      },
+      {
+        "matchNumber": 49,
+        "group": "C",
+        "date": "6/24",
+        "timeLocal": "6:00 p.m. UTC−4",
+        "team1": "Scotland",
+        "team2": "Brazil",
+        "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+      },
+      {
+        "matchNumber": 50,
+        "group": "C",
+        "date": "6/24",
+        "timeLocal": "6:00 p.m. UTC−4",
+        "team1": "Morocco",
+        "team2": "Haiti",
+        "stadium": "Mercedes-Benz Stadium, Atlanta"
+      },
+      {
+        "matchNumber": 51,
+        "group": "B",
+        "date": "6/24",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Switzerland",
+        "team2": "Canada",
+        "stadium": "BC Place, Vancouver"
+      },
+      {
+        "matchNumber": 52,
+        "group": "B",
+        "date": "6/24",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Bosnia and Herzegovina",
+        "team2": "Qatar",
+        "stadium": "Lumen Field, Seattle"
+      },
+      {
+        "matchNumber": 53,
+        "group": "A",
+        "date": "6/24",
+        "timeLocal": "7:00 p.m. UTC−6",
+        "team1": "Czech Republic",
+        "team2": "Mexico",
+        "stadium": "Estadio Azteca, Mexico City"
+      },
+      {
+        "matchNumber": 54,
+        "group": "A",
+        "date": "6/24",
+        "timeLocal": "7:00 p.m. UTC−6",
+        "team1": "South Africa",
+        "team2": "South Korea",
+        "stadium": "Estadio BBVA, Guadalupe, Nuevo León"
+      },
+      {
+        "matchNumber": 55,
+        "group": "E",
+        "date": "6/25",
+        "timeLocal": "4:00 p.m. UTC−4",
+        "team1": "Curacao",
+        "team2": "Cote d'Ivoire",
+        "stadium": "Lincoln Financial Field, Philadelphia"
+      },
+      {
+        "matchNumber": 56,
+        "group": "E",
+        "date": "6/25",
+        "timeLocal": "4:00 p.m. UTC−4",
+        "team1": "Ecuador",
+        "team2": "Germany",
+        "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+      },
+      {
+        "matchNumber": 57,
+        "group": "F",
+        "date": "6/25",
+        "timeLocal": "6:00 p.m. UTC−5",
+        "team1": "Japan",
+        "team2": "Sweden",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 58,
+        "group": "F",
+        "date": "6/25",
+        "timeLocal": "6:00 p.m. UTC−5",
+        "team1": "Tunisia",
+        "team2": "Netherlands",
+        "stadium": "Arrowhead Stadium, Kansas City, Missouri"
+      },
+      {
+        "matchNumber": 59,
+        "group": "D",
+        "date": "6/25",
+        "timeLocal": "7:00 p.m. UTC−7",
+        "team1": "Turkey",
+        "team2": "United States",
+        "stadium": "SoFi Stadium, Inglewood, California"
+      },
+      {
+        "matchNumber": 60,
+        "group": "D",
+        "date": "6/25",
+        "timeLocal": "7:00 p.m. UTC−7",
+        "team1": "Paraguay",
+        "team2": "Australia",
+        "stadium": "Levi's Stadium, Santa Clara, California"
+      },
+      {
+        "matchNumber": 61,
+        "group": "I",
+        "date": "6/26",
+        "timeLocal": "3:00 p.m. UTC−4",
+        "team1": "Norway",
+        "team2": "France",
+        "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+      },
+      {
+        "matchNumber": 62,
+        "group": "I",
+        "date": "6/26",
+        "timeLocal": "3:00 p.m. UTC−4",
+        "team1": "Senegal",
+        "team2": "Iraq",
+        "stadium": "BMO Field, Toronto"
+      },
+      {
+        "matchNumber": 63,
+        "group": "G",
+        "date": "6/26",
+        "timeLocal": "8:00 p.m. UTC−7",
+        "team1": "Egypt",
+        "team2": "Iran",
+        "stadium": "Lumen Field, Seattle"
+      },
+      {
+        "matchNumber": 64,
+        "group": "G",
+        "date": "6/26",
+        "timeLocal": "8:00 p.m. UTC−7",
+        "team1": "New Zealand",
+        "team2": "Belgium",
+        "stadium": "BC Place, Vancouver"
+      },
+      {
+        "matchNumber": 65,
+        "group": "H",
+        "date": "6/26",
+        "timeLocal": "7:00 p.m. UTC−5",
+        "team1": "Cape Verde",
+        "team2": "Saudi Arabia",
+        "stadium": "NRG Stadium, Houston"
+      },
+      {
+        "matchNumber": 66,
+        "group": "H",
+        "date": "6/26",
+        "timeLocal": "6:00 p.m. UTC−6",
+        "team1": "Uruguay",
+        "team2": "Spain",
+        "stadium": "Estadio Akron, Zapopan"
+      },
+      {
+        "matchNumber": 67,
+        "group": "L",
+        "date": "6/27",
+        "timeLocal": "5:00 p.m. UTC−4",
+        "team1": "Panama",
+        "team2": "England",
+        "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+      },
+      {
+        "matchNumber": 68,
+        "group": "L",
+        "date": "6/27",
+        "timeLocal": "5:00 p.m. UTC−4",
+        "team1": "Croatia",
+        "team2": "Ghana",
+        "stadium": "Lincoln Financial Field, Philadelphia"
+      },
+      {
+        "matchNumber": 69,
+        "group": "J",
+        "date": "6/27",
+        "timeLocal": "9:00 p.m. UTC−5",
+        "team1": "Algeria",
+        "team2": "Austria",
+        "stadium": "Arrowhead Stadium, Kansas City, Missouri"
+      },
+      {
+        "matchNumber": 70,
+        "group": "J",
+        "date": "6/27",
+        "timeLocal": "9:00 p.m. UTC−5",
+        "team1": "Jordan",
+        "team2": "Argentina",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 71,
+        "group": "K",
+        "date": "6/27",
+        "timeLocal": "7:30 p.m. UTC−4",
+        "team1": "Colombia",
+        "team2": "Portugal",
+        "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+      },
+      {
+        "matchNumber": 72,
+        "group": "K",
+        "date": "6/27",
+        "timeLocal": "7:30 p.m. UTC−4",
+        "team1": "DR Congo",
+        "team2": "Uzbekistan",
+        "stadium": "Mercedes-Benz Stadium, Atlanta"
+      }
+    ]
+  },
+  "knockoutStage": {
+    "totalMatches": 32,
+    "rounds": {
+      "roundOf32": [
+        {
+          "matchNumber": 73,
+          "round": "Round of 32",
+          "date": "6/28",
+          "timeLocal": "12:00 p.m. UTC−7",
+          "team1": "Runner-up Group A",
+          "team2": "Runner-up Group B",
+          "stadium": "SoFi Stadium, Inglewood, California"
+        },
+        {
+          "matchNumber": 74,
+          "round": "Round of 32",
+          "date": "6/29",
+          "timeLocal": "4:30 p.m. UTC−4",
+          "team1": "Winner Group E",
+          "team2": "3rd Group A/B/C/D/F",
+          "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+        },
+        {
+          "matchNumber": 75,
+          "round": "Round of 32",
+          "date": "6/29",
+          "timeLocal": "7:00 p.m. UTC−6",
+          "team1": "Winner Group F",
+          "team2": "Runner-up Group C",
+          "stadium": "Estadio BBVA, Guadalupe, Nuevo León"
+        },
+        {
+          "matchNumber": 76,
+          "round": "Round of 32",
+          "date": "6/29",
+          "timeLocal": "12:00 p.m. UTC−5",
+          "team1": "Winner Group C",
+          "team2": "Runner-up Group F",
+          "stadium": "NRG Stadium, Houston"
+        },
+        {
+          "matchNumber": 77,
+          "round": "Round of 32",
+          "date": "6/30",
+          "timeLocal": "5:00 p.m. UTC−4",
+          "team1": "Winner Group I",
+          "team2": "3rd Group C/D/F/G/H",
+          "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+        },
+        {
+          "matchNumber": 78,
+          "round": "Round of 32",
+          "date": "6/30",
+          "timeLocal": "12:00 p.m. UTC−5",
+          "team1": "Runner-up Group E",
+          "team2": "Runner-up Group I",
+          "stadium": "AT&T Stadium, Arlington, Texas"
+        },
+        {
+          "matchNumber": 79,
+          "round": "Round of 32",
+          "date": "6/30",
+          "timeLocal": "7:00 p.m. UTC−6",
+          "team1": "Winner Group A",
+          "team2": "3rd Group C/E/F/H/I",
+          "stadium": "Estadio Azteca, Mexico City"
+        },
+        {
+          "matchNumber": 80,
+          "round": "Round of 32",
+          "date": "7/1",
+          "timeLocal": "12:00 p.m. UTC−4",
+          "team1": "Winner Group L",
+          "team2": "3rd Group E/H/I/J/K",
+          "stadium": "Mercedes-Benz Stadium, Atlanta"
+        },
+        {
+          "matchNumber": 81,
+          "round": "Round of 32",
+          "date": "7/1",
+          "timeLocal": "5:00 p.m. UTC−7",
+          "team1": "Winner Group D",
+          "team2": "3rd Group B/E/F/I/J",
+          "stadium": "Levi's Stadium, Santa Clara, California"
+        },
+        {
+          "matchNumber": 82,
+          "round": "Round of 32",
+          "date": "7/1",
+          "timeLocal": "1:00 p.m. UTC−7",
+          "team1": "Winner Group G",
+          "team2": "3rd Group A/E/H/I/J",
+          "stadium": "Lumen Field, Seattle"
+        },
+        {
+          "matchNumber": 83,
+          "round": "Round of 32",
+          "date": "7/2",
+          "timeLocal": "7:00 p.m. UTC−4",
+          "team1": "Runner-up Group K",
+          "team2": "Runner-up Group L",
+          "stadium": "BMO Field, Toronto"
+        },
+        {
+          "matchNumber": 84,
+          "round": "Round of 32",
+          "date": "7/2",
+          "timeLocal": "12:00 p.m. UTC−7",
+          "team1": "Winner Group H",
+          "team2": "Runner-up Group J",
+          "stadium": "SoFi Stadium, Inglewood, California"
+        },
+        {
+          "matchNumber": 85,
+          "round": "Round of 32",
+          "date": "7/2",
+          "timeLocal": "8:00 p.m. UTC−7",
+          "team1": "Winner Group B",
+          "team2": "3rd Group E/F/G/I/J",
+          "stadium": "BC Place, Vancouver"
+        },
+        {
+          "matchNumber": 86,
+          "round": "Round of 32",
+          "date": "7/3",
+          "timeLocal": "6:00 p.m. UTC−4",
+          "team1": "Winner Group J",
+          "team2": "Runner-up Group H",
+          "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+        },
+        {
+          "matchNumber": 87,
+          "round": "Round of 32",
+          "date": "7/3",
+          "timeLocal": "8:30 p.m. UTC−5",
+          "team1": "Winner Group K",
+          "team2": "3rd Group D/E/I/J/L",
+          "stadium": "Arrowhead Stadium, Kansas City, Missouri"
+        },
+        {
+          "matchNumber": 88,
+          "round": "Round of 32",
+          "date": "7/3",
+          "timeLocal": "1:00 p.m. UTC−5",
+          "team1": "Runner-up Group D",
+          "team2": "Runner-up Group G",
+          "stadium": "AT&T Stadium, Arlington, Texas"
+        }
+      ],
+      "roundOf16": [
+        {
+          "matchNumber": 73,
+          "round": "Round of 16",
+          "date": "7/4",
+          "timeLocal": "12:00 p.m. UTC−5",
+          "team1": "Winner Match 73",
+          "team2": "Winner Match 75",
+          "stadium": "NRG Stadium, Houston"
+        },
+        {
+          "matchNumber": 74,
+          "round": "Round of 16",
+          "date": "7/4",
+          "timeLocal": "5:00 p.m. UTC−4",
+          "team1": "Winner Match 74",
+          "team2": "Winner Match 77",
+          "stadium": "Lincoln Financial Field, Philadelphia"
+        },
+        {
+          "matchNumber": 76,
+          "round": "Round of 16",
+          "date": "7/5",
+          "timeLocal": "4:00 p.m. UTC−4",
+          "team1": "Winner Match 76",
+          "team2": "Winner Match 78",
+          "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+        },
+        {
+          "matchNumber": 79,
+          "round": "Round of 16",
+          "date": "7/5",
+          "timeLocal": "6:00 p.m. UTC−6",
+          "team1": "Winner Match 79",
+          "team2": "Winner Match 80",
+          "stadium": "Estadio Azteca, Mexico City"
+        },
+        {
+          "matchNumber": 81,
+          "round": "Round of 16",
+          "date": "7/6",
+          "timeLocal": "5:00 p.m. UTC−7",
+          "team1": "Winner Match 81",
+          "team2": "Winner Match 82",
+          "stadium": "Lumen Field, Seattle"
+        },
+        {
+          "matchNumber": 83,
+          "round": "Round of 16",
+          "date": "7/6",
+          "timeLocal": "2:00 p.m. UTC−5",
+          "team1": "Winner Match 83",
+          "team2": "Winner Match 84",
+          "stadium": "AT&T Stadium, Arlington, Texas"
+        },
+        {
+          "matchNumber": 85,
+          "round": "Round of 16",
+          "date": "7/7",
+          "timeLocal": "1:00 p.m. UTC−7",
+          "team1": "Winner Match 85",
+          "team2": "Winner Match 87",
+          "stadium": "BC Place, Vancouver"
+        },
+        {
+          "matchNumber": 86,
+          "round": "Round of 16",
+          "date": "7/7",
+          "timeLocal": "12:00 p.m. UTC−4",
+          "team1": "Winner Match 86",
+          "team2": "Winner Match 88",
+          "stadium": "Mercedes-Benz Stadium, Atlanta"
+        }
+      ],
+      "quarterFinals": [
+        {
+          "matchNumber": 89,
+          "round": "Quarter-finals",
+          "date": "7/9",
+          "timeLocal": "4:00 p.m. UTC−4",
+          "team1": "Winner Match 89",
+          "team2": "Winner Match 90",
+          "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+        },
+        {
+          "matchNumber": 91,
+          "round": "Quarter-finals",
+          "date": "7/11",
+          "timeLocal": "5:00 p.m. UTC−4",
+          "team1": "Winner Match 91",
+          "team2": "Winner Match 92",
+          "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+        },
+        {
+          "matchNumber": 93,
+          "round": "Quarter-finals",
+          "date": "7/10",
+          "timeLocal": "12:00 p.m. UTC−7",
+          "team1": "Winner Match 93",
+          "team2": "Winner Match 94",
+          "stadium": "SoFi Stadium, Inglewood, California"
+        },
+        {
+          "matchNumber": 95,
+          "round": "Quarter-finals",
+          "date": "7/11",
+          "timeLocal": "8:00 p.m. UTC−5",
+          "team1": "Winner Match 95",
+          "team2": "Winner Match 96",
+          "stadium": "Arrowhead Stadium, Kansas City, Missouri"
+        }
+      ],
+      "semiFinals": [
+        {
+          "matchNumber": 97,
+          "round": "Semi-finals",
+          "date": "7/14",
+          "timeLocal": "2:00 p.m. UTC−5",
+          "team1": "Winner Match 97",
+          "team2": "Winner Match 98",
+          "stadium": "AT&T Stadium, Arlington, Texas"
+        },
+        {
+          "matchNumber": 99,
+          "round": "Semi-finals",
+          "date": "7/15",
+          "timeLocal": "3:00 p.m. UTC−4",
+          "team1": "Winner Match 99",
+          "team2": "Winner Match 100",
+          "stadium": "Mercedes-Benz Stadium, Atlanta"
+        }
+      ],
+      "thirdPlace": [
+        {
+          "matchNumber": 103,
+          "round": "Third place",
+          "date": "7/18",
+          "timeLocal": "5:00 p.m. UTC−4",
+          "team1": "Loser Match 101",
+          "team2": "Loser Match 102",
+          "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+        }
+      ],
+      "final": [
+        {
+          "matchNumber": 104,
+          "round": "Final",
+          "date": "7/19",
+          "timeLocal": "3:00 p.m. UTC−4",
+          "team1": "Winner Match 101",
+          "team2": "Winner Match 102",
+          "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+        }
+      ]
+    },
+    "matches": [
+      {
+        "matchNumber": 73,
+        "round": "Round of 32",
+        "date": "6/28",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Runner-up Group A",
+        "team2": "Runner-up Group B",
+        "stadium": "SoFi Stadium, Inglewood, California"
+      },
+      {
+        "matchNumber": 73,
+        "round": "Round of 16",
+        "date": "7/4",
+        "timeLocal": "12:00 p.m. UTC−5",
+        "team1": "Winner Match 73",
+        "team2": "Winner Match 75",
+        "stadium": "NRG Stadium, Houston"
+      },
+      {
+        "matchNumber": 74,
+        "round": "Round of 32",
+        "date": "6/29",
+        "timeLocal": "4:30 p.m. UTC−4",
+        "team1": "Winner Group E",
+        "team2": "3rd Group A/B/C/D/F",
+        "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+      },
+      {
+        "matchNumber": 74,
+        "round": "Round of 16",
+        "date": "7/4",
+        "timeLocal": "5:00 p.m. UTC−4",
+        "team1": "Winner Match 74",
+        "team2": "Winner Match 77",
+        "stadium": "Lincoln Financial Field, Philadelphia"
+      },
+      {
+        "matchNumber": 75,
+        "round": "Round of 32",
+        "date": "6/29",
+        "timeLocal": "7:00 p.m. UTC−6",
+        "team1": "Winner Group F",
+        "team2": "Runner-up Group C",
+        "stadium": "Estadio BBVA, Guadalupe, Nuevo León"
+      },
+      {
+        "matchNumber": 76,
+        "round": "Round of 32",
+        "date": "6/29",
+        "timeLocal": "12:00 p.m. UTC−5",
+        "team1": "Winner Group C",
+        "team2": "Runner-up Group F",
+        "stadium": "NRG Stadium, Houston"
+      },
+      {
+        "matchNumber": 76,
+        "round": "Round of 16",
+        "date": "7/5",
+        "timeLocal": "4:00 p.m. UTC−4",
+        "team1": "Winner Match 76",
+        "team2": "Winner Match 78",
+        "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+      },
+      {
+        "matchNumber": 77,
+        "round": "Round of 32",
+        "date": "6/30",
+        "timeLocal": "5:00 p.m. UTC−4",
+        "team1": "Winner Group I",
+        "team2": "3rd Group C/D/F/G/H",
+        "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+      },
+      {
+        "matchNumber": 78,
+        "round": "Round of 32",
+        "date": "6/30",
+        "timeLocal": "12:00 p.m. UTC−5",
+        "team1": "Runner-up Group E",
+        "team2": "Runner-up Group I",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 79,
+        "round": "Round of 32",
+        "date": "6/30",
+        "timeLocal": "7:00 p.m. UTC−6",
+        "team1": "Winner Group A",
+        "team2": "3rd Group C/E/F/H/I",
+        "stadium": "Estadio Azteca, Mexico City"
+      },
+      {
+        "matchNumber": 79,
+        "round": "Round of 16",
+        "date": "7/5",
+        "timeLocal": "6:00 p.m. UTC−6",
+        "team1": "Winner Match 79",
+        "team2": "Winner Match 80",
+        "stadium": "Estadio Azteca, Mexico City"
+      },
+      {
+        "matchNumber": 80,
+        "round": "Round of 32",
+        "date": "7/1",
+        "timeLocal": "12:00 p.m. UTC−4",
+        "team1": "Winner Group L",
+        "team2": "3rd Group E/H/I/J/K",
+        "stadium": "Mercedes-Benz Stadium, Atlanta"
+      },
+      {
+        "matchNumber": 81,
+        "round": "Round of 32",
+        "date": "7/1",
+        "timeLocal": "5:00 p.m. UTC−7",
+        "team1": "Winner Group D",
+        "team2": "3rd Group B/E/F/I/J",
+        "stadium": "Levi's Stadium, Santa Clara, California"
+      },
+      {
+        "matchNumber": 81,
+        "round": "Round of 16",
+        "date": "7/6",
+        "timeLocal": "5:00 p.m. UTC−7",
+        "team1": "Winner Match 81",
+        "team2": "Winner Match 82",
+        "stadium": "Lumen Field, Seattle"
+      },
+      {
+        "matchNumber": 82,
+        "round": "Round of 32",
+        "date": "7/1",
+        "timeLocal": "1:00 p.m. UTC−7",
+        "team1": "Winner Group G",
+        "team2": "3rd Group A/E/H/I/J",
+        "stadium": "Lumen Field, Seattle"
+      },
+      {
+        "matchNumber": 83,
+        "round": "Round of 32",
+        "date": "7/2",
+        "timeLocal": "7:00 p.m. UTC−4",
+        "team1": "Runner-up Group K",
+        "team2": "Runner-up Group L",
+        "stadium": "BMO Field, Toronto"
+      },
+      {
+        "matchNumber": 83,
+        "round": "Round of 16",
+        "date": "7/6",
+        "timeLocal": "2:00 p.m. UTC−5",
+        "team1": "Winner Match 83",
+        "team2": "Winner Match 84",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 84,
+        "round": "Round of 32",
+        "date": "7/2",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Winner Group H",
+        "team2": "Runner-up Group J",
+        "stadium": "SoFi Stadium, Inglewood, California"
+      },
+      {
+        "matchNumber": 85,
+        "round": "Round of 32",
+        "date": "7/2",
+        "timeLocal": "8:00 p.m. UTC−7",
+        "team1": "Winner Group B",
+        "team2": "3rd Group E/F/G/I/J",
+        "stadium": "BC Place, Vancouver"
+      },
+      {
+        "matchNumber": 85,
+        "round": "Round of 16",
+        "date": "7/7",
+        "timeLocal": "1:00 p.m. UTC−7",
+        "team1": "Winner Match 85",
+        "team2": "Winner Match 87",
+        "stadium": "BC Place, Vancouver"
+      },
+      {
+        "matchNumber": 86,
+        "round": "Round of 32",
+        "date": "7/3",
+        "timeLocal": "6:00 p.m. UTC−4",
+        "team1": "Winner Group J",
+        "team2": "Runner-up Group H",
+        "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+      },
+      {
+        "matchNumber": 86,
+        "round": "Round of 16",
+        "date": "7/7",
+        "timeLocal": "12:00 p.m. UTC−4",
+        "team1": "Winner Match 86",
+        "team2": "Winner Match 88",
+        "stadium": "Mercedes-Benz Stadium, Atlanta"
+      },
+      {
+        "matchNumber": 87,
+        "round": "Round of 32",
+        "date": "7/3",
+        "timeLocal": "8:30 p.m. UTC−5",
+        "team1": "Winner Group K",
+        "team2": "3rd Group D/E/I/J/L",
+        "stadium": "Arrowhead Stadium, Kansas City, Missouri"
+      },
+      {
+        "matchNumber": 88,
+        "round": "Round of 32",
+        "date": "7/3",
+        "timeLocal": "1:00 p.m. UTC−5",
+        "team1": "Runner-up Group D",
+        "team2": "Runner-up Group G",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 89,
+        "round": "Quarter-finals",
+        "date": "7/9",
+        "timeLocal": "4:00 p.m. UTC−4",
+        "team1": "Winner Match 89",
+        "team2": "Winner Match 90",
+        "stadium": "Gillette Stadium, Foxborough, Massachusetts"
+      },
+      {
+        "matchNumber": 91,
+        "round": "Quarter-finals",
+        "date": "7/11",
+        "timeLocal": "5:00 p.m. UTC−4",
+        "team1": "Winner Match 91",
+        "team2": "Winner Match 92",
+        "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+      },
+      {
+        "matchNumber": 93,
+        "round": "Quarter-finals",
+        "date": "7/10",
+        "timeLocal": "12:00 p.m. UTC−7",
+        "team1": "Winner Match 93",
+        "team2": "Winner Match 94",
+        "stadium": "SoFi Stadium, Inglewood, California"
+      },
+      {
+        "matchNumber": 95,
+        "round": "Quarter-finals",
+        "date": "7/11",
+        "timeLocal": "8:00 p.m. UTC−5",
+        "team1": "Winner Match 95",
+        "team2": "Winner Match 96",
+        "stadium": "Arrowhead Stadium, Kansas City, Missouri"
+      },
+      {
+        "matchNumber": 97,
+        "round": "Semi-finals",
+        "date": "7/14",
+        "timeLocal": "2:00 p.m. UTC−5",
+        "team1": "Winner Match 97",
+        "team2": "Winner Match 98",
+        "stadium": "AT&T Stadium, Arlington, Texas"
+      },
+      {
+        "matchNumber": 99,
+        "round": "Semi-finals",
+        "date": "7/15",
+        "timeLocal": "3:00 p.m. UTC−4",
+        "team1": "Winner Match 99",
+        "team2": "Winner Match 100",
+        "stadium": "Mercedes-Benz Stadium, Atlanta"
+      },
+      {
+        "matchNumber": 103,
+        "round": "Third place",
+        "date": "7/18",
+        "timeLocal": "5:00 p.m. UTC−4",
+        "team1": "Loser Match 101",
+        "team2": "Loser Match 102",
+        "stadium": "Hard Rock Stadium, Miami Gardens, Florida"
+      },
+      {
+        "matchNumber": 104,
+        "round": "Final",
+        "date": "7/19",
+        "timeLocal": "3:00 p.m. UTC−4",
+        "team1": "Winner Match 101",
+        "team2": "Winner Match 102",
+        "stadium": "MetLife Stadium, East Rutherford, New Jersey"
+      }
+    ]
+  }
+}

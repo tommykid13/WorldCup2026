@@ -1,65 +1,164 @@
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
+import { CountdownTimer } from '@/components/home/CountdownTimer';
+import { getAllTeams } from '@/lib/data/teams';
+import { getAllVenues } from '@/lib/data/venues';
+import { SITE_CONFIG } from '@/lib/constants';
 
-export default function Home() {
+function FlagImg({ code, w = 28, h = 18 }: { code: string; w?: number; h?: number }) {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <Image src={`/flags/${code}.png`} alt="" width={w} height={h} className="inline-block object-contain" unoptimized />
+  );
+}
+
+export default function HomePage() {
+  const teams = getAllTeams();
+  const venues = getAllVenues();
+
+  // Group teams
+  const groups: Record<string, typeof teams> = {};
+  for (const team of teams) {
+    if (!groups[team.group]) groups[team.group] = [];
+    groups[team.group].push(team);
+  }
+  const groupNames = Object.keys(groups).sort();
+  const rows: string[][] = [];
+  for (let i = 0; i < groupNames.length; i += 2) {
+    rows.push(groupNames.slice(i, i + 2));
+  }
+
+  return (
+    <div>
+      {/* Hero */}
+      <section className="relative bg-gradient-to-br from-primary via-emerald-600 to-emerald-800 text-white overflow-hidden">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 text-center">
+          <div className="flex items-center justify-center gap-3 mb-6">
+            {SITE_CONFIG.hostCountries.map((c) => (
+              <FlagImg key={c.code} code={c.code} w={48} h={32} />
+            ))}
+          </div>
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3">2026 世界杯</h1>
+          <p className="text-lg sm:text-xl text-white/80 mb-2">美国 · 加拿大 · 墨西哥</p>
+          <p className="text-sm text-white/60 mb-10">2026年6月11日 — 7月19日</p>
+          <div className="mb-4">
+            <p className="text-sm text-white/70 mb-4">距离开幕还有</p>
+            <CountdownTimer />
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Quick Stats */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 relative z-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          {[
+            { value: String(SITE_CONFIG.totalTeams), label: '参赛球队' },
+            { value: String(SITE_CONFIG.totalGroups), label: '小组分组' },
+            { value: String(venues.length), label: '比赛场馆' },
+            { value: '104', label: '比赛场次' },
+          ].map((stat) => (
+            <div key={stat.label} className="bg-white rounded-xl shadow-sm border border-border p-4 text-center">
+              <div className="text-2xl font-bold text-foreground">{stat.value}</div>
+              <div className="text-xs text-muted">{stat.label}</div>
+            </div>
+          ))}
         </div>
-      </main>
+      </section>
+
+      {/* 小组积分 */}
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h2 className="text-2xl font-bold text-foreground">小组积分榜</h2>
+            <p className="text-sm text-muted mt-1">12个小组 · 前2名直接晋级 + 8支最佳第3名</p>
+          </div>
+          <Link href="/groups" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors">
+            查看详情 →
+          </Link>
+        </div>
+        <div className="space-y-6">
+          {rows.map((row, ri) => (
+            <div key={ri}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {row.map((gn) => {
+                  const gt = groups[gn].sort((a, b) => a.fifaRanking - b.fifaRanking);
+                  return (
+                    <div key={gn} className="bg-white rounded-xl border border-border overflow-hidden">
+                      <div className="bg-gradient-to-r from-primary to-emerald-600 text-white px-4 py-2 flex items-center justify-between">
+                        <span className="font-bold">{gn} 组</span>
+                        <span className="text-xs text-white/70">GROUP {gn}</span>
+                      </div>
+                      <table className="w-full text-sm">
+                        <thead>
+                          <tr className="bg-muted-light text-muted text-xs">
+                            <th className="px-2 py-1.5 text-center w-6">#</th>
+                            <th className="px-2 py-1.5 text-left">球队</th>
+                            <th className="px-2 py-1.5 text-center">赛</th>
+                            <th className="px-2 py-1.5 text-center">胜</th>
+                            <th className="px-2 py-1.5 text-center">平</th>
+                            <th className="px-2 py-1.5 text-center">负</th>
+                            <th className="px-2 py-1.5 text-center">净胜</th>
+                            <th className="px-2 py-1.5 text-center font-bold">积分</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {gt.map((t, i) => (
+                            <tr key={t.id} className={`border-t border-border ${i < 2 ? 'bg-emerald-50/50' : ''}`}>
+                              <td className="px-2 py-1.5 text-center">
+                                <span className={`inline-flex items-center justify-center w-4 h-4 rounded-full text-[10px] font-bold ${i === 0 ? 'bg-primary text-white' : i === 1 ? 'bg-emerald-100 text-primary' : 'bg-gray-100 text-muted'}`}>
+                                  {i + 1}
+                                </span>
+                              </td>
+                              <td className="px-2 py-1.5">
+                                <div className="flex items-center gap-1.5">
+                                  <Image src={`/flags/${t.flagCode}.png`} alt="" width={20} height={14} className="inline-block object-contain" unoptimized />
+                                  <span className="font-medium text-foreground text-xs">{t.nameZh}</span>
+                                </div>
+                              </td>
+                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
+                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
+                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
+                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
+                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
+                              <td className="px-2 py-1.5 text-center font-bold text-foreground text-xs">0</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  );
+                })}
+              </div>
+              {ri < rows.length - 1 && <div className="border-b border-border my-6" />}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Venues */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="flex items-center justify-between mb-8">
+          <div>
+            <h2 className="text-2xl font-bold text-foreground">比赛场馆</h2>
+            <p className="text-sm text-muted mt-1">横跨三个国家的16座世界级场馆</p>
+          </div>
+          <Link href="/venues" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors">查看全部 →</Link>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          {venues.slice(0, 3).map((venue) => (
+            <div key={venue.id} className="bg-white rounded-xl border border-border p-5 hover:shadow-md transition-all">
+              <div className="flex items-center gap-2 mb-3">
+                <FlagImg code={venue.country} w={32} h={20} />
+                <div>
+                  <h3 className="font-semibold text-foreground">{venue.nameZh}</h3>
+                  <p className="text-xs text-muted">{venue.cityZh}，{venue.countryZh}</p>
+                </div>
+              </div>
+              <p className="text-sm text-muted line-clamp-2">{venue.descriptionZh}</p>
+              <div className="mt-3 text-xs text-muted">容量：{venue.capacity.toLocaleString()} 人</div>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

@@ -1,0 +1,1882 @@
+{
+  "groupStage": [
+    {
+      "id": "GM001",
+      "group": "A",
+      "matchday": 1,
+      "date": "2026-06-12",
+      "time": "03:00",
+      "venueId": "estadio-azteca",
+      "venueZh": "阿兹特克体育场",
+      "homeTeam": {
+        "id": "mex",
+        "nameZh": "墨西哥",
+        "flagCode": "mx"
+      },
+      "awayTeam": {
+        "id": "rsa",
+        "nameZh": "南非",
+        "flagCode": "za"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM002",
+      "group": "A",
+      "matchday": 1,
+      "date": "2026-06-12",
+      "time": "10:00",
+      "venueId": "estadio-akron",
+      "venueZh": "阿克伦球场",
+      "homeTeam": {
+        "id": "kor",
+        "nameZh": "韩国",
+        "flagCode": "kr"
+      },
+      "awayTeam": {
+        "id": "cze",
+        "nameZh": "捷克",
+        "flagCode": "cz"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM003",
+      "group": "A",
+      "matchday": 1,
+      "date": "2026-06-19",
+      "time": "00:00",
+      "venueId": "mercedes-benz-stadium",
+      "venueZh": "梅赛德斯-宾士体育场",
+      "homeTeam": {
+        "id": "cze",
+        "nameZh": "捷克",
+        "flagCode": "cz"
+      },
+      "awayTeam": {
+        "id": "rsa",
+        "nameZh": "南非",
+        "flagCode": "za"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM004",
+      "group": "A",
+      "matchday": 1,
+      "date": "2026-06-19",
+      "time": "09:00",
+      "venueId": "estadio-akron",
+      "venueZh": "阿克伦球场",
+      "homeTeam": {
+        "id": "mex",
+        "nameZh": "墨西哥",
+        "flagCode": "mx"
+      },
+      "awayTeam": {
+        "id": "kor",
+        "nameZh": "韩国",
+        "flagCode": "kr"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM005",
+      "group": "A",
+      "matchday": 1,
+      "date": "2026-06-25",
+      "time": "09:00",
+      "venueId": "estadio-azteca",
+      "venueZh": "阿兹特克体育场",
+      "homeTeam": {
+        "id": "cze",
+        "nameZh": "捷克",
+        "flagCode": "cz"
+      },
+      "awayTeam": {
+        "id": "mex",
+        "nameZh": "墨西哥",
+        "flagCode": "mx"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM006",
+      "group": "A",
+      "matchday": 1,
+      "date": "2026-06-25",
+      "time": "09:00",
+      "venueId": "estadio-bbva",
+      "venueZh": "BBVA体育场",
+      "homeTeam": {
+        "id": "rsa",
+        "nameZh": "南非",
+        "flagCode": "za"
+      },
+      "awayTeam": {
+        "id": "kor",
+        "nameZh": "韩国",
+        "flagCode": "kr"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM007",
+      "group": "B",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "time": "03:00",
+      "venueId": "bmo-field",
+      "venueZh": "BMO球场",
+      "homeTeam": {
+        "id": "can",
+        "nameZh": "加拿大",
+        "flagCode": "ca"
+      },
+      "awayTeam": {
+        "id": "bih",
+        "nameZh": "波黑",
+        "flagCode": "ba"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM008",
+      "group": "B",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "time": "03:00",
+      "venueId": "levis-stadium",
+      "venueZh": "李维斯体育场",
+      "homeTeam": {
+        "id": "qat",
+        "nameZh": "卡塔尔",
+        "flagCode": "qa"
+      },
+      "awayTeam": {
+        "id": "sui",
+        "nameZh": "瑞士",
+        "flagCode": "ch"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM009",
+      "group": "B",
+      "matchday": 1,
+      "date": "2026-06-19",
+      "time": "03:00",
+      "venueId": "sofi-stadium",
+      "venueZh": "SoFi体育场",
+      "homeTeam": {
+        "id": "sui",
+        "nameZh": "瑞士",
+        "flagCode": "ch"
+      },
+      "awayTeam": {
+        "id": "bih",
+        "nameZh": "波黑",
+        "flagCode": "ba"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM010",
+      "group": "B",
+      "matchday": 1,
+      "date": "2026-06-19",
+      "time": "06:00",
+      "venueId": "bc-place",
+      "venueZh": "卑诗体育馆",
+      "homeTeam": {
+        "id": "can",
+        "nameZh": "加拿大",
+        "flagCode": "ca"
+      },
+      "awayTeam": {
+        "id": "qat",
+        "nameZh": "卡塔尔",
+        "flagCode": "qa"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM011",
+      "group": "B",
+      "matchday": 1,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "venueId": "bc-place",
+      "venueZh": "卑诗体育馆",
+      "homeTeam": {
+        "id": "sui",
+        "nameZh": "瑞士",
+        "flagCode": "ch"
+      },
+      "awayTeam": {
+        "id": "can",
+        "nameZh": "加拿大",
+        "flagCode": "ca"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM012",
+      "group": "B",
+      "matchday": 1,
+      "date": "2026-06-25",
+      "time": "03:00",
+      "venueId": "lumen-field",
+      "venueZh": "流明球场",
+      "homeTeam": {
+        "id": "bih",
+        "nameZh": "波黑",
+        "flagCode": "ba"
+      },
+      "awayTeam": {
+        "id": "qat",
+        "nameZh": "卡塔尔",
+        "flagCode": "qa"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM013",
+      "group": "C",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "time": "06:00",
+      "venueId": "metlife-stadium",
+      "venueZh": "大都会人寿体育场",
+      "homeTeam": {
+        "id": "bra",
+        "nameZh": "巴西",
+        "flagCode": "br"
+      },
+      "awayTeam": {
+        "id": "mar",
+        "nameZh": "摩洛哥",
+        "flagCode": "ma"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM014",
+      "group": "C",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "time": "09:00",
+      "venueId": "gillette-stadium",
+      "venueZh": "吉列体育场",
+      "homeTeam": {
+        "id": "hai",
+        "nameZh": "海地",
+        "flagCode": "ht"
+      },
+      "awayTeam": {
+        "id": "sco",
+        "nameZh": "苏格兰",
+        "flagCode": "gb-sct"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM015",
+      "group": "C",
+      "matchday": 1,
+      "date": "2026-06-20",
+      "time": "06:00",
+      "venueId": "gillette-stadium",
+      "venueZh": "吉列体育场",
+      "homeTeam": {
+        "id": "sco",
+        "nameZh": "苏格兰",
+        "flagCode": "gb-sct"
+      },
+      "awayTeam": {
+        "id": "mar",
+        "nameZh": "摩洛哥",
+        "flagCode": "ma"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM016",
+      "group": "C",
+      "matchday": 1,
+      "date": "2026-06-20",
+      "time": "09:00",
+      "venueId": "lincoln-financial-field",
+      "venueZh": "林肯金融球场",
+      "homeTeam": {
+        "id": "bra",
+        "nameZh": "巴西",
+        "flagCode": "br"
+      },
+      "awayTeam": {
+        "id": "hai",
+        "nameZh": "海地",
+        "flagCode": "ht"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM017",
+      "group": "C",
+      "matchday": 1,
+      "date": "2026-06-25",
+      "time": "06:00",
+      "venueId": "hard-rock-stadium",
+      "venueZh": "硬石体育场",
+      "homeTeam": {
+        "id": "sco",
+        "nameZh": "苏格兰",
+        "flagCode": "gb-sct"
+      },
+      "awayTeam": {
+        "id": "bra",
+        "nameZh": "巴西",
+        "flagCode": "br"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM018",
+      "group": "C",
+      "matchday": 1,
+      "date": "2026-06-25",
+      "time": "06:00",
+      "venueId": "mercedes-benz-stadium",
+      "venueZh": "梅赛德斯-宾士体育场",
+      "homeTeam": {
+        "id": "mar",
+        "nameZh": "摩洛哥",
+        "flagCode": "ma"
+      },
+      "awayTeam": {
+        "id": "hai",
+        "nameZh": "海地",
+        "flagCode": "ht"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM019",
+      "group": "D",
+      "matchday": 1,
+      "date": "2026-06-13",
+      "time": "09:00",
+      "venueId": "sofi-stadium",
+      "venueZh": "SoFi体育场",
+      "homeTeam": {
+        "id": "usa",
+        "nameZh": "美国",
+        "flagCode": "us"
+      },
+      "awayTeam": {
+        "id": "par",
+        "nameZh": "巴拉圭",
+        "flagCode": "py"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM020",
+      "group": "D",
+      "matchday": 1,
+      "date": "2026-06-14",
+      "time": "12:00",
+      "venueId": "bc-place",
+      "venueZh": "卑诗体育馆",
+      "homeTeam": {
+        "id": "aus",
+        "nameZh": "澳大利亚",
+        "flagCode": "au"
+      },
+      "awayTeam": {
+        "id": "tur",
+        "nameZh": "土耳其",
+        "flagCode": "tr"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM021",
+      "group": "D",
+      "matchday": 1,
+      "date": "2026-06-20",
+      "time": "12:00",
+      "venueId": "levis-stadium",
+      "venueZh": "李维斯体育场",
+      "homeTeam": {
+        "id": "tur",
+        "nameZh": "土耳其",
+        "flagCode": "tr"
+      },
+      "awayTeam": {
+        "id": "par",
+        "nameZh": "巴拉圭",
+        "flagCode": "py"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM022",
+      "group": "D",
+      "matchday": 1,
+      "date": "2026-06-20",
+      "time": "03:00",
+      "venueId": "lumen-field",
+      "venueZh": "流明球场",
+      "homeTeam": {
+        "id": "usa",
+        "nameZh": "美国",
+        "flagCode": "us"
+      },
+      "awayTeam": {
+        "id": "aus",
+        "nameZh": "澳大利亚",
+        "flagCode": "au"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM023",
+      "group": "D",
+      "matchday": 1,
+      "date": "2026-06-26",
+      "time": "10:00",
+      "venueId": "sofi-stadium",
+      "venueZh": "SoFi体育场",
+      "homeTeam": {
+        "id": "tur",
+        "nameZh": "土耳其",
+        "flagCode": "tr"
+      },
+      "awayTeam": {
+        "id": "usa",
+        "nameZh": "美国",
+        "flagCode": "us"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM024",
+      "group": "D",
+      "matchday": 1,
+      "date": "2026-06-26",
+      "time": "10:00",
+      "venueId": "levis-stadium",
+      "venueZh": "李维斯体育场",
+      "homeTeam": {
+        "id": "par",
+        "nameZh": "巴拉圭",
+        "flagCode": "py"
+      },
+      "awayTeam": {
+        "id": "aus",
+        "nameZh": "澳大利亚",
+        "flagCode": "au"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM025",
+      "group": "E",
+      "matchday": 2,
+      "date": "2026-06-15",
+      "time": "01:00",
+      "venueId": "nrg-stadium",
+      "venueZh": "NRG体育场",
+      "homeTeam": {
+        "id": "ger",
+        "nameZh": "德国",
+        "flagCode": "de"
+      },
+      "awayTeam": {
+        "id": "cur",
+        "nameZh": "库拉索",
+        "flagCode": "cw"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM026",
+      "group": "E",
+      "matchday": 2,
+      "date": "2026-06-15",
+      "time": "07:00",
+      "venueId": "lincoln-financial-field",
+      "venueZh": "林肯金融球场",
+      "homeTeam": {
+        "id": "civ",
+        "nameZh": "科特迪瓦",
+        "flagCode": "ci"
+      },
+      "awayTeam": {
+        "id": "ecu",
+        "nameZh": "厄瓜多尔",
+        "flagCode": "ec"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM027",
+      "group": "E",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "time": "04:00",
+      "venueId": "bmo-field",
+      "venueZh": "BMO球场",
+      "homeTeam": {
+        "id": "ger",
+        "nameZh": "德国",
+        "flagCode": "de"
+      },
+      "awayTeam": {
+        "id": "civ",
+        "nameZh": "科特迪瓦",
+        "flagCode": "ci"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM028",
+      "group": "E",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "time": "08:00",
+      "venueId": "arrowhead-stadium",
+      "venueZh": "箭头体育场",
+      "homeTeam": {
+        "id": "ecu",
+        "nameZh": "厄瓜多尔",
+        "flagCode": "ec"
+      },
+      "awayTeam": {
+        "id": "cur",
+        "nameZh": "库拉索",
+        "flagCode": "cw"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM029",
+      "group": "E",
+      "matchday": 2,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "venueId": "metlife-stadium",
+      "venueZh": "大都会人寿体育场",
+      "homeTeam": {
+        "id": "ecu",
+        "nameZh": "厄瓜多尔",
+        "flagCode": "ec"
+      },
+      "awayTeam": {
+        "id": "ger",
+        "nameZh": "德国",
+        "flagCode": "de"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM030",
+      "group": "E",
+      "matchday": 2,
+      "date": "2026-06-26",
+      "time": "04:00",
+      "venueId": "lincoln-financial-field",
+      "venueZh": "林肯金融球场",
+      "homeTeam": {
+        "id": "cur",
+        "nameZh": "库拉索",
+        "flagCode": "cw"
+      },
+      "awayTeam": {
+        "id": "civ",
+        "nameZh": "科特迪瓦",
+        "flagCode": "ci"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM031",
+      "group": "F",
+      "matchday": 2,
+      "date": "2026-06-15",
+      "time": "04:00",
+      "venueId": "att-stadium",
+      "venueZh": "AT&T体育场",
+      "homeTeam": {
+        "id": "ned",
+        "nameZh": "荷兰",
+        "flagCode": "nl"
+      },
+      "awayTeam": {
+        "id": "jpn",
+        "nameZh": "日本",
+        "flagCode": "jp"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM032",
+      "group": "F",
+      "matchday": 2,
+      "date": "2026-06-15",
+      "time": "10:00",
+      "venueId": "estadio-bbva",
+      "venueZh": "BBVA体育场",
+      "homeTeam": {
+        "id": "swe",
+        "nameZh": "瑞典",
+        "flagCode": "se"
+      },
+      "awayTeam": {
+        "id": "tun",
+        "nameZh": "突尼斯",
+        "flagCode": "tn"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM033",
+      "group": "F",
+      "matchday": 2,
+      "date": "2026-06-21",
+      "time": "01:00",
+      "venueId": "nrg-stadium",
+      "venueZh": "NRG体育场",
+      "homeTeam": {
+        "id": "ned",
+        "nameZh": "荷兰",
+        "flagCode": "nl"
+      },
+      "awayTeam": {
+        "id": "swe",
+        "nameZh": "瑞典",
+        "flagCode": "se"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM034",
+      "group": "F",
+      "matchday": 2,
+      "date": "2026-06-20",
+      "time": "12:00",
+      "venueId": "estadio-bbva",
+      "venueZh": "BBVA体育场",
+      "homeTeam": {
+        "id": "tun",
+        "nameZh": "突尼斯",
+        "flagCode": "tn"
+      },
+      "awayTeam": {
+        "id": "jpn",
+        "nameZh": "日本",
+        "flagCode": "jp"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM035",
+      "group": "F",
+      "matchday": 2,
+      "date": "2026-06-26",
+      "time": "07:00",
+      "venueId": "att-stadium",
+      "venueZh": "AT&T体育场",
+      "homeTeam": {
+        "id": "jpn",
+        "nameZh": "日本",
+        "flagCode": "jp"
+      },
+      "awayTeam": {
+        "id": "swe",
+        "nameZh": "瑞典",
+        "flagCode": "se"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM036",
+      "group": "F",
+      "matchday": 2,
+      "date": "2026-06-26",
+      "time": "07:00",
+      "venueId": "arrowhead-stadium",
+      "venueZh": "箭头体育场",
+      "homeTeam": {
+        "id": "tun",
+        "nameZh": "突尼斯",
+        "flagCode": "tn"
+      },
+      "awayTeam": {
+        "id": "ned",
+        "nameZh": "荷兰",
+        "flagCode": "nl"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM037",
+      "group": "G",
+      "matchday": 2,
+      "date": "2026-06-16",
+      "time": "03:00",
+      "venueId": "lumen-field",
+      "venueZh": "流明球场",
+      "homeTeam": {
+        "id": "bel",
+        "nameZh": "比利时",
+        "flagCode": "be"
+      },
+      "awayTeam": {
+        "id": "egy",
+        "nameZh": "埃及",
+        "flagCode": "eg"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM038",
+      "group": "G",
+      "matchday": 2,
+      "date": "2026-06-16",
+      "time": "09:00",
+      "venueId": "sofi-stadium",
+      "venueZh": "SoFi体育场",
+      "homeTeam": {
+        "id": "irn",
+        "nameZh": "伊朗",
+        "flagCode": "ir"
+      },
+      "awayTeam": {
+        "id": "nzl",
+        "nameZh": "新西兰",
+        "flagCode": "nz"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM039",
+      "group": "G",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "time": "03:00",
+      "venueId": "sofi-stadium",
+      "venueZh": "SoFi体育场",
+      "homeTeam": {
+        "id": "bel",
+        "nameZh": "比利时",
+        "flagCode": "be"
+      },
+      "awayTeam": {
+        "id": "irn",
+        "nameZh": "伊朗",
+        "flagCode": "ir"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM040",
+      "group": "G",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "time": "09:00",
+      "venueId": "bc-place",
+      "venueZh": "卑诗体育馆",
+      "homeTeam": {
+        "id": "nzl",
+        "nameZh": "新西兰",
+        "flagCode": "nz"
+      },
+      "awayTeam": {
+        "id": "egy",
+        "nameZh": "埃及",
+        "flagCode": "eg"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM041",
+      "group": "G",
+      "matchday": 2,
+      "date": "2026-06-27",
+      "time": "11:00",
+      "venueId": "bc-place",
+      "venueZh": "卑诗体育馆",
+      "homeTeam": {
+        "id": "nzl",
+        "nameZh": "新西兰",
+        "flagCode": "nz"
+      },
+      "awayTeam": {
+        "id": "bel",
+        "nameZh": "比利时",
+        "flagCode": "be"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM042",
+      "group": "G",
+      "matchday": 2,
+      "date": "2026-06-27",
+      "time": "11:00",
+      "venueId": "lumen-field",
+      "venueZh": "流明球场",
+      "homeTeam": {
+        "id": "egy",
+        "nameZh": "埃及",
+        "flagCode": "eg"
+      },
+      "awayTeam": {
+        "id": "irn",
+        "nameZh": "伊朗",
+        "flagCode": "ir"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM043",
+      "group": "H",
+      "matchday": 2,
+      "date": "2026-06-16",
+      "time": "00:00",
+      "venueId": "mercedes-benz-stadium",
+      "venueZh": "梅赛德斯-宾士体育场",
+      "homeTeam": {
+        "id": "esp",
+        "nameZh": "西班牙",
+        "flagCode": "es"
+      },
+      "awayTeam": {
+        "id": "cpv",
+        "nameZh": "佛得角",
+        "flagCode": "cv"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM044",
+      "group": "H",
+      "matchday": 2,
+      "date": "2026-06-16",
+      "time": "06:00",
+      "venueId": "hard-rock-stadium",
+      "venueZh": "硬石体育场",
+      "homeTeam": {
+        "id": "ksa",
+        "nameZh": "沙特阿拉伯",
+        "flagCode": "sa"
+      },
+      "awayTeam": {
+        "id": "uru",
+        "nameZh": "乌拉圭",
+        "flagCode": "uy"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM045",
+      "group": "H",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "time": "00:00",
+      "venueId": "mercedes-benz-stadium",
+      "venueZh": "梅赛德斯-宾士体育场",
+      "homeTeam": {
+        "id": "esp",
+        "nameZh": "西班牙",
+        "flagCode": "es"
+      },
+      "awayTeam": {
+        "id": "ksa",
+        "nameZh": "沙特阿拉伯",
+        "flagCode": "sa"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM046",
+      "group": "H",
+      "matchday": 2,
+      "date": "2026-06-22",
+      "time": "06:00",
+      "venueId": "hard-rock-stadium",
+      "venueZh": "硬石体育场",
+      "homeTeam": {
+        "id": "uru",
+        "nameZh": "乌拉圭",
+        "flagCode": "uy"
+      },
+      "awayTeam": {
+        "id": "cpv",
+        "nameZh": "佛得角",
+        "flagCode": "cv"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM047",
+      "group": "H",
+      "matchday": 2,
+      "date": "2026-06-27",
+      "time": "08:00",
+      "venueId": "nrg-stadium",
+      "venueZh": "NRG体育场",
+      "homeTeam": {
+        "id": "cpv",
+        "nameZh": "佛得角",
+        "flagCode": "cv"
+      },
+      "awayTeam": {
+        "id": "ksa",
+        "nameZh": "沙特阿拉伯",
+        "flagCode": "sa"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM048",
+      "group": "H",
+      "matchday": 2,
+      "date": "2026-06-27",
+      "time": "08:00",
+      "venueId": "estadio-akron",
+      "venueZh": "阿克伦球场",
+      "homeTeam": {
+        "id": "uru",
+        "nameZh": "乌拉圭",
+        "flagCode": "uy"
+      },
+      "awayTeam": {
+        "id": "esp",
+        "nameZh": "西班牙",
+        "flagCode": "es"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM049",
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-17",
+      "time": "03:00",
+      "venueId": "metlife-stadium",
+      "venueZh": "大都会人寿体育场",
+      "homeTeam": {
+        "id": "fra",
+        "nameZh": "法国",
+        "flagCode": "fr"
+      },
+      "awayTeam": {
+        "id": "sen",
+        "nameZh": "塞内加尔",
+        "flagCode": "sn"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM050",
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-17",
+      "time": "06:00",
+      "venueId": "gillette-stadium",
+      "venueZh": "吉列体育场",
+      "homeTeam": {
+        "id": "irq",
+        "nameZh": "伊拉克",
+        "flagCode": "iq"
+      },
+      "awayTeam": {
+        "id": "nor",
+        "nameZh": "挪威",
+        "flagCode": "no"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM051",
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-23",
+      "time": "05:00",
+      "venueId": "lincoln-financial-field",
+      "venueZh": "林肯金融球场",
+      "homeTeam": {
+        "id": "fra",
+        "nameZh": "法国",
+        "flagCode": "fr"
+      },
+      "awayTeam": {
+        "id": "irq",
+        "nameZh": "伊拉克",
+        "flagCode": "iq"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM052",
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-23",
+      "time": "08:00",
+      "venueId": "metlife-stadium",
+      "venueZh": "大都会人寿体育场",
+      "homeTeam": {
+        "id": "nor",
+        "nameZh": "挪威",
+        "flagCode": "no"
+      },
+      "awayTeam": {
+        "id": "sen",
+        "nameZh": "塞内加尔",
+        "flagCode": "sn"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM053",
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "time": "03:00",
+      "venueId": "gillette-stadium",
+      "venueZh": "吉列体育场",
+      "homeTeam": {
+        "id": "nor",
+        "nameZh": "挪威",
+        "flagCode": "no"
+      },
+      "awayTeam": {
+        "id": "fra",
+        "nameZh": "法国",
+        "flagCode": "fr"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM054",
+      "group": "I",
+      "matchday": 3,
+      "date": "2026-06-27",
+      "time": "03:00",
+      "venueId": "bmo-field",
+      "venueZh": "BMO球场",
+      "homeTeam": {
+        "id": "sen",
+        "nameZh": "塞内加尔",
+        "flagCode": "sn"
+      },
+      "awayTeam": {
+        "id": "irq",
+        "nameZh": "伊拉克",
+        "flagCode": "iq"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM055",
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-17",
+      "time": "09:00",
+      "venueId": "arrowhead-stadium",
+      "venueZh": "箭头体育场",
+      "homeTeam": {
+        "id": "arg",
+        "nameZh": "阿根廷",
+        "flagCode": "ar"
+      },
+      "awayTeam": {
+        "id": "alg",
+        "nameZh": "阿尔及利亚",
+        "flagCode": "dz"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM056",
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-17",
+      "time": "12:00",
+      "venueId": "levis-stadium",
+      "venueZh": "李维斯体育场",
+      "homeTeam": {
+        "id": "aut",
+        "nameZh": "奥地利",
+        "flagCode": "at"
+      },
+      "awayTeam": {
+        "id": "jor",
+        "nameZh": "约旦",
+        "flagCode": "jo"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM057",
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-23",
+      "time": "01:00",
+      "venueId": "att-stadium",
+      "venueZh": "AT&T体育场",
+      "homeTeam": {
+        "id": "arg",
+        "nameZh": "阿根廷",
+        "flagCode": "ar"
+      },
+      "awayTeam": {
+        "id": "aut",
+        "nameZh": "奥地利",
+        "flagCode": "at"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM058",
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-23",
+      "time": "11:00",
+      "venueId": "levis-stadium",
+      "venueZh": "李维斯体育场",
+      "homeTeam": {
+        "id": "jor",
+        "nameZh": "约旦",
+        "flagCode": "jo"
+      },
+      "awayTeam": {
+        "id": "alg",
+        "nameZh": "阿尔及利亚",
+        "flagCode": "dz"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM059",
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-28",
+      "time": "10:00",
+      "venueId": "arrowhead-stadium",
+      "venueZh": "箭头体育场",
+      "homeTeam": {
+        "id": "alg",
+        "nameZh": "阿尔及利亚",
+        "flagCode": "dz"
+      },
+      "awayTeam": {
+        "id": "aut",
+        "nameZh": "奥地利",
+        "flagCode": "at"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM060",
+      "group": "J",
+      "matchday": 3,
+      "date": "2026-06-28",
+      "time": "10:00",
+      "venueId": "att-stadium",
+      "venueZh": "AT&T体育场",
+      "homeTeam": {
+        "id": "jor",
+        "nameZh": "约旦",
+        "flagCode": "jo"
+      },
+      "awayTeam": {
+        "id": "arg",
+        "nameZh": "阿根廷",
+        "flagCode": "ar"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM061",
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-18",
+      "time": "01:00",
+      "venueId": "nrg-stadium",
+      "venueZh": "NRG体育场",
+      "homeTeam": {
+        "id": "por",
+        "nameZh": "葡萄牙",
+        "flagCode": "pt"
+      },
+      "awayTeam": {
+        "id": "cod",
+        "nameZh": "刚果民主共和国",
+        "flagCode": "cd"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM062",
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-18",
+      "time": "10:00",
+      "venueId": "estadio-azteca",
+      "venueZh": "阿兹特克体育场",
+      "homeTeam": {
+        "id": "uzb",
+        "nameZh": "乌兹别克斯坦",
+        "flagCode": "uz"
+      },
+      "awayTeam": {
+        "id": "col",
+        "nameZh": "哥伦比亚",
+        "flagCode": "co"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM063",
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time": "01:00",
+      "venueId": "nrg-stadium",
+      "venueZh": "NRG体育场",
+      "homeTeam": {
+        "id": "por",
+        "nameZh": "葡萄牙",
+        "flagCode": "pt"
+      },
+      "awayTeam": {
+        "id": "uzb",
+        "nameZh": "乌兹别克斯坦",
+        "flagCode": "uz"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM064",
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time": "10:00",
+      "venueId": "estadio-akron",
+      "venueZh": "阿克伦球场",
+      "homeTeam": {
+        "id": "col",
+        "nameZh": "哥伦比亚",
+        "flagCode": "co"
+      },
+      "awayTeam": {
+        "id": "cod",
+        "nameZh": "刚果民主共和国",
+        "flagCode": "cd"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM065",
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-28",
+      "time": "07:30",
+      "venueId": "hard-rock-stadium",
+      "venueZh": "硬石体育场",
+      "homeTeam": {
+        "id": "col",
+        "nameZh": "哥伦比亚",
+        "flagCode": "co"
+      },
+      "awayTeam": {
+        "id": "por",
+        "nameZh": "葡萄牙",
+        "flagCode": "pt"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM066",
+      "group": "K",
+      "matchday": 3,
+      "date": "2026-06-28",
+      "time": "07:30",
+      "venueId": "mercedes-benz-stadium",
+      "venueZh": "梅赛德斯-宾士体育场",
+      "homeTeam": {
+        "id": "cod",
+        "nameZh": "刚果民主共和国",
+        "flagCode": "cd"
+      },
+      "awayTeam": {
+        "id": "uzb",
+        "nameZh": "乌兹别克斯坦",
+        "flagCode": "uz"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM067",
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-18",
+      "time": "04:00",
+      "venueId": "att-stadium",
+      "venueZh": "AT&T体育场",
+      "homeTeam": {
+        "id": "eng",
+        "nameZh": "英格兰",
+        "flagCode": "gb-eng"
+      },
+      "awayTeam": {
+        "id": "cro",
+        "nameZh": "克罗地亚",
+        "flagCode": "hr"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM068",
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-18",
+      "time": "07:00",
+      "venueId": "bmo-field",
+      "venueZh": "BMO球场",
+      "homeTeam": {
+        "id": "gha",
+        "nameZh": "加纳",
+        "flagCode": "gh"
+      },
+      "awayTeam": {
+        "id": "pan",
+        "nameZh": "巴拿马",
+        "flagCode": "pa"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM069",
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time": "04:00",
+      "venueId": "gillette-stadium",
+      "venueZh": "吉列体育场",
+      "homeTeam": {
+        "id": "eng",
+        "nameZh": "英格兰",
+        "flagCode": "gb-eng"
+      },
+      "awayTeam": {
+        "id": "gha",
+        "nameZh": "加纳",
+        "flagCode": "gh"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM070",
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-24",
+      "time": "07:00",
+      "venueId": "bmo-field",
+      "venueZh": "BMO球场",
+      "homeTeam": {
+        "id": "pan",
+        "nameZh": "巴拿马",
+        "flagCode": "pa"
+      },
+      "awayTeam": {
+        "id": "cro",
+        "nameZh": "克罗地亚",
+        "flagCode": "hr"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM071",
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-28",
+      "time": "05:00",
+      "venueId": "metlife-stadium",
+      "venueZh": "大都会人寿体育场",
+      "homeTeam": {
+        "id": "pan",
+        "nameZh": "巴拿马",
+        "flagCode": "pa"
+      },
+      "awayTeam": {
+        "id": "eng",
+        "nameZh": "英格兰",
+        "flagCode": "gb-eng"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    },
+    {
+      "id": "GM072",
+      "group": "L",
+      "matchday": 3,
+      "date": "2026-06-28",
+      "time": "05:00",
+      "venueId": "lincoln-financial-field",
+      "venueZh": "林肯金融球场",
+      "homeTeam": {
+        "id": "cro",
+        "nameZh": "克罗地亚",
+        "flagCode": "hr"
+      },
+      "awayTeam": {
+        "id": "gha",
+        "nameZh": "加纳",
+        "flagCode": "gh"
+      },
+      "status": "upcoming",
+      "homeScore": null,
+      "awayScore": null
+    }
+  ],
+  "knockoutStage": [
+    {
+      "round": "32强赛",
+      "roundEn": "Round of 32",
+      "matches": [
+        {
+          "id": "M73",
+          "home": "2A",
+          "away": "2B",
+          "date": "2026-06-29",
+          "time": "03:00",
+          "venueZh": "SoFi体育场"
+        },
+        {
+          "id": "M74",
+          "home": "1C",
+          "away": "2F",
+          "date": "2026-06-30",
+          "time": "04:30",
+          "venueZh": "NRG体育场"
+        },
+        {
+          "id": "M75",
+          "home": "1E",
+          "away": "3rd A/B/C/D/F",
+          "date": "2026-06-30",
+          "time": "09:00",
+          "venueZh": "吉列体育场"
+        },
+        {
+          "id": "M76",
+          "home": "1F",
+          "away": "2C",
+          "date": "2026-06-30",
+          "time": "01:00",
+          "venueZh": "BBVA体育场"
+        },
+        {
+          "id": "M77",
+          "home": "2E",
+          "away": "2I",
+          "date": "2026-07-01",
+          "time": "05:00",
+          "venueZh": "AT&T体育场"
+        },
+        {
+          "id": "M78",
+          "home": "1I",
+          "away": "3rd C/D/F/G/H",
+          "date": "2026-07-01",
+          "time": "01:00",
+          "venueZh": "大都会人寿体育场"
+        },
+        {
+          "id": "M79",
+          "home": "1A",
+          "away": "3rd C/E/F/H/I",
+          "date": "2026-07-01",
+          "time": "09:00",
+          "venueZh": "阿兹特克体育场"
+        },
+        {
+          "id": "M80",
+          "home": "1L",
+          "away": "3rd E/H/I/J/K",
+          "date": "2026-07-02",
+          "time": "00:00",
+          "venueZh": "梅赛德斯-宾士体育场"
+        },
+        {
+          "id": "M81",
+          "home": "1G",
+          "away": "3rd A/E/H/I/J",
+          "date": "2026-07-02",
+          "time": "08:00",
+          "venueZh": "流明球场"
+        },
+        {
+          "id": "M82",
+          "home": "1D",
+          "away": "3rd B/E/F/I/J",
+          "date": "2026-07-02",
+          "time": "04:00",
+          "venueZh": "李维斯体育场"
+        },
+        {
+          "id": "M83",
+          "home": "1H",
+          "away": "2J",
+          "date": "2026-07-03",
+          "time": "07:00",
+          "venueZh": "SoFi体育场"
+        },
+        {
+          "id": "M84",
+          "home": "2K",
+          "away": "2L",
+          "date": "2026-07-03",
+          "time": "03:00",
+          "venueZh": "BMO球场"
+        },
+        {
+          "id": "M85",
+          "home": "1B",
+          "away": "3rd E/F/G/I/J",
+          "date": "2026-07-03",
+          "time": "11:00",
+          "venueZh": "卑诗体育馆"
+        },
+        {
+          "id": "M86",
+          "home": "2D",
+          "away": "2G",
+          "date": "2026-07-04",
+          "time": "06:00",
+          "venueZh": "AT&T体育场"
+        },
+        {
+          "id": "M87",
+          "home": "1J",
+          "away": "2H",
+          "date": "2026-07-04",
+          "time": "09:30",
+          "venueZh": "硬石体育场"
+        },
+        {
+          "id": "M88",
+          "home": "1K",
+          "away": "3rd D/E/I/J/L",
+          "date": "2026-07-04",
+          "time": "02:00",
+          "venueZh": "箭头体育场"
+        }
+      ]
+    },
+    {
+      "round": "16强赛",
+      "roundEn": "Round of 16",
+      "matches": [
+        {
+          "id": "M89",
+          "home": "胜M73",
+          "away": "胜M75",
+          "date": "2026-07-05",
+          "time": "05:00",
+          "venueZh": "NRG体育场"
+        },
+        {
+          "id": "M90",
+          "home": "胜M74",
+          "away": "胜M77",
+          "date": "2026-07-05",
+          "time": "01:00",
+          "venueZh": "林肯金融球场"
+        },
+        {
+          "id": "M91",
+          "home": "胜M76",
+          "away": "胜M78",
+          "date": "2026-07-06",
+          "time": "04:00",
+          "venueZh": "大都会人寿体育场"
+        },
+        {
+          "id": "M92",
+          "home": "胜M79",
+          "away": "胜M80",
+          "date": "2026-07-06",
+          "time": "08:00",
+          "venueZh": "阿兹特克体育场"
+        },
+        {
+          "id": "M93",
+          "home": "胜M83",
+          "away": "胜M84",
+          "date": "2026-07-07",
+          "time": "03:00",
+          "venueZh": "AT&T体育场"
+        },
+        {
+          "id": "M94",
+          "home": "胜M81",
+          "away": "胜M82",
+          "date": "2026-07-07",
+          "time": "08:00",
+          "venueZh": "流明球场"
+        },
+        {
+          "id": "M95",
+          "home": "胜M86",
+          "away": "胜M88",
+          "date": "2026-07-08",
+          "time": "00:00",
+          "venueZh": "梅赛德斯-宾士体育场"
+        },
+        {
+          "id": "M96",
+          "home": "胜M85",
+          "away": "胜M87",
+          "date": "2026-07-08",
+          "time": "04:00",
+          "venueZh": "卑诗体育馆"
+        }
+      ]
+    },
+    {
+      "round": "四分之一决赛",
+      "roundEn": "Quarter-finals",
+      "matches": [
+        {
+          "id": "M97",
+          "home": "胜M89",
+          "away": "胜M90",
+          "date": "2026-07-10",
+          "time": "04:00",
+          "venueZh": "吉列体育场"
+        },
+        {
+          "id": "M98",
+          "home": "胜M93",
+          "away": "胜M94",
+          "date": "2026-07-11",
+          "time": "03:00",
+          "venueZh": "SoFi体育场"
+        },
+        {
+          "id": "M99",
+          "home": "胜M91",
+          "away": "胜M92",
+          "date": "2026-07-12",
+          "time": "05:00",
+          "venueZh": "硬石体育场"
+        },
+        {
+          "id": "M100",
+          "home": "胜M95",
+          "away": "胜M96",
+          "date": "2026-07-12",
+          "time": "09:00",
+          "venueZh": "箭头体育场"
+        }
+      ]
+    },
+    {
+      "round": "半决赛",
+      "roundEn": "Semi-finals",
+      "matches": [
+        {
+          "id": "M101",
+          "home": "胜M97",
+          "away": "胜M98",
+          "date": "2026-07-15",
+          "time": "03:00",
+          "venueZh": "AT&T体育场"
+        },
+        {
+          "id": "M102",
+          "home": "胜M99",
+          "away": "胜M100",
+          "date": "2026-07-16",
+          "time": "03:00",
+          "venueZh": "梅赛德斯-宾士体育场"
+        }
+      ]
+    },
+    {
+      "round": "季军赛",
+      "roundEn": "Third Place",
+      "matches": [
+        {
+          "id": "M103",
+          "home": "负M101",
+          "away": "负M102",
+          "date": "2026-07-19",
+          "time": "05:00",
+          "venueZh": "硬石体育场"
+        }
+      ]
+    },
+    {
+      "round": "决赛",
+      "roundEn": "Final",
+      "matches": [
+        {
+          "id": "M104",
+          "home": "胜M101",
+          "away": "胜M102",
+          "date": "2026-07-20",
+          "time": "03:00",
+          "venueZh": "大都会人寿体育场"
+        }
+      ]
+    }
+  ]
+}

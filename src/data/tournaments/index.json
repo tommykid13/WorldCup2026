@@ -1,0 +1,410 @@
+[
+  {
+    "year": 1930,
+    "hostZh": "乌拉圭",
+    "hostEn": "Uruguay",
+    "hostCode": "uru",
+    "champion": { "teamId": "uru", "nameZh": "乌拉圭", "nameEn": "Uruguay" },
+    "runnerUp": { "teamId": "arg", "nameZh": "阿根廷", "nameEn": "Argentina" },
+    "thirdPlace": { "teamId": "usa", "nameZh": "美国", "nameEn": "USA" },
+    "teamsCount": 13,
+    "matchesCount": 18,
+    "topScorer": {
+      "players": [{ "nameZh": "吉列尔莫·斯塔比莱", "nameEn": "Guillermo Stabile", "teamId": "arg" }],
+      "goals": 8
+    },
+    "dates": "1930-07-13/1930-07-30",
+    "slug": "1930-uruguay"
+  },
+  {
+    "year": 1934,
+    "hostZh": "意大利",
+    "hostEn": "Italy",
+    "hostCode": "ita",
+    "champion": { "teamId": "ita", "nameZh": "意大利", "nameEn": "Italy" },
+    "runnerUp": { "teamId": "tch", "nameZh": "捷克斯洛伐克", "nameEn": "Czechoslovakia" },
+    "thirdPlace": { "teamId": "ger", "nameZh": "德国", "nameEn": "Germany" },
+    "teamsCount": 16,
+    "matchesCount": 17,
+    "topScorer": {
+      "players": [{ "nameZh": "奥尔德里赫·内耶德利", "nameEn": "Oldrich Nejedly", "teamId": "tch" }],
+      "goals": 5
+    },
+    "dates": "1934-05-27/1934-06-10",
+    "slug": "1934-italy"
+  },
+  {
+    "year": 1938,
+    "hostZh": "法国",
+    "hostEn": "France",
+    "hostCode": "fra",
+    "champion": { "teamId": "ita", "nameZh": "意大利", "nameEn": "Italy" },
+    "runnerUp": { "teamId": "hun", "nameZh": "匈牙利", "nameEn": "Hungary" },
+    "thirdPlace": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "teamsCount": 15,
+    "matchesCount": 18,
+    "topScorer": {
+      "players": [{ "nameZh": "莱奥尼达斯", "nameEn": "Leonidas", "teamId": "bra" }],
+      "goals": 7
+    },
+    "dates": "1938-06-04/1938-06-19",
+    "slug": "1938-france"
+  },
+  {
+    "year": 1950,
+    "hostZh": "巴西",
+    "hostEn": "Brazil",
+    "hostCode": "bra",
+    "champion": { "teamId": "uru", "nameZh": "乌拉圭", "nameEn": "Uruguay" },
+    "runnerUp": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "thirdPlace": { "teamId": "swe", "nameZh": "瑞典", "nameEn": "Sweden" },
+    "teamsCount": 13,
+    "matchesCount": 22,
+    "topScorer": {
+      "players": [{ "nameZh": "阿德米尔", "nameEn": "Ademir", "teamId": "bra" }],
+      "goals": 8
+    },
+    "dates": "1950-06-24/1950-07-16",
+    "slug": "1950-brazil"
+  },
+  {
+    "year": 1954,
+    "hostZh": "瑞士",
+    "hostEn": "Switzerland",
+    "hostCode": "sui",
+    "champion": { "teamId": "frg", "nameZh": "西德", "nameEn": "West Germany" },
+    "runnerUp": { "teamId": "hun", "nameZh": "匈牙利", "nameEn": "Hungary" },
+    "thirdPlace": { "teamId": "aut", "nameZh": "奥地利", "nameEn": "Austria" },
+    "teamsCount": 16,
+    "matchesCount": 26,
+    "topScorer": {
+      "players": [{ "nameZh": "桑多尔·柯奇士", "nameEn": "Sandor Kocsis", "teamId": "hun" }],
+      "goals": 11
+    },
+    "dates": "1954-06-16/1954-07-04",
+    "slug": "1954-switzerland"
+  },
+  {
+    "year": 1958,
+    "hostZh": "瑞典",
+    "hostEn": "Sweden",
+    "hostCode": "swe",
+    "champion": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "runnerUp": { "teamId": "swe", "nameZh": "瑞典", "nameEn": "Sweden" },
+    "thirdPlace": { "teamId": "fra", "nameZh": "法国", "nameEn": "France" },
+    "teamsCount": 16,
+    "matchesCount": 35,
+    "topScorer": {
+      "players": [{ "nameZh": "朱斯特·方丹", "nameEn": "Just Fontaine", "teamId": "fra" }],
+      "goals": 13
+    },
+    "dates": "1958-06-08/1958-06-29",
+    "slug": "1958-sweden"
+  },
+  {
+    "year": 1962,
+    "hostZh": "智利",
+    "hostEn": "Chile",
+    "hostCode": "chi",
+    "champion": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "runnerUp": { "teamId": "tch", "nameZh": "捷克斯洛伐克", "nameEn": "Czechoslovakia" },
+    "thirdPlace": { "teamId": "chi", "nameZh": "智利", "nameEn": "Chile" },
+    "teamsCount": 16,
+    "matchesCount": 32,
+    "topScorer": {
+      "players": [
+        { "nameZh": "加林查", "nameEn": "Garrincha", "teamId": "bra" },
+        { "nameZh": "瓦瓦", "nameEn": "Vava", "teamId": "bra" },
+        { "nameZh": "莱昂内尔·桑切斯", "nameEn": "Leonel Sanchez", "teamId": "chi" },
+        { "nameZh": "德拉赞·耶尔科维奇", "nameEn": "Drazan Jerkovic", "teamId": "yug" },
+        { "nameZh": "瓦伦丁·伊万诺夫", "nameEn": "Valentin Ivanov", "teamId": "urs" },
+        { "nameZh": "弗洛里安·阿尔伯特", "nameEn": "Florian Albert", "teamId": "hun" }
+      ],
+      "goals": 4
+    },
+    "dates": "1962-05-30/1962-06-17",
+    "slug": "1962-chile"
+  },
+  {
+    "year": 1966,
+    "hostZh": "英格兰",
+    "hostEn": "England",
+    "hostCode": "eng",
+    "champion": { "teamId": "eng", "nameZh": "英格兰", "nameEn": "England" },
+    "runnerUp": { "teamId": "frg", "nameZh": "西德", "nameEn": "West Germany" },
+    "thirdPlace": { "teamId": "por", "nameZh": "葡萄牙", "nameEn": "Portugal" },
+    "teamsCount": 16,
+    "matchesCount": 32,
+    "topScorer": {
+      "players": [{ "nameZh": "尤西比奥", "nameEn": "Eusebio", "teamId": "por" }],
+      "goals": 9
+    },
+    "dates": "1966-07-11/1966-07-30",
+    "slug": "1966-england"
+  },
+  {
+    "year": 1970,
+    "hostZh": "墨西哥",
+    "hostEn": "Mexico",
+    "hostCode": "mex",
+    "champion": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "runnerUp": { "teamId": "ita", "nameZh": "意大利", "nameEn": "Italy" },
+    "thirdPlace": { "teamId": "frg", "nameZh": "西德", "nameEn": "West Germany" },
+    "teamsCount": 16,
+    "matchesCount": 32,
+    "topScorer": {
+      "players": [{ "nameZh": "盖德·穆勒", "nameEn": "Gerd Muller", "teamId": "frg" }],
+      "goals": 10
+    },
+    "dates": "1970-05-31/1970-06-21",
+    "slug": "1970-mexico"
+  },
+  {
+    "year": 1974,
+    "hostZh": "西德",
+    "hostEn": "West Germany",
+    "hostCode": "frg",
+    "champion": { "teamId": "frg", "nameZh": "西德", "nameEn": "West Germany" },
+    "runnerUp": { "teamId": "ned", "nameZh": "荷兰", "nameEn": "Netherlands" },
+    "thirdPlace": { "teamId": "pol", "nameZh": "波兰", "nameEn": "Poland" },
+    "teamsCount": 16,
+    "matchesCount": 38,
+    "topScorer": {
+      "players": [{ "nameZh": "格热戈日·拉托", "nameEn": "Grzegorz Lato", "teamId": "pol" }],
+      "goals": 7
+    },
+    "dates": "1974-06-13/1974-07-07",
+    "slug": "1974-west-germany"
+  },
+  {
+    "year": 1978,
+    "hostZh": "阿根廷",
+    "hostEn": "Argentina",
+    "hostCode": "arg",
+    "champion": { "teamId": "arg", "nameZh": "阿根廷", "nameEn": "Argentina" },
+    "runnerUp": { "teamId": "ned", "nameZh": "荷兰", "nameEn": "Netherlands" },
+    "thirdPlace": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "teamsCount": 16,
+    "matchesCount": 38,
+    "topScorer": {
+      "players": [{ "nameZh": "马里奥·肯佩斯", "nameEn": "Mario Kempes", "teamId": "arg" }],
+      "goals": 6
+    },
+    "dates": "1978-06-01/1978-06-25",
+    "slug": "1978-argentina"
+  },
+  {
+    "year": 1982,
+    "hostZh": "西班牙",
+    "hostEn": "Spain",
+    "hostCode": "esp",
+    "champion": { "teamId": "ita", "nameZh": "意大利", "nameEn": "Italy" },
+    "runnerUp": { "teamId": "frg", "nameZh": "西德", "nameEn": "West Germany" },
+    "thirdPlace": { "teamId": "pol", "nameZh": "波兰", "nameEn": "Poland" },
+    "teamsCount": 24,
+    "matchesCount": 52,
+    "topScorer": {
+      "players": [{ "nameZh": "保罗·罗西", "nameEn": "Paolo Rossi", "teamId": "ita" }],
+      "goals": 6
+    },
+    "goldenBall": { "nameZh": "保罗·罗西", "nameEn": "Paolo Rossi", "teamId": "ita" },
+    "dates": "1982-06-13/1982-07-11",
+    "slug": "1982-spain"
+  },
+  {
+    "year": 1986,
+    "hostZh": "墨西哥",
+    "hostEn": "Mexico",
+    "hostCode": "mex",
+    "champion": { "teamId": "arg", "nameZh": "阿根廷", "nameEn": "Argentina" },
+    "runnerUp": { "teamId": "frg", "nameZh": "西德", "nameEn": "West Germany" },
+    "thirdPlace": { "teamId": "fra", "nameZh": "法国", "nameEn": "France" },
+    "teamsCount": 24,
+    "matchesCount": 52,
+    "topScorer": {
+      "players": [{ "nameZh": "加里·莱因克尔", "nameEn": "Gary Lineker", "teamId": "eng" }],
+      "goals": 6
+    },
+    "goldenBall": { "nameZh": "迭戈·马拉多纳", "nameEn": "Diego Maradona", "teamId": "arg" },
+    "dates": "1986-05-31/1986-06-29",
+    "slug": "1986-mexico"
+  },
+  {
+    "year": 1990,
+    "hostZh": "意大利",
+    "hostEn": "Italy",
+    "hostCode": "ita",
+    "champion": { "teamId": "frg", "nameZh": "西德", "nameEn": "West Germany" },
+    "runnerUp": { "teamId": "arg", "nameZh": "阿根廷", "nameEn": "Argentina" },
+    "thirdPlace": { "teamId": "ita", "nameZh": "意大利", "nameEn": "Italy" },
+    "teamsCount": 24,
+    "matchesCount": 52,
+    "topScorer": {
+      "players": [{ "nameZh": "萨尔瓦托雷·斯基拉奇", "nameEn": "Salvatore Schillaci", "teamId": "ita" }],
+      "goals": 6
+    },
+    "goldenBall": { "nameZh": "萨尔瓦托雷·斯基拉奇", "nameEn": "Salvatore Schillaci", "teamId": "ita" },
+    "dates": "1990-06-08/1990-07-08",
+    "slug": "1990-italy"
+  },
+  {
+    "year": 1994,
+    "hostZh": "美国",
+    "hostEn": "United States",
+    "hostCode": "usa",
+    "champion": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "runnerUp": { "teamId": "ita", "nameZh": "意大利", "nameEn": "Italy" },
+    "thirdPlace": { "teamId": "swe", "nameZh": "瑞典", "nameEn": "Sweden" },
+    "teamsCount": 24,
+    "matchesCount": 52,
+    "topScorer": {
+      "players": [
+        { "nameZh": "奥列格·萨连科", "nameEn": "Oleg Salenko", "teamId": "rus" },
+        { "nameZh": "赫里斯托·斯托伊奇科夫", "nameEn": "Hristo Stoichkov", "teamId": "bul" }
+      ],
+      "goals": 6
+    },
+    "goldenBall": { "nameZh": "罗马里奥", "nameEn": "Romario", "teamId": "bra" },
+    "goldenGlove": { "nameZh": "米歇尔·普雷德霍姆", "nameEn": "Michel Preud'homme", "teamId": "bel" },
+    "dates": "1994-06-17/1994-07-17",
+    "slug": "1994-united-states"
+  },
+  {
+    "year": 1998,
+    "hostZh": "法国",
+    "hostEn": "France",
+    "hostCode": "fra",
+    "champion": { "teamId": "fra", "nameZh": "法国", "nameEn": "France" },
+    "runnerUp": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "thirdPlace": { "teamId": "cro", "nameZh": "克罗地亚", "nameEn": "Croatia" },
+    "teamsCount": 32,
+    "matchesCount": 64,
+    "topScorer": {
+      "players": [{ "nameZh": "达沃·苏克", "nameEn": "Davor Suker", "teamId": "cro" }],
+      "goals": 6
+    },
+    "goldenBall": { "nameZh": "罗纳尔多", "nameEn": "Ronaldo", "teamId": "bra" },
+    "goldenGlove": { "nameZh": "法比安·巴特兹", "nameEn": "Fabien Barthez", "teamId": "fra" },
+    "dates": "1998-06-10/1998-07-12",
+    "slug": "1998-france"
+  },
+  {
+    "year": 2002,
+    "hostZh": "韩国/日本",
+    "hostEn": "South Korea/Japan",
+    "hostCode": "kor",
+    "champion": { "teamId": "bra", "nameZh": "巴西", "nameEn": "Brazil" },
+    "runnerUp": { "teamId": "ger", "nameZh": "德国", "nameEn": "Germany" },
+    "thirdPlace": { "teamId": "tur", "nameZh": "土耳其", "nameEn": "Turkey" },
+    "teamsCount": 32,
+    "matchesCount": 64,
+    "topScorer": {
+      "players": [{ "nameZh": "罗纳尔多", "nameEn": "Ronaldo", "teamId": "bra" }],
+      "goals": 8
+    },
+    "goldenBall": { "nameZh": "奥利弗·卡恩", "nameEn": "Oliver Kahn", "teamId": "ger" },
+    "goldenGlove": { "nameZh": "奥利弗·卡恩", "nameEn": "Oliver Kahn", "teamId": "ger" },
+    "dates": "2002-05-31/2002-06-30",
+    "slug": "2002-korea-japan"
+  },
+  {
+    "year": 2006,
+    "hostZh": "德国",
+    "hostEn": "Germany",
+    "hostCode": "ger",
+    "champion": { "teamId": "ita", "nameZh": "意大利", "nameEn": "Italy" },
+    "runnerUp": { "teamId": "fra", "nameZh": "法国", "nameEn": "France" },
+    "thirdPlace": { "teamId": "ger", "nameZh": "德国", "nameEn": "Germany" },
+    "teamsCount": 32,
+    "matchesCount": 64,
+    "topScorer": {
+      "players": [{ "nameZh": "米洛斯拉夫·克洛泽", "nameEn": "Miroslav Klose", "teamId": "ger" }],
+      "goals": 5
+    },
+    "goldenBall": { "nameZh": "齐内丁·齐达内", "nameEn": "Zinedine Zidane", "teamId": "fra" },
+    "goldenGlove": { "nameZh": "吉安路易吉·布冯", "nameEn": "Gianluigi Buffon", "teamId": "ita" },
+    "bestYoungPlayer": { "nameZh": "卢卡斯·波多尔斯基", "nameEn": "Lukas Podolski", "teamId": "ger" },
+    "dates": "2006-06-09/2006-07-09",
+    "slug": "2006-germany"
+  },
+  {
+    "year": 2010,
+    "hostZh": "南非",
+    "hostEn": "South Africa",
+    "hostCode": "rsa",
+    "champion": { "teamId": "esp", "nameZh": "西班牙", "nameEn": "Spain" },
+    "runnerUp": { "teamId": "ned", "nameZh": "荷兰", "nameEn": "Netherlands" },
+    "thirdPlace": { "teamId": "ger", "nameZh": "德国", "nameEn": "Germany" },
+    "teamsCount": 32,
+    "matchesCount": 64,
+    "topScorer": {
+      "players": [{ "nameZh": "托马斯·穆勒", "nameEn": "Thomas Muller", "teamId": "ger" }],
+      "goals": 5
+    },
+    "goldenBall": { "nameZh": "迭戈·弗兰", "nameEn": "Diego Forlan", "teamId": "uru" },
+    "goldenGlove": { "nameZh": "伊克尔·卡西利亚斯", "nameEn": "Iker Casillas", "teamId": "esp" },
+    "bestYoungPlayer": { "nameZh": "托马斯·穆勒", "nameEn": "Thomas Muller", "teamId": "ger" },
+    "dates": "2010-06-11/2010-07-11",
+    "slug": "2010-south-africa"
+  },
+  {
+    "year": 2014,
+    "hostZh": "巴西",
+    "hostEn": "Brazil",
+    "hostCode": "bra",
+    "champion": { "teamId": "ger", "nameZh": "德国", "nameEn": "Germany" },
+    "runnerUp": { "teamId": "arg", "nameZh": "阿根廷", "nameEn": "Argentina" },
+    "thirdPlace": { "teamId": "ned", "nameZh": "荷兰", "nameEn": "Netherlands" },
+    "teamsCount": 32,
+    "matchesCount": 64,
+    "topScorer": {
+      "players": [{ "nameZh": "哈梅斯·罗德里格斯", "nameEn": "James Rodriguez", "teamId": "col" }],
+      "goals": 6
+    },
+    "goldenBall": { "nameZh": "利昂内尔·梅西", "nameEn": "Lionel Messi", "teamId": "arg" },
+    "goldenGlove": { "nameZh": "曼努埃尔·诺伊尔", "nameEn": "Manuel Neuer", "teamId": "ger" },
+    "bestYoungPlayer": { "nameZh": "保罗·博格巴", "nameEn": "Paul Pogba", "teamId": "fra" },
+    "dates": "2014-06-12/2014-07-13",
+    "slug": "2014-brazil"
+  },
+  {
+    "year": 2018,
+    "hostZh": "俄罗斯",
+    "hostEn": "Russia",
+    "hostCode": "rus",
+    "champion": { "teamId": "fra", "nameZh": "法国", "nameEn": "France" },
+    "runnerUp": { "teamId": "cro", "nameZh": "克罗地亚", "nameEn": "Croatia" },
+    "thirdPlace": { "teamId": "bel", "nameZh": "比利时", "nameEn": "Belgium" },
+    "teamsCount": 32,
+    "matchesCount": 64,
+    "topScorer": {
+      "players": [{ "nameZh": "哈里·凯恩", "nameEn": "Harry Kane", "teamId": "eng" }],
+      "goals": 6
+    },
+    "goldenBall": { "nameZh": "卢卡·莫德里奇", "nameEn": "Luka Modric", "teamId": "cro" },
+    "goldenGlove": { "nameZh": "蒂博·库尔图瓦", "nameEn": "Thibaut Courtois", "teamId": "bel" },
+    "bestYoungPlayer": { "nameZh": "基利安·姆巴佩", "nameEn": "Kylian Mbappe", "teamId": "fra" },
+    "dates": "2018-06-14/2018-07-15",
+    "slug": "2018-russia"
+  },
+  {
+    "year": 2022,
+    "hostZh": "卡塔尔",
+    "hostEn": "Qatar",
+    "hostCode": "qat",
+    "champion": { "teamId": "arg", "nameZh": "阿根廷", "nameEn": "Argentina" },
+    "runnerUp": { "teamId": "fra", "nameZh": "法国", "nameEn": "France" },
+    "thirdPlace": { "teamId": "cro", "nameZh": "克罗地亚", "nameEn": "Croatia" },
+    "teamsCount": 32,
+    "matchesCount": 64,
+    "topScorer": {
+      "players": [{ "nameZh": "基利安·姆巴佩", "nameEn": "Kylian Mbappe", "teamId": "fra" }],
+      "goals": 8
+    },
+    "goldenBall": { "nameZh": "利昂内尔·梅西", "nameEn": "Lionel Messi", "teamId": "arg" },
+    "goldenGlove": { "nameZh": "埃米利亚诺·马丁内斯", "nameEn": "Emiliano Martinez", "teamId": "arg" },
+    "bestYoungPlayer": { "nameZh": "恩佐·费尔南德斯", "nameEn": "Enzo Fernandez", "teamId": "arg" },
+    "dates": "2022-11-20/2022-12-18",
+    "slug": "2022-qatar"
+  }
+]
