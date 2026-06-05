@@ -13,7 +13,12 @@ type GroupMatch = {
   homeTeam: { id: string; nameZh: string; flagCode: string };
   awayTeam: { id: string; nameZh: string; flagCode: string };
 };
-type KnockoutMatch = { id: string; home: string; away: string; date: string; time: string; venueZh: string };
+type KnockoutMatch = {
+  id: string; home: string; away: string; date: string; time: string; venueZh: string;
+  status?: string; homeScore?: number | null; awayScore?: number | null;
+  homeTeam?: { id: string; nameZh: string; flagCode: string };
+  awayTeam?: { id: string; nameZh: string; flagCode: string };
+};
 type KnockoutRound = { round: string; roundEn: string; matches: KnockoutMatch[] };
 
 function formatDate(d: string) {
@@ -32,15 +37,20 @@ function Team({ flagCode, nameZh }: { flagCode: string; nameZh: string }) {
 }
 
 function GroupMatchCard({ m }: { m: GroupMatch }) {
+  const completed = m.status === 'completed';
   return (
-    <div className="bg-white rounded-lg border border-border shadow-sm overflow-hidden">
+    <div className={`bg-white rounded-lg border border-border shadow-sm overflow-hidden ${completed ? 'border-l-4 border-l-primary' : ''}`}>
       <div className="px-3 py-1.5 bg-muted-light/50 flex items-center justify-between text-xs text-muted">
         <span className="font-medium">{m.group} 组 · 第{m.matchday}轮</span>
-        <span>{m.time}</span>
+        <span>{completed ? '已结束' : m.time}</span>
       </div>
       <div className="px-3 py-2.5 flex items-center justify-between gap-2">
         <Team flagCode={m.homeTeam.flagCode} nameZh={m.homeTeam.nameZh} />
-        <span className="text-xs text-muted bg-muted-light px-2 py-0.5 rounded shrink-0">VS</span>
+        {completed ? (
+          <span className="text-sm font-bold text-foreground shrink-0 px-2">{m.homeScore} - {m.awayScore}</span>
+        ) : (
+          <span className="text-xs text-muted bg-muted-light px-2 py-0.5 rounded shrink-0">VS</span>
+        )}
         <Team flagCode={m.awayTeam.flagCode} nameZh={m.awayTeam.nameZh} />
       </div>
       <div className="px-3 py-1 border-t border-border text-xs text-muted">&#127967; {m.venueZh}</div>
@@ -112,19 +122,36 @@ export default function SchedulePage() {
                   <div key={date} className="mb-3">
                     <div className="text-xs text-muted mb-2">{formatDate(date)}</div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                      {bd[date].map((m) => (
-                        <div key={m.id} className="bg-white rounded-lg border border-border shadow-sm overflow-hidden">
-                          <div className="px-3 py-1 bg-muted-light/50 flex items-center justify-between text-xs text-muted">
-                            <span>{m.time}</span><span>{m.id}</span>
+                      {bd[date].map((m) => {
+                        const completed = m.status === 'completed';
+                        const homeDisplay = m.homeTeam ? (
+                          <Team flagCode={m.homeTeam.flagCode} nameZh={m.homeTeam.nameZh} />
+                        ) : (
+                          <span className="text-sm font-medium text-foreground truncate">{m.home}</span>
+                        );
+                        const awayDisplay = m.awayTeam ? (
+                          <Team flagCode={m.awayTeam.flagCode} nameZh={m.awayTeam.nameZh} />
+                        ) : (
+                          <span className="text-sm font-medium text-foreground truncate">{m.away}</span>
+                        );
+                        return (
+                          <div key={m.id} className={`bg-white rounded-lg border border-border shadow-sm overflow-hidden ${completed ? 'border-l-4 border-l-secondary' : ''}`}>
+                            <div className="px-3 py-1 bg-muted-light/50 flex items-center justify-between text-xs text-muted">
+                              <span>{completed ? '已结束' : m.time}</span><span>{m.id}</span>
+                            </div>
+                            <div className="px-3 py-2.5 flex items-center justify-between gap-2">
+                              {homeDisplay}
+                              {completed ? (
+                                <span className="text-sm font-bold text-foreground shrink-0 px-2">{m.homeScore} - {m.awayScore}</span>
+                              ) : (
+                                <span className="text-xs text-muted bg-muted-light px-2 py-0.5 rounded shrink-0">VS</span>
+                              )}
+                              {awayDisplay}
+                            </div>
+                            <div className="px-3 py-1 border-t border-border text-xs text-muted">&#127967; {m.venueZh}</div>
                           </div>
-                          <div className="px-3 py-2.5 flex items-center justify-between gap-2">
-                            <span className="text-sm font-medium text-foreground truncate">{m.home}</span>
-                            <span className="text-xs text-muted bg-muted-light px-2 py-0.5 rounded shrink-0">VS</span>
-                            <span className="text-sm font-medium text-foreground truncate">{m.away}</span>
-                          </div>
-                          <div className="px-3 py-1 border-t border-border text-xs text-muted">&#127967; {m.venueZh}</div>
-                        </div>
-                      ))}
+                        );
+                      })}
                     </div>
                   </div>
                 ))}

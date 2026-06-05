@@ -18,9 +18,9 @@
         "nameZh": "南非",
         "flagCode": "za"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "id": "GM002",
@@ -40,9 +40,9 @@
         "nameZh": "捷克",
         "flagCode": "cz"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": "GM003",
@@ -62,9 +62,9 @@
         "nameZh": "南非",
         "flagCode": "za"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 3,
+      "awayScore": 2
     },
     {
       "id": "GM004",
@@ -84,9 +84,9 @@
         "nameZh": "韩国",
         "flagCode": "kr"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM005",

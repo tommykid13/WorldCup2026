@@ -1,6 +1,13 @@
 import Image from 'next/image';
 import { getAllTeams } from '@/lib/data/teams';
+import standingsData from '@/data/standings.json';
 import type { Metadata } from 'next';
+
+type StandingEntry = {
+  teamId: string; nameZh: string; flagCode: string; group: string;
+  played: number; won: number; drawn: number; lost: number;
+  gf: number; ga: number; gd: number; points: number;
+};
 
 export const metadata: Metadata = {
   title: '小组积分榜',
@@ -9,12 +16,24 @@ export const metadata: Metadata = {
 
 export default function GroupsPage() {
   const teams = getAllTeams();
-  const groups: Record<string, typeof teams> = {};
-  for (const team of teams) {
-    if (!groups[team.group]) groups[team.group] = [];
-    groups[team.group].push(team);
+  const hasStandings = Object.values(standingsData).some((g: StandingEntry[]) => g.some(s => s.played > 0));
+
+  const groups: Record<string, StandingEntry[]> = {};
+  const groupNames = 'ABCDEFGHIJKL'.split('');
+
+  for (const g of groupNames) {
+    if (hasStandings) {
+      groups[g] = (standingsData as Record<string, StandingEntry[]>)[g] || [];
+    } else {
+      // fallback: 按 FIFA 排名排列，全部显示 0
+      const gTeams = teams.filter(t => t.group === g).sort((a, b) => a.fifaRanking - b.fifaRanking);
+      groups[g] = gTeams.map(t => ({
+        teamId: t.id, nameZh: t.nameZh, flagCode: t.flagCode, group: t.group,
+        played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, points: 0,
+      }));
+    }
   }
-  const groupNames = Object.keys(groups).sort();
+
   const rows: string[][] = [];
   for (let i = 0; i < groupNames.length; i += 2) {
     rows.push(groupNames.slice(i, i + 2));
@@ -31,7 +50,7 @@ export default function GroupsPage() {
           <div key={ri}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {row.map((gn) => {
-                const gt = groups[gn].sort((a, b) => a.fifaRanking - b.fifaRanking);
+                const gt = groups[gn];
                 return (
                   <div key={gn} className="bg-white rounded-xl border border-border overflow-hidden shadow-sm">
                     <div className="bg-gradient-to-r from-primary to-emerald-600 text-white px-4 py-3 flex items-center justify-between">
@@ -53,8 +72,8 @@ export default function GroupsPage() {
                         </tr>
                       </thead>
                       <tbody>
-                        {gt.map((team, i) => (
-                          <tr key={team.id} className={`border-t border-border ${i < 2 ? 'bg-emerald-50/50' : ''}`}>
+                        {gt.map((entry, i) => (
+                          <tr key={entry.teamId} className={`border-t border-border ${i < 2 ? 'bg-emerald-50/50' : ''}`}>
                             <td className="px-3 py-2.5 text-center">
                               <span className={`inline-flex items-center justify-center w-5 h-5 rounded-full text-xs font-bold ${i === 0 ? 'bg-primary text-white' : i === 1 ? 'bg-emerald-100 text-primary' : 'bg-gray-100 text-muted'}`}>
                                 {i + 1}
@@ -62,17 +81,17 @@ export default function GroupsPage() {
                             </td>
                             <td className="px-3 py-2.5">
                               <div className="flex items-center gap-2">
-                                <Image src={`/flags/${team.flagCode}.png`} alt="" width={24} height={16} className="inline-block object-contain shrink-0" unoptimized />
-                                <span className="font-medium text-foreground">{team.nameZh}</span>
+                                <Image src={`/flags/${entry.flagCode}.png`} alt="" width={24} height={16} className="inline-block object-contain shrink-0" unoptimized />
+                                <span className="font-medium text-foreground">{entry.nameZh}</span>
                               </div>
                             </td>
-                            <td className="px-2 py-2.5 text-center text-muted">0</td>
-                            <td className="px-2 py-2.5 text-center text-muted">0</td>
-                            <td className="px-2 py-2.5 text-center text-muted">0</td>
-                            <td className="px-2 py-2.5 text-center text-muted">0</td>
-                            <td className="px-2 py-2.5 text-center text-muted">0</td>
-                            <td className="px-2 py-2.5 text-center text-muted">0</td>
-                            <td className="px-3 py-2.5 text-center font-bold text-foreground">0</td>
+                            <td className={`px-2 py-2.5 text-center ${entry.played ? 'text-foreground' : 'text-muted'}`}>{entry.played}</td>
+                            <td className={`px-2 py-2.5 text-center ${entry.won ? 'text-foreground' : 'text-muted'}`}>{entry.won}</td>
+                            <td className={`px-2 py-2.5 text-center ${entry.drawn ? 'text-foreground' : 'text-muted'}`}>{entry.drawn}</td>
+                            <td className={`px-2 py-2.5 text-center ${entry.lost ? 'text-foreground' : 'text-muted'}`}>{entry.lost}</td>
+                            <td className={`px-2 py-2.5 text-center ${entry.gf ? 'text-foreground' : 'text-muted'}`}>{entry.gf}</td>
+                            <td className={`px-2 py-2.5 text-center ${entry.gd > 0 ? 'text-green-600 font-medium' : entry.gd < 0 ? 'text-red-500' : 'text-muted'}`}>{entry.gd > 0 ? '+' : ''}{entry.gd}</td>
+                            <td className="px-3 py-2.5 text-center font-bold text-foreground">{entry.points}</td>
                           </tr>
                         ))}
                       </tbody>

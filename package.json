@@ -6,7 +6,8 @@
     "dev": "next dev -p 6024",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "update": "node scripts/update-data.js"
   },
   "dependencies": {
     "clsx": "^2.1.1",

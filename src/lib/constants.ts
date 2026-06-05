@@ -21,6 +21,7 @@ export const NAV_ITEMS = [
   { label: '小组积分', href: '/groups' },
   { label: '赛程表', href: '/schedule' },
   { label: '射手榜', href: '/stats' },
+  { label: '竞猜投票', href: '/vote' },
   { label: '淘汰赛', href: '/bracket' },
   { label: '历史回顾', href: '/history' },
   { label: '比赛场馆', href: '/venues' },

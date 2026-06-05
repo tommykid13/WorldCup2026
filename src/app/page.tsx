@@ -1,9 +1,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { CountdownTimer } from '@/components/home/CountdownTimer';
+import { HeroStage } from '@/components/home/HeroStage';
 import { getAllTeams } from '@/lib/data/teams';
 import { getAllVenues } from '@/lib/data/venues';
 import { SITE_CONFIG } from '@/lib/constants';
+import standingsData from '@/data/standings.json';
+
+type StandingEntry = {
+  teamId: string; nameZh: string; flagCode: string; group: string;
+  played: number; won: number; drawn: number; lost: number;
+  gf: number; ga: number; gd: number; points: number;
+};
 
 function FlagImg({ code, w = 28, h = 18 }: { code: string; w?: number; h?: number }) {
   return (
@@ -14,14 +21,21 @@ function FlagImg({ code, w = 28, h = 18 }: { code: string; w?: number; h?: numbe
 export default function HomePage() {
   const teams = getAllTeams();
   const venues = getAllVenues();
+  const hasStandings = Object.values(standingsData).some((g: StandingEntry[]) => g.some(s => s.played > 0));
 
-  // Group teams
-  const groups: Record<string, typeof teams> = {};
-  for (const team of teams) {
-    if (!groups[team.group]) groups[team.group] = [];
-    groups[team.group].push(team);
+  const groupNames = 'ABCDEFGHIJKL'.split('');
+  const groups: Record<string, StandingEntry[]> = {};
+  for (const g of groupNames) {
+    if (hasStandings) {
+      groups[g] = (standingsData as Record<string, StandingEntry[]>)[g] || [];
+    } else {
+      const gTeams = teams.filter(t => t.group === g).sort((a, b) => a.fifaRanking - b.fifaRanking);
+      groups[g] = gTeams.map(t => ({
+        teamId: t.id, nameZh: t.nameZh, flagCode: t.flagCode, group: t.group,
+        played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, points: 0,
+      }));
+    }
   }
-  const groupNames = Object.keys(groups).sort();
   const rows: string[][] = [];
   for (let i = 0; i < groupNames.length; i += 2) {
     rows.push(groupNames.slice(i, i + 2));
@@ -41,8 +55,7 @@ export default function HomePage() {
           <p className="text-lg sm:text-xl text-white/80 mb-2">美国 · 加拿大 · 墨西哥</p>
           <p className="text-sm text-white/60 mb-10">2026年6月11日 — 7月19日</p>
           <div className="mb-4">
-            <p className="text-sm text-white/70 mb-4">距离开幕还有</p>
-            <CountdownTimer />
+            <HeroStage />
           </div>
         </div>
       </section>
@@ -80,7 +93,7 @@ export default function HomePage() {
             <div key={ri}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {row.map((gn) => {
-                  const gt = groups[gn].sort((a, b) => a.fifaRanking - b.fifaRanking);
+                  const gt = groups[gn];
                   return (
                     <div key={gn} className="bg-white rounded-xl border border-border overflow-hidden">
                       <div className="bg-gradient-to-r from-primary to-emerald-600 text-white px-4 py-2 flex items-center justify-between">
@@ -101,8 +114,8 @@ export default function HomePage() {
                           </tr>
                         </thead>
                         <tbody>
-                          {gt.map((t, i) => (
-                            <tr key={t.id} className={`border-t border-border ${i < 2 ? 'bg-emerald-50/50' : ''}`}>
+                          {gt.map((entry, i) => (
+                            <tr key={entry.teamId} className={`border-t border-border ${i < 2 ? 'bg-emerald-50/50' : ''}`}>
                               <td className="px-2 py-1.5 text-center">
                                 <span className={`inline-flex items-center justify-center w-4 h-4 rounded-full text-[10px] font-bold ${i === 0 ? 'bg-primary text-white' : i === 1 ? 'bg-emerald-100 text-primary' : 'bg-gray-100 text-muted'}`}>
                                   {i + 1}
@@ -110,16 +123,16 @@ export default function HomePage() {
                               </td>
                               <td className="px-2 py-1.5">
                                 <div className="flex items-center gap-1.5">
-                                  <Image src={`/flags/${t.flagCode}.png`} alt="" width={20} height={14} className="inline-block object-contain" unoptimized />
-                                  <span className="font-medium text-foreground text-xs">{t.nameZh}</span>
+                                  <Image src={`/flags/${entry.flagCode}.png`} alt="" width={20} height={14} className="inline-block object-contain" unoptimized />
+                                  <span className="font-medium text-foreground text-xs">{entry.nameZh}</span>
                                 </div>
                               </td>
-                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
-                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
-                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
-                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
-                              <td className="px-2 py-1.5 text-center text-muted text-xs">0</td>
-                              <td className="px-2 py-1.5 text-center font-bold text-foreground text-xs">0</td>
+                              <td className={`px-2 py-1.5 text-center text-xs ${entry.played ? 'text-foreground' : 'text-muted'}`}>{entry.played}</td>
+                              <td className={`px-2 py-1.5 text-center text-xs ${entry.won ? 'text-foreground' : 'text-muted'}`}>{entry.won}</td>
+                              <td className={`px-2 py-1.5 text-center text-xs ${entry.drawn ? 'text-foreground' : 'text-muted'}`}>{entry.drawn}</td>
+                              <td className={`px-2 py-1.5 text-center text-xs ${entry.lost ? 'text-foreground' : 'text-muted'}`}>{entry.lost}</td>
+                              <td className={`px-2 py-1.5 text-center text-xs ${entry.gd > 0 ? 'text-green-600 font-medium' : entry.gd < 0 ? 'text-red-500' : 'text-muted'}`}>{entry.gd > 0 ? '+' : ''}{entry.gd}</td>
+                              <td className="px-2 py-1.5 text-center font-bold text-foreground text-xs">{entry.points}</td>
                             </tr>
                           ))}
                         </tbody>

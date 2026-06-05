@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import type { Metadata } from 'next';
+import scheduleData from '@/data/schedule/index.json';
 
 export const metadata: Metadata = {
   title: '淘汰赛对阵图',
@@ -35,9 +37,30 @@ const THIRD_Y = FINAL_Y + 72;
 const VB_W = COL.final + BOX_W + 20;
 const VB_H = Math.max(THIRD_Y, R16_L[3]) + BOX_H + 20;
 
-interface Match { id: string; top: string; bot: string; date: string }
+interface Match { id: string; top: string; bot: string; date: string; _status?: string; _homeScore?: number | null; _awayScore?: number | null }
 
-const R16_MATCHES: Match[] = [
+type KoMatch = {
+  id: string; home: string; away: string; date: string; time: string; venueZh: string;
+  status?: string; homeScore?: number | null; awayScore?: number | null;
+  homeTeam?: { id: string; nameZh: string; flagCode: string };
+  awayTeam?: { id: string; nameZh: string; flagCode: string };
+};
+
+const _knockoutStage = (scheduleData as { knockoutStage: { round: string; roundEn: string; matches: KoMatch[] }[] }).knockoutStage;
+
+function toMatch(m: KoMatch): Match {
+  return {
+    id: m.id,
+    top: m.homeTeam ? m.homeTeam.nameZh : m.home,
+    bot: m.awayTeam ? m.awayTeam.nameZh : m.away,
+    date: m.date.slice(5).replace('-', '/').replace(/^0/, ''),
+    _status: m.status,
+    _homeScore: m.homeScore ?? undefined,
+    _awayScore: m.awayScore ?? undefined,
+  };
+}
+
+const R16_MATCHES: Match[] = _knockoutStage.find(r => r.roundEn === 'Round of 16')?.matches.map(toMatch) || [
   { id:'M89', top:'胜M73', bot:'胜M75', date:'7/5' },
   { id:'M90', top:'胜M74', bot:'胜M77', date:'7/5' },
   { id:'M91', top:'胜M76', bot:'胜M78', date:'7/6' },
@@ -47,26 +70,27 @@ const R16_MATCHES: Match[] = [
   { id:'M95', top:'胜M86', bot:'胜M88', date:'7/8' },
   { id:'M96', top:'胜M85', bot:'胜M87', date:'7/8' },
 ];
-const QF_MATCHES: Match[] = [
+const QF_MATCHES: Match[] = _knockoutStage.find(r => r.roundEn === 'Quarter-finals')?.matches.map(toMatch) || [
   { id:'M97', top:'胜M89', bot:'胜M90', date:'7/10' },
   { id:'M98', top:'胜M93', bot:'胜M94', date:'7/11' },
   { id:'M99', top:'胜M91', bot:'胜M92', date:'7/12' },
   { id:'M100', top:'胜M95', bot:'胜M96', date:'7/12' },
 ];
-const SF_MATCHES: Match[] = [
+const SF_MATCHES: Match[] = _knockoutStage.find(r => r.roundEn === 'Semi-finals')?.matches.map(toMatch) || [
   { id:'M101', top:'胜M97', bot:'胜M98', date:'7/15' },
   { id:'M102', top:'胜M99', bot:'胜M100', date:'7/16' },
 ];
 
-function Box({ x, y, top, bot, highlight }: { x: number; y: number; top: string; bot: string; highlight?: string }) {
+function Box({ x, y, top, bot, highlight, homeScore, awayScore }: { x: number; y: number; top: string; bot: string; highlight?: string; homeScore?: number | null; awayScore?: number | null }) {
   const stroke = highlight === 'gold' ? '#f59e0b' : highlight === 'gray' ? '#9ca3af' : '#d1d5db';
   const fill = highlight === 'gold' ? '#fffbeb' : highlight === 'gray' ? '#f9fafb' : '#ffffff';
+  const hasScore = homeScore != null && awayScore != null;
   return (
     <g>
       <rect x={x} y={y} width={BOX_W} height={BOX_H} rx={4} fill={fill} stroke={stroke} strokeWidth={highlight ? 2 : 1} />
       <line x1={x} y1={y + BOX_H / 2} x2={x + BOX_W} y2={y + BOX_H / 2} stroke="#e5e7eb" strokeWidth={1} />
-      <text x={x + 6} y={y + 14} fontSize={11} fill="#1a1a2e" fontFamily="system-ui">{top}</text>
-      <text x={x + 6} y={y + BOX_H - 8} fontSize={11} fill="#1a1a2e" fontFamily="system-ui">{bot}</text>
+      <text x={x + 6} y={y + 14} fontSize={11} fill="#1a1a2e" fontFamily="system-ui">{top}{hasScore ? ` ${homeScore}` : ''}</text>
+      <text x={x + 6} y={y + BOX_H - 8} fontSize={11} fill="#1a1a2e" fontFamily="system-ui">{bot}{hasScore ? ` ${awayScore}` : ''}</text>
     </g>
   );
 }
@@ -80,6 +104,8 @@ function RoundLabel({ x, label }: { x: number; label: string }) {
 }
 
 export default function BracketPage() {
+  const r32Round = _knockoutStage.find(r => r.roundEn === 'Round of 32');
+  const r32Matches = r32Round ? r32Round.matches : [];
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="mb-8">
@@ -100,30 +126,36 @@ export default function BracketPage() {
       <section className="mb-10">
         <h2 className="text-lg font-bold text-foreground mb-3">32强赛 <span className="text-xs text-muted font-normal">Round of 32 · 6/29–7/4 · 16场 · 北京时间</span></h2>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {[
-            {id:'M73',a:'A组次名',b:'B组次名',d:'6/29 03:00',v:'SoFi体育场'},
-            {id:'M74',a:'C组首名',b:'F组次名',d:'6/30 04:30',v:'NRG体育场'},
-            {id:'M75',a:'E组首名',b:'A/B/C/D/F组第3',d:'6/30 09:00',v:'吉列体育场'},
-            {id:'M76',a:'F组首名',b:'C组次名',d:'6/30 01:00',v:'BBVA体育场'},
-            {id:'M77',a:'E组次名',b:'I组次名',d:'7/1 05:00',v:'AT&T体育场'},
-            {id:'M78',a:'I组首名',b:'C/D/F/G/H组第3',d:'7/1 01:00',v:'大都会人寿体育场'},
-            {id:'M79',a:'A组首名',b:'C/E/F/H/I组第3',d:'7/1 09:00',v:'阿兹特克体育场'},
-            {id:'M80',a:'L组首名',b:'E/H/I/J/K组第3',d:'7/2 00:00',v:'梅赛德斯-奔驰体育场'},
-            {id:'M81',a:'G组首名',b:'A/E/H/I/J组第3',d:'7/2 08:00',v:'流明球场'},
-            {id:'M82',a:'D组首名',b:'B/E/F/I/J组第3',d:'7/2 04:00',v:'李维斯体育场'},
-            {id:'M83',a:'H组首名',b:'J组次名',d:'7/3 07:00',v:'SoFi体育场'},
-            {id:'M84',a:'K组次名',b:'L组次名',d:'7/3 03:00',v:'BMO球场'},
-            {id:'M85',a:'B组首名',b:'E/F/G/I/J组第3',d:'7/3 11:00',v:'卑诗体育馆'},
-            {id:'M86',a:'D组次名',b:'G组次名',d:'7/4 06:00',v:'AT&T体育场'},
-            {id:'M87',a:'J组首名',b:'H组次名',d:'7/4 09:30',v:'硬石体育场'},
-            {id:'M88',a:'K组首名',b:'D/E/I/J/L组第3',d:'7/4 02:00',v:'箭头体育场'},
-          ].map(m => (
-            <div key={m.id} className="bg-white rounded-lg border border-border p-2 text-xs">
-              <div className="flex justify-between text-muted mb-1"><span>{m.id}</span><span>{m.d}</span></div>
-              <div className="font-medium truncate">{m.a} vs {m.b}</div>
-              <div className="text-muted mt-0.5 truncate">&#127967;{m.v}</div>
-            </div>
-          ))}
+          {r32Matches.map(m => {
+            const completed = m.status === 'completed';
+            const homeLabel = m.homeTeam ? (
+              <div className="flex items-center gap-1">
+                <Image src={`/flags/${m.homeTeam.flagCode}.png`} alt="" width={14} height={10} className="inline-block object-contain" unoptimized />
+                <span>{m.homeTeam.nameZh}</span>
+              </div>
+            ) : m.home;
+            const awayLabel = m.awayTeam ? (
+              <div className="flex items-center gap-1">
+                <Image src={`/flags/${m.awayTeam.flagCode}.png`} alt="" width={14} height={10} className="inline-block object-contain" unoptimized />
+                <span>{m.awayTeam.nameZh}</span>
+              </div>
+            ) : m.away;
+            return (
+              <div key={m.id} className={`bg-white rounded-lg border border-border p-2 text-xs ${completed ? 'border-l-4 border-l-secondary' : ''}`}>
+                <div className="flex justify-between text-muted mb-1"><span>{m.id}</span><span>{completed ? '已结束' : `${m.date.slice(5)} ${m.time}`}</span></div>
+                <div className="flex items-center justify-between gap-1">
+                  <div className="font-medium truncate">{homeLabel}</div>
+                  {completed ? (
+                    <span className="font-bold text-foreground shrink-0">{m.homeScore} - {m.awayScore}</span>
+                  ) : (
+                    <span className="text-muted shrink-0">vs</span>
+                  )}
+                  <div className="font-medium truncate">{awayLabel}</div>
+                </div>
+                <div className="text-muted mt-0.5 truncate">&#127967;{m.venueZh}</div>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -150,42 +182,42 @@ export default function BracketPage() {
           {/* ── Upper half R16 boxes ── */}
           {R16_U.map((y, i) => (
             <g key={`r16u${i}`}>
-              <Box x={COL.r16} y={y} top={R16_MATCHES[i].top} bot={R16_MATCHES[i].bot} />
-              <text x={COL.r16 + BOX_W / 2} y={y + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{R16_MATCHES[i].date}</text>
+              <Box x={COL.r16} y={y} top={R16_MATCHES[i].top} bot={R16_MATCHES[i].bot} homeScore={R16_MATCHES[i]._homeScore} awayScore={R16_MATCHES[i]._awayScore} />
+              <text x={COL.r16 + BOX_W / 2} y={y + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{R16_MATCHES[i]._status ? `${R16_MATCHES[i]._homeScore}-${R16_MATCHES[i]._awayScore}` : R16_MATCHES[i].date}</text>
             </g>
           ))}
 
           {/* ── Upper half QF boxes ── */}
           {QF_U.map((y, i) => (
             <g key={`qfu${i}`}>
-              <Box x={COL.qf} y={y} top={QF_MATCHES[i].top} bot={QF_MATCHES[i].bot} />
-              <text x={COL.qf + BOX_W / 2} y={y + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{QF_MATCHES[i].date}</text>
+              <Box x={COL.qf} y={y} top={QF_MATCHES[i].top} bot={QF_MATCHES[i].bot} homeScore={QF_MATCHES[i]._homeScore} awayScore={QF_MATCHES[i]._awayScore} />
+              <text x={COL.qf + BOX_W / 2} y={y + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{QF_MATCHES[i]._status ? `${QF_MATCHES[i]._homeScore}-${QF_MATCHES[i]._awayScore}` : QF_MATCHES[i].date}</text>
             </g>
           ))}
 
           {/* ── Upper half SF box ── */}
-          <Box x={COL.sf} y={SF_U[0]} top={SF_MATCHES[0].top} bot={SF_MATCHES[0].bot} />
-          <text x={COL.sf + BOX_W / 2} y={SF_U[0] + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{SF_MATCHES[0].date}</text>
+          <Box x={COL.sf} y={SF_U[0]} top={SF_MATCHES[0].top} bot={SF_MATCHES[0].bot} homeScore={SF_MATCHES[0]._homeScore} awayScore={SF_MATCHES[0]._awayScore} />
+          <text x={COL.sf + BOX_W / 2} y={SF_U[0] + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{SF_MATCHES[0]._status ? `${SF_MATCHES[0]._homeScore}-${SF_MATCHES[0]._awayScore}` : SF_MATCHES[0].date}</text>
 
           {/* ── Lower half R16 boxes ── */}
           {R16_L.map((y, i) => (
             <g key={`r16l${i}`}>
-              <Box x={COL.r16} y={y} top={R16_MATCHES[i + 4].top} bot={R16_MATCHES[i + 4].bot} />
-              <text x={COL.r16 + BOX_W / 2} y={y + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{R16_MATCHES[i + 4].date}</text>
+              <Box x={COL.r16} y={y} top={R16_MATCHES[i + 4].top} bot={R16_MATCHES[i + 4].bot} homeScore={R16_MATCHES[i + 4]._homeScore} awayScore={R16_MATCHES[i + 4]._awayScore} />
+              <text x={COL.r16 + BOX_W / 2} y={y + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{R16_MATCHES[i + 4]._status ? `${R16_MATCHES[i + 4]._homeScore}-${R16_MATCHES[i + 4]._awayScore}` : R16_MATCHES[i + 4].date}</text>
             </g>
           ))}
 
           {/* ── Lower half QF boxes ── */}
           {QF_L.map((y, i) => (
             <g key={`qfl${i}`}>
-              <Box x={COL.qf} y={y} top={QF_MATCHES[i + 2].top} bot={QF_MATCHES[i + 2].bot} />
-              <text x={COL.qf + BOX_W / 2} y={y + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{QF_MATCHES[i + 2].date}</text>
+              <Box x={COL.qf} y={y} top={QF_MATCHES[i + 2].top} bot={QF_MATCHES[i + 2].bot} homeScore={QF_MATCHES[i + 2]._homeScore} awayScore={QF_MATCHES[i + 2]._awayScore} />
+              <text x={COL.qf + BOX_W / 2} y={y + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{QF_MATCHES[i + 2]._status ? `${QF_MATCHES[i + 2]._homeScore}-${QF_MATCHES[i + 2]._awayScore}` : QF_MATCHES[i + 2].date}</text>
             </g>
           ))}
 
           {/* ── Lower half SF box ── */}
-          <Box x={COL.sf} y={SF_L[0]} top={SF_MATCHES[1].top} bot={SF_MATCHES[1].bot} />
-          <text x={COL.sf + BOX_W / 2} y={SF_L[0] + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{SF_MATCHES[1].date}</text>
+          <Box x={COL.sf} y={SF_L[0]} top={SF_MATCHES[1].top} bot={SF_MATCHES[1].bot} homeScore={SF_MATCHES[1]._homeScore} awayScore={SF_MATCHES[1]._awayScore} />
+          <text x={COL.sf + BOX_W / 2} y={SF_L[0] + BOX_H + 12} textAnchor="middle" fontSize={9} fill="#9ca3af" fontFamily="system-ui">{SF_MATCHES[1]._status ? `${SF_MATCHES[1]._homeScore}-${SF_MATCHES[1]._awayScore}` : SF_MATCHES[1].date}</text>
 
           {/* ── Final & Third place ── */}
           <Box x={COL.final} y={FINAL_Y} top="胜半决赛1" bot="胜半决赛2" highlight="gold" />
