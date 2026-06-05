@@ -2,24 +2,40 @@ interface Env {
   VOTES: KVNamespace;
 }
 
-const CATEGORIES = new Set(['champion', 'runnerup', 'semifinal']);
+const CATEGORIES = ['champion', 'runnerup', 'semifinal'] as const;
+const CACHE_KEY = 'cache:votes';
+const CACHE_TTL = 30; // seconds
 
 const headers = {
   'Content-Type': 'application/json',
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
 };
 
-const EMPTY = { champion: {}, runnerup: {}, semifinal: {} };
+async function aggregateVotes(kv: KVNamespace): Promise<Record<string, Record<string, number>>> {
+  const result: Record<string, Record<string, number>> = {
+    champion: {},
+    runnerup: {},
+    semifinal: {},
+  };
+  for (const cat of CATEGORIES) {
+    let cursor: string | undefined;
+    do {
+      const list = await kv.list({ prefix: `v:${cat}:`, cursor });
+      for (const key of list.keys) {
+        // key.name = "v:{category}:{teamId}:{ts}:{rand}"
+        const teamId = key.name.split(':')[2];
+        if (teamId) {
+          result[cat][teamId] = (result[cat][teamId] || 0) + 1;
+        }
+      }
+      cursor = list.list_complete ? undefined : list.cursor;
+    } while (cursor);
+  }
+  return result;
+}
 
 export const onRequest: PagesFunction<Env> = async (context) => {
   const { request, env } = context;
   const method = request.method;
-
-  if (method === 'OPTIONS') {
-    return new Response(null, { headers });
-  }
 
   if (!env.VOTES) {
     return new Response(JSON.stringify({ error: 'KV not bound' }), { status: 500, headers });
@@ -27,8 +43,12 @@ export const onRequest: PagesFunction<Env> = async (context) => {
 
   if (method === 'GET') {
     try {
-      const data = await env.VOTES.get('poll', 'json') || EMPTY;
-      return new Response(JSON.stringify(data), { headers });
+      const cached = await env.VOTES.get(CACHE_KEY, 'json');
+      if (cached) return new Response(JSON.stringify(cached), { headers });
+
+      const result = await aggregateVotes(env.VOTES);
+      await env.VOTES.put(CACHE_KEY, JSON.stringify(result), { expirationTtl: CACHE_TTL });
+      return new Response(JSON.stringify(result), { headers });
     } catch {
       return new Response(JSON.stringify({ error: 'KV read failed' }), { status: 500, headers });
     }
@@ -37,20 +57,30 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   if (method === 'POST') {
     try {
       const body = (await request.json()) as { category?: string; teamId?: string };
-      if (!body.category || !CATEGORIES.has(body.category) || !body.teamId || typeof body.teamId !== 'string') {
+      if (
+        !body.category ||
+        !(CATEGORIES as readonly string[]).includes(body.category) ||
+        !body.teamId ||
+        typeof body.teamId !== 'string'
+      ) {
         return new Response(JSON.stringify({ error: 'Invalid input' }), { status: 400, headers });
       }
 
-      const data = (await env.VOTES.get('poll', 'json')) as Record<string, Record<string, number>> | null;
-      const votes = data || { champion: {}, runnerup: {}, semifinal: {} };
-      const cat = body.category;
-      if (!votes[cat]) votes[cat] = {};
-      votes[cat][body.teamId] = (votes[cat][body.teamId] || 0) + 1;
-      await env.VOTES.put('poll', JSON.stringify(votes));
+      // Append-only: each vote is a unique key — no read-modify-write, no race condition
+      const ts = Date.now();
+      const rand = Math.random().toString(36).slice(2, 8);
+      await env.VOTES.put(`v:${body.category}:${body.teamId}:${ts}:${rand}`, '1', {
+        expirationTtl: 86400 * 90, // auto-cleanup after 90 days
+      });
 
-      return new Response(JSON.stringify(votes), { headers });
+      // Invalidate cache
+      await env.VOTES.delete(CACHE_KEY);
+
+      // Return fresh aggregated data
+      const result = await aggregateVotes(env.VOTES);
+      return new Response(JSON.stringify(result), { headers });
     } catch {
-      return new Response(JSON.stringify({ error: 'KV write failed' }), { status: 500, headers });
+      return new Response(JSON.stringify({ error: 'Server error' }), { status: 500, headers });
     }
   }
 

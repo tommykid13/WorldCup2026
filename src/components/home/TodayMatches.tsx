@@ -20,8 +20,17 @@ interface DisplayMatch {
 }
 
 function formatTeamRef(ref: string): string {
-  const m = ref.match(/^([1-4])([A-L])$/);
-  if (m) return `${m[2]}组第${m[1]}名`;
+  // "2A" → "A组第2名"
+  const simple = ref.match(/^([1-4])([A-L])$/);
+  if (simple) return `${simple[2]}组第${simple[1]}名`;
+  // "3rd A/B/C/D/F" → "最佳第3名(A/B/C/D/F)"
+  if (ref.startsWith('3rd ')) return `最佳第3名(${ref.slice(4)})`;
+  // "胜M73" → "M73胜者"
+  const win = ref.match(/^胜(M?\d+)$/);
+  if (win) return `${win[1]}胜者`;
+  // "负M101" → "M101负者"
+  const lose = ref.match(/^负(M?\d+)$/);
+  if (lose) return `${lose[1]}负者`;
   return ref;
 }
 

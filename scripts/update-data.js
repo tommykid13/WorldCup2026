@@ -127,6 +127,11 @@ function main() {
     }
   }
 
+  // 计算净胜球
+  for (const id in standingsMap) {
+    standingsMap[id].gd = standingsMap[id].gf - standingsMap[id].ga;
+  }
+
   // 按组分类并排序
   for (const g of groups) {
     groupStandings[g] = Object.values(standingsMap)
