@@ -7,24 +7,37 @@ type Team = { id: string; nameZh: string; flagCode: string; fifaRanking: number 
 type VoteData = { champion: Record<string, number>; runnerup: Record<string, number>; semifinal: Record<string, number> };
 type TabKey = 'champion' | 'runnerup' | 'semifinal';
 
-const TABS: { key: TabKey; label: string }[] = [
-  { key: 'champion', label: '冠军' },
-  { key: 'runnerup', label: '亚军' },
-  { key: 'semifinal', label: '四强' },
+type VotedState = {
+  champion: string | null;
+  runnerup: string | null;
+  semifinal: string[];
+};
+
+const TABS: { key: TabKey; label: string; limit: number }[] = [
+  { key: 'champion', label: '冠军', limit: 1 },
+  { key: 'runnerup', label: '亚军', limit: 1 },
+  { key: 'semifinal', label: '四强', limit: 4 },
 ];
 
 export function VotePanel({ teams }: { teams: Team[] }) {
   const [tab, setTab] = useState<TabKey>('champion');
   const [votes, setVotes] = useState<VoteData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [voted, setVoted] = useState<Record<TabKey, string | null>>({ champion: null, runnerup: null, semifinal: null });
+  const [voted, setVoted] = useState<VotedState>({ champion: null, runnerup: null, semifinal: [] });
   const [submitting, setSubmitting] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
+
+  const currentTab = TABS.find((t) => t.key === tab)!;
 
   useEffect(() => {
-    const prev = { champion: null, runnerup: null, semifinal: null } as Record<TabKey, string | null>;
-    for (const t of TABS) {
-      const v = localStorage.getItem(`wc2026_${t.key}`);
-      if (v) prev[t.key] = v;
+    const prev: VotedState = { champion: null, runnerup: null, semifinal: [] };
+    const ch = localStorage.getItem('wc2026_champion');
+    if (ch) prev.champion = ch;
+    const ru = localStorage.getItem('wc2026_runnerup');
+    if (ru) prev.runnerup = ru;
+    const sf = localStorage.getItem('wc2026_semifinal');
+    if (sf) {
+      try { prev.semifinal = JSON.parse(sf); } catch { prev.semifinal = []; }
     }
     setVoted(prev);
 
@@ -35,22 +48,43 @@ export function VotePanel({ teams }: { teams: Team[] }) {
       .finally(() => setLoading(false));
   }, []);
 
+  function isTeamSelected(teamId: string): boolean {
+    if (tab === 'semifinal') return voted.semifinal.includes(teamId);
+    return voted[tab] === teamId;
+  }
+
+  function hasReachedLimit(): boolean {
+    if (tab === 'semifinal') return voted.semifinal.length >= 4;
+    return voted[tab] !== null;
+  }
+
   async function handleVote(teamId: string) {
-    if (voted[tab] || submitting) return;
+    if (isTeamSelected(teamId) || hasReachedLimit() || submitting) return;
     setSubmitting(true);
+    setErrorMsg('');
     try {
       const res = await fetch('/api/vote', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ category: tab, teamId }),
       });
-      if (!res.ok) return;
+      if (!res.ok) {
+        setErrorMsg('投票失败，请稍后再试');
+        return;
+      }
       const data = await res.json();
       setVotes(data);
-      setVoted((prev) => ({ ...prev, [tab]: teamId }));
-      localStorage.setItem(`wc2026_${tab}`, teamId);
+
+      if (tab === 'semifinal') {
+        const updated = [...voted.semifinal, teamId];
+        setVoted((prev) => ({ ...prev, semifinal: updated }));
+        localStorage.setItem('wc2026_semifinal', JSON.stringify(updated));
+      } else {
+        setVoted((prev) => ({ ...prev, [tab]: teamId }));
+        localStorage.setItem(`wc2026_${tab}`, teamId);
+      }
     } catch {
-      /* ignore */
+      setErrorMsg('网络错误，请稍后再试');
     } finally {
       setSubmitting(false);
     }
@@ -77,13 +111,15 @@ export function VotePanel({ teams }: { teams: Team[] }) {
     );
   }
 
+  const votedCount = tab === 'semifinal' ? voted.semifinal.length : (voted[tab] ? 1 : 0);
+
   return (
     <div>
       <div className="flex gap-2 mb-6">
         {TABS.map((t) => (
           <button
             key={t.key}
-            onClick={() => setTab(t.key)}
+            onClick={() => { setTab(t.key); setErrorMsg(''); }}
             className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
               tab === t.key ? 'bg-primary text-white' : 'bg-white border border-border text-muted hover:bg-gray-50'
             }`}
@@ -93,9 +129,13 @@ export function VotePanel({ teams }: { teams: Team[] }) {
         ))}
       </div>
 
+      {errorMsg && (
+        <p className="text-sm text-red-500 mb-4">{errorMsg}</p>
+      )}
+
       {total > 0 && (
         <p className="text-sm text-muted mb-4">
-          共 {total.toLocaleString()} 票{voted[tab] ? ' · 你已投票' : ''}
+          共 {total.toLocaleString()} 票{votedCount > 0 ? ` · 你已投 ${votedCount}/${currentTab.limit}` : ''}
         </p>
       )}
 
@@ -104,8 +144,8 @@ export function VotePanel({ teams }: { teams: Team[] }) {
           const count = cat[team.id] || 0;
           const pct = total > 0 ? (count / total) * 100 : 0;
           const barW = count > 0 ? (count / max) * 100 : 0;
-          const isMine = voted[tab] === team.id;
-          const done = !!voted[tab];
+          const isMine = isTeamSelected(team.id);
+          const done = hasReachedLimit();
 
           return (
             <div
