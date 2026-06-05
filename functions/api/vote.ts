@@ -21,16 +21,24 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     return new Response(null, { headers });
   }
 
+  if (!env.VOTES) {
+    return new Response(JSON.stringify({ error: 'KV not bound' }), { status: 500, headers });
+  }
+
   if (method === 'GET') {
-    const data = await env.VOTES.get('poll', 'json') || EMPTY;
-    return new Response(JSON.stringify(data), { headers });
+    try {
+      const data = await env.VOTES.get('poll', 'json') || EMPTY;
+      return new Response(JSON.stringify(data), { headers });
+    } catch {
+      return new Response(JSON.stringify({ error: 'KV read failed' }), { status: 500, headers });
+    }
   }
 
   if (method === 'POST') {
     try {
       const body = (await request.json()) as { category?: string; teamId?: string };
       if (!body.category || !CATEGORIES.has(body.category) || !body.teamId || typeof body.teamId !== 'string') {
-        return new Response(JSON.stringify({ error: 'Invalid' }), { status: 400, headers });
+        return new Response(JSON.stringify({ error: 'Invalid input' }), { status: 400, headers });
       }
 
       const data = (await env.VOTES.get('poll', 'json')) as Record<string, Record<string, number>> | null;
@@ -42,7 +50,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
 
       return new Response(JSON.stringify(votes), { headers });
     } catch {
-      return new Response(JSON.stringify({ error: 'Bad request' }), { status: 400, headers });
+      return new Response(JSON.stringify({ error: 'KV write failed' }), { status: 500, headers });
     }
   }
 
