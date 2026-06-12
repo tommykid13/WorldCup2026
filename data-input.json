@@ -1,18 +1,28 @@
 {
   "groupResults": {
+    "GM001": { "hs": 2, "as": 0 },
+    "GM002": { "hs": 2, "as": 1 }
   },
-  "knockoutResults": {
-  },
-  "knockoutTeams": {
-  },
+  "knockoutResults": {},
+  "knockoutTeams": {},
   "scorers": [
+    { "name": "黄仁范", "team": "kor", "goals": 1, "assists": 1, "penalties": 0, "appearances": 1 },
+    { "name": "拉迪斯拉夫・克雷伊奇", "team": "cze", "goals": 1, "assists": 1, "penalties": 0, "appearances": 1 },
+    { "name": "朱利安・奎农", "team": "mex", "goals": 1, "assists": 1, "penalties": 0, "appearances": 1 },
+    { "name": "劳尔・希门尼斯", "team": "mex", "goals": 1, "assists": 1, "penalties": 0, "appearances": 1 },
+    { "name": "吴贤奎", "team": "kor", "goals": 1, "assists": 1, "penalties": 0, "appearances": 1 }
   ],
   "assists": [
+    { "name": "黄仁范", "team": "kor", "assists": 1, "goals": 1, "keyPasses": 0, "appearances": 1 },
+    { "name": "罗伯托・阿尔瓦拉多", "team": "mex", "assists": 1, "goals": 0, "keyPasses": 0, "appearances": 1 },
+    { "name": "李康仁", "team": "kor", "assists": 1, "goals": 0, "keyPasses": 0, "appearances": 1 },
+    { "name": "弗拉迪米尔・库法尔", "team": "cze", "assists": 1, "goals": 0, "keyPasses": 0, "appearances": 1 },
+    { "name": "埃里克・里拉", "team": "mex", "assists": 1, "goals": 0, "keyPasses": 0, "appearances": 1 }
   ],
   "summary": {
-    "totalGoals": 0,
-    "totalAssists": 0,
-    "avgGoalsPerMatch": 0,
+    "totalGoals": 5,
+    "totalAssists": 5,
+    "avgGoalsPerMatch": 2.5,
     "hatTricks": 0
   }
 }

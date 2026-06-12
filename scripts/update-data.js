@@ -250,10 +250,26 @@ function main() {
   const scorersInput = input.scorers || [];
   const assistsInput = input.assists || [];
 
-  const scorers = scorersInput.map((s, i) => {
+  // standard ranking（FIFA 金靴规则：并列同排名，下一档跳号）
+  // 先按主数值降序排序，再赋 rank
+  function assignRanks(items, getValue) {
+    const sorted = [...items].sort((a, b) => getValue(b) - getValue(a));
+    let lastValue = null;
+    let lastRank = 0;
+    return sorted.map((item, i) => {
+      const v = getValue(item);
+      if (i === 0 || v !== lastValue) {
+        lastRank = i + 1;
+        lastValue = v;
+      }
+      return { item, rank: lastRank };
+    });
+  }
+
+  const scorers = assignRanks(scorersInput, s => s.goals || 0).map(({ item: s, rank }) => {
     const team = teamMap[s.team] || {};
     return {
-      rank: i + 1,
+      rank,
       name: s.name,
       teamId: s.team,
       teamNameZh: team.nameZh || '',
@@ -265,10 +281,10 @@ function main() {
     };
   });
 
-  const assists = assistsInput.map((a, i) => {
+  const assists = assignRanks(assistsInput, a => a.assists || 0).map(({ item: a, rank }) => {
     const team = teamMap[a.team] || {};
     return {
-      rank: i + 1,
+      rank,
       name: a.name,
       teamId: a.team,
       teamNameZh: team.nameZh || '',
