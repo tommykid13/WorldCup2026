@@ -352,7 +352,8 @@ async function actionApply() {
   console.log('  1. node scripts/update-data.js   (生成 standings / stats / schedule)');
   console.log(`  2. git add ${CHANGED_FILES.join(' ')}`);
   console.log(`  3. git commit -m "${commitMsg}"`);
-  console.log('  4. git push origin master → 触发 Cloudflare 自动构建');
+  const branch = execSync('git rev-parse --abbrev-ref HEAD', { cwd: ROOT, encoding: 'utf-8' }).trim();
+  console.log(`  4. git push origin ${branch} → 触发 Cloudflare 自动构建`);
   console.log(`\n  summary 自动计算: totalGoals=${summary.totalGoals} totalAssists=${summary.totalAssists} avg=${summary.avgGoalsPerMatch} hat3=${summary.hatTricks}`);
 
   if (!await askConfirm('\n  确认执行?', false)) {
@@ -385,15 +386,16 @@ async function actionApply() {
 
   // 5. push
   try {
-    console.log('\n▶ git push origin master ...');
-    execSync('git push origin master', { cwd: ROOT, stdio: 'inherit' });
+    const branch = execSync('git rev-parse --abbrev-ref HEAD', { cwd: ROOT, encoding: 'utf-8' }).trim();
+    console.log(`\n▶ git push origin ${branch} ...`);
+    execSync(`git push origin ${branch}`, { cwd: ROOT, stdio: 'inherit' });
   } catch (e) {
     const stderr = e.stderr?.toString() || e.message;
     console.error('\n❌ push 失败:');
     if (/timed out|network|connection|ENOTFOUND|ECONNREFUSED/i.test(stderr)) {
-      console.error('  → 网络问题，请检查连接后重试: git push origin master');
+      console.error('  → 网络问题，请检查连接后重试: git push');
     } else if (/non-fast-forward|rejected|fetch first/i.test(stderr)) {
-      console.error('  → 远端有新提交，请先: git pull --rebase origin master');
+      console.error('  → 远端有新提交，请先: git pull --rebase');
     } else if (/authentication|403|permission|fatal: could not read/i.test(stderr)) {
       console.error('  → 鉴权失败，检查 git 凭据。');
     } else {
@@ -401,7 +403,7 @@ async function actionApply() {
     }
     try {
       const hash = execSync('git rev-parse --short HEAD', { cwd: ROOT, encoding: 'utf-8' }).trim();
-      console.error(`\n  本地 commit ${hash} 已生成，可手动重试: git push origin master`);
+      console.error(`\n  本地 commit ${hash} 已生成，可手动重试: git push`);
     } catch { /* ignore */ }
     return;
   }

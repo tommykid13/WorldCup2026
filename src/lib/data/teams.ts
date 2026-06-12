@@ -7,7 +7,7 @@ const teams: TeamSummary[] = Array.isArray(teamsData)
   : (teamsData as { teams: TeamSummary[] }).teams;
 
 export function getAllTeams(): TeamSummary[] {
-  return teams.sort((a, b) => a.fifaRanking - b.fifaRanking);
+  return [...teams].sort((a, b) => a.fifaRanking - b.fifaRanking);
 }
 
 export function getTeamsByConfederation(confId: string): TeamSummary[] {

@@ -59,20 +59,6 @@
   ],
   "B": [
     {
-      "teamId": "can",
-      "nameZh": "加拿大",
-      "flagCode": "ca",
-      "group": "B",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
-    },
-    {
       "teamId": "bih",
       "nameZh": "波黑",
       "flagCode": "ba",
@@ -87,9 +73,9 @@
       "points": 0
     },
     {
-      "teamId": "sui",
-      "nameZh": "瑞士",
-      "flagCode": "ch",
+      "teamId": "can",
+      "nameZh": "加拿大",
+      "flagCode": "ca",
       "group": "B",
       "played": 0,
       "won": 0,
@@ -113,41 +99,27 @@
       "ga": 0,
       "gd": 0,
       "points": 0
+    },
+    {
+      "teamId": "sui",
+      "nameZh": "瑞士",
+      "flagCode": "ch",
+      "group": "B",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "points": 0
     }
   ],
   "C": [
     {
-      "teamId": "mar",
-      "nameZh": "摩洛哥",
-      "flagCode": "ma",
-      "group": "C",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
-    },
-    {
       "teamId": "bra",
       "nameZh": "巴西",
       "flagCode": "br",
-      "group": "C",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
-    },
-    {
-      "teamId": "sco",
-      "nameZh": "苏格兰",
-      "flagCode": "gb-sct",
       "group": "C",
       "played": 0,
       "won": 0,
@@ -171,14 +143,12 @@
       "ga": 0,
       "gd": 0,
       "points": 0
-    }
-  ],
-  "D": [
+    },
     {
-      "teamId": "usa",
-      "nameZh": "美国",
-      "flagCode": "us",
-      "group": "D",
+      "teamId": "mar",
+      "nameZh": "摩洛哥",
+      "flagCode": "ma",
+      "group": "C",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -188,6 +158,22 @@
       "gd": 0,
       "points": 0
     },
+    {
+      "teamId": "sco",
+      "nameZh": "苏格兰",
+      "flagCode": "gb-sct",
+      "group": "C",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "points": 0
+    }
+  ],
+  "D": [
     {
       "teamId": "aus",
       "nameZh": "澳大利亚",
@@ -229,14 +215,12 @@
       "ga": 0,
       "gd": 0,
       "points": 0
-    }
-  ],
-  "E": [
+    },
     {
-      "teamId": "ger",
-      "nameZh": "德国",
-      "flagCode": "de",
-      "group": "E",
+      "teamId": "usa",
+      "nameZh": "美国",
+      "flagCode": "us",
+      "group": "D",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -245,11 +229,13 @@
       "ga": 0,
       "gd": 0,
       "points": 0
-    },
+    }
+  ],
+  "E": [
     {
-      "teamId": "ecu",
-      "nameZh": "厄瓜多尔",
-      "flagCode": "ec",
+      "teamId": "civ",
+      "nameZh": "科特迪瓦",
+      "flagCode": "ci",
       "group": "E",
       "played": 0,
       "won": 0,
@@ -275,9 +261,23 @@
       "points": 0
     },
     {
-      "teamId": "civ",
-      "nameZh": "科特迪瓦",
-      "flagCode": "ci",
+      "teamId": "ecu",
+      "nameZh": "厄瓜多尔",
+      "flagCode": "ec",
+      "group": "E",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "points": 0
+    },
+    {
+      "teamId": "ger",
+      "nameZh": "德国",
+      "flagCode": "de",
       "group": "E",
       "played": 0,
       "won": 0,
@@ -291,9 +291,9 @@
   ],
   "F": [
     {
-      "teamId": "ned",
-      "nameZh": "荷兰",
-      "flagCode": "nl",
+      "teamId": "jpn",
+      "nameZh": "日本",
+      "flagCode": "jp",
       "group": "F",
       "played": 0,
       "won": 0,
@@ -305,9 +305,9 @@
       "points": 0
     },
     {
-      "teamId": "jpn",
-      "nameZh": "日本",
-      "flagCode": "jp",
+      "teamId": "ned",
+      "nameZh": "荷兰",
+      "flagCode": "nl",
       "group": "F",
       "played": 0,
       "won": 0,
@@ -349,34 +349,6 @@
   ],
   "G": [
     {
-      "teamId": "nzl",
-      "nameZh": "新西兰",
-      "flagCode": "nz",
-      "group": "G",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
-    },
-    {
-      "teamId": "irn",
-      "nameZh": "伊朗",
-      "flagCode": "ir",
-      "group": "G",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
-    },
-    {
       "teamId": "bel",
       "nameZh": "比利时",
       "flagCode": "be",
@@ -403,14 +375,12 @@
       "ga": 0,
       "gd": 0,
       "points": 0
-    }
-  ],
-  "H": [
+    },
     {
-      "teamId": "esp",
-      "nameZh": "西班牙",
-      "flagCode": "es",
-      "group": "H",
+      "teamId": "irn",
+      "nameZh": "伊朗",
+      "flagCode": "ir",
+      "group": "G",
       "played": 0,
       "won": 0,
       "drawn": 0,
@@ -420,6 +390,22 @@
       "gd": 0,
       "points": 0
     },
+    {
+      "teamId": "nzl",
+      "nameZh": "新西兰",
+      "flagCode": "nz",
+      "group": "G",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "points": 0
+    }
+  ],
+  "H": [
     {
       "teamId": "cpv",
       "nameZh": "佛得角",
@@ -435,9 +421,9 @@
       "points": 0
     },
     {
-      "teamId": "uru",
-      "nameZh": "乌拉圭",
-      "flagCode": "uy",
+      "teamId": "esp",
+      "nameZh": "西班牙",
+      "flagCode": "es",
       "group": "H",
       "played": 0,
       "won": 0,
@@ -461,6 +447,20 @@
       "ga": 0,
       "gd": 0,
       "points": 0
+    },
+    {
+      "teamId": "uru",
+      "nameZh": "乌拉圭",
+      "flagCode": "uy",
+      "group": "H",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "points": 0
     }
   ],
   "I": [
@@ -468,6 +468,20 @@
       "teamId": "fra",
       "nameZh": "法国",
       "flagCode": "fr",
+      "group": "I",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "points": 0
+    },
+    {
+      "teamId": "irq",
+      "nameZh": "伊拉克",
+      "flagCode": "iq",
       "group": "I",
       "played": 0,
       "won": 0,
@@ -505,27 +519,13 @@
       "ga": 0,
       "gd": 0,
       "points": 0
-    },
-    {
-      "teamId": "irq",
-      "nameZh": "伊拉克",
-      "flagCode": "iq",
-      "group": "I",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
     }
   ],
   "J": [
     {
-      "teamId": "arg",
-      "nameZh": "阿根廷",
-      "flagCode": "ar",
+      "teamId": "alg",
+      "nameZh": "阿尔及利亚",
+      "flagCode": "dz",
       "group": "J",
       "played": 0,
       "won": 0,
@@ -537,9 +537,9 @@
       "points": 0
     },
     {
-      "teamId": "jor",
-      "nameZh": "约旦",
-      "flagCode": "jo",
+      "teamId": "arg",
+      "nameZh": "阿根廷",
+      "flagCode": "ar",
       "group": "J",
       "played": 0,
       "won": 0,
@@ -565,9 +565,9 @@
       "points": 0
     },
     {
-      "teamId": "alg",
-      "nameZh": "阿尔及利亚",
-      "flagCode": "dz",
+      "teamId": "jor",
+      "nameZh": "约旦",
+      "flagCode": "jo",
       "group": "J",
       "played": 0,
       "won": 0,
@@ -580,20 +580,6 @@
     }
   ],
   "K": [
-    {
-      "teamId": "uzb",
-      "nameZh": "乌兹别克斯坦",
-      "flagCode": "uz",
-      "group": "K",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
-    },
     {
       "teamId": "cod",
       "nameZh": "刚果民主共和国",
@@ -635,13 +621,27 @@
       "ga": 0,
       "gd": 0,
       "points": 0
+    },
+    {
+      "teamId": "uzb",
+      "nameZh": "乌兹别克斯坦",
+      "flagCode": "uz",
+      "group": "K",
+      "played": 0,
+      "won": 0,
+      "drawn": 0,
+      "lost": 0,
+      "gf": 0,
+      "ga": 0,
+      "gd": 0,
+      "points": 0
     }
   ],
   "L": [
     {
-      "teamId": "eng",
-      "nameZh": "英格兰",
-      "flagCode": "gb-eng",
+      "teamId": "cro",
+      "nameZh": "克罗地亚",
+      "flagCode": "hr",
       "group": "L",
       "played": 0,
       "won": 0,
@@ -653,9 +653,9 @@
       "points": 0
     },
     {
-      "teamId": "cro",
-      "nameZh": "克罗地亚",
-      "flagCode": "hr",
+      "teamId": "eng",
+      "nameZh": "英格兰",
+      "flagCode": "gb-eng",
       "group": "L",
       "played": 0,
       "won": 0,

@@ -140,7 +140,26 @@ function main() {
         if (b.points !== a.points) return b.points - a.points;
         if (b.gd !== a.gd) return b.gd - a.gd;
         if (b.gf !== a.gf) return b.gf - a.gf;
-        return 0;
+        // FIFA tiebreaker: head-to-head points, then head-to-head GD, then head-to-head GF
+        const h2hMatches = schedule.groupStage.filter(m =>
+          m.status === 'completed' &&
+          ((m.homeTeam.id === a.teamId && m.awayTeam.id === b.teamId) ||
+           (m.homeTeam.id === b.teamId && m.awayTeam.id === a.teamId))
+        );
+        let aH2H = 0, bH2H = 0, aH2HGd = 0, bH2HGd = 0;
+        for (const m of h2hMatches) {
+          const aHome = m.homeTeam.id === a.teamId;
+          const aScore = aHome ? m.homeScore : m.awayScore;
+          const bScore = aHome ? m.awayScore : m.homeScore;
+          if (aScore > bScore) aH2H += 3;
+          else if (aScore < bScore) bH2H += 3;
+          else { aH2H++; bH2H++; }
+          aH2HGd += aScore - bScore;
+          bH2HGd += bScore - aScore;
+        }
+        if (aH2H !== bH2H) return bH2H - aH2H;
+        if (aH2HGd !== bH2HGd) return bH2HGd - aH2HGd;
+        return a.teamId.localeCompare(b.teamId);
       });
   }
 
