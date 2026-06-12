@@ -195,6 +195,11 @@ function main() {
       }
       return null;
     }
+    // 兜底：直接从 knockoutTeams 表查（支持 "3rd A/B/C/D/F" 等非常规格式）
+    const fallbackTeamId = knockoutTeams[ref];
+    if (fallbackTeamId && teamMap[fallbackTeamId]) {
+      return { id: fallbackTeamId, ...teamMap[fallbackTeamId] };
+    }
     return null;
   }
 
