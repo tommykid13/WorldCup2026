@@ -63,28 +63,28 @@
       "nameZh": "波黑",
       "flagCode": "ba",
       "group": "B",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "gd": 0,
-      "points": 0
+      "points": 1
     },
     {
       "teamId": "can",
       "nameZh": "加拿大",
       "flagCode": "ca",
       "group": "B",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "gd": 0,
-      "points": 0
+      "points": 1
     },
     {
       "teamId": "qat",

@@ -150,9 +150,9 @@
         "nameZh": "波黑",
         "flagCode": "ba"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM008",

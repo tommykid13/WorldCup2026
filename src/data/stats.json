@@ -114,9 +114,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 5,
+    "totalGoals": 7,
     "totalAssists": 5,
-    "avgGoalsPerMatch": 2.5,
+    "avgGoalsPerMatch": 2.33,
     "hatTricks": 0
   }
 }
