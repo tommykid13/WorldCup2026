@@ -414,9 +414,9 @@
         "nameZh": "巴拉圭",
         "flagCode": "py"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 4,
+      "awayScore": 1
     },
     {
       "id": "GM020",
