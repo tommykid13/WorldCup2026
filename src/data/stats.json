@@ -2,6 +2,17 @@
   "scorers": [
     {
       "rank": 1,
+      "name": "福拉林·巴洛贡",
+      "teamId": "usa",
+      "teamNameZh": "美国",
+      "flagCode": "us",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1
+    },
+    {
+      "rank": 2,
       "name": "黄仁范",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -12,7 +23,7 @@
       "appearances": 1
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "拉迪斯拉夫・克雷伊奇",
       "teamId": "cze",
       "teamNameZh": "捷克",
@@ -23,7 +34,7 @@
       "appearances": 1
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "朱利安・奎农",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -34,7 +45,7 @@
       "appearances": 1
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "劳尔・希门尼斯",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -45,13 +56,24 @@
       "appearances": 1
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "吴贤奎",
       "teamId": "kor",
       "teamNameZh": "韩国",
       "flagCode": "kr",
       "goals": 1,
       "assists": 1,
+      "penalties": 0,
+      "appearances": 1
+    },
+    {
+      "rank": 2,
+      "name": "布雷尔·恩博洛",
+      "teamId": "sui",
+      "teamNameZh": "瑞士",
+      "flagCode": "ch",
+      "goals": 1,
+      "assists": 0,
       "penalties": 0,
       "appearances": 1
     }
@@ -114,9 +136,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 12,
+    "totalGoals": 19,
     "totalAssists": 5,
-    "avgGoalsPerMatch": 3,
+    "avgGoalsPerMatch": 2.38,
     "hatTricks": 0
   }
 }

@@ -172,9 +172,9 @@
         "nameZh": "瑞士",
         "flagCode": "ch"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM009",
@@ -282,9 +282,9 @@
         "nameZh": "摩洛哥",
         "flagCode": "ma"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM014",
@@ -304,9 +304,9 @@
         "nameZh": "苏格兰",
         "flagCode": "gb-sct"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "id": "GM015",
@@ -436,9 +436,9 @@
         "nameZh": "土耳其",
         "flagCode": "tr"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "id": "GM021",

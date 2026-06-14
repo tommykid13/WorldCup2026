@@ -15,6 +15,22 @@
     "GM019": {
       "hs": 4,
       "as": 1
+    },
+    "GM008": {
+      "hs": 1,
+      "as": 1
+    },
+    "GM013": {
+      "hs": 1,
+      "as": 1
+    },
+    "GM014": {
+      "hs": 0,
+      "as": 1
+    },
+    "GM020": {
+      "hs": 2,
+      "as": 0
     }
   },
   "knockoutResults": {},
@@ -57,6 +73,22 @@
       "team": "kor",
       "goals": 1,
       "assists": 1,
+      "penalties": 0,
+      "appearances": 1
+    },
+    {
+      "name": "福拉林·巴洛贡",
+      "team": "usa",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1
+    },
+    {
+      "name": "布雷尔·恩博洛",
+      "team": "sui",
+      "goals": 1,
+      "assists": 0,
       "penalties": 0,
       "appearances": 1
     }
@@ -104,9 +136,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 12,
+    "totalGoals": 19,
     "totalAssists": 5,
-    "avgGoalsPerMatch": 3,
+    "avgGoalsPerMatch": 2.38,
     "hatTricks": 0
   }
 }
