@@ -43,6 +43,10 @@
     "GM026": {
       "hs": 1,
       "as": 0
+    },
+    "GM032": {
+      "hs": 5,
+      "as": 1
     }
   },
   "knockoutResults": {},
@@ -111,6 +115,14 @@
       "assists": 0,
       "penalties": 1,
       "appearances": 1
+    },
+    {
+      "name": "亚辛 阿亚里",
+      "team": "swe",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1
     }
   ],
   "assists": [
@@ -169,12 +181,20 @@
       "goals": 1,
       "keyPasses": 0,
       "appearances": 1
+    },
+    {
+      "name": "亚历山大 伊萨克",
+      "team": "swe",
+      "assists": 2,
+      "goals": 1,
+      "keyPasses": 0,
+      "appearances": 1
     }
   ],
   "summary": {
-    "totalGoals": 32,
-    "totalAssists": 9,
-    "avgGoalsPerMatch": 2.91,
+    "totalGoals": 38,
+    "totalAssists": 11,
+    "avgGoalsPerMatch": 3.17,
     "hatTricks": 0
   }
 }

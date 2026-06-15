@@ -700,9 +700,9 @@
         "nameZh": "突尼斯",
         "flagCode": "tn"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 5,
+      "awayScore": 1
     },
     {
       "id": "GM033",
