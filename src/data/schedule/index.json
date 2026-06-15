@@ -568,9 +568,9 @@
         "nameZh": "厄瓜多尔",
         "flagCode": "ec"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "id": "GM027",
