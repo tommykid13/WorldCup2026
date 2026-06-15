@@ -31,6 +31,14 @@
     "GM020": {
       "hs": 2,
       "as": 0
+    },
+    "GM025": {
+      "hs": 7,
+      "as": 1
+    },
+    "GM031": {
+      "hs": 2,
+      "as": 2
     }
   },
   "knockoutResults": {},
@@ -91,6 +99,14 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 1
+    },
+    {
+      "name": "凯耶 哈维茨",
+      "team": "ger",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 1
     }
   ],
   "assists": [
@@ -133,12 +149,28 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 1
+    },
+    {
+      "name": "约书亚基米希",
+      "team": "ger",
+      "assists": 2,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 1
+    },
+    {
+      "name": "德尼兹，昂达夫",
+      "team": "ger",
+      "assists": 2,
+      "goals": 1,
+      "keyPasses": 0,
+      "appearances": 1
     }
   ],
   "summary": {
-    "totalGoals": 19,
-    "totalAssists": 5,
-    "avgGoalsPerMatch": 2.38,
+    "totalGoals": 31,
+    "totalAssists": 9,
+    "avgGoalsPerMatch": 3.1,
     "hatTricks": 0
   }
 }
