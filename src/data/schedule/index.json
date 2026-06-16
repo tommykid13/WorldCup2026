@@ -810,9 +810,9 @@
         "nameZh": "埃及",
         "flagCode": "eg"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM038",
@@ -942,9 +942,9 @@
         "nameZh": "佛得角",
         "flagCode": "cv"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": "GM044",
@@ -964,9 +964,9 @@
         "nameZh": "乌拉圭",
         "flagCode": "uy"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM045",
