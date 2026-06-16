@@ -34,7 +34,18 @@
       "appearances": 1
     },
     {
-      "rank": 4,
+      "rank": 1,
+      "name": "以利亚·茹斯特",
+      "teamId": "nzl",
+      "teamNameZh": "新西兰",
+      "flagCode": "nz",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1
+    },
+    {
+      "rank": 5,
       "name": "黄仁范",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -45,7 +56,7 @@
       "appearances": 1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "拉迪斯拉夫・克雷伊奇",
       "teamId": "cze",
       "teamNameZh": "捷克",
@@ -56,7 +67,7 @@
       "appearances": 1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "朱利安・奎农",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -67,7 +78,7 @@
       "appearances": 1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "劳尔・希门尼斯",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -78,7 +89,7 @@
       "appearances": 1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "吴贤奎",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -89,7 +100,7 @@
       "appearances": 1
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "布雷尔·恩博洛",
       "teamId": "sui",
       "teamNameZh": "瑞士",
@@ -191,9 +202,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 42,
+    "totalGoals": 46,
     "totalAssists": 11,
-    "avgGoalsPerMatch": 2.8,
+    "avgGoalsPerMatch": 2.88,
     "hatTricks": 0
   }
 }

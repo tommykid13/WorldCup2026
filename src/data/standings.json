@@ -349,6 +349,34 @@
   ],
   "G": [
     {
+      "teamId": "irn",
+      "nameZh": "伊朗",
+      "flagCode": "ir",
+      "group": "G",
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "gf": 2,
+      "ga": 2,
+      "gd": 0,
+      "points": 1
+    },
+    {
+      "teamId": "nzl",
+      "nameZh": "新西兰",
+      "flagCode": "nz",
+      "group": "G",
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "gf": 2,
+      "ga": 2,
+      "gd": 0,
+      "points": 1
+    },
+    {
       "teamId": "bel",
       "nameZh": "比利时",
       "flagCode": "be",
@@ -375,34 +403,6 @@
       "ga": 1,
       "gd": 0,
       "points": 1
-    },
-    {
-      "teamId": "irn",
-      "nameZh": "伊朗",
-      "flagCode": "ir",
-      "group": "G",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
-    },
-    {
-      "teamId": "nzl",
-      "nameZh": "新西兰",
-      "flagCode": "nz",
-      "group": "G",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
     }
   ],
   "H": [
