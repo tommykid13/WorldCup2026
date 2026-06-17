@@ -63,6 +63,22 @@
     "GM038": {
       "hs": 2,
       "as": 2
+    },
+    "GM049": {
+      "hs": 3,
+      "as": 1
+    },
+    "GM055": {
+      "hs": 3,
+      "as": 0
+    },
+    "GM050": {
+      "hs": 1,
+      "as": 4
+    },
+    "GM056": {
+      "hs": 3,
+      "as": 1
     }
   },
   "knockoutResults": {},
@@ -147,6 +163,30 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 1
+    },
+    {
+      "name": "莱昂内尔 梅西",
+      "team": "arg",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1
+    },
+    {
+      "name": "基利安，姆巴佩",
+      "team": "fra",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1
+    },
+    {
+      "name": "埃尔林·哈兰德",
+      "team": "nor",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 1
     }
   ],
   "assists": [
@@ -213,12 +253,20 @@
       "goals": 1,
       "keyPasses": 0,
       "appearances": 1
+    },
+    {
+      "name": "克里斯·伍德",
+      "team": "nzl",
+      "assists": 2,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 1
     }
   ],
   "summary": {
-    "totalGoals": 46,
-    "totalAssists": 11,
-    "avgGoalsPerMatch": 2.88,
-    "hatTricks": 0
+    "totalGoals": 62,
+    "totalAssists": 13,
+    "avgGoalsPerMatch": 3.1,
+    "hatTricks": 1
   }
 }
