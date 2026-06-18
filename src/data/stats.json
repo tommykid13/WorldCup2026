@@ -78,7 +78,18 @@
       "appearances": 1
     },
     {
-      "rank": 8,
+      "rank": 2,
+      "name": "哈利 凯恩",
+      "teamId": "eng",
+      "teamNameZh": "英格兰",
+      "flagCode": "gb-eng",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 1
+    },
+    {
+      "rank": 9,
       "name": "黄仁范",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -89,7 +100,7 @@
       "appearances": 1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "拉迪斯拉夫・克雷伊奇",
       "teamId": "cze",
       "teamNameZh": "捷克",
@@ -100,7 +111,7 @@
       "appearances": 1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "朱利安・奎农",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -111,7 +122,7 @@
       "appearances": 1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "劳尔・希门尼斯",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -122,7 +133,7 @@
       "appearances": 1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "吴贤奎",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -133,7 +144,7 @@
       "appearances": 1
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "布雷尔·恩博洛",
       "teamId": "sui",
       "teamNameZh": "瑞士",
@@ -190,7 +201,18 @@
       "appearances": 1
     },
     {
-      "rank": 5,
+      "rank": 1,
+      "name": "瑞安 格雷文伯奇",
+      "teamId": "ned",
+      "teamNameZh": "荷兰",
+      "flagCode": "nl",
+      "assists": 2,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 1
+    },
+    {
+      "rank": 6,
       "name": "黄仁范",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -201,7 +223,7 @@
       "appearances": 1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "罗伯托・阿尔瓦拉多",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -212,7 +234,7 @@
       "appearances": 1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "李康仁",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -223,7 +245,7 @@
       "appearances": 1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "弗拉迪米尔・库法尔",
       "teamId": "cze",
       "teamNameZh": "捷克",
@@ -234,7 +256,7 @@
       "appearances": 1
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "埃里克・里拉",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -246,9 +268,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 62,
-    "totalAssists": 13,
-    "avgGoalsPerMatch": 3.1,
+    "totalGoals": 70,
+    "totalAssists": 15,
+    "avgGoalsPerMatch": 3.18,
     "hatTricks": 1
   }
 }

@@ -585,33 +585,33 @@
       "nameZh": "刚果民主共和国",
       "flagCode": "cd",
       "group": "K",
-      "played": 0,
+      "played": 1,
       "won": 0,
-      "drawn": 0,
+      "drawn": 1,
       "lost": 0,
-      "gf": 0,
-      "ga": 0,
+      "gf": 1,
+      "ga": 1,
       "gd": 0,
-      "points": 0
-    },
-    {
-      "teamId": "col",
-      "nameZh": "哥伦比亚",
-      "flagCode": "co",
-      "group": "K",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
+      "points": 1
     },
     {
       "teamId": "por",
       "nameZh": "葡萄牙",
       "flagCode": "pt",
+      "group": "K",
+      "played": 1,
+      "won": 0,
+      "drawn": 1,
+      "lost": 0,
+      "gf": 1,
+      "ga": 1,
+      "gd": 0,
+      "points": 1
+    },
+    {
+      "teamId": "col",
+      "nameZh": "哥伦比亚",
+      "flagCode": "co",
       "group": "K",
       "played": 0,
       "won": 0,
@@ -639,32 +639,18 @@
   ],
   "L": [
     {
-      "teamId": "cro",
-      "nameZh": "克罗地亚",
-      "flagCode": "hr",
-      "group": "L",
-      "played": 0,
-      "won": 0,
-      "drawn": 0,
-      "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
-    },
-    {
       "teamId": "eng",
       "nameZh": "英格兰",
       "flagCode": "gb-eng",
       "group": "L",
-      "played": 0,
-      "won": 0,
+      "played": 1,
+      "won": 1,
       "drawn": 0,
       "lost": 0,
-      "gf": 0,
-      "ga": 0,
-      "gd": 0,
-      "points": 0
+      "gf": 4,
+      "ga": 2,
+      "gd": 2,
+      "points": 3
     },
     {
       "teamId": "gha",
@@ -692,6 +678,20 @@
       "gf": 0,
       "ga": 0,
       "gd": 0,
+      "points": 0
+    },
+    {
+      "teamId": "cro",
+      "nameZh": "克罗地亚",
+      "flagCode": "hr",
+      "group": "L",
+      "played": 1,
+      "won": 0,
+      "drawn": 0,
+      "lost": 1,
+      "gf": 2,
+      "ga": 4,
+      "gd": -2,
       "points": 0
     }
   ]

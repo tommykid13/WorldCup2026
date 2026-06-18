@@ -1338,9 +1338,9 @@
         "nameZh": "刚果民主共和国",
         "flagCode": "cd"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM062",
@@ -1470,9 +1470,9 @@
         "nameZh": "克罗地亚",
         "flagCode": "hr"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 4,
+      "awayScore": 2
     },
     {
       "id": "GM068",

@@ -79,6 +79,14 @@
     "GM056": {
       "hs": 3,
       "as": 1
+    },
+    "GM067": {
+      "hs": 4,
+      "as": 2
+    },
+    "GM061": {
+      "hs": 1,
+      "as": 1
     }
   },
   "knockoutResults": {},
@@ -187,6 +195,14 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 1
+    },
+    {
+      "name": "哈利 凯恩",
+      "team": "eng",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 1
     }
   ],
   "assists": [
@@ -261,12 +277,20 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 1
+    },
+    {
+      "name": "瑞安 格雷文伯奇",
+      "team": "ned",
+      "assists": 2,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 1
     }
   ],
   "summary": {
-    "totalGoals": 62,
-    "totalAssists": 13,
-    "avgGoalsPerMatch": 3.1,
+    "totalGoals": 70,
+    "totalAssists": 15,
+    "avgGoalsPerMatch": 3.18,
     "hatTricks": 1
   }
 }
