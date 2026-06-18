@@ -87,6 +87,14 @@
     "GM061": {
       "hs": 1,
       "as": 1
+    },
+    "GM062": {
+      "hs": 1,
+      "as": 3
+    },
+    "GM068": {
+      "hs": 1,
+      "as": 0
     }
   },
   "knockoutResults": {},
@@ -296,9 +304,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 70,
+    "totalGoals": 75,
     "totalAssists": 15,
-    "avgGoalsPerMatch": 3.18,
+    "avgGoalsPerMatch": 3.13,
     "hatTricks": 1
   }
 }

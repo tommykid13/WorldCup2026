@@ -1360,9 +1360,9 @@
         "nameZh": "哥伦比亚",
         "flagCode": "co"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "id": "GM063",
@@ -1492,9 +1492,9 @@
         "nameZh": "巴拿马",
         "flagCode": "pa"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "id": "GM069",
