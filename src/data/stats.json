@@ -12,7 +12,29 @@
       "appearances": 1
     },
     {
-      "rank": 2,
+      "rank": 1,
+      "name": "戴维 乔纳森",
+      "teamId": "can",
+      "teamNameZh": "加拿大",
+      "flagCode": "ca",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "rank": 1,
+      "name": "德尼兹，昂达夫",
+      "teamId": "ger",
+      "teamNameZh": "德国",
+      "flagCode": "de",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "rank": 4,
       "name": "福拉林·巴洛贡",
       "teamId": "usa",
       "teamNameZh": "美国",
@@ -23,7 +45,7 @@
       "appearances": 1
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "凯耶 哈维茨",
       "teamId": "ger",
       "teamNameZh": "德国",
@@ -34,7 +56,7 @@
       "appearances": 1
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "亚辛 阿亚里",
       "teamId": "swe",
       "teamNameZh": "瑞典",
@@ -45,7 +67,7 @@
       "appearances": 1
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "以利亚·茹斯特",
       "teamId": "nzl",
       "teamNameZh": "新西兰",
@@ -56,7 +78,7 @@
       "appearances": 1
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "基利安，姆巴佩",
       "teamId": "fra",
       "teamNameZh": "法国",
@@ -67,7 +89,7 @@
       "appearances": 1
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "埃尔林·哈兰德",
       "teamId": "nor",
       "teamNameZh": "挪威",
@@ -78,7 +100,7 @@
       "appearances": 1
     },
     {
-      "rank": 2,
+      "rank": 4,
       "name": "哈利 凯恩",
       "teamId": "eng",
       "teamNameZh": "英格兰",
@@ -89,7 +111,62 @@
       "appearances": 1
     },
     {
-      "rank": 9,
+      "rank": 4,
+      "name": "拉琳 赛勒",
+      "teamId": "can",
+      "teamNameZh": "加拿大",
+      "flagCode": "ca",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "rank": 4,
+      "name": "布罗比 布莱恩",
+      "teamId": "ned",
+      "teamNameZh": "荷兰",
+      "flagCode": "nl",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "rank": 4,
+      "name": "镰田 大地",
+      "teamId": "jpn",
+      "teamNameZh": "日本",
+      "flagCode": "jp",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "rank": 4,
+      "name": "克利森西奥 萨默维尔",
+      "teamId": "ned",
+      "teamNameZh": "荷兰",
+      "flagCode": "nl",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "rank": 4,
+      "name": "约翰，曼赞比",
+      "teamId": "sui",
+      "teamNameZh": "瑞士",
+      "flagCode": "ch",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "rank": 16,
       "name": "黄仁范",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -100,7 +177,7 @@
       "appearances": 1
     },
     {
-      "rank": 9,
+      "rank": 16,
       "name": "拉迪斯拉夫・克雷伊奇",
       "teamId": "cze",
       "teamNameZh": "捷克",
@@ -111,7 +188,7 @@
       "appearances": 1
     },
     {
-      "rank": 9,
+      "rank": 16,
       "name": "朱利安・奎农",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -122,7 +199,7 @@
       "appearances": 1
     },
     {
-      "rank": 9,
+      "rank": 16,
       "name": "劳尔・希门尼斯",
       "teamId": "mex",
       "teamNameZh": "墨西哥",
@@ -133,7 +210,7 @@
       "appearances": 1
     },
     {
-      "rank": 9,
+      "rank": 16,
       "name": "吴贤奎",
       "teamId": "kor",
       "teamNameZh": "韩国",
@@ -144,7 +221,7 @@
       "appearances": 1
     },
     {
-      "rank": 9,
+      "rank": 16,
       "name": "布雷尔·恩博洛",
       "teamId": "sui",
       "teamNameZh": "瑞士",
@@ -155,7 +232,7 @@
       "appearances": 1
     },
     {
-      "rank": 9,
+      "rank": 16,
       "name": "伊万 佩里西奇",
       "teamId": "cro",
       "teamNameZh": "克罗地亚",
@@ -169,6 +246,17 @@
   "assists": [
     {
       "rank": 1,
+      "name": "亚历山大 伊萨克",
+      "teamId": "swe",
+      "teamNameZh": "瑞典",
+      "flagCode": "se",
+      "assists": 3,
+      "goals": 1,
+      "keyPasses": 0,
+      "appearances": 2
+    },
+    {
+      "rank": 2,
       "name": "约书亚基米希",
       "teamId": "ger",
       "teamNameZh": "德国",
@@ -179,7 +267,7 @@
       "appearances": 1
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "德尼兹，昂达夫",
       "teamId": "ger",
       "teamNameZh": "德国",
@@ -190,18 +278,7 @@
       "appearances": 1
     },
     {
-      "rank": 1,
-      "name": "亚历山大 伊萨克",
-      "teamId": "swe",
-      "teamNameZh": "瑞典",
-      "flagCode": "se",
-      "assists": 2,
-      "goals": 1,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "rank": 1,
+      "rank": 2,
       "name": "克里斯·伍德",
       "teamId": "nzl",
       "teamNameZh": "新西兰",
@@ -212,7 +289,7 @@
       "appearances": 1
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "瑞安 格雷文伯奇",
       "teamId": "ned",
       "teamNameZh": "荷兰",
@@ -279,9 +356,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 75,
-    "totalAssists": 15,
-    "avgGoalsPerMatch": 3.13,
-    "hatTricks": 1
+    "totalGoals": 109,
+    "totalAssists": 16,
+    "avgGoalsPerMatch": 3.03,
+    "hatTricks": 3
   }
 }

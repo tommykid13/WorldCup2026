@@ -95,6 +95,54 @@
     "GM068": {
       "hs": 1,
       "as": 0
+    },
+    "GM003": {
+      "hs": 1,
+      "as": 1
+    },
+    "GM009": {
+      "hs": 4,
+      "as": 1
+    },
+    "GM010": {
+      "hs": 6,
+      "as": 0
+    },
+    "GM004": {
+      "hs": 1,
+      "as": 0
+    },
+    "GM022": {
+      "hs": 2,
+      "as": 0
+    },
+    "GM015": {
+      "hs": 0,
+      "as": 1
+    },
+    "GM016": {
+      "hs": 3,
+      "as": 0
+    },
+    "GM021": {
+      "hs": 0,
+      "as": 1
+    },
+    "GM033": {
+      "hs": 5,
+      "as": 1
+    },
+    "GM027": {
+      "hs": 2,
+      "as": 1
+    },
+    "GM028": {
+      "hs": 0,
+      "as": 0
+    },
+    "GM034": {
+      "hs": 0,
+      "as": 4
     }
   },
   "knockoutResults": {},
@@ -219,6 +267,62 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 1
+    },
+    {
+      "name": "戴维 乔纳森",
+      "team": "can",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "name": "德尼兹，昂达夫",
+      "team": "ger",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "name": "拉琳 赛勒",
+      "team": "can",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "name": "布罗比 布莱恩",
+      "team": "ned",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "name": "镰田 大地",
+      "team": "jpn",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "name": "克利森西奥 萨默维尔",
+      "team": "ned",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
+    },
+    {
+      "name": "约翰，曼赞比",
+      "team": "sui",
+      "goals": 2,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
     }
   ],
   "assists": [
@@ -279,14 +383,6 @@
       "appearances": 1
     },
     {
-      "name": "亚历山大 伊萨克",
-      "team": "swe",
-      "assists": 2,
-      "goals": 1,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
       "name": "克里斯·伍德",
       "team": "nzl",
       "assists": 2,
@@ -301,12 +397,20 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 1
+    },
+    {
+      "name": "亚历山大 伊萨克",
+      "team": "swe",
+      "assists": 3,
+      "goals": 1,
+      "keyPasses": 0,
+      "appearances": 2
     }
   ],
   "summary": {
-    "totalGoals": 75,
-    "totalAssists": 15,
-    "avgGoalsPerMatch": 3.13,
-    "hatTricks": 1
+    "totalGoals": 109,
+    "totalAssists": 16,
+    "avgGoalsPerMatch": 3.03,
+    "hatTricks": 3
   }
 }
