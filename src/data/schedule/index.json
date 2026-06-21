@@ -663,7 +663,7 @@
     {
       "id": "GM031",
       "group": "F",
-      "matchday": 2,
+      "matchday": 1,
       "date": "2026-06-15",
       "time": "04:00",
       "venueId": "att-stadium",
@@ -685,7 +685,7 @@
     {
       "id": "GM032",
       "group": "F",
-      "matchday": 2,
+      "matchday": 1,
       "date": "2026-06-15",
       "time": "10:00",
       "venueId": "estadio-bbva",
@@ -751,7 +751,7 @@
     {
       "id": "GM035",
       "group": "F",
-      "matchday": 2,
+      "matchday": 3,
       "date": "2026-06-26",
       "time": "07:00",
       "venueId": "att-stadium",
@@ -773,7 +773,7 @@
     {
       "id": "GM036",
       "group": "F",
-      "matchday": 2,
+      "matchday": 3,
       "date": "2026-06-26",
       "time": "07:00",
       "venueId": "arrowhead-stadium",
