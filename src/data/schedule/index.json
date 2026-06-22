@@ -730,7 +730,7 @@
       "id": "GM034",
       "group": "F",
       "matchday": 2,
-      "date": "2026-06-20",
+      "date": "2026-06-21",
       "time": "12:00",
       "venueId": "estadio-bbva",
       "venueZh": "BBVA体育场",
@@ -854,9 +854,9 @@
         "nameZh": "伊朗",
         "flagCode": "ir"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": "GM040",
@@ -986,9 +986,9 @@
         "nameZh": "沙特阿拉伯",
         "flagCode": "sa"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 4,
+      "awayScore": 0
     },
     {
       "id": "GM046",
@@ -1008,9 +1008,9 @@
         "nameZh": "佛得角",
         "flagCode": "cv"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 2
     },
     {
       "id": "GM047",
