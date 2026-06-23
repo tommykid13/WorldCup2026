@@ -876,9 +876,9 @@
         "nameZh": "埃及",
         "flagCode": "eg"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "id": "GM041",
@@ -1118,9 +1118,9 @@
         "nameZh": "伊拉克",
         "flagCode": "iq"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 3,
+      "awayScore": 0
     },
     {
       "id": "GM052",
@@ -1140,9 +1140,9 @@
         "nameZh": "塞内加尔",
         "flagCode": "sn"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 3,
+      "awayScore": 2
     },
     {
       "id": "GM053",
@@ -1250,9 +1250,9 @@
         "nameZh": "奥地利",
         "flagCode": "at"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 0
     },
     {
       "id": "GM058",
@@ -1272,9 +1272,9 @@
         "nameZh": "阿尔及利亚",
         "flagCode": "dz"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 2
     },
     {
       "id": "GM059",

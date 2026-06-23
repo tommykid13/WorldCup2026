@@ -155,183 +155,51 @@
     "GM045": {
       "hs": 4,
       "as": 0
+    },
+    "GM040": {
+      "hs": 1,
+      "as": 3
+    },
+    "GM051": {
+      "hs": 3,
+      "as": 0
+    },
+    "GM057": {
+      "hs": 2,
+      "as": 0
+    },
+    "GM052": {
+      "hs": 3,
+      "as": 2
+    },
+    "GM058": {
+      "hs": 1,
+      "as": 2
     }
   },
   "knockoutResults": {},
   "knockoutTeams": {},
   "scorers": [
     {
-      "name": "黄仁范",
-      "team": "kor",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "拉迪斯拉夫・克雷伊奇",
-      "team": "cze",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "朱利安・奎农",
-      "team": "mex",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "劳尔・希门尼斯",
-      "team": "mex",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "吴贤奎",
-      "team": "kor",
-      "goals": 1,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "福拉林·巴洛贡",
-      "team": "usa",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "布雷尔·恩博洛",
-      "team": "sui",
-      "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "凯耶 哈维茨",
-      "team": "ger",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 1,
-      "appearances": 1
-    },
-    {
-      "name": "亚辛 阿亚里",
-      "team": "swe",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "以利亚·茹斯特",
-      "team": "nzl",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
       "name": "莱昂内尔 梅西",
       "team": "arg",
-      "goals": 3,
+      "goals": 5,
       "assists": 0,
       "penalties": 0,
-      "appearances": 1
+      "appearances": 2
+    },
+    {
+      "name": "埃尔灵 哈兰德",
+      "team": "nor",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 2
     },
     {
       "name": "基利安，姆巴佩",
       "team": "fra",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "埃尔林·哈兰德",
-      "team": "nor",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "哈利 凯恩",
-      "team": "eng",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 1,
-      "appearances": 1
-    },
-    {
-      "name": "伊万 佩里西奇",
-      "team": "cro",
-      "goals": 1,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 1
-    },
-    {
-      "name": "戴维 乔纳森",
-      "team": "can",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "德尼兹，昂达夫",
-      "team": "ger",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "拉琳 赛勒",
-      "team": "can",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "布罗比 布莱恩",
-      "team": "ned",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "镰田 大地",
-      "team": "jpn",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "克利森西奥 萨默维尔",
-      "team": "ned",
-      "goals": 2,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "约翰，曼赞比",
-      "team": "sui",
-      "goals": 2,
+      "goals": 4,
       "assists": 0,
       "penalties": 0,
       "appearances": 2
@@ -339,90 +207,26 @@
   ],
   "assists": [
     {
-      "name": "黄仁范",
-      "team": "kor",
-      "assists": 1,
-      "goals": 1,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "name": "罗伯托・阿尔瓦拉多",
-      "team": "mex",
-      "assists": 1,
+      "name": "奥利斯，迈克尔",
+      "team": "fra",
+      "assists": 3,
       "goals": 0,
       "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "name": "李康仁",
-      "team": "kor",
-      "assists": 1,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "name": "弗拉迪米尔・库法尔",
-      "team": "cze",
-      "assists": 1,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "name": "埃里克・里拉",
-      "team": "mex",
-      "assists": 1,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "name": "约书亚基米希",
-      "team": "ger",
-      "assists": 2,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "name": "德尼兹，昂达夫",
-      "team": "ger",
-      "assists": 2,
-      "goals": 1,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "name": "克里斯·伍德",
-      "team": "nzl",
-      "assists": 2,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 1
-    },
-    {
-      "name": "瑞安 格雷文伯奇",
-      "team": "ned",
-      "assists": 2,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 1
+      "appearances": 2
     },
     {
       "name": "亚历山大 伊萨克",
       "team": "swe",
       "assists": 3,
-      "goals": 1,
+      "goals": 0,
       "keyPasses": 0,
       "appearances": 2
     }
   ],
   "summary": {
-    "totalGoals": 117,
-    "totalAssists": 16,
-    "avgGoalsPerMatch": 3,
+    "totalGoals": 134,
+    "totalAssists": 6,
+    "avgGoalsPerMatch": 3.05,
     "hatTricks": 3
   }
 }
