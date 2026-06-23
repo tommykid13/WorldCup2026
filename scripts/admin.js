@@ -127,11 +127,19 @@ async function actionRecordGroupScores() {
     console.log('\n  所有小组赛已完赛。\n');
     return;
   }
-  console.log('\n📋 即将到来的小组赛（前 30 场）:');
-  upcoming.slice(0, 30).forEach(m => {
-    console.log(`  ${m.id}  ${m.homeTeam.nameZh} vs ${m.awayTeam.nameZh}  ${m.date} ${m.time}`);
-  });
-  if (upcoming.length > 30) console.log(`  ... 还有 ${upcoming.length - 30} 场`);
+  const PAGE = 30;
+  const totalPages = Math.ceil(upcoming.length / PAGE);
+  for (let i = 0; i < upcoming.length; i += PAGE) {
+    const pageNum = Math.floor(i / PAGE) + 1;
+    console.log(`\n📋 即将到来的小组赛 (${pageNum}/${totalPages} 页):`);
+    upcoming.slice(i, i + PAGE).forEach(m => {
+      console.log(`  ${m.id}  ${m.homeTeam.nameZh} vs ${m.awayTeam.nameZh}  ${m.date} ${m.time}`);
+    });
+    if (i + PAGE < upcoming.length) {
+      const next = (await ask('\n  回车看下一页, q 结束分页并开始录入: ')).trim().toLowerCase();
+      if (next === 'q') break;
+    }
+  }
 
   inputData.groupResults ||= {};
   while (true) {

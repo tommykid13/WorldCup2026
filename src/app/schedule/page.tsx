@@ -86,7 +86,7 @@ export default function SchedulePage() {
                 <div className="flex-1 border-t border-border" />
               </div>
               <div className="space-y-3">
-                {[0, 2].map((s) => {
+                {Array.from({ length: Math.ceil(byDate[date].length / 2) }, (_, i) => i * 2).map((s) => {
                   const row = byDate[date].slice(s, s + 2);
                   if (!row.length) return null;
                   return (
