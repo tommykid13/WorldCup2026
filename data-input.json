@@ -191,6 +191,30 @@
     "GM063": {
       "hs": 5,
       "as": 0
+    },
+    "GM011": {
+      "hs": 2,
+      "as": 1
+    },
+    "GM012": {
+      "hs": 3,
+      "as": 1
+    },
+    "GM017": {
+      "hs": 0,
+      "as": 3
+    },
+    "GM018": {
+      "hs": 4,
+      "as": 2
+    },
+    "GM005": {
+      "hs": 0,
+      "as": 3
+    },
+    "GM006": {
+      "hs": 1,
+      "as": 0
     }
   },
   "knockoutResults": {},
@@ -219,6 +243,14 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 2
+    },
+    {
+      "name": "维尼修斯",
+      "team": "bra",
+      "goals": 4,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 3
     }
   ],
   "assists": [
@@ -237,12 +269,20 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 2
+    },
+    {
+      "name": "吉马良斯",
+      "team": "bra",
+      "assists": 3,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 3
     }
   ],
   "summary": {
-    "totalGoals": 141,
-    "totalAssists": 6,
-    "avgGoalsPerMatch": 2.94,
-    "hatTricks": 3
+    "totalGoals": 161,
+    "totalAssists": 9,
+    "avgGoalsPerMatch": 2.98,
+    "hatTricks": 4
   }
 }

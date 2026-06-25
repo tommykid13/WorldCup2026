@@ -32,6 +32,17 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 2
+    },
+    {
+      "rank": 2,
+      "name": "维尼修斯",
+      "teamId": "bra",
+      "teamNameZh": "巴西",
+      "flagCode": "br",
+      "goals": 4,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 3
     }
   ],
   "assists": [
@@ -56,12 +67,23 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 2
+    },
+    {
+      "rank": 1,
+      "name": "吉马良斯",
+      "teamId": "bra",
+      "teamNameZh": "巴西",
+      "flagCode": "br",
+      "assists": 3,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 3
     }
   ],
   "summary": {
-    "totalGoals": 141,
-    "totalAssists": 6,
-    "avgGoalsPerMatch": 2.94,
-    "hatTricks": 3
+    "totalGoals": 161,
+    "totalAssists": 9,
+    "avgGoalsPerMatch": 2.98,
+    "hatTricks": 4
   }
 }

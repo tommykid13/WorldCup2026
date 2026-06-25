@@ -106,9 +106,9 @@
         "nameZh": "墨西哥",
         "flagCode": "mx"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 3
     },
     {
       "id": "GM006",
@@ -128,9 +128,9 @@
         "nameZh": "韩国",
         "flagCode": "kr"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 0
     },
     {
       "id": "GM007",
@@ -238,9 +238,9 @@
         "nameZh": "加拿大",
         "flagCode": "ca"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 1
     },
     {
       "id": "GM012",
@@ -260,9 +260,9 @@
         "nameZh": "卡塔尔",
         "flagCode": "qa"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 3,
+      "awayScore": 1
     },
     {
       "id": "GM013",
@@ -370,9 +370,9 @@
         "nameZh": "巴西",
         "flagCode": "br"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 3
     },
     {
       "id": "GM018",
@@ -392,9 +392,9 @@
         "nameZh": "海地",
         "flagCode": "ht"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 4,
+      "awayScore": 2
     },
     {
       "id": "GM019",
