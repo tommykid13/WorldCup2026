@@ -215,44 +215,19 @@
     "GM006": {
       "hs": 1,
       "as": 0
+    },
+    "GM030": {
+      "hs": 0,
+      "as": 2
+    },
+    "GM029": {
+      "hs": 2,
+      "as": 1
     }
   },
   "knockoutResults": {},
   "knockoutTeams": {},
-  "scorers": [
-    {
-      "name": "莱昂内尔 梅西",
-      "team": "arg",
-      "goals": 5,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "埃尔灵 哈兰德",
-      "team": "nor",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "基利安，姆巴佩",
-      "team": "fra",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "name": "维尼修斯",
-      "team": "bra",
-      "goals": 4,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3
-    }
-  ],
+  "scorers": [],
   "assists": [
     {
       "name": "奥利斯，迈克尔",
@@ -280,9 +255,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 161,
+    "totalGoals": 166,
     "totalAssists": 9,
-    "avgGoalsPerMatch": 2.98,
-    "hatTricks": 4
+    "avgGoalsPerMatch": 2.96,
+    "hatTricks": 0
   }
 }

@@ -1,50 +1,5 @@
 {
-  "scorers": [
-    {
-      "rank": 1,
-      "name": "莱昂内尔 梅西",
-      "teamId": "arg",
-      "teamNameZh": "阿根廷",
-      "flagCode": "ar",
-      "goals": 5,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "rank": 2,
-      "name": "埃尔灵 哈兰德",
-      "teamId": "nor",
-      "teamNameZh": "挪威",
-      "flagCode": "no",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "rank": 2,
-      "name": "基利安，姆巴佩",
-      "teamId": "fra",
-      "teamNameZh": "法国",
-      "flagCode": "fr",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 2
-    },
-    {
-      "rank": 2,
-      "name": "维尼修斯",
-      "teamId": "bra",
-      "teamNameZh": "巴西",
-      "flagCode": "br",
-      "goals": 4,
-      "assists": 1,
-      "penalties": 0,
-      "appearances": 3
-    }
-  ],
+  "scorers": [],
   "assists": [
     {
       "rank": 1,
@@ -81,9 +36,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 161,
+    "totalGoals": 166,
     "totalAssists": 9,
-    "avgGoalsPerMatch": 2.98,
-    "hatTricks": 4
+    "avgGoalsPerMatch": 2.96,
+    "hatTricks": 0
   }
 }
