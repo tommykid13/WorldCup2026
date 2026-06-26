@@ -766,9 +766,9 @@
         "nameZh": "瑞典",
         "flagCode": "se"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM036",
@@ -788,9 +788,9 @@
         "nameZh": "荷兰",
         "flagCode": "nl"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "id": "GM037",
