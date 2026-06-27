@@ -255,7 +255,104 @@
   },
   "knockoutResults": {},
   "knockoutTeams": {},
-  "scorers": [],
+  "scorers": [
+    {
+      "name": "梅西",
+      "team": "arg",
+      "goals": 5,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "姆巴佩",
+      "team": "fra",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "登贝莱",
+      "team": "fra",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "维尼修斯",
+      "team": "bra",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "哈兰德",
+      "team": "nor",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "昂达夫",
+      "team": "ger",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "曼赞比",
+      "team": "sui",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "萨尔",
+      "team": "sen",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "布罗比",
+      "team": "ned",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "库尼亚",
+      "team": "bra",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "J.戴维",
+      "team": "can",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "name": "塞巴里",
+      "team": "mar",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    }
+  ],
   "assists": [
     {
       "name": "奥利斯，迈克尔",
@@ -286,6 +383,6 @@
     "totalGoals": 188,
     "totalAssists": 9,
     "avgGoalsPerMatch": 2.98,
-    "hatTricks": 0
+    "hatTricks": 12
   }
 }

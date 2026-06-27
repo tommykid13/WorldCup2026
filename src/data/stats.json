@@ -1,5 +1,138 @@
 {
-  "scorers": [],
+  "scorers": [
+    {
+      "rank": 1,
+      "name": "梅西",
+      "teamId": "arg",
+      "teamNameZh": "阿根廷",
+      "flagCode": "ar",
+      "goals": 5,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 2,
+      "name": "姆巴佩",
+      "teamId": "fra",
+      "teamNameZh": "法国",
+      "flagCode": "fr",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 2,
+      "name": "登贝莱",
+      "teamId": "fra",
+      "teamNameZh": "法国",
+      "flagCode": "fr",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 2,
+      "name": "维尼修斯",
+      "teamId": "bra",
+      "teamNameZh": "巴西",
+      "flagCode": "br",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 2,
+      "name": "哈兰德",
+      "teamId": "nor",
+      "teamNameZh": "挪威",
+      "flagCode": "no",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 6,
+      "name": "昂达夫",
+      "teamId": "ger",
+      "teamNameZh": "德国",
+      "flagCode": "de",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 6,
+      "name": "曼赞比",
+      "teamId": "sui",
+      "teamNameZh": "瑞士",
+      "flagCode": "ch",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 6,
+      "name": "萨尔",
+      "teamId": "sen",
+      "teamNameZh": "塞内加尔",
+      "flagCode": "sn",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 6,
+      "name": "布罗比",
+      "teamId": "ned",
+      "teamNameZh": "荷兰",
+      "flagCode": "nl",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 6,
+      "name": "库尼亚",
+      "teamId": "bra",
+      "teamNameZh": "巴西",
+      "flagCode": "br",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 6,
+      "name": "J.戴维",
+      "teamId": "can",
+      "teamNameZh": "加拿大",
+      "flagCode": "ca",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    },
+    {
+      "rank": 6,
+      "name": "塞巴里",
+      "teamId": "mar",
+      "teamNameZh": "摩洛哥",
+      "flagCode": "ma",
+      "goals": 3,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
+    }
+  ],
   "assists": [
     {
       "rank": 1,
@@ -39,6 +172,6 @@
     "totalGoals": 188,
     "totalAssists": 9,
     "avgGoalsPerMatch": 2.98,
-    "hatTricks": 0
+    "hatTricks": 12
   }
 }
