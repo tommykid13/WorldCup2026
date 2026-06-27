@@ -502,9 +502,9 @@
         "nameZh": "美国",
         "flagCode": "us"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 3,
+      "awayScore": 2
     },
     {
       "id": "GM024",
@@ -524,9 +524,9 @@
         "nameZh": "澳大利亚",
         "flagCode": "au"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": "GM025",
@@ -1052,9 +1052,9 @@
         "nameZh": "西班牙",
         "flagCode": "es"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 1
     },
     {
       "id": "GM049",
@@ -1162,9 +1162,9 @@
         "nameZh": "法国",
         "flagCode": "fr"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 4
     },
     {
       "id": "GM054",
@@ -1184,9 +1184,9 @@
         "nameZh": "伊拉克",
         "flagCode": "iq"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 5,
+      "awayScore": 0
     },
     {
       "id": "GM055",
