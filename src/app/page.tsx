@@ -1,16 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { HeroStage } from '@/components/home/HeroStage';
-import { getAllTeams } from '@/lib/data/teams';
 import { getAllVenues } from '@/lib/data/venues';
 import { SITE_CONFIG } from '@/lib/constants';
-import standingsData from '@/data/standings.json';
-
-type StandingEntry = {
-  teamId: string; nameZh: string; flagCode: string; group: string;
-  played: number; won: number; drawn: number; lost: number;
-  gf: number; ga: number; gd: number; points: number;
-};
+import scheduleData from '@/data/schedule/index.json';
 
 function FlagImg({ code, w = 28, h = 18 }: { code: string; w?: number; h?: number }) {
   return (
@@ -18,28 +11,21 @@ function FlagImg({ code, w = 28, h = 18 }: { code: string; w?: number; h?: numbe
   );
 }
 
-export default function HomePage() {
-  const teams = getAllTeams();
-  const venues = getAllVenues();
-  const hasStandings = Object.values(standingsData).some((g: StandingEntry[]) => g.some(s => s.played > 0));
+type KoMatch = {
+  id: string; home: string; away: string; date: string; time: string; venueZh: string;
+  status?: string; homeScore?: number | null; awayScore?: number | null;
+  homeTeam?: { id: string; nameZh: string; flagCode: string };
+  awayTeam?: { id: string; nameZh: string; flagCode: string };
+};
 
-  const groupNames = 'ABCDEFGHIJKL'.split('');
-  const groups: Record<string, StandingEntry[]> = {};
-  for (const g of groupNames) {
-    if (hasStandings) {
-      groups[g] = (standingsData as Record<string, StandingEntry[]>)[g] || [];
-    } else {
-      const gTeams = teams.filter(t => t.group === g).sort((a, b) => a.fifaRanking - b.fifaRanking);
-      groups[g] = gTeams.map(t => ({
-        teamId: t.id, nameZh: t.nameZh, flagCode: t.flagCode, group: t.group,
-        played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, points: 0,
-      }));
-    }
-  }
-  const rows: string[][] = [];
-  for (let i = 0; i < groupNames.length; i += 2) {
-    rows.push(groupNames.slice(i, i + 2));
-  }
+export default function HomePage() {
+  const venues = getAllVenues();
+
+  // 取出 32 强赛对阵 (M73-M88)
+  const knockoutStage = (scheduleData as { knockoutStage: { round: string; roundEn: string; matches: KoMatch[] }[] }).knockoutStage;
+  const r32Round = knockoutStage.find(r => r.roundEn === 'Round of 32');
+  const r32Matches: KoMatch[] = r32Round ? r32Round.matches : [];
+  const hasR32 = r32Matches.some(m => m.homeTeam && m.awayTeam);
 
   return (
     <div>
@@ -77,74 +63,57 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 小组积分 */}
-      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      {/* 32强对阵 */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h2 className="text-2xl font-bold text-foreground">小组积分榜</h2>
-            <p className="text-sm text-muted mt-1">12个小组 · 前2名直接晋级 + 8支最佳第3名</p>
+            <h2 className="text-2xl font-bold text-foreground">32强对阵</h2>
+            <p className="text-sm text-muted mt-1">小组赛结束 · 32支球队进入淘汰赛 · {hasR32 ? `${r32Matches.length}场对阵已确定` : '对阵待定'}</p>
           </div>
-          <Link href="/groups" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors">
-            查看详情 →
+          <Link href="/bracket" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors">
+            完整对阵图 →
           </Link>
         </div>
-        <div className="space-y-6">
-          {rows.map((row, ri) => (
-            <div key={ri}>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {row.map((gn) => {
-                  const gt = groups[gn];
-                  return (
-                    <div key={gn} className="bg-white rounded-xl border border-border overflow-hidden">
-                      <div className="bg-gradient-to-r from-primary to-emerald-600 text-white px-4 py-2 flex items-center justify-between">
-                        <span className="font-bold">{gn} 组</span>
-                        <span className="text-xs text-white/70">GROUP {gn}</span>
-                      </div>
-                      <table className="w-full text-sm">
-                        <thead>
-                          <tr className="bg-muted-light text-muted text-xs">
-                            <th className="px-2 py-1.5 text-center w-6">#</th>
-                            <th className="px-2 py-1.5 text-left">球队</th>
-                            <th className="px-2 py-1.5 text-center">赛</th>
-                            <th className="px-2 py-1.5 text-center">胜</th>
-                            <th className="px-2 py-1.5 text-center">平</th>
-                            <th className="px-2 py-1.5 text-center">负</th>
-                            <th className="px-2 py-1.5 text-center">净胜</th>
-                            <th className="px-2 py-1.5 text-center font-bold">积分</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {gt.map((entry, i) => (
-                            <tr key={entry.teamId} className={`border-t border-border ${i < 2 ? 'bg-emerald-50/50' : ''}`}>
-                              <td className="px-2 py-1.5 text-center">
-                                <span className={`inline-flex items-center justify-center w-4 h-4 rounded-full text-[10px] font-bold ${i === 0 ? 'bg-primary text-white' : i === 1 ? 'bg-emerald-100 text-primary' : 'bg-gray-100 text-muted'}`}>
-                                  {i + 1}
-                                </span>
-                              </td>
-                              <td className="px-2 py-1.5">
-                                <div className="flex items-center gap-1.5">
-                                  <Image src={`/flags/${entry.flagCode}.png`} alt="" width={20} height={14} className="inline-block object-contain" unoptimized />
-                                  <span className="font-medium text-foreground text-xs">{entry.nameZh}</span>
-                                </div>
-                              </td>
-                              <td className={`px-2 py-1.5 text-center text-xs ${entry.played ? 'text-foreground' : 'text-muted'}`}>{entry.played}</td>
-                              <td className={`px-2 py-1.5 text-center text-xs ${entry.won ? 'text-foreground' : 'text-muted'}`}>{entry.won}</td>
-                              <td className={`px-2 py-1.5 text-center text-xs ${entry.drawn ? 'text-foreground' : 'text-muted'}`}>{entry.drawn}</td>
-                              <td className={`px-2 py-1.5 text-center text-xs ${entry.lost ? 'text-foreground' : 'text-muted'}`}>{entry.lost}</td>
-                              <td className={`px-2 py-1.5 text-center text-xs ${entry.gd > 0 ? 'text-green-600 font-medium' : entry.gd < 0 ? 'text-red-500' : 'text-muted'}`}>{entry.gd > 0 ? '+' : ''}{entry.gd}</td>
-                              <td className="px-2 py-1.5 text-center font-bold text-foreground text-xs">{entry.points}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
+        {hasR32 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {r32Matches.map(m => {
+              const completed = m.status === 'completed';
+              return (
+                <div key={m.id} className={`bg-white rounded-lg border border-border p-3 ${completed ? 'border-l-4 border-l-secondary' : ''}`}>
+                  <div className="flex justify-between text-[11px] text-muted mb-2">
+                    <span className="font-mono">{m.id}</span>
+                    <span>{completed ? '已结束' : `${m.date.slice(5).replace('-', '/')} ${m.time}`}</span>
+                  </div>
+                  {/* Home */}
+                  <div className="flex items-center justify-between gap-1 mb-1.5">
+                    <div className="flex items-center gap-1.5 min-w-0">
+                      {m.homeTeam ? (
+                        <Image src={`/flags/${m.homeTeam.flagCode}.png`} alt="" width={18} height={12} className="inline-block object-contain shrink-0" unoptimized />
+                      ) : null}
+                      <span className="font-medium text-foreground text-sm truncate">{m.homeTeam ? m.homeTeam.nameZh : m.home}</span>
                     </div>
-                  );
-                })}
-              </div>
-              {ri < rows.length - 1 && <div className="border-b border-border my-6" />}
-            </div>
-          ))}
-        </div>
+                    {completed ? <span className="font-bold text-foreground text-sm shrink-0 tabular-nums">{m.homeScore}</span> : null}
+                  </div>
+                  {/* Away */}
+                  <div className="flex items-center justify-between gap-1">
+                    <div className="flex items-center gap-1.5 min-w-0">
+                      {m.awayTeam ? (
+                        <Image src={`/flags/${m.awayTeam.flagCode}.png`} alt="" width={18} height={12} className="inline-block object-contain shrink-0" unoptimized />
+                      ) : null}
+                      <span className="font-medium text-foreground text-sm truncate">{m.awayTeam ? m.awayTeam.nameZh : m.away}</span>
+                    </div>
+                    {completed ? <span className="font-bold text-foreground text-sm shrink-0 tabular-nums">{m.awayScore}</span> : null}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="bg-white rounded-xl border border-border p-8 text-center">
+            <p className="text-muted">淘汰赛对阵将在小组赛结束后确定</p>
+            <Link href="/bracket" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors mt-2 inline-block">查看完整对阵图 →</Link>
+          </div>
+        )}
       </section>
 
       {/* Venues */}

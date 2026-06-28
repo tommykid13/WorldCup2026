@@ -1596,7 +1596,17 @@
           "away": "2B",
           "date": "2026-06-29",
           "time": "03:00",
-          "venueZh": "SoFi体育场"
+          "venueZh": "SoFi体育场",
+          "homeTeam": {
+            "id": "rsa",
+            "nameZh": "南非",
+            "flagCode": "za"
+          },
+          "awayTeam": {
+            "id": "can",
+            "nameZh": "加拿大",
+            "flagCode": "ca"
+          }
         },
         {
           "id": "M74",
@@ -1604,7 +1614,17 @@
           "away": "2F",
           "date": "2026-06-30",
           "time": "04:30",
-          "venueZh": "NRG体育场"
+          "venueZh": "NRG体育场",
+          "homeTeam": {
+            "id": "bra",
+            "nameZh": "巴西",
+            "flagCode": "br"
+          },
+          "awayTeam": {
+            "id": "jpn",
+            "nameZh": "日本",
+            "flagCode": "jp"
+          }
         },
         {
           "id": "M75",
@@ -1612,7 +1632,17 @@
           "away": "3rd A/B/C/D/F",
           "date": "2026-06-30",
           "time": "09:00",
-          "venueZh": "吉列体育场"
+          "venueZh": "吉列体育场",
+          "awayTeam": {
+            "id": "par",
+            "nameZh": "巴拉圭",
+            "flagCode": "py"
+          },
+          "homeTeam": {
+            "id": "ger",
+            "nameZh": "德国",
+            "flagCode": "de"
+          }
         },
         {
           "id": "M76",
@@ -1620,7 +1650,17 @@
           "away": "2C",
           "date": "2026-06-30",
           "time": "01:00",
-          "venueZh": "BBVA体育场"
+          "venueZh": "BBVA体育场",
+          "homeTeam": {
+            "id": "ned",
+            "nameZh": "荷兰",
+            "flagCode": "nl"
+          },
+          "awayTeam": {
+            "id": "mar",
+            "nameZh": "摩洛哥",
+            "flagCode": "ma"
+          }
         },
         {
           "id": "M77",
@@ -1628,7 +1668,17 @@
           "away": "2I",
           "date": "2026-07-01",
           "time": "05:00",
-          "venueZh": "AT&T体育场"
+          "venueZh": "AT&T体育场",
+          "homeTeam": {
+            "id": "civ",
+            "nameZh": "科特迪瓦",
+            "flagCode": "ci"
+          },
+          "awayTeam": {
+            "id": "nor",
+            "nameZh": "挪威",
+            "flagCode": "no"
+          }
         },
         {
           "id": "M78",
@@ -1636,7 +1686,17 @@
           "away": "3rd C/D/F/G/H",
           "date": "2026-07-01",
           "time": "01:00",
-          "venueZh": "大都会人寿体育场"
+          "venueZh": "大都会人寿体育场",
+          "awayTeam": {
+            "id": "swe",
+            "nameZh": "瑞典",
+            "flagCode": "se"
+          },
+          "homeTeam": {
+            "id": "fra",
+            "nameZh": "法国",
+            "flagCode": "fr"
+          }
         },
         {
           "id": "M79",
@@ -1644,7 +1704,17 @@
           "away": "3rd C/E/F/H/I",
           "date": "2026-07-01",
           "time": "09:00",
-          "venueZh": "阿兹特克体育场"
+          "venueZh": "阿兹特克体育场",
+          "awayTeam": {
+            "id": "ecu",
+            "nameZh": "厄瓜多尔",
+            "flagCode": "ec"
+          },
+          "homeTeam": {
+            "id": "mex",
+            "nameZh": "墨西哥",
+            "flagCode": "mx"
+          }
         },
         {
           "id": "M80",
@@ -1652,7 +1722,17 @@
           "away": "3rd E/H/I/J/K",
           "date": "2026-07-02",
           "time": "00:00",
-          "venueZh": "梅赛德斯-宾士体育场"
+          "venueZh": "梅赛德斯-宾士体育场",
+          "awayTeam": {
+            "id": "cod",
+            "nameZh": "刚果民主共和国",
+            "flagCode": "cd"
+          },
+          "homeTeam": {
+            "id": "eng",
+            "nameZh": "英格兰",
+            "flagCode": "gb-eng"
+          }
         },
         {
           "id": "M81",
@@ -1660,7 +1740,17 @@
           "away": "3rd A/E/H/I/J",
           "date": "2026-07-02",
           "time": "08:00",
-          "venueZh": "流明球场"
+          "venueZh": "流明球场",
+          "awayTeam": {
+            "id": "sen",
+            "nameZh": "塞内加尔",
+            "flagCode": "sn"
+          },
+          "homeTeam": {
+            "id": "bel",
+            "nameZh": "比利时",
+            "flagCode": "be"
+          }
         },
         {
           "id": "M82",
@@ -1668,7 +1758,17 @@
           "away": "3rd B/E/F/I/J",
           "date": "2026-07-02",
           "time": "04:00",
-          "venueZh": "李维斯体育场"
+          "venueZh": "李维斯体育场",
+          "awayTeam": {
+            "id": "bih",
+            "nameZh": "波黑",
+            "flagCode": "ba"
+          },
+          "homeTeam": {
+            "id": "usa",
+            "nameZh": "美国",
+            "flagCode": "us"
+          }
         },
         {
           "id": "M83",
@@ -1676,7 +1776,17 @@
           "away": "2J",
           "date": "2026-07-03",
           "time": "07:00",
-          "venueZh": "SoFi体育场"
+          "venueZh": "SoFi体育场",
+          "homeTeam": {
+            "id": "esp",
+            "nameZh": "西班牙",
+            "flagCode": "es"
+          },
+          "awayTeam": {
+            "id": "aut",
+            "nameZh": "奥地利",
+            "flagCode": "at"
+          }
         },
         {
           "id": "M84",
@@ -1684,7 +1794,17 @@
           "away": "2L",
           "date": "2026-07-03",
           "time": "03:00",
-          "venueZh": "BMO球场"
+          "venueZh": "BMO球场",
+          "homeTeam": {
+            "id": "por",
+            "nameZh": "葡萄牙",
+            "flagCode": "pt"
+          },
+          "awayTeam": {
+            "id": "cro",
+            "nameZh": "克罗地亚",
+            "flagCode": "hr"
+          }
         },
         {
           "id": "M85",
@@ -1692,7 +1812,17 @@
           "away": "3rd E/F/G/I/J",
           "date": "2026-07-03",
           "time": "11:00",
-          "venueZh": "卑诗体育馆"
+          "venueZh": "卑诗体育馆",
+          "awayTeam": {
+            "id": "alg",
+            "nameZh": "阿尔及利亚",
+            "flagCode": "dz"
+          },
+          "homeTeam": {
+            "id": "sui",
+            "nameZh": "瑞士",
+            "flagCode": "ch"
+          }
         },
         {
           "id": "M86",
@@ -1700,7 +1830,17 @@
           "away": "2G",
           "date": "2026-07-04",
           "time": "06:00",
-          "venueZh": "AT&T体育场"
+          "venueZh": "AT&T体育场",
+          "homeTeam": {
+            "id": "aus",
+            "nameZh": "澳大利亚",
+            "flagCode": "au"
+          },
+          "awayTeam": {
+            "id": "egy",
+            "nameZh": "埃及",
+            "flagCode": "eg"
+          }
         },
         {
           "id": "M87",
@@ -1708,7 +1848,17 @@
           "away": "2H",
           "date": "2026-07-04",
           "time": "09:30",
-          "venueZh": "硬石体育场"
+          "venueZh": "硬石体育场",
+          "homeTeam": {
+            "id": "arg",
+            "nameZh": "阿根廷",
+            "flagCode": "ar"
+          },
+          "awayTeam": {
+            "id": "cpv",
+            "nameZh": "佛得角",
+            "flagCode": "cv"
+          }
         },
         {
           "id": "M88",
@@ -1716,7 +1866,17 @@
           "away": "3rd D/E/I/J/L",
           "date": "2026-07-04",
           "time": "02:00",
-          "venueZh": "箭头体育场"
+          "venueZh": "箭头体育场",
+          "awayTeam": {
+            "id": "gha",
+            "nameZh": "加纳",
+            "flagCode": "gh"
+          },
+          "homeTeam": {
+            "id": "col",
+            "nameZh": "哥伦比亚",
+            "flagCode": "co"
+          }
         }
       ]
     },

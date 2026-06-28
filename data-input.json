@@ -290,7 +290,28 @@
     }
   },
   "knockoutResults": {},
-  "knockoutTeams": {},
+  "knockoutTeams": {
+    "1A": "mex", "2A": "rsa",
+    "1B": "sui", "2B": "can",
+    "1C": "bra", "2C": "mar",
+    "1D": "usa", "2D": "aus",
+    "1E": "ger", "2E": "civ",
+    "1F": "ned", "2F": "jpn",
+    "1G": "bel", "2G": "egy",
+    "1H": "esp", "2H": "cpv",
+    "1I": "fra", "2I": "nor",
+    "1J": "arg", "2J": "aut",
+    "1K": "col", "2K": "por",
+    "1L": "eng", "2L": "cro",
+    "3rd A/B/C/D/F": "par",
+    "3rd C/D/F/G/H": "swe",
+    "3rd C/E/F/H/I": "ecu",
+    "3rd E/H/I/J/K": "cod",
+    "3rd A/E/H/I/J": "sen",
+    "3rd B/E/F/I/J": "bih",
+    "3rd E/F/G/I/J": "alg",
+    "3rd D/E/I/J/L": "gha"
+  },
   "scorers": [
     {
       "name": "姆巴佩",
