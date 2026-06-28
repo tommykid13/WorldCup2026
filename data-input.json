@@ -255,19 +255,43 @@
     "GM047": {
       "hs": 0,
       "as": 0
+    },
+    "GM041": {
+      "hs": 1,
+      "as": 5
+    },
+    "GM042": {
+      "hs": 1,
+      "as": 1
+    },
+    "GM059": {
+      "hs": 3,
+      "as": 3
+    },
+    "GM060": {
+      "hs": 1,
+      "as": 3
+    },
+    "GM065": {
+      "hs": 0,
+      "as": 0
+    },
+    "GM066": {
+      "hs": 3,
+      "as": 1
+    },
+    "GM071": {
+      "hs": 0,
+      "as": 2
+    },
+    "GM072": {
+      "hs": 2,
+      "as": 1
     }
   },
   "knockoutResults": {},
   "knockoutTeams": {},
   "scorers": [
-    {
-      "name": "梅西",
-      "team": "arg",
-      "goals": 5,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
     {
       "name": "姆巴佩",
       "team": "fra",
@@ -355,25 +379,17 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 3
+    },
+    {
+      "name": "梅西",
+      "team": "arg",
+      "goals": 6,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 3
     }
   ],
   "assists": [
-    {
-      "name": "奥利斯，迈克尔",
-      "team": "fra",
-      "assists": 3,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 2
-    },
-    {
-      "name": "亚历山大 伊萨克",
-      "team": "swe",
-      "assists": 3,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 2
-    },
     {
       "name": "吉马良斯",
       "team": "bra",
@@ -381,12 +397,28 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 3
+    },
+    {
+      "name": "伊萨克",
+      "team": "swe",
+      "assists": 3,
+      "goals": 0,
+      "keyPasses": 3,
+      "appearances": 0
+    },
+    {
+      "name": "迈克尔",
+      "team": "fra",
+      "assists": 3,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 3
     }
   ],
   "summary": {
-    "totalGoals": 188,
+    "totalGoals": 215,
     "totalAssists": 9,
-    "avgGoalsPerMatch": 2.94,
+    "avgGoalsPerMatch": 2.99,
     "hatTricks": 12
   }
 }

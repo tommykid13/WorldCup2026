@@ -6,7 +6,7 @@
       "teamId": "arg",
       "teamNameZh": "阿根廷",
       "flagCode": "ar",
-      "goals": 5,
+      "goals": 6,
       "assists": 0,
       "penalties": 0,
       "appearances": 3
@@ -136,28 +136,6 @@
   "assists": [
     {
       "rank": 1,
-      "name": "奥利斯，迈克尔",
-      "teamId": "fra",
-      "teamNameZh": "法国",
-      "flagCode": "fr",
-      "assists": 3,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 2
-    },
-    {
-      "rank": 1,
-      "name": "亚历山大 伊萨克",
-      "teamId": "swe",
-      "teamNameZh": "瑞典",
-      "flagCode": "se",
-      "assists": 3,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 2
-    },
-    {
-      "rank": 1,
       "name": "吉马良斯",
       "teamId": "bra",
       "teamNameZh": "巴西",
@@ -166,12 +144,34 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 3
+    },
+    {
+      "rank": 1,
+      "name": "伊萨克",
+      "teamId": "swe",
+      "teamNameZh": "瑞典",
+      "flagCode": "se",
+      "assists": 3,
+      "goals": 0,
+      "keyPasses": 3,
+      "appearances": 0
+    },
+    {
+      "rank": 1,
+      "name": "迈克尔",
+      "teamId": "fra",
+      "teamNameZh": "法国",
+      "flagCode": "fr",
+      "assists": 3,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 3
     }
   ],
   "summary": {
-    "totalGoals": 188,
+    "totalGoals": 215,
     "totalAssists": 9,
-    "avgGoalsPerMatch": 2.94,
+    "avgGoalsPerMatch": 2.99,
     "hatTricks": 12
   }
 }

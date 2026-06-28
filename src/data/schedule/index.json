@@ -898,9 +898,9 @@
         "nameZh": "比利时",
         "flagCode": "be"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 5
     },
     {
       "id": "GM042",
@@ -920,9 +920,9 @@
         "nameZh": "伊朗",
         "flagCode": "ir"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 1
     },
     {
       "id": "GM043",
@@ -1294,9 +1294,9 @@
         "nameZh": "奥地利",
         "flagCode": "at"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 3,
+      "awayScore": 3
     },
     {
       "id": "GM060",
@@ -1316,9 +1316,9 @@
         "nameZh": "阿根廷",
         "flagCode": "ar"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 1,
+      "awayScore": 3
     },
     {
       "id": "GM061",
@@ -1426,9 +1426,9 @@
         "nameZh": "葡萄牙",
         "flagCode": "pt"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 0
     },
     {
       "id": "GM066",
@@ -1448,9 +1448,9 @@
         "nameZh": "乌兹别克斯坦",
         "flagCode": "uz"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 3,
+      "awayScore": 1
     },
     {
       "id": "GM067",
@@ -1558,9 +1558,9 @@
         "nameZh": "英格兰",
         "flagCode": "gb-eng"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 0,
+      "awayScore": 2
     },
     {
       "id": "GM072",
@@ -1580,9 +1580,9 @@
         "nameZh": "加纳",
         "flagCode": "gh"
       },
-      "status": "upcoming",
-      "homeScore": null,
-      "awayScore": null
+      "status": "completed",
+      "homeScore": 2,
+      "awayScore": 1
     }
   ],
   "knockoutStage": [
