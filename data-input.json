@@ -289,20 +289,45 @@
       "as": 1
     }
   },
-  "knockoutResults": {},
+  "knockoutResults": {
+    "M73": {
+      "hs": 0,
+      "as": 1
+    },
+    "M74": {
+      "hs": 2,
+      "as": 1
+    },
+    "M75": {
+      "hs": 3,
+      "as": 4
+    }
+  },
   "knockoutTeams": {
-    "1A": "mex", "2A": "rsa",
-    "1B": "sui", "2B": "can",
-    "1C": "bra", "2C": "mar",
-    "1D": "usa", "2D": "aus",
-    "1E": "ger", "2E": "civ",
-    "1F": "ned", "2F": "jpn",
-    "1G": "bel", "2G": "egy",
-    "1H": "esp", "2H": "cpv",
-    "1I": "fra", "2I": "nor",
-    "1J": "arg", "2J": "aut",
-    "1K": "col", "2K": "por",
-    "1L": "eng", "2L": "cro",
+    "1A": "mex",
+    "2A": "rsa",
+    "1B": "sui",
+    "2B": "can",
+    "1C": "bra",
+    "2C": "mar",
+    "1D": "usa",
+    "2D": "aus",
+    "1E": "ger",
+    "2E": "civ",
+    "1F": "ned",
+    "2F": "jpn",
+    "1G": "bel",
+    "2G": "egy",
+    "1H": "esp",
+    "2H": "cpv",
+    "1I": "fra",
+    "2I": "nor",
+    "1J": "arg",
+    "2J": "aut",
+    "1K": "col",
+    "2K": "por",
+    "1L": "eng",
+    "2L": "cro",
     "3rd A/B/C/D/F": "par",
     "3rd C/D/F/G/H": "swe",
     "3rd C/E/F/H/I": "ecu",
@@ -412,14 +437,6 @@
   ],
   "assists": [
     {
-      "name": "吉马良斯",
-      "team": "bra",
-      "assists": 3,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 3
-    },
-    {
       "name": "伊萨克",
       "team": "swe",
       "assists": 3,
@@ -434,12 +451,20 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 3
+    },
+    {
+      "name": "吉马良斯",
+      "team": "bra",
+      "assists": 4,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 0
     }
   ],
   "summary": {
-    "totalGoals": 215,
-    "totalAssists": 9,
-    "avgGoalsPerMatch": 2.99,
+    "totalGoals": 226,
+    "totalAssists": 10,
+    "avgGoalsPerMatch": 3.01,
     "hatTricks": 12
   }
 }

@@ -1606,7 +1606,10 @@
             "id": "can",
             "nameZh": "加拿大",
             "flagCode": "ca"
-          }
+          },
+          "status": "completed",
+          "homeScore": 0,
+          "awayScore": 1
         },
         {
           "id": "M74",
@@ -1624,7 +1627,10 @@
             "id": "jpn",
             "nameZh": "日本",
             "flagCode": "jp"
-          }
+          },
+          "status": "completed",
+          "homeScore": 2,
+          "awayScore": 1
         },
         {
           "id": "M75",
@@ -1642,7 +1648,10 @@
             "id": "ger",
             "nameZh": "德国",
             "flagCode": "de"
-          }
+          },
+          "status": "completed",
+          "homeScore": 3,
+          "awayScore": 4
         },
         {
           "id": "M76",
@@ -1890,7 +1899,17 @@
           "away": "胜M75",
           "date": "2026-07-05",
           "time": "05:00",
-          "venueZh": "NRG体育场"
+          "venueZh": "NRG体育场",
+          "homeTeam": {
+            "id": "can",
+            "nameZh": "加拿大",
+            "flagCode": "ca"
+          },
+          "awayTeam": {
+            "id": "par",
+            "nameZh": "巴拉圭",
+            "flagCode": "py"
+          }
         },
         {
           "id": "M90",
@@ -1898,7 +1917,12 @@
           "away": "胜M77",
           "date": "2026-07-05",
           "time": "01:00",
-          "venueZh": "林肯金融球场"
+          "venueZh": "林肯金融球场",
+          "homeTeam": {
+            "id": "bra",
+            "nameZh": "巴西",
+            "flagCode": "br"
+          }
         },
         {
           "id": "M91",

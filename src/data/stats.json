@@ -140,13 +140,13 @@
       "teamId": "bra",
       "teamNameZh": "巴西",
       "flagCode": "br",
-      "assists": 3,
+      "assists": 4,
       "goals": 0,
       "keyPasses": 0,
-      "appearances": 3
+      "appearances": 0
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "伊萨克",
       "teamId": "swe",
       "teamNameZh": "瑞典",
@@ -157,7 +157,7 @@
       "appearances": 0
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "迈克尔",
       "teamId": "fra",
       "teamNameZh": "法国",
@@ -169,9 +169,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 215,
-    "totalAssists": 9,
-    "avgGoalsPerMatch": 2.99,
+    "totalGoals": 226,
+    "totalAssists": 10,
+    "avgGoalsPerMatch": 3.01,
     "hatTricks": 12
   }
 }
