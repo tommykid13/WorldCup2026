@@ -301,6 +301,22 @@
     "M75": {
       "hs": 3,
       "as": 4
+    },
+    "M76": {
+      "hs": 2,
+      "as": 3
+    },
+    "M77": {
+      "hs": 1,
+      "as": 2
+    },
+    "M78": {
+      "hs": 3,
+      "as": 0
+    },
+    "M79": {
+      "hs": 2,
+      "as": 0
     }
   },
   "knockoutTeams": {
@@ -339,14 +355,6 @@
   },
   "scorers": [
     {
-      "name": "姆巴佩",
-      "team": "fra",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
       "name": "登贝莱",
       "team": "fra",
       "goals": 4,
@@ -357,14 +365,6 @@
     {
       "name": "维尼修斯",
       "team": "bra",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "哈兰德",
-      "team": "nor",
       "goals": 4,
       "assists": 0,
       "penalties": 0,
@@ -433,6 +433,22 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 3
+    },
+    {
+      "name": "姆巴佩",
+      "team": "fra",
+      "goals": 6,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 4
+    },
+    {
+      "name": "哈兰德",
+      "team": "nor",
+      "goals": 5,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 4
     }
   ],
   "assists": [
@@ -445,26 +461,34 @@
       "appearances": 0
     },
     {
-      "name": "迈克尔",
-      "team": "fra",
-      "assists": 3,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 3
-    },
-    {
       "name": "吉马良斯",
       "team": "bra",
       "assists": 4,
       "goals": 0,
       "keyPasses": 0,
       "appearances": 0
+    },
+    {
+      "name": "奥利塞",
+      "team": "fra",
+      "assists": 5,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 4
+    },
+    {
+      "name": "厄德高",
+      "team": "nor",
+      "assists": 3,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 4
     }
   ],
   "summary": {
-    "totalGoals": 226,
-    "totalAssists": 10,
-    "avgGoalsPerMatch": 3.01,
+    "totalGoals": 239,
+    "totalAssists": 15,
+    "avgGoalsPerMatch": 3.03,
     "hatTricks": 12
   }
 }
