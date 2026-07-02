@@ -317,6 +317,18 @@
     "M79": {
       "hs": 2,
       "as": 0
+    },
+    "M80": {
+      "hs": 2,
+      "as": 1
+    },
+    "M81": {
+      "hs": 3,
+      "as": 2
+    },
+    "M82": {
+      "hs": 2,
+      "as": 0
     }
   },
   "knockoutTeams": {
@@ -449,6 +461,14 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 4
+    },
+    {
+      "name": "凯恩",
+      "team": "eng",
+      "goals": 5,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 4
     }
   ],
   "assists": [
@@ -486,9 +506,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 239,
+    "totalGoals": 249,
     "totalAssists": 15,
-    "avgGoalsPerMatch": 3.03,
-    "hatTricks": 12
+    "avgGoalsPerMatch": 3.04,
+    "hatTricks": 13
   }
 }

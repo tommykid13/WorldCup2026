@@ -34,7 +34,18 @@
       "appearances": 4
     },
     {
-      "rank": 4,
+      "rank": 3,
+      "name": "凯恩",
+      "teamId": "eng",
+      "teamNameZh": "英格兰",
+      "flagCode": "gb-eng",
+      "goals": 5,
+      "assists": 0,
+      "penalties": 1,
+      "appearances": 4
+    },
+    {
+      "rank": 5,
       "name": "登贝莱",
       "teamId": "fra",
       "teamNameZh": "法国",
@@ -45,7 +56,7 @@
       "appearances": 3
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "维尼修斯",
       "teamId": "bra",
       "teamNameZh": "巴西",
@@ -56,7 +67,7 @@
       "appearances": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "昂达夫",
       "teamId": "ger",
       "teamNameZh": "德国",
@@ -67,7 +78,7 @@
       "appearances": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "曼赞比",
       "teamId": "sui",
       "teamNameZh": "瑞士",
@@ -78,7 +89,7 @@
       "appearances": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "萨尔",
       "teamId": "sen",
       "teamNameZh": "塞内加尔",
@@ -89,7 +100,7 @@
       "appearances": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "布罗比",
       "teamId": "ned",
       "teamNameZh": "荷兰",
@@ -100,7 +111,7 @@
       "appearances": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "库尼亚",
       "teamId": "bra",
       "teamNameZh": "巴西",
@@ -111,7 +122,7 @@
       "appearances": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "J.戴维",
       "teamId": "can",
       "teamNameZh": "加拿大",
@@ -122,7 +133,7 @@
       "appearances": 3
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "塞巴里",
       "teamId": "mar",
       "teamNameZh": "摩洛哥",
@@ -180,9 +191,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 239,
+    "totalGoals": 249,
     "totalAssists": 15,
-    "avgGoalsPerMatch": 3.03,
-    "hatTricks": 12
+    "avgGoalsPerMatch": 3.04,
+    "hatTricks": 13
   }
 }

@@ -1753,7 +1753,10 @@
             "id": "eng",
             "nameZh": "英格兰",
             "flagCode": "gb-eng"
-          }
+          },
+          "status": "completed",
+          "homeScore": 2,
+          "awayScore": 1
         },
         {
           "id": "M81",
@@ -1771,7 +1774,10 @@
             "id": "bel",
             "nameZh": "比利时",
             "flagCode": "be"
-          }
+          },
+          "status": "completed",
+          "homeScore": 3,
+          "awayScore": 2
         },
         {
           "id": "M82",
@@ -1789,7 +1795,10 @@
             "id": "usa",
             "nameZh": "美国",
             "flagCode": "us"
-          }
+          },
+          "status": "completed",
+          "homeScore": 2,
+          "awayScore": 0
         },
         {
           "id": "M83",
@@ -1970,6 +1979,11 @@
             "id": "mex",
             "nameZh": "墨西哥",
             "flagCode": "mx"
+          },
+          "awayTeam": {
+            "id": "eng",
+            "nameZh": "英格兰",
+            "flagCode": "gb-eng"
           }
         },
         {
@@ -1986,7 +2000,17 @@
           "away": "胜M82",
           "date": "2026-07-07",
           "time": "08:00",
-          "venueZh": "流明球场"
+          "venueZh": "流明球场",
+          "homeTeam": {
+            "id": "bel",
+            "nameZh": "比利时",
+            "flagCode": "be"
+          },
+          "awayTeam": {
+            "id": "usa",
+            "nameZh": "美国",
+            "flagCode": "us"
+          }
         },
         {
           "id": "M95",
