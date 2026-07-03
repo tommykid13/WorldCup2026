@@ -1816,7 +1816,10 @@
             "id": "aut",
             "nameZh": "奥地利",
             "flagCode": "at"
-          }
+          },
+          "status": "completed",
+          "homeScore": 3,
+          "awayScore": 0
         },
         {
           "id": "M84",
@@ -1834,7 +1837,10 @@
             "id": "cro",
             "nameZh": "克罗地亚",
             "flagCode": "hr"
-          }
+          },
+          "status": "completed",
+          "homeScore": 2,
+          "awayScore": 1
         },
         {
           "id": "M85",
@@ -1852,7 +1858,10 @@
             "id": "sui",
             "nameZh": "瑞士",
             "flagCode": "ch"
-          }
+          },
+          "status": "completed",
+          "homeScore": 2,
+          "awayScore": 0
         },
         {
           "id": "M86",
@@ -1992,7 +2001,17 @@
           "away": "胜M84",
           "date": "2026-07-07",
           "time": "03:00",
-          "venueZh": "AT&T体育场"
+          "venueZh": "AT&T体育场",
+          "homeTeam": {
+            "id": "esp",
+            "nameZh": "西班牙",
+            "flagCode": "es"
+          },
+          "awayTeam": {
+            "id": "por",
+            "nameZh": "葡萄牙",
+            "flagCode": "pt"
+          }
         },
         {
           "id": "M94",
@@ -2026,7 +2045,12 @@
           "away": "胜M87",
           "date": "2026-07-08",
           "time": "04:00",
-          "venueZh": "卑诗体育馆"
+          "venueZh": "卑诗体育馆",
+          "homeTeam": {
+            "id": "sui",
+            "nameZh": "瑞士",
+            "flagCode": "ch"
+          }
         }
       ]
     },

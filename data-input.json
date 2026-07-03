@@ -329,6 +329,18 @@
     "M82": {
       "hs": 2,
       "as": 0
+    },
+    "M83": {
+      "hs": 3,
+      "as": 0
+    },
+    "M84": {
+      "hs": 2,
+      "as": 1
+    },
+    "M85": {
+      "hs": 2,
+      "as": 0
     }
   },
   "knockoutTeams": {
@@ -469,6 +481,14 @@
       "assists": 0,
       "penalties": 1,
       "appearances": 4
+    },
+    {
+      "name": "奥亚萨瓦尔",
+      "team": "esp",
+      "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 4
     }
   ],
   "assists": [
@@ -506,9 +526,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 249,
+    "totalGoals": 257,
     "totalAssists": 15,
-    "avgGoalsPerMatch": 3.04,
-    "hatTricks": 13
+    "avgGoalsPerMatch": 3.02,
+    "hatTricks": 14
   }
 }
