@@ -341,6 +341,14 @@
     "M85": {
       "hs": 2,
       "as": 0
+    },
+    "M86": {
+      "hs": 2,
+      "as": 4
+    },
+    "M87": {
+      "hs": 3,
+      "as": 2
     }
   },
   "knockoutTeams": {
@@ -451,14 +459,6 @@
       "appearances": 3
     },
     {
-      "name": "梅西",
-      "team": "arg",
-      "goals": 6,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
       "name": "姆巴佩",
       "team": "fra",
       "goals": 6,
@@ -486,6 +486,14 @@
       "name": "奥亚萨瓦尔",
       "team": "esp",
       "goals": 4,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 4
+    },
+    {
+      "name": "梅西",
+      "team": "arg",
+      "goals": 7,
       "assists": 0,
       "penalties": 0,
       "appearances": 4
@@ -526,9 +534,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 257,
+    "totalGoals": 268,
     "totalAssists": 15,
-    "avgGoalsPerMatch": 3.02,
+    "avgGoalsPerMatch": 3.08,
     "hatTricks": 14
   }
 }

@@ -6,13 +6,13 @@
       "teamId": "arg",
       "teamNameZh": "阿根廷",
       "flagCode": "ar",
-      "goals": 6,
+      "goals": 7,
       "assists": 0,
       "penalties": 0,
-      "appearances": 3
+      "appearances": 4
     },
     {
-      "rank": 1,
+      "rank": 2,
       "name": "姆巴佩",
       "teamId": "fra",
       "teamNameZh": "法国",
@@ -202,9 +202,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 257,
+    "totalGoals": 268,
     "totalAssists": 15,
-    "avgGoalsPerMatch": 3.02,
+    "avgGoalsPerMatch": 3.08,
     "hatTricks": 14
   }
 }
