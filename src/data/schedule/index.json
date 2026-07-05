@@ -1921,7 +1921,10 @@
             "id": "col",
             "nameZh": "哥伦比亚",
             "flagCode": "co"
-          }
+          },
+          "status": "completed",
+          "homeScore": 1,
+          "awayScore": 0
         }
       ]
     },
@@ -2048,6 +2051,11 @@
             "id": "egy",
             "nameZh": "埃及",
             "flagCode": "eg"
+          },
+          "awayTeam": {
+            "id": "col",
+            "nameZh": "哥伦比亚",
+            "flagCode": "co"
           }
         },
         {
