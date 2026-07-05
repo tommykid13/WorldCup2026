@@ -61,14 +61,14 @@ function toMatch(m: KoMatch): Match {
 }
 
 const R16_MATCHES: Match[] = _knockoutStage.find(r => r.roundEn === 'Round of 16')?.matches.map(toMatch) || [
-  { id:'M89', top:'胜M73', bot:'胜M75', date:'7/5' },
-  { id:'M90', top:'胜M74', bot:'胜M77', date:'7/5' },
-  { id:'M91', top:'胜M76', bot:'胜M78', date:'7/6' },
+  { id:'M89', top:'胜M78', bot:'胜M75', date:'7/5' },
+  { id:'M90', top:'胜M73', bot:'胜M76', date:'7/5' },
+  { id:'M91', top:'胜M74', bot:'胜M77', date:'7/6' },
   { id:'M92', top:'胜M79', bot:'胜M80', date:'7/6' },
-  { id:'M93', top:'胜M83', bot:'胜M84', date:'7/7' },
-  { id:'M94', top:'胜M81', bot:'胜M82', date:'7/7' },
-  { id:'M95', top:'胜M86', bot:'胜M88', date:'7/8' },
-  { id:'M96', top:'胜M85', bot:'胜M87', date:'7/8' },
+  { id:'M93', top:'胜M84', bot:'胜M83', date:'7/7' },
+  { id:'M94', top:'胜M82', bot:'胜M81', date:'7/7' },
+  { id:'M95', top:'胜M87', bot:'胜M86', date:'7/8' },
+  { id:'M96', top:'胜M85', bot:'胜M88', date:'7/8' },
 ];
 const QF_MATCHES: Match[] = _knockoutStage.find(r => r.roundEn === 'Quarter-finals')?.matches.map(toMatch) || [
   { id:'M97', top:'胜M89', bot:'胜M90', date:'7/10' },
