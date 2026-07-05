@@ -13,7 +13,7 @@ function FlagImg({ code, w = 28, h = 18 }: { code: string; w?: number; h?: numbe
 
 type KoMatch = {
   id: string; home: string; away: string; date: string; time: string; venueZh: string;
-  status?: string; homeScore?: number | null; awayScore?: number | null;
+  status?: string; homeScore?: number | null; awayScore?: number | null; winner?: 'home' | 'away';
   homeTeam?: { id: string; nameZh: string; flagCode: string };
   awayTeam?: { id: string; nameZh: string; flagCode: string };
 };
@@ -92,7 +92,7 @@ export default function HomePage() {
                       ) : null}
                       <span className="font-medium text-foreground text-sm truncate">{m.homeTeam ? m.homeTeam.nameZh : m.home}</span>
                     </div>
-                    {completed ? <span className="font-bold text-foreground text-sm shrink-0 tabular-nums">{m.homeScore}</span> : null}
+                    {completed ? <span className="font-bold text-foreground text-sm shrink-0 tabular-nums">{m.homeScore}{m.winner === 'home' && m.homeScore === m.awayScore ? '(点)' : ''}</span> : null}
                   </div>
                   {/* Away */}
                   <div className="flex items-center justify-between gap-1">
@@ -102,7 +102,7 @@ export default function HomePage() {
                       ) : null}
                       <span className="font-medium text-foreground text-sm truncate">{m.awayTeam ? m.awayTeam.nameZh : m.away}</span>
                     </div>
-                    {completed ? <span className="font-bold text-foreground text-sm shrink-0 tabular-nums">{m.awayScore}</span> : null}
+                    {completed ? <span className="font-bold text-foreground text-sm shrink-0 tabular-nums">{m.awayScore}{m.winner === 'away' && m.homeScore === m.awayScore ? '(点)' : ''}</span> : null}
                   </div>
                 </div>
               );

@@ -194,7 +194,13 @@ function main() {
         // 需要从 knockoutStage 中找到这场比赛确定主客队
         const koMatch = findKnockoutMatch(schedule.knockoutStage, matchId);
         if (koMatch && koMatch._homeId && koMatch._awayId) {
-          const winnerId = result.hs > result.as ? koMatch._homeId : koMatch._awayId;
+          // 平局优先用 winner 字段(点球胜者), 否则按比分
+          let winnerId;
+          if (result.hs === result.as && result.winner) {
+            winnerId = result.winner === 'home' ? koMatch._homeId : koMatch._awayId;
+          } else {
+            winnerId = result.hs > result.as ? koMatch._homeId : koMatch._awayId;
+          }
           if (teamMap[winnerId]) return { id: winnerId, ...teamMap[winnerId] };
         }
       }
@@ -208,7 +214,13 @@ function main() {
       if (result) {
         const koMatch = findKnockoutMatch(schedule.knockoutStage, matchId);
         if (koMatch && koMatch._homeId && koMatch._awayId) {
-          const loserId = result.hs < result.as ? koMatch._homeId : koMatch._awayId;
+          // 平局优先用 winner 字段推导败者, 否则按比分
+          let loserId;
+          if (result.hs === result.as && result.winner) {
+            loserId = result.winner === 'home' ? koMatch._awayId : koMatch._homeId;
+          } else {
+            loserId = result.hs < result.as ? koMatch._homeId : koMatch._awayId;
+          }
           if (teamMap[loserId]) return { id: loserId, ...teamMap[loserId] };
         }
       }
@@ -253,6 +265,9 @@ function main() {
         match.status = 'completed';
         match.homeScore = r.hs;
         match.awayScore = r.as;
+        // 平局(点球)时透传 winner 字段, 供前端标注
+        if (r.winner) match.winner = r.winner;
+        else delete match.winner;
       }
     }
   }

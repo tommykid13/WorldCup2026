@@ -15,7 +15,7 @@ type GroupMatch = {
 };
 type KnockoutMatch = {
   id: string; home: string; away: string; date: string; time: string; venueZh: string;
-  status?: string; homeScore?: number | null; awayScore?: number | null;
+  status?: string; homeScore?: number | null; awayScore?: number | null; winner?: 'home' | 'away';
   homeTeam?: { id: string; nameZh: string; flagCode: string };
   awayTeam?: { id: string; nameZh: string; flagCode: string };
 };
@@ -142,7 +142,7 @@ export default function SchedulePage() {
                             <div className="px-3 py-2.5 flex items-center justify-between gap-2">
                               {homeDisplay}
                               {completed ? (
-                                <span className="text-sm font-bold text-foreground shrink-0 px-2">{m.homeScore} - {m.awayScore}</span>
+                                <span className="text-sm font-bold text-foreground shrink-0 px-2">{m.homeScore}{m.winner === 'home' && m.homeScore === m.awayScore ? '(点)' : ''} - {m.awayScore}{m.winner === 'away' && m.homeScore === m.awayScore ? '(点)' : ''}</span>
                               ) : (
                                 <span className="text-xs text-muted bg-muted-light px-2 py-0.5 rounded shrink-0">VS</span>
                               )}

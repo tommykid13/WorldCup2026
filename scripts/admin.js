@@ -205,10 +205,17 @@ async function actionRecordKnockout() {
       || `[${match.away}]`;
     const hs = await askInt(`  ${homeName} 得分`);
     const as = await askInt(`  ${awayName} 得分`);
-    inputData.knockoutResults[id] = { hs, as };
+    // 淘汰赛平局(加时/点球) → 追问胜者
+    const entry = { hs, as };
+    if (hs === as) {
+      console.log(`  ⚠ 比分打平 ${hs}-${as},淘汰赛需决出胜者。`);
+      const w = await askInt(`  胜者? [1]${homeName} / [2]${awayName}`, { min: 1, max: 2 });
+      entry.winner = w === 1 ? 'home' : 'away';
+    }
+    inputData.knockoutResults[id] = entry;
     saveInput();
     logSession(`ko:${id}`);
-    console.log(`  ✓ 已记录 ${id}: ${hs}-${as}\n`);
+    console.log(`  ✓ 已记录 ${id}: ${hs}-${as}${entry.winner ? ` (胜:${entry.winner === 'home' ? homeName : awayName})` : ''}\n`);
   }
 }
 
