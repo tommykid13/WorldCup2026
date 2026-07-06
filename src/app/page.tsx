@@ -20,6 +20,20 @@ type KoMatch = {
 
 type KnockoutRound = { round: string; roundEn: string; matches: KoMatch[] };
 type DecoratedKoMatch = KoMatch & { round: string; roundEn: string };
+type BracketNode = {
+  id: string;
+  match: DecoratedKoMatch;
+  x: number;
+  y: number;
+  label?: string;
+  tone?: 'default' | 'final' | 'third';
+};
+
+const BRACKET_CARD_W = 244;
+const BRACKET_CARD_H = 118;
+const BRACKET_GAP_X = 80;
+const BRACKET_CANVAS_W = 1320;
+const BRACKET_CANVAS_H = 940;
 
 function formatTeamRef(ref: string): string {
   const simple = ref.match(/^([1-4])([A-L])$/);
@@ -138,6 +152,236 @@ function KnockoutMatchCard({ match, compact = false }: { match: DecoratedKoMatch
   );
 }
 
+function BracketTeamRow({
+  team,
+  fallback,
+  score,
+  winner,
+  completed,
+}: {
+  team?: { nameZh: string; flagCode: string };
+  fallback: string;
+  score: string | null;
+  winner: boolean;
+  completed: boolean;
+}) {
+  const label = team ? team.nameZh : formatTeamRef(fallback);
+
+  return (
+    <div className="flex items-center justify-between gap-3">
+      <div className="flex items-center gap-2 min-w-0">
+        {team ? (
+          <Image
+            src={`/flags/${team.flagCode}.png`}
+            alt={`${team.nameZh}国旗`}
+            width={28}
+            height={18}
+            className="h-[18px] w-7 rounded-sm object-contain shrink-0"
+            unoptimized
+          />
+        ) : (
+          <span className="h-[18px] w-7 rounded-sm border border-amber-200/40 bg-gradient-to-b from-amber-100 to-amber-300 opacity-80 shrink-0" aria-hidden="true" />
+        )}
+        <span className={`truncate text-sm font-semibold ${team ? 'text-white' : 'text-white/45'} ${completed && !winner ? 'text-white/55' : ''}`}>
+          {team ? label : '待定'}
+        </span>
+      </div>
+      <span className={`w-7 text-right text-sm tabular-nums ${winner ? 'font-bold text-white' : 'text-white/75'}`}>
+        {score ?? '-'}
+      </span>
+    </div>
+  );
+}
+
+function ConnectedBracketCard({ node }: { node: BracketNode }) {
+  const { match, label, tone = 'default' } = node;
+  const completed = match.status === 'completed';
+  const homeScore = scoreLabel(match, 'home');
+  const awayScore = scoreLabel(match, 'away');
+  const homeWinner = completed && (match.winner === 'home' || ((match.homeScore ?? -1) > (match.awayScore ?? -1)));
+  const awayWinner = completed && (match.winner === 'away' || ((match.awayScore ?? -1) > (match.homeScore ?? -1)));
+
+  const toneClass = {
+    default: 'border-white/20 bg-slate-950/42',
+    final: 'border-amber-300/60 bg-slate-800/75 shadow-[0_0_0_1px_rgba(245,158,11,0.18),0_18px_45px_rgba(0,0,0,0.28)]',
+    third: 'border-orange-200/45 bg-slate-800/55',
+  }[tone];
+
+  return (
+    <div
+      className="absolute"
+      style={{ left: node.x, top: node.y, width: BRACKET_CARD_W, height: BRACKET_CARD_H }}
+    >
+      {label ? (
+        <div className={`absolute -top-7 left-3 rounded-t-lg px-3 py-1 text-xs font-bold ${
+          tone === 'final' ? 'bg-amber-100 text-slate-950' : 'bg-orange-200 text-slate-950'
+        }`}>
+          {label}
+        </div>
+      ) : null}
+      <article className={`h-full rounded-2xl border p-4 text-white backdrop-blur-sm ${toneClass}`}>
+        <div className="mb-4 flex items-center justify-between gap-3">
+          <span className="text-base font-bold text-white/90">{formatMatchDate(match.date)} {match.time}</span>
+          <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${
+            completed ? 'bg-white/15 text-white' : 'bg-white/10 text-white/85'
+          }`}>
+            {completed ? '已结束' : '待开赛'}
+          </span>
+        </div>
+        <div className="space-y-3">
+          <BracketTeamRow team={match.homeTeam} fallback={match.home} score={homeScore} winner={homeWinner} completed={completed} />
+          <BracketTeamRow team={match.awayTeam} fallback={match.away} score={awayScore} winner={awayWinner} completed={completed} />
+        </div>
+      </article>
+    </div>
+  );
+}
+
+function ConnectedBracket({
+  roundOf16Matches,
+  quarterFinalMatches,
+  semiFinalMatches,
+  finalMatch,
+  thirdPlaceMatch,
+}: {
+  roundOf16Matches: DecoratedKoMatch[];
+  quarterFinalMatches: DecoratedKoMatch[];
+  semiFinalMatches: DecoratedKoMatch[];
+  finalMatch?: DecoratedKoMatch;
+  thirdPlaceMatch?: DecoratedKoMatch;
+}) {
+  const byId = new Map<string, DecoratedKoMatch>();
+  for (const match of [...roundOf16Matches, ...quarterFinalMatches, ...semiFinalMatches, finalMatch, thirdPlaceMatch]) {
+    if (match) byId.set(match.id, match);
+  }
+
+  const r16PairOrder: [string, string][] = [
+    ['M89', 'M90'],
+    ['M93', 'M94'],
+    ['M91', 'M92'],
+    ['M95', 'M96'],
+  ];
+  const qfOrder = ['M97', 'M98', 'M99', 'M100'];
+  const sfOrder = ['M101', 'M102'];
+  const columnX = r16PairOrder.map((_, index) => 32 + index * (BRACKET_CARD_W + BRACKET_GAP_X));
+  const sfX = [(columnX[0] + columnX[1]) / 2, (columnX[2] + columnX[3]) / 2];
+  const finalX = (sfX[0] + sfX[1]) / 2;
+  const thirdPlaceX = finalX + BRACKET_CARD_W + 50;
+  const r16TopY = 56;
+  const r16BottomY = 218;
+  const qfY = 410;
+  const sfY = 610;
+  const finalY = 790;
+
+  const nodes: BracketNode[] = [
+    ...r16PairOrder.flatMap((pair, columnIndex) =>
+      pair.flatMap((id, rowIndex) => {
+        const match = byId.get(id);
+        return match ? [{ id, match, x: columnX[columnIndex], y: rowIndex === 0 ? r16TopY : r16BottomY }] : [];
+      }),
+    ),
+    ...qfOrder.flatMap((id, index) => {
+      const match = byId.get(id);
+      return match ? [{ id, match, x: columnX[index], y: qfY }] : [];
+    }),
+    ...sfOrder.flatMap((id, index) => {
+      const match = byId.get(id);
+      return match ? [{ id, match, x: sfX[index], y: sfY }] : [];
+    }),
+    ...(finalMatch ? [{ id: finalMatch.id, match: finalMatch, x: finalX, y: finalY, label: '决赛', tone: 'final' as const }] : []),
+    ...(thirdPlaceMatch ? [{ id: thirdPlaceMatch.id, match: thirdPlaceMatch, x: thirdPlaceX, y: finalY, label: '季军赛', tone: 'third' as const }] : []),
+  ];
+
+  const nodeMap = new Map(nodes.map((node) => [node.id, node]));
+  const connectorPairs: Array<[string, string, 'default' | 'final' | 'third']> = [
+    ['M89', 'M97', 'default'], ['M90', 'M97', 'default'],
+    ['M93', 'M98', 'default'], ['M94', 'M98', 'default'],
+    ['M91', 'M99', 'default'], ['M92', 'M99', 'default'],
+    ['M95', 'M100', 'default'], ['M96', 'M100', 'default'],
+    ['M97', 'M101', 'default'], ['M98', 'M101', 'default'],
+    ['M99', 'M102', 'default'], ['M100', 'M102', 'default'],
+    ['M101', 'M104', 'final'], ['M102', 'M104', 'final'],
+    ['M101', 'M103', 'third'], ['M102', 'M103', 'third'],
+  ];
+  const r16TargetById = new Map(r16PairOrder.flatMap((pair, index) => pair.map((id) => [id, qfOrder[index]])));
+  const rowLabels = [
+    { label: '16强赛', x: 32, y: 22 },
+    { label: '8强赛', x: 32, y: qfY - 34 },
+    { label: '4强赛', x: 32, y: sfY - 34 },
+    { label: '决赛 / 季军赛', x: 32, y: finalY - 34 },
+  ];
+
+  return (
+    <div className="rounded-2xl bg-[#0b1938] p-3 sm:p-5 shadow-inner">
+      <div className="max-w-full overflow-x-auto">
+        <div
+          className="relative"
+          style={{ width: BRACKET_CANVAS_W, height: BRACKET_CANVAS_H }}
+          aria-label="2026世界杯淘汰赛连线对阵图"
+        >
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_28%_12%,rgba(59,130,246,0.26),transparent_34%),linear-gradient(180deg,#1f3f87_0%,#0b1938_55%,#08142d_100%)]" />
+          <svg
+            viewBox={`0 0 ${BRACKET_CANVAS_W} ${BRACKET_CANVAS_H}`}
+            className="absolute inset-0 h-full w-full"
+            aria-hidden="true"
+          >
+            {connectorPairs.map(([fromId, toId, tone]) => {
+              const from = nodeMap.get(fromId);
+              const to = nodeMap.get(toId);
+              if (!from || !to) return null;
+
+              const x1 = from.x + BRACKET_CARD_W / 2;
+              const y1 = from.y + BRACKET_CARD_H;
+              const x2 = to.x + BRACKET_CARD_W / 2;
+              const y2 = to.y;
+              const isR16ToQf = r16TargetById.get(fromId) === toId;
+              const turnY = isR16ToQf ? Math.min(y2 - 26, y1 + 22) : y1 + (y2 - y1) / 2;
+              const sideX = isR16ToQf ? to.x + BRACKET_CARD_W + 26 : x2;
+              const d = isR16ToQf
+                ? `M ${x1} ${y1} V ${turnY} H ${sideX} V ${y2 - 26} H ${x2} V ${y2}`
+                : `M ${x1} ${y1} V ${turnY} H ${x2} V ${y2}`;
+              const stroke =
+                tone === 'final'
+                  ? 'rgba(245, 158, 11, 0.5)'
+                  : tone === 'third'
+                    ? 'rgba(251, 191, 36, 0.28)'
+                    : 'rgba(148, 163, 184, 0.34)';
+
+              return (
+                <path
+                  key={`${fromId}-${toId}`}
+                  d={d}
+                  fill="none"
+                  stroke={stroke}
+                  strokeWidth={tone === 'final' ? 2 : 1.5}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              );
+            })}
+          </svg>
+          <div className="absolute inset-0">
+            {rowLabels.map((row) => (
+              <div
+                key={row.label}
+                className="absolute rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-bold text-white/80 backdrop-blur-sm"
+                style={{ left: row.x, top: row.y }}
+              >
+                {row.label}
+              </div>
+            ))}
+          </div>
+          <div className="absolute inset-0">
+            {nodes.map((node) => (
+              <ConnectedBracketCard key={node.id} node={node} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function collectRound(round?: KnockoutRound): DecoratedKoMatch[] {
   if (!round) return [];
   return round.matches.map((match) => ({
@@ -160,19 +404,18 @@ export default function HomePage() {
   const thirdPlace = knockoutStage.find((round) => round.roundEn === 'Third Place');
   const final = knockoutStage.find((round) => round.roundEn === 'Final');
 
-  const bracketGroups = [
-    { label: '16强赛', note: 'Round of 16', matches: collectRound(roundOf16) },
-    { label: '四分之一决赛', note: 'Quarter-finals', matches: collectRound(quarterFinals) },
-    { label: '半决赛', note: 'Semi-finals', matches: collectRound(semiFinals) },
-    { label: '决赛 / 季军赛', note: 'Final & Third Place', matches: [...collectRound(final), ...collectRound(thirdPlace)] },
-  ].filter((group) => group.matches.length > 0);
+  const roundOf16Matches = collectRound(roundOf16);
+  const quarterFinalMatches = collectRound(quarterFinals);
+  const semiFinalMatches = collectRound(semiFinals);
+  const finalMatches = collectRound(final);
+  const thirdPlaceMatches = collectRound(thirdPlace);
 
-  const remainingByDate = remainingMatches.reduce<Record<string, DecoratedKoMatch[]>>((acc, match) => {
-    if (!acc[match.date]) acc[match.date] = [];
-    acc[match.date].push(match);
-    return acc;
-  }, {});
-  const remainingDates = Object.keys(remainingByDate).sort();
+  const bracketGroups = [
+    { label: '16强赛', note: 'Round of 16', matches: roundOf16Matches },
+    { label: '四分之一决赛', note: 'Quarter-finals', matches: quarterFinalMatches },
+    { label: '半决赛', note: 'Semi-finals', matches: semiFinalMatches },
+    { label: '决赛 / 季军赛', note: 'Final & Third Place', matches: [...finalMatches, ...thirdPlaceMatches] },
+  ].filter((group) => group.matches.length > 0);
 
   return (
     <div>
@@ -244,42 +487,25 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Remaining Schedule */}
+      {/* Connected Schedule */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between mb-8">
           <div>
-            <h2 className="text-2xl font-bold text-foreground">剩余赛程与比分</h2>
-            <p className="text-sm text-muted mt-1">16强赛后半程至决赛 · M91-M104 · 北京时间</p>
+            <h2 className="text-2xl font-bold text-foreground">剩余赛程连线图</h2>
+            <p className="text-sm text-muted mt-1">16强赛至决赛 · 晋级路径与比分 · 北京时间</p>
           </div>
           <Link href="/schedule" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors">
             完整赛程 →
           </Link>
         </div>
 
-        {remainingDates.length > 0 ? (
-          <div className="space-y-8">
-            {remainingDates.map((date) => (
-              <div key={date}>
-                <div className="mb-3 flex items-center gap-3">
-                  <h3 className="text-sm font-bold text-foreground">{formatMatchDate(date)}</h3>
-                  <span className="text-xs text-muted">{remainingByDate[date].length} 场</span>
-                  <div className="h-px flex-1 bg-border" />
-                </div>
-                <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
-                  {remainingByDate[date]
-                    .sort((a, b) => a.time.localeCompare(b.time))
-                    .map((match) => (
-                      <KnockoutMatchCard key={match.id} match={match} />
-                    ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <div className="rounded-xl border border-border bg-white p-8 text-center text-muted">
-            淘汰赛已全部结束
-          </div>
-        )}
+        <ConnectedBracket
+          roundOf16Matches={roundOf16Matches}
+          quarterFinalMatches={quarterFinalMatches}
+          semiFinalMatches={semiFinalMatches}
+          finalMatch={finalMatches[0]}
+          thirdPlaceMatch={thirdPlaceMatches[0]}
+        />
       </section>
 
       {/* Venues */}
