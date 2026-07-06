@@ -29,12 +29,14 @@ type BracketNode = {
   tone?: 'default' | 'final' | 'third';
 };
 
-const BRACKET_CARD_W = 244;
-const BRACKET_CARD_H = 118;
-const BRACKET_COL_GAP = 88;
-const BRACKET_ROW_GAP = 44;
-const BRACKET_CANVAS_W = 1640;
-const BRACKET_CANVAS_H = 1360;
+const BRACKET_CARD_W = 180;
+const BRACKET_CARD_H = 92;
+const BRACKET_COL_GAP = 36;
+const BRACKET_ROW_GAP = 10;
+const BRACKET_CANVAS_PAD = 28;
+const BRACKET_THIRD_GAP = 36;
+const BRACKET_CANVAS_W = 1080;
+const BRACKET_CANVAS_H = 850;
 
 function formatTeamRef(ref: string): string {
   const simple = ref.match(/^([1-4])([A-L])$/);
@@ -169,25 +171,25 @@ function BracketTeamRow({
   const label = team ? team.nameZh : formatTeamRef(fallback);
 
   return (
-    <div className="flex items-center justify-between gap-3">
+    <div className="flex items-center justify-between gap-2">
       <div className="flex items-center gap-2 min-w-0">
         {team ? (
           <Image
             src={`/flags/${team.flagCode}.png`}
             alt={`${team.nameZh}国旗`}
-            width={28}
-            height={18}
-            className="h-[18px] w-7 rounded-sm object-contain shrink-0"
+            width={22}
+            height={15}
+            className="h-[15px] w-[22px] rounded-sm object-contain shrink-0"
             unoptimized
           />
         ) : (
-          <span className="h-[18px] w-7 rounded-sm border border-amber-200/40 bg-gradient-to-b from-amber-100 to-amber-300 opacity-80 shrink-0" aria-hidden="true" />
+          <span className="h-[15px] w-[22px] rounded-sm border border-amber-200/40 bg-gradient-to-b from-amber-100 to-amber-300 opacity-80 shrink-0" aria-hidden="true" />
         )}
-        <span className={`truncate text-sm font-semibold ${team ? 'text-white' : 'text-white/45'} ${completed && !winner ? 'text-white/55' : ''}`}>
+        <span className={`truncate text-xs font-semibold ${team ? 'text-white' : 'text-white/45'} ${completed && !winner ? 'text-white/55' : ''}`}>
           {team ? label : '待定'}
         </span>
       </div>
-      <span className={`w-7 text-right text-sm tabular-nums ${winner ? 'font-bold text-white' : 'text-white/75'}`}>
+      <span className={`w-5 text-right text-xs tabular-nums ${winner ? 'font-bold text-white' : 'text-white/75'}`}>
         {score ?? '-'}
       </span>
     </div>
@@ -220,16 +222,16 @@ function ConnectedBracketCard({ node }: { node: BracketNode }) {
           {label}
         </div>
       ) : null}
-      <article className={`h-full rounded-2xl border p-4 text-white backdrop-blur-sm ${toneClass}`}>
-        <div className="mb-4 flex items-center justify-between gap-3">
-          <span className="text-base font-bold text-white/90">{formatMatchDate(match.date)} {match.time}</span>
-          <span className={`rounded-full px-2 py-0.5 text-xs font-semibold ${
+      <article className={`h-full rounded-xl border p-3 text-white backdrop-blur-sm ${toneClass}`}>
+        <div className="mb-3 flex items-center justify-between gap-2">
+          <span className="text-sm font-bold text-white/90">{formatMatchDate(match.date)} {match.time}</span>
+          <span className={`rounded-full px-1.5 py-0.5 text-[11px] font-semibold ${
             completed ? 'bg-white/15 text-white' : 'bg-white/10 text-white/85'
           }`}>
             {completed ? '已结束' : '待开赛'}
           </span>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-2.5">
           <BracketTeamRow team={match.homeTeam} fallback={match.home} score={homeScore} winner={homeWinner} completed={completed} />
           <BracketTeamRow team={match.awayTeam} fallback={match.away} score={awayScore} winner={awayWinner} completed={completed} />
         </div>
@@ -260,13 +262,13 @@ function ConnectedBracket({
   const qfOrder = ['M97', 'M98', 'M99', 'M100'];
   const sfOrder = ['M101', 'M102'];
   const columns = {
-    r16: 32,
-    qf: 32 + BRACKET_CARD_W + BRACKET_COL_GAP,
-    sf: 32 + (BRACKET_CARD_W + BRACKET_COL_GAP) * 2,
-    final: 32 + (BRACKET_CARD_W + BRACKET_COL_GAP) * 3,
-    third: 32 + (BRACKET_CARD_W + BRACKET_COL_GAP) * 3 + BRACKET_CARD_W + 64,
+    r16: BRACKET_CANVAS_PAD,
+    qf: BRACKET_CANVAS_PAD + BRACKET_CARD_W + BRACKET_COL_GAP,
+    sf: BRACKET_CANVAS_PAD + (BRACKET_CARD_W + BRACKET_COL_GAP) * 2,
+    final: BRACKET_CANVAS_PAD + (BRACKET_CARD_W + BRACKET_COL_GAP) * 3,
+    third: BRACKET_CANVAS_PAD + (BRACKET_CARD_W + BRACKET_COL_GAP) * 3 + BRACKET_CARD_W + BRACKET_THIRD_GAP,
   };
-  const r16Y = r16Order.map((_, index) => 32 + index * (BRACKET_CARD_H + BRACKET_ROW_GAP));
+  const r16Y = r16Order.map((_, index) => BRACKET_CANVAS_PAD + index * (BRACKET_CARD_H + BRACKET_ROW_GAP));
   const centerBetween = (firstY: number, secondY: number) => (firstY + BRACKET_CARD_H / 2 + secondY + BRACKET_CARD_H / 2) / 2 - BRACKET_CARD_H / 2;
   const qfY = [
     centerBetween(r16Y[0], r16Y[1]),
@@ -391,9 +393,9 @@ export default function HomePage() {
   const thirdPlaceMatches = collectRound(thirdPlace);
 
   const knockoutRows = [
-    { label: '16强赛', note: 'Round of 16', matches: roundOf16Matches, columnSpan: 'col-span-1' },
-    { label: '8强赛', note: 'Quarter-finals', matches: quarterFinalMatches, columnSpan: 'col-span-2' },
-    { label: '4强赛 / 决赛', note: 'Semi-finals · Final & Third Place', matches: [...semiFinalMatches, ...finalMatches, ...thirdPlaceMatches], columnSpan: 'col-span-2' },
+    { label: '16强赛', note: 'Round of 16', matches: roundOf16Matches },
+    { label: '8强赛', note: 'Quarter-finals', matches: quarterFinalMatches },
+    { label: '4强赛 / 决赛', note: 'Semi-finals · Final & Third Place', matches: [...semiFinalMatches, ...finalMatches, ...thirdPlaceMatches] },
   ].filter((row) => row.matches.length > 0);
 
   return (
@@ -456,17 +458,10 @@ export default function HomePage() {
                 </div>
                 <span className="rounded-full bg-muted-light px-2 py-1 text-xs text-muted">{row.matches.length} 场</span>
               </div>
-              <div className="overflow-x-auto pb-2">
-                <div
-                  className="grid grid-cols-8 gap-3"
-                  style={{ minWidth: '1800px' }}
-                >
-                  {row.matches.map((match) => (
-                    <div key={match.id} className={row.columnSpan}>
-                      <KnockoutMatchCard match={match} compact />
-                    </div>
-                  ))}
-                </div>
+              <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                {row.matches.map((match) => (
+                  <KnockoutMatchCard key={match.id} match={match} compact />
+                ))}
               </div>
             </div>
           ))}
