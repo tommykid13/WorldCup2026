@@ -2000,7 +2000,7 @@
           "date": "2026-07-06",
           "time": "08:00",
           "venueZh": "阿兹特克体育场",
-          "status": "upcoming",
+          "status": "completed",
           "homeTeam": {
             "id": "mex",
             "nameZh": "墨西哥",
@@ -2010,7 +2010,9 @@
             "id": "eng",
             "nameZh": "英格兰",
             "flagCode": "gb-eng"
-          }
+          },
+          "homeScore": 2,
+          "awayScore": 3
         },
         {
           "id": "M93",
@@ -2126,7 +2128,12 @@
           "away": "胜M92",
           "date": "2026-07-12",
           "time": "05:00",
-          "venueZh": "硬石体育场"
+          "venueZh": "硬石体育场",
+          "awayTeam": {
+            "id": "eng",
+            "nameZh": "英格兰",
+            "flagCode": "gb-eng"
+          }
         },
         {
           "id": "M100",

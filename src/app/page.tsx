@@ -18,14 +18,161 @@ type KoMatch = {
   awayTeam?: { id: string; nameZh: string; flagCode: string };
 };
 
+type KnockoutRound = { round: string; roundEn: string; matches: KoMatch[] };
+type DecoratedKoMatch = KoMatch & { round: string; roundEn: string };
+
+function formatTeamRef(ref: string): string {
+  const simple = ref.match(/^([1-4])([A-L])$/);
+  if (simple) return `${simple[2]}组第${simple[1]}名`;
+
+  if (ref.startsWith('3rd ')) return `最佳第3名 ${ref.slice(4)}`;
+
+  const win = ref.match(/^胜(M?\d+)$/);
+  if (win) return `${win[1]}胜者`;
+
+  const lose = ref.match(/^负(M?\d+)$/);
+  if (lose) return `${lose[1]}负者`;
+
+  return ref;
+}
+
+function formatMatchDate(date: string): string {
+  const [, month, day] = date.split('-');
+  return `${Number(month)}月${Number(day)}日`;
+}
+
+function getStatusLabel(match: KoMatch): string {
+  if (match.status === 'completed') return '已结束';
+  if (match.homeTeam && match.awayTeam) return '待赛';
+  return '待定';
+}
+
+function scoreLabel(match: KoMatch, side: 'home' | 'away'): string | null {
+  const homeScore = match.homeScore;
+  const awayScore = match.awayScore;
+  if (homeScore == null || awayScore == null) return null;
+
+  const score = side === 'home' ? homeScore : awayScore;
+  const isPenaltyWinner =
+    homeScore === awayScore &&
+    ((side === 'home' && match.winner === 'home') || (side === 'away' && match.winner === 'away'));
+
+  return `${score}${isPenaltyWinner ? '点' : ''}`;
+}
+
+function TeamLine({
+  team,
+  fallback,
+  score,
+  winner,
+}: {
+  team?: { nameZh: string; flagCode: string };
+  fallback: string;
+  score: string | null;
+  winner: boolean;
+}) {
+  const label = team ? team.nameZh : formatTeamRef(fallback);
+
+  return (
+    <div className={`flex items-center justify-between gap-2 rounded-md px-2 py-1.5 ${winner ? 'bg-primary-light/70' : ''}`}>
+      <div className="flex items-center gap-2 min-w-0">
+        {team ? (
+          <Image
+            src={`/flags/${team.flagCode}.png`}
+            alt={`${team.nameZh}国旗`}
+            width={22}
+            height={15}
+            className="inline-block object-contain shrink-0"
+            unoptimized
+          />
+        ) : (
+          <span className="inline-block h-[15px] w-[22px] rounded-sm border border-border bg-muted-light shrink-0" aria-hidden="true" />
+        )}
+        <span className={`truncate text-sm ${team ? 'font-medium text-foreground' : 'text-muted'}`}>{label}</span>
+      </div>
+      {score ? (
+        <span className={`shrink-0 text-sm tabular-nums ${winner ? 'font-bold text-primary-dark' : 'font-semibold text-foreground'}`}>
+          {score}
+        </span>
+      ) : null}
+    </div>
+  );
+}
+
+function KnockoutMatchCard({ match, compact = false }: { match: DecoratedKoMatch; compact?: boolean }) {
+  const completed = match.status === 'completed';
+  const homeScore = scoreLabel(match, 'home');
+  const awayScore = scoreLabel(match, 'away');
+  const homeWinner = completed && (match.winner === 'home' || ((match.homeScore ?? -1) > (match.awayScore ?? -1)));
+  const awayWinner = completed && (match.winner === 'away' || ((match.awayScore ?? -1) > (match.homeScore ?? -1)));
+  const isFinal = match.roundEn === 'Final';
+
+  return (
+    <article
+      className={`rounded-lg border bg-white p-3 shadow-sm ${
+        completed ? 'border-l-4 border-l-secondary' : isFinal ? 'border-secondary/50 bg-secondary-light/25' : 'border-border'
+      }`}
+    >
+      <div className="mb-2 flex items-center justify-between gap-2 text-[11px] text-muted">
+        <div className="flex items-center gap-1.5 min-w-0">
+          <span className="font-mono shrink-0">{match.id}</span>
+          {!compact && <span className="truncate">{match.round}</span>}
+        </div>
+        <span className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${
+          completed ? 'bg-secondary-light text-amber-700' : match.homeTeam && match.awayTeam ? 'bg-primary-light text-primary-dark' : 'bg-gray-100 text-muted'
+        }`}>
+          {getStatusLabel(match)}
+        </span>
+      </div>
+
+      <div className="space-y-1">
+        <TeamLine team={match.homeTeam} fallback={match.home} score={homeScore} winner={homeWinner} />
+        <TeamLine team={match.awayTeam} fallback={match.away} score={awayScore} winner={awayWinner} />
+      </div>
+
+      <div className="mt-2 flex items-center justify-between gap-2 border-t border-border pt-2 text-[11px] text-muted">
+        <span>{formatMatchDate(match.date)} {match.time}</span>
+        {!compact && <span className="truncate text-right">{match.venueZh}</span>}
+      </div>
+    </article>
+  );
+}
+
+function collectRound(round?: KnockoutRound): DecoratedKoMatch[] {
+  if (!round) return [];
+  return round.matches.map((match) => ({
+    ...match,
+    round: round.round,
+    roundEn: round.roundEn,
+  }));
+}
+
 export default function HomePage() {
   const venues = getAllVenues();
+  const knockoutStage = (scheduleData as { knockoutStage: KnockoutRound[] }).knockoutStage;
+  const knockoutMatches = knockoutStage.flatMap((round) => collectRound(round));
+  const completedKnockoutMatches = knockoutMatches.filter((match) => match.status === 'completed');
+  const remainingMatches = knockoutMatches.filter((match) => match.status !== 'completed');
 
-  // 取出 32 强赛对阵 (M73-M88)
-  const knockoutStage = (scheduleData as { knockoutStage: { round: string; roundEn: string; matches: KoMatch[] }[] }).knockoutStage;
-  const r32Round = knockoutStage.find(r => r.roundEn === 'Round of 32');
-  const r32Matches: KoMatch[] = r32Round ? r32Round.matches : [];
-  const hasR32 = r32Matches.some(m => m.homeTeam && m.awayTeam);
+  const roundOf16 = knockoutStage.find((round) => round.roundEn === 'Round of 16');
+  const quarterFinals = knockoutStage.find((round) => round.roundEn === 'Quarter-finals');
+  const semiFinals = knockoutStage.find((round) => round.roundEn === 'Semi-finals');
+  const thirdPlace = knockoutStage.find((round) => round.roundEn === 'Third Place');
+  const final = knockoutStage.find((round) => round.roundEn === 'Final');
+
+  const bracketGroups = [
+    { label: '16强赛', note: 'Round of 16', matches: collectRound(roundOf16) },
+    { label: '四分之一决赛', note: 'Quarter-finals', matches: collectRound(quarterFinals) },
+    { label: '半决赛', note: 'Semi-finals', matches: collectRound(semiFinals) },
+    { label: '决赛 / 季军赛', note: 'Final & Third Place', matches: [...collectRound(final), ...collectRound(thirdPlace)] },
+  ].filter((group) => group.matches.length > 0);
+
+  const remainingByDate = remainingMatches.reduce<Record<string, DecoratedKoMatch[]>>((acc, match) => {
+    if (!acc[match.date]) acc[match.date] = [];
+    acc[match.date].push(match);
+    return acc;
+  }, {});
+  const remainingDates = Object.keys(remainingByDate).sort();
 
   return (
     <div>
@@ -63,55 +210,74 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 32强对阵 */}
+      {/* Knockout Bracket */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between mb-8">
           <div>
-            <h2 className="text-2xl font-bold text-foreground">32强对阵</h2>
-            <p className="text-sm text-muted mt-1">小组赛结束 · 32支球队进入淘汰赛 · {hasR32 ? `${r32Matches.length}场对阵已确定` : '对阵待定'}</p>
+            <h2 className="text-2xl font-bold text-foreground">淘汰赛对阵图</h2>
+            <p className="text-sm text-muted mt-1">
+              已完成 {completedKnockoutMatches.length} 场 · 剩余 {remainingMatches.length} 场 · 所有时间为北京时间
+            </p>
           </div>
           <Link href="/bracket" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors">
             完整对阵图 →
           </Link>
         </div>
-        {hasR32 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {r32Matches.map(m => {
-              const completed = m.status === 'completed';
-              return (
-                <div key={m.id} className={`bg-white rounded-lg border border-border p-3 ${completed ? 'border-l-4 border-l-secondary' : ''}`}>
-                  <div className="flex justify-between text-[11px] text-muted mb-2">
-                    <span className="font-mono">{m.id}</span>
-                    <span>{completed ? '已结束' : `${m.date.slice(5).replace('-', '/')} ${m.time}`}</span>
-                  </div>
-                  {/* Home */}
-                  <div className="flex items-center justify-between gap-1 mb-1.5">
-                    <div className="flex items-center gap-1.5 min-w-0">
-                      {m.homeTeam ? (
-                        <Image src={`/flags/${m.homeTeam.flagCode}.png`} alt="" width={18} height={12} className="inline-block object-contain shrink-0" unoptimized />
-                      ) : null}
-                      <span className="font-medium text-foreground text-sm truncate">{m.homeTeam ? m.homeTeam.nameZh : m.home}</span>
-                    </div>
-                    {completed ? <span className="font-bold text-foreground text-sm shrink-0 tabular-nums">{m.homeScore}{m.winner === 'home' && m.homeScore === m.awayScore ? '(点)' : ''}</span> : null}
-                  </div>
-                  {/* Away */}
-                  <div className="flex items-center justify-between gap-1">
-                    <div className="flex items-center gap-1.5 min-w-0">
-                      {m.awayTeam ? (
-                        <Image src={`/flags/${m.awayTeam.flagCode}.png`} alt="" width={18} height={12} className="inline-block object-contain shrink-0" unoptimized />
-                      ) : null}
-                      <span className="font-medium text-foreground text-sm truncate">{m.awayTeam ? m.awayTeam.nameZh : m.away}</span>
-                    </div>
-                    {completed ? <span className="font-bold text-foreground text-sm shrink-0 tabular-nums">{m.awayScore}{m.winner === 'away' && m.homeScore === m.awayScore ? '(点)' : ''}</span> : null}
-                  </div>
+
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-4">
+          {bracketGroups.map((group) => (
+            <div key={group.label} className="min-w-0">
+              <div className="mb-3 flex items-center justify-between gap-3">
+                <div>
+                  <h3 className="font-bold text-foreground">{group.label}</h3>
+                  <p className="text-xs text-muted">{group.note}</p>
                 </div>
-              );
-            })}
+                <span className="rounded-full bg-muted-light px-2 py-1 text-xs text-muted">{group.matches.length} 场</span>
+              </div>
+              <div className="space-y-2">
+                {group.matches.map((match) => (
+                  <KnockoutMatchCard key={match.id} match={match} compact />
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Remaining Schedule */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between mb-8">
+          <div>
+            <h2 className="text-2xl font-bold text-foreground">剩余赛程与比分</h2>
+            <p className="text-sm text-muted mt-1">16强赛后半程至决赛 · M91-M104 · 北京时间</p>
+          </div>
+          <Link href="/schedule" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors">
+            完整赛程 →
+          </Link>
+        </div>
+
+        {remainingDates.length > 0 ? (
+          <div className="space-y-8">
+            {remainingDates.map((date) => (
+              <div key={date}>
+                <div className="mb-3 flex items-center gap-3">
+                  <h3 className="text-sm font-bold text-foreground">{formatMatchDate(date)}</h3>
+                  <span className="text-xs text-muted">{remainingByDate[date].length} 场</span>
+                  <div className="h-px flex-1 bg-border" />
+                </div>
+                <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                  {remainingByDate[date]
+                    .sort((a, b) => a.time.localeCompare(b.time))
+                    .map((match) => (
+                      <KnockoutMatchCard key={match.id} match={match} />
+                    ))}
+                </div>
+              </div>
+            ))}
           </div>
         ) : (
-          <div className="bg-white rounded-xl border border-border p-8 text-center">
-            <p className="text-muted">淘汰赛对阵将在小组赛结束后确定</p>
-            <Link href="/bracket" className="text-sm font-medium text-primary hover:text-primary-dark transition-colors mt-2 inline-block">查看完整对阵图 →</Link>
+          <div className="rounded-xl border border-border bg-white p-8 text-center text-muted">
+            淘汰赛已全部结束
           </div>
         )}
       </section>

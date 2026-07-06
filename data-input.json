@@ -361,6 +361,10 @@
     "M90": {
       "hs": 0,
       "as": 3
+    },
+    "M92": {
+      "hs": 2,
+      "as": 3
     }
   },
   "knockoutTeams": {
@@ -546,9 +550,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 273,
+    "totalGoals": 278,
     "totalAssists": 15,
-    "avgGoalsPerMatch": 3.03,
+    "avgGoalsPerMatch": 3.05,
     "hatTricks": 14
   }
 }
