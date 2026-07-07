@@ -365,6 +365,14 @@
     "M92": {
       "hs": 2,
       "as": 3
+    },
+    "M93": {
+      "hs": 0,
+      "as": 1
+    },
+    "M91": {
+      "hs": 1,
+      "as": 2
     }
   },
   "knockoutTeams": {
@@ -403,107 +411,11 @@
   },
   "scorers": [
     {
-      "name": "登贝莱",
-      "team": "fra",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "维尼修斯",
-      "team": "bra",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "昂达夫",
-      "team": "ger",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "曼赞比",
-      "team": "sui",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "萨尔",
-      "team": "sen",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "布罗比",
-      "team": "ned",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "库尼亚",
-      "team": "bra",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "J.戴维",
-      "team": "can",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
-      "name": "塞巴里",
-      "team": "mar",
-      "goals": 3,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 3
-    },
-    {
       "name": "姆巴佩",
       "team": "fra",
-      "goals": 6,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 4
-    },
-    {
-      "name": "哈兰德",
-      "team": "nor",
-      "goals": 5,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 4
-    },
-    {
-      "name": "凯恩",
-      "team": "eng",
-      "goals": 5,
+      "goals": 7,
       "assists": 0,
       "penalties": 1,
-      "appearances": 4
-    },
-    {
-      "name": "奥亚萨瓦尔",
-      "team": "esp",
-      "goals": 4,
-      "assists": 0,
-      "penalties": 0,
       "appearances": 4
     },
     {
@@ -512,30 +424,38 @@
       "goals": 7,
       "assists": 0,
       "penalties": 0,
+      "appearances": 0
+    },
+    {
+      "name": "哈兰德",
+      "team": "nor",
+      "goals": 7,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 4
+    },
+    {
+      "name": "凯恩",
+      "team": "eng",
+      "goals": 6,
+      "assists": 0,
+      "penalties": 2,
       "appearances": 4
     }
   ],
   "assists": [
     {
-      "name": "伊萨克",
-      "team": "swe",
-      "assists": 3,
-      "goals": 0,
-      "keyPasses": 3,
-      "appearances": 0
-    },
-    {
-      "name": "吉马良斯",
-      "team": "bra",
-      "assists": 4,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 0
-    },
-    {
-      "name": "奥利塞",
+      "name": "奥德塞",
       "team": "fra",
       "assists": 5,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 4
+    },
+    {
+      "name": "迪亚斯",
+      "team": "mar",
+      "assists": 4,
       "goals": 0,
       "keyPasses": 0,
       "appearances": 4
@@ -550,9 +470,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 278,
-    "totalAssists": 15,
-    "avgGoalsPerMatch": 3.05,
-    "hatTricks": 14
+    "totalGoals": 282,
+    "totalAssists": 12,
+    "avgGoalsPerMatch": 3.03,
+    "hatTricks": 4
   }
 }

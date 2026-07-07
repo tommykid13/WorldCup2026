@@ -1981,7 +1981,7 @@
           "date": "2026-07-06",
           "time": "04:00",
           "venueZh": "大都会人寿体育场",
-          "status": "upcoming",
+          "status": "completed",
           "homeTeam": {
             "id": "bra",
             "nameZh": "巴西",
@@ -1991,7 +1991,9 @@
             "id": "nor",
             "nameZh": "挪威",
             "flagCode": "no"
-          }
+          },
+          "homeScore": 1,
+          "awayScore": 2
         },
         {
           "id": "M92",
@@ -2021,7 +2023,7 @@
           "date": "2026-07-07",
           "time": "03:00",
           "venueZh": "AT&T体育场",
-          "status": "upcoming",
+          "status": "completed",
           "homeTeam": {
             "id": "por",
             "nameZh": "葡萄牙",
@@ -2031,7 +2033,9 @@
             "id": "esp",
             "nameZh": "西班牙",
             "flagCode": "es"
-          }
+          },
+          "homeScore": 0,
+          "awayScore": 1
         },
         {
           "id": "M94",
@@ -2120,7 +2124,12 @@
           "away": "胜M94",
           "date": "2026-07-11",
           "time": "03:00",
-          "venueZh": "SoFi体育场"
+          "venueZh": "SoFi体育场",
+          "homeTeam": {
+            "id": "esp",
+            "nameZh": "西班牙",
+            "flagCode": "es"
+          }
         },
         {
           "id": "M99",
@@ -2133,6 +2142,11 @@
             "id": "eng",
             "nameZh": "英格兰",
             "flagCode": "gb-eng"
+          },
+          "homeTeam": {
+            "id": "nor",
+            "nameZh": "挪威",
+            "flagCode": "no"
           }
         },
         {
