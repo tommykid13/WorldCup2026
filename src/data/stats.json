@@ -2,6 +2,17 @@
   "scorers": [
     {
       "rank": 1,
+      "name": "梅西",
+      "teamId": "arg",
+      "teamNameZh": "阿根廷",
+      "flagCode": "ar",
+      "goals": 8,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 5
+    },
+    {
+      "rank": 2,
       "name": "姆巴佩",
       "teamId": "fra",
       "teamNameZh": "法国",
@@ -12,18 +23,7 @@
       "appearances": 4
     },
     {
-      "rank": 1,
-      "name": "梅西",
-      "teamId": "arg",
-      "teamNameZh": "阿根廷",
-      "flagCode": "ar",
-      "goals": 7,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 0
-    },
-    {
-      "rank": 1,
+      "rank": 2,
       "name": "哈兰德",
       "teamId": "nor",
       "teamNameZh": "挪威",
@@ -81,9 +81,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 282,
+    "totalGoals": 292,
     "totalAssists": 12,
-    "avgGoalsPerMatch": 3.03,
+    "avgGoalsPerMatch": 3.04,
     "hatTricks": 4
   }
 }

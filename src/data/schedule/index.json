@@ -2044,7 +2044,7 @@
           "date": "2026-07-07",
           "time": "08:00",
           "venueZh": "流明球场",
-          "status": "upcoming",
+          "status": "completed",
           "homeTeam": {
             "id": "usa",
             "nameZh": "美国",
@@ -2054,7 +2054,9 @@
             "id": "bel",
             "nameZh": "比利时",
             "flagCode": "be"
-          }
+          },
+          "homeScore": 1,
+          "awayScore": 4
         },
         {
           "id": "M95",
@@ -2063,7 +2065,7 @@
           "date": "2026-07-08",
           "time": "00:00",
           "venueZh": "梅赛德斯-宾士体育场",
-          "status": "upcoming",
+          "status": "completed",
           "homeTeam": {
             "id": "arg",
             "nameZh": "阿根廷",
@@ -2073,7 +2075,9 @@
             "id": "egy",
             "nameZh": "埃及",
             "flagCode": "eg"
-          }
+          },
+          "homeScore": 3,
+          "awayScore": 2
         },
         {
           "id": "M96",
@@ -2082,7 +2086,7 @@
           "date": "2026-07-08",
           "time": "04:00",
           "venueZh": "卑诗体育馆",
-          "status": "upcoming",
+          "status": "completed",
           "homeTeam": {
             "id": "sui",
             "nameZh": "瑞士",
@@ -2092,7 +2096,10 @@
             "id": "col",
             "nameZh": "哥伦比亚",
             "flagCode": "co"
-          }
+          },
+          "homeScore": 0,
+          "awayScore": 0,
+          "winner": "home"
         }
       ]
     },
@@ -2129,6 +2136,11 @@
             "id": "esp",
             "nameZh": "西班牙",
             "flagCode": "es"
+          },
+          "awayTeam": {
+            "id": "bel",
+            "nameZh": "比利时",
+            "flagCode": "be"
           }
         },
         {
@@ -2155,7 +2167,17 @@
           "away": "胜M96",
           "date": "2026-07-12",
           "time": "09:00",
-          "venueZh": "箭头体育场"
+          "venueZh": "箭头体育场",
+          "homeTeam": {
+            "id": "arg",
+            "nameZh": "阿根廷",
+            "flagCode": "ar"
+          },
+          "awayTeam": {
+            "id": "sui",
+            "nameZh": "瑞士",
+            "flagCode": "ch"
+          }
         }
       ]
     },

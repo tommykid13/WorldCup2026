@@ -373,6 +373,19 @@
     "M91": {
       "hs": 1,
       "as": 2
+    },
+    "M94": {
+      "hs": 1,
+      "as": 4
+    },
+    "M95": {
+      "hs": 3,
+      "as": 2
+    },
+    "M96": {
+      "hs": 0,
+      "as": 0,
+      "winner": "home"
     }
   },
   "knockoutTeams": {
@@ -419,14 +432,6 @@
       "appearances": 4
     },
     {
-      "name": "梅西",
-      "team": "arg",
-      "goals": 7,
-      "assists": 0,
-      "penalties": 0,
-      "appearances": 0
-    },
-    {
       "name": "哈兰德",
       "team": "nor",
       "goals": 7,
@@ -441,6 +446,14 @@
       "assists": 0,
       "penalties": 2,
       "appearances": 4
+    },
+    {
+      "name": "梅西",
+      "team": "arg",
+      "goals": 8,
+      "assists": 1,
+      "penalties": 0,
+      "appearances": 5
     }
   ],
   "assists": [
@@ -470,9 +483,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 282,
+    "totalGoals": 292,
     "totalAssists": 12,
-    "avgGoalsPerMatch": 3.03,
+    "avgGoalsPerMatch": 3.04,
     "hatTricks": 4
   }
 }
