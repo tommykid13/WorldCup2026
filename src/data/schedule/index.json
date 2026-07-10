@@ -2123,7 +2123,10 @@
             "id": "mar",
             "nameZh": "摩洛哥",
             "flagCode": "ma"
-          }
+          },
+          "status": "completed",
+          "homeScore": 2,
+          "awayScore": 0
         },
         {
           "id": "M98",
@@ -2191,7 +2194,12 @@
           "away": "胜M98",
           "date": "2026-07-15",
           "time": "03:00",
-          "venueZh": "AT&T体育场"
+          "venueZh": "AT&T体育场",
+          "homeTeam": {
+            "id": "fra",
+            "nameZh": "法国",
+            "flagCode": "fr"
+          }
         },
         {
           "id": "M102",

@@ -386,6 +386,10 @@
       "hs": 0,
       "as": 0,
       "winner": "home"
+    },
+    "M97": {
+      "hs": 2,
+      "as": 0
     }
   },
   "knockoutTeams": {
@@ -424,14 +428,6 @@
   },
   "scorers": [
     {
-      "name": "姆巴佩",
-      "team": "fra",
-      "goals": 7,
-      "assists": 0,
-      "penalties": 1,
-      "appearances": 4
-    },
-    {
       "name": "哈兰德",
       "team": "nor",
       "goals": 7,
@@ -452,6 +448,14 @@
       "team": "arg",
       "goals": 8,
       "assists": 1,
+      "penalties": 0,
+      "appearances": 5
+    },
+    {
+      "name": "姆巴佩",
+      "team": "fra",
+      "goals": 8,
+      "assists": 0,
       "penalties": 0,
       "appearances": 5
     }
@@ -483,9 +487,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 292,
+    "totalGoals": 294,
     "totalAssists": 12,
-    "avgGoalsPerMatch": 3.04,
+    "avgGoalsPerMatch": 3.03,
     "hatTricks": 4
   }
 }

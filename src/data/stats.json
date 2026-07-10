@@ -12,18 +12,18 @@
       "appearances": 5
     },
     {
-      "rank": 2,
+      "rank": 1,
       "name": "姆巴佩",
       "teamId": "fra",
       "teamNameZh": "法国",
       "flagCode": "fr",
-      "goals": 7,
+      "goals": 8,
       "assists": 0,
-      "penalties": 1,
-      "appearances": 4
+      "penalties": 0,
+      "appearances": 5
     },
     {
-      "rank": 2,
+      "rank": 3,
       "name": "哈兰德",
       "teamId": "nor",
       "teamNameZh": "挪威",
@@ -81,9 +81,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 292,
+    "totalGoals": 294,
     "totalAssists": 12,
-    "avgGoalsPerMatch": 3.04,
+    "avgGoalsPerMatch": 3.03,
     "hatTricks": 4
   }
 }
