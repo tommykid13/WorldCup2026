@@ -390,6 +390,10 @@
     "M97": {
       "hs": 2,
       "as": 0
+    },
+    "M98": {
+      "hs": 2,
+      "as": 1
     }
   },
   "knockoutTeams": {
@@ -487,7 +491,7 @@
     }
   ],
   "summary": {
-    "totalGoals": 294,
+    "totalGoals": 297,
     "totalAssists": 12,
     "avgGoalsPerMatch": 3.03,
     "hatTricks": 4

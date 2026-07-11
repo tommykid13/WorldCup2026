@@ -2144,7 +2144,10 @@
             "id": "bel",
             "nameZh": "比利时",
             "flagCode": "be"
-          }
+          },
+          "status": "completed",
+          "homeScore": 2,
+          "awayScore": 1
         },
         {
           "id": "M99",
@@ -2199,6 +2202,11 @@
             "id": "fra",
             "nameZh": "法国",
             "flagCode": "fr"
+          },
+          "awayTeam": {
+            "id": "esp",
+            "nameZh": "西班牙",
+            "flagCode": "es"
           }
         },
         {
