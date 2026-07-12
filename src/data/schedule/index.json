@@ -2165,7 +2165,10 @@
             "id": "nor",
             "nameZh": "挪威",
             "flagCode": "no"
-          }
+          },
+          "status": "completed",
+          "homeScore": 1,
+          "awayScore": 2
         },
         {
           "id": "M100",
@@ -2183,7 +2186,10 @@
             "id": "sui",
             "nameZh": "瑞士",
             "flagCode": "ch"
-          }
+          },
+          "status": "completed",
+          "homeScore": 3,
+          "awayScore": 1
         }
       ]
     },
@@ -2215,7 +2221,17 @@
           "away": "胜M100",
           "date": "2026-07-16",
           "time": "03:00",
-          "venueZh": "梅赛德斯-宾士体育场"
+          "venueZh": "梅赛德斯-宾士体育场",
+          "homeTeam": {
+            "id": "eng",
+            "nameZh": "英格兰",
+            "flagCode": "gb-eng"
+          },
+          "awayTeam": {
+            "id": "arg",
+            "nameZh": "阿根廷",
+            "flagCode": "ar"
+          }
         }
       ]
     },
