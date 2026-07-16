@@ -402,6 +402,14 @@
     "M100": {
       "hs": 3,
       "as": 1
+    },
+    "M101": {
+      "hs": 0,
+      "as": 2
+    },
+    "M102": {
+      "hs": 1,
+      "as": 2
     }
   },
   "knockoutTeams": {
@@ -470,6 +478,14 @@
       "assists": 0,
       "penalties": 0,
       "appearances": 5
+    },
+    {
+      "name": "贝林厄姆",
+      "team": "eng",
+      "goals": 6,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 5
     }
   ],
   "assists": [
@@ -496,12 +512,20 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 4
+    },
+    {
+      "name": "梅西",
+      "team": "arg",
+      "assists": 4,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 5
     }
   ],
   "summary": {
-    "totalGoals": 304,
-    "totalAssists": 12,
-    "avgGoalsPerMatch": 3.04,
-    "hatTricks": 4
+    "totalGoals": 309,
+    "totalAssists": 16,
+    "avgGoalsPerMatch": 3.03,
+    "hatTricks": 5
   }
 }

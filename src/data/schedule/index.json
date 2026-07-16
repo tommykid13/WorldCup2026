@@ -2213,7 +2213,10 @@
             "id": "esp",
             "nameZh": "西班牙",
             "flagCode": "es"
-          }
+          },
+          "status": "completed",
+          "homeScore": 0,
+          "awayScore": 2
         },
         {
           "id": "M102",
@@ -2231,7 +2234,10 @@
             "id": "arg",
             "nameZh": "阿根廷",
             "flagCode": "ar"
-          }
+          },
+          "status": "completed",
+          "homeScore": 1,
+          "awayScore": 2
         }
       ]
     },
@@ -2245,7 +2251,17 @@
           "away": "负M102",
           "date": "2026-07-19",
           "time": "05:00",
-          "venueZh": "硬石体育场"
+          "venueZh": "硬石体育场",
+          "homeTeam": {
+            "id": "fra",
+            "nameZh": "法国",
+            "flagCode": "fr"
+          },
+          "awayTeam": {
+            "id": "eng",
+            "nameZh": "英格兰",
+            "flagCode": "gb-eng"
+          }
         }
       ]
     },
@@ -2259,7 +2275,17 @@
           "away": "胜M102",
           "date": "2026-07-20",
           "time": "03:00",
-          "venueZh": "大都会人寿体育场"
+          "venueZh": "大都会人寿体育场",
+          "homeTeam": {
+            "id": "esp",
+            "nameZh": "西班牙",
+            "flagCode": "es"
+          },
+          "awayTeam": {
+            "id": "arg",
+            "nameZh": "阿根廷",
+            "flagCode": "ar"
+          }
         }
       ]
     }
