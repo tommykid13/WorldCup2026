@@ -410,6 +410,14 @@
     "M102": {
       "hs": 1,
       "as": 2
+    },
+    "M103": {
+      "hs": 4,
+      "as": 6
+    },
+    "M104": {
+      "hs": 1,
+      "as": 0
     }
   },
   "knockoutTeams": {
@@ -456,14 +464,6 @@
       "appearances": 4
     },
     {
-      "name": "凯恩",
-      "team": "eng",
-      "goals": 6,
-      "assists": 0,
-      "penalties": 2,
-      "appearances": 4
-    },
-    {
       "name": "梅西",
       "team": "arg",
       "goals": 8,
@@ -474,29 +474,37 @@
     {
       "name": "姆巴佩",
       "team": "fra",
-      "goals": 8,
+      "goals": 10,
       "assists": 0,
       "penalties": 0,
-      "appearances": 5
+      "appearances": 6
     },
     {
-      "name": "贝林厄姆",
+      "name": "凯恩",
       "team": "eng",
       "goals": 6,
       "assists": 0,
       "penalties": 0,
-      "appearances": 5
+      "appearances": 6
+    },
+    {
+      "name": "贝林厄姆",
+      "team": "eng",
+      "goals": 7,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 6
+    },
+    {
+      "name": "登贝莱",
+      "team": "fra",
+      "goals": 6,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 6
     }
   ],
   "assists": [
-    {
-      "name": "奥德塞",
-      "team": "fra",
-      "assists": 5,
-      "goals": 0,
-      "keyPasses": 0,
-      "appearances": 4
-    },
     {
       "name": "迪亚斯",
       "team": "mar",
@@ -520,12 +528,20 @@
       "goals": 0,
       "keyPasses": 0,
       "appearances": 5
+    },
+    {
+      "name": "奥利塞",
+      "team": "fra",
+      "assists": 7,
+      "goals": 0,
+      "keyPasses": 0,
+      "appearances": 6
     }
   ],
   "summary": {
-    "totalGoals": 309,
-    "totalAssists": 16,
-    "avgGoalsPerMatch": 3.03,
-    "hatTricks": 5
+    "totalGoals": 320,
+    "totalAssists": 18,
+    "avgGoalsPerMatch": 3.08,
+    "hatTricks": 6
   }
 }

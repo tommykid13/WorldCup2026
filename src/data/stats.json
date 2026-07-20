@@ -2,23 +2,23 @@
   "scorers": [
     {
       "rank": 1,
+      "name": "姆巴佩",
+      "teamId": "fra",
+      "teamNameZh": "法国",
+      "flagCode": "fr",
+      "goals": 10,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 6
+    },
+    {
+      "rank": 2,
       "name": "梅西",
       "teamId": "arg",
       "teamNameZh": "阿根廷",
       "flagCode": "ar",
       "goals": 8,
       "assists": 1,
-      "penalties": 0,
-      "appearances": 5
-    },
-    {
-      "rank": 1,
-      "name": "姆巴佩",
-      "teamId": "fra",
-      "teamNameZh": "法国",
-      "flagCode": "fr",
-      "goals": 8,
-      "assists": 0,
       "penalties": 0,
       "appearances": 5
     },
@@ -34,39 +34,50 @@
       "appearances": 4
     },
     {
-      "rank": 4,
+      "rank": 3,
+      "name": "贝林厄姆",
+      "teamId": "eng",
+      "teamNameZh": "英格兰",
+      "flagCode": "gb-eng",
+      "goals": 7,
+      "assists": 0,
+      "penalties": 0,
+      "appearances": 6
+    },
+    {
+      "rank": 5,
       "name": "凯恩",
       "teamId": "eng",
       "teamNameZh": "英格兰",
       "flagCode": "gb-eng",
       "goals": 6,
       "assists": 0,
-      "penalties": 2,
-      "appearances": 4
+      "penalties": 0,
+      "appearances": 6
     },
     {
-      "rank": 4,
-      "name": "贝林厄姆",
-      "teamId": "eng",
-      "teamNameZh": "英格兰",
-      "flagCode": "gb-eng",
+      "rank": 5,
+      "name": "登贝莱",
+      "teamId": "fra",
+      "teamNameZh": "法国",
+      "flagCode": "fr",
       "goals": 6,
       "assists": 0,
       "penalties": 0,
-      "appearances": 5
+      "appearances": 6
     }
   ],
   "assists": [
     {
       "rank": 1,
-      "name": "奥德塞",
+      "name": "奥利塞",
       "teamId": "fra",
       "teamNameZh": "法国",
       "flagCode": "fr",
-      "assists": 5,
+      "assists": 7,
       "goals": 0,
       "keyPasses": 0,
-      "appearances": 4
+      "appearances": 6
     },
     {
       "rank": 2,
@@ -103,9 +114,9 @@
     }
   ],
   "summary": {
-    "totalGoals": 309,
-    "totalAssists": 16,
-    "avgGoalsPerMatch": 3.03,
-    "hatTricks": 5
+    "totalGoals": 320,
+    "totalAssists": 18,
+    "avgGoalsPerMatch": 3.08,
+    "hatTricks": 6
   }
 }

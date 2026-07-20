@@ -2261,7 +2261,10 @@
             "id": "eng",
             "nameZh": "英格兰",
             "flagCode": "gb-eng"
-          }
+          },
+          "status": "completed",
+          "homeScore": 4,
+          "awayScore": 6
         }
       ]
     },
@@ -2285,7 +2288,10 @@
             "id": "arg",
             "nameZh": "阿根廷",
             "flagCode": "ar"
-          }
+          },
+          "status": "completed",
+          "homeScore": 1,
+          "awayScore": 0
         }
       ]
     }
